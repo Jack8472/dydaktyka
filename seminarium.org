@@ -1,0 +1,54 @@
+#+title: Informacje dla moim seminarzystów (dot. zarówno studiów magisterskich jak i licencjackich)
+
+** Kalendarz seminarzysty
+1. Październik - ustalenie tematu pracy.
+2. Listopad - przedstawienie spisu literatury, która będzie w pracy
+   wykorzystana.
+3. Grudzień - plan pracy.
+4. Napisanie wstępu i pierwszego rozdziału - do końca semestru.
+5. Napisanie całej pracy - w zależności od indywidualnych potrzeb
+   seminarzysty, ale proszę pamiętać o regulaminowych terminach, a w
+   szczególności o warunkach zaliczenia drugiego semestru seminarium
+   ujętych w szczegółowych zasadach studiowania.
+
+W związku z tym, że każdy ma inne cele życiowe nie jest rolą promotora
+narzucać termin. Pkt. od 1 do 3 mają charakter miękkich wytycznych,
+których niespełnienie może szkodzić w dotrzymaniu terminu realizacji
+pkt 4. Natomiast pkt 4 stanowi wymóg zaliczenia pierwszego semestru
+zawarty w sylabusie seminarium.
+
+W przypadku tematów ambitnych, w szczególności dotyczących bieżących
+zagadnień, które nie doczekały się jeszcze głębokiego omówienia w
+literaturze zalecam, aby powyższe terminy skrócić o 2 tygodnie. Wówczas
+zostaje trochę czasu na ewentualną zmianę tematu.
+
+Osoby chcące napisać całą pracę w ciągu pierwszego semestru, również
+powinny terminy skracać odpowiednio. Pisanie pracy w pierwszym semestrze
+jest dobrym pomysłem, gdyż naturalnie zachodzą w życiu seminarzysty
+nieprzewidziane zdarzenia życiowe, które powodują późniejsze trudności z
+dotrzymaniem terminu (np. o charakterze rodzinnym lub okazuje się, że
+egzamin na aplikację wymaga więcej pracy niż zakładano).
+
+** Zasady współpracy
+Seminarium odbywa się w taki sposób, że na początku semestru odbywa się
+spotkanie w grupie (o ile zostanie ono ujęte w planie zajęć), a
+następnie praca odbywa się w formie indywidualnych konsultacji poprzez
+*spotkania na dyżurze*, email oraz rozmowy na teams. Proszę o kontakt
+ze mną niezwłocznie w przypadkach:
+
+- gdy nie umieją Państwo czegoś zrobić,
+- gdy nie wiedzą Państwo, co robić dalej,
+- gdy nie rozumieją Państwo, co zrobić.
+
+Wszelkie poprawki nanoszone przeze mnie na pracę dyplomową należy
+uwzględnić w ten sposób, że przegląda się całą pracę pod kątem
+występowania podobnych błędów. Nieuwzględnienie poprawki traktuję jako
+pozostanie przez Autora przy swojej wersji tekstu i ponownie, w toku
+seminarium, nie zwracam na błąd uwagi.
+
+Nauczycielowi akademickiemu przysługuje prawo do urlopu wypoczynkowego w
+wymiarze 36 dni roboczych w roku, który zazwyczaj jest wykorzystywany w
+okresie lipca i sierpnia; zasadne jest wzięcie tego po uwagę w swoich
+planach dotyczących terminu obrony.
+
+Zasady pisania pracy opisane są [[file:proseminarium.org][tutaj]].
