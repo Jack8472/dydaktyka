@@ -5,56 +5,40 @@
 #+STARTUP: latexpreview
 
 * Sprawy formalne i organizacyjne
-
-- warunki zaliczenia
-- dyżur
-- podręczniki
-  - Literatura obowiązkowa:
-    - Z. Ziembiński, Logika Praktyczna, Warszawa 2004.
-    - T. Bekrycht, Logiczne podstawy prawoznawstwa, Warszawa 2010, https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
-  - Literatura uzupełniająca:
-    - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, Logika dla Prawników, Warszawa 2009
-    - J. Stelmach, B. Brożek, Metody Prawnicze, rozdziały I, II, III pkt. 1-2.
-- kod teams: 0fwvm4b
+1) warunki zaliczenia
+2) dyżur
+3) podręczniki
+   a) Literatura obowiązkowa:
+      - Z. Ziembiński, Logika Praktyczna, Warszawa 2004.
+      - T. Bekrycht, Logiczne podstawy prawoznawstwa, Warszawa 2010, https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
+   b) Literatura uzupełniająca:
+      - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, Logika dla Prawników, Warszawa 2009
+      - J. Stelmach, B. Brożek, Metody Prawnicze, rozdziały I, II, III pkt. 1-2.
+4) kod teams: 0fwvm4b
 
 ** Przerwy
-
-- sobota: 2x10 min. (11:10-11:20, 12:00:12:10)
+sobota: 2x10 min. (11:10-11:20, 12:00:12:10)
 
 ** Nieobecności
-
 W przypadku nieobecności na wykładzie należy samodzielnie nauczyć się materiału na podstawie literatury podanej powyżej. 
 
 * ŚCIĄGA: Symbole logiczne
-
 W nawiasach oznaczono alternatywne symbole.
 
 - Kwantyfikator ogólny: \prod{}x (\forall)
-
--  Kwantyfikator szczegółowy: \sum{}x (\exists)
-
--  Negacja: \sim{}p (\neg{}p)
-
--  Koniunkcja: p \cdot q (p \wedge q; Kpq; p & q; &&)
-
--  Implikacja: p \sup q (p \to  q)
-
--  Alternatywa nierozłączna: p \vee q (p + q; Apq; ||)
-
--  Alternatywa rozłączna: p \perp q
-
--  Dysjunkcja: p / q
-
--  Binegacja: p \downarrow q
-
--  Równoważność: p \equiv q (p \harr  q)
-
--  Konieczność: \(\Box{}p\)
-
--  Możliwość: \(\diamond{}p\) 
+- Kwantyfikator szczegółowy: \sum{}x (\exists)
+- Negacja: \sim{}p (\neg{}p)
+- Koniunkcja: p \cdot q (p \wedge q; Kpq; p & q; &&)
+- Implikacja: p \sup q (p \to  q)
+- Alternatywa nierozłączna: p \vee q (p + q; Apq; ||)
+- Alternatywa rozłączna: p \perp q
+- Dysjunkcja: p / q
+- Binegacja: p \downarrow q
+- Równoważność: p \equiv q (p \harr  q)
+- Konieczność: \(\Box{}p\)
+- Możliwość: \(\diamond{}p\) 
 
 * Wprowadzenie
-
 Dlaczego to jest śmieszne:
 
 /Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?” Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak./
@@ -62,7 +46,6 @@ Dlaczego to jest śmieszne:
 *Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach poprawnego rozumowania i uzasadniania twierdzeń.
 
 ** Przegląd treści
-
 1. Ogólne wiadomości o języku.
 2. Nazwy - dowiem się czym się różni książka od biblioteki i Sejm od posłów.
 3. Stosunki pomiędzy zakresami nazw - dowiem się, że jestem nie-krową i nie-PZPR.
@@ -70,59 +53,53 @@ Dlaczego to jest śmieszne:
 5. Podział logiczny - dowiem się jak napisać przepis przyznający dofinansowanie gospodarstwom domowym, który po wejściu w życie przyprawi urzędników o ból głowy.
 6. Zdanie - dowiem się co to jest prawda i dlaczego „Która godzina?” nie jest zdaniem w sensie logicznym.
 7. Funktory prawdziwościowe - dowiem się dlaczego „p lub nie-p” oraz pogramy wspólnie w grę komputerową.
-8. Relacje - dowiem się dlaczego człowiek człowiekowi wilkiem, a kiwi kiwi kiwi. 
-9. Wypowiedzi oceniające i normy - dowiem się z czego zbudowane jest prawo (i nie tylko).
+8. Relacje - dowiem się, dlaczego człowiek człowiekowi wilkiem, a kiwi kiwi kiwi. 
+9. Wypowiedzi oceniające i normy - dowiem się, z czego zbudowane jest prawo (i nie tylko).
 10. Wypowiedzi modalne - dowiem się, co to znaczy przedmiot fakultatywny (i dlaczego kradzież batonika jest też fakultatywna).
-11. Pytania i odpowiedzi - dowiem się co to znaczy odpowiedzieć na pytanie.
-12. Przyczyny nieporozumień - dowiem się dlaczego czasem ludzie się nie rozumieją.
+11. Pytania i odpowiedzi - dowiem się, co to znaczy odpowiedzieć na pytanie.
+12. Przyczyny nieporozumień - dowiem się, dlaczego czasem ludzie się nie rozumieją.
 13. Uzasadnianie bezpośrednie - dowiem się o bezpośrednich spostrzeżeniach w przedmiocie rzeczywistości.
 14. Dedukcja - może się okazać, że Sherlock Holmes nie zawsze stosował dedukcję.
 15. Redukcja i indukcja - dowiem się jak nie zostać indykiem.
 16. Myślenie z góry postanowionymi zadaniami - dowiem się, że czasem myślenie służy konkretnym celom.
-17. Prawdopodobieństwo – dowiem się dlaczego nie powinienem martwić się tym, że co drugie dziecko rodzi się Azjatą planując rodzinę.
+17. Prawdopodobieństwo – dowiem się, dlaczego nie powinienem martwić się tym, że co drugie dziecko rodzi się Azjatą, planując rodzinę.
 18. Umiejętność przekonywania - dowiem się jak stosować logikę w sporze i wykrywać nielojalne działania przeciwnika.
 19. Praca myślowa prawnika - dowiem się jak stosować reguły myślenia w zadaniach typowych dla zawodów prawniczych.
 
 * Ogólne wiadomości o języku
-
 ** Znak i kategorie syntaktyczne
-
-Semiotyka (ogólna nauka o znakach): (1) semantyka - nauka o stosunku pomiędzy znakiem a tym do czego znak się odnosi; (2) syntaktyka - nauka o rodzajach znaków i regułach wiązania ich w znaki złożone; (3) nauka zajmująca się zagadnieniami stosunków pomiędzy znakami a wypowiadającym je lub odbierającym człowiekiem.
+Semiotyka (ogólna nauka o znakach): (1) semantyka — nauka o stosunku pomiędzy znakiem a tym do czego znak się odnosi; (2) syntaktyka — nauka o rodzajach znaków i regułach wiązania ich w znaki złożone; (3) nauka zajmująca się zagadnieniami stosunków pomiędzy znakami a wypowiadającym je lub odbierającym człowiekiem.
 
 Logika a prawda. Co to jest prawda? Co to jest zdanie prawdziwe? Czy każde zdanie może być prawdziwe?
 
 Logika formalna zajmuje się poprawnymi rozumowaniami.
 
 *** Przykłady zdań
-
-- Studenci uczą się pilnie.
-- Warszawa jest stolicą Polski.
-- Robert: W połowie drogi mojego żywota pośród ciemnego znalazłem się lasu.
-- Stateczny, pulchny Buck Mulligan wynurzył się z wylotu schodów, niosąc mydlaną pianę w miseczce, na której leżały skrzyżowane lusterko i brzytwa.
-- Wrzątek zawsze jest gorący.
-- Ziemia jest płaska.
-- Słońce świeci nocą.
-- W konkursie chopinowskim wygrał najlepszy pianista.
-- Gdzie leży mój długopis? - nie jest to zdanie w sensie logicznym
-- Trójkąt ma cztery boki.
-- Siedzę na niebieskim fotelu.
+a. Studenci uczą się pilnie.
+b. Warszawa jest stolicą Polski.
+c. Robert: W połowie drogi mojego żywota pośród ciemnego znalazłem się lasu.
+d. Stateczny, pulchny Buck Mulligan wynurzył się z wylotu schodów, niosąc mydlaną pianę w miseczce, na której leżały skrzyżowane lusterko i brzytwa.
+e. Wrzątek zawsze jest gorący.
+f. Ziemia jest płaska.
+g. Słońce świeci nocą.
+h. W konkursie chopinowskim wygrał najlepszy pianista.
+i. Gdzie leży mój długopis? - nie jest to zdanie w sensie logicznym
+j. Trójkąt ma cztery boki.
+k. Siedzę na niebieskim fotelu.
 
 *** Znak
-
-- *Pojęcie znaku* - układ rzeczy + reguły znaczeniowe.
-- Czy zawsze są to znaki słowne?
-- Znaczenie kontekstu: biała flaga, podanie ręki a umowa, przysięga małżeńska.
-- Znak a symptom, objaw - jest to coś innego.
-- Język - system obejmujący zbiór znaków słownych. Języki naturalne i języki sztuczne. Żargon - w tym żargon prawniczy: domieszka do języka naturalnego.
-- W różnych językach słowa mogą mieć to samo znaczenie i brzmieć inaczej, albo na odwrót.
-- Naturalnie powstają nowe słowa oraz nowe znaczenia (np. nowe znaczenie słowa /dzban/).
-- Język wyróżnia zarówno zasób słów jak i jego składnia. Istnieją nieprzetłumaczalne wprost zwroty.
-- Język prawny a język prawniczy.
+a. *Pojęcie znaku* - układ rzeczy + reguły znaczeniowe.
+b. Czy zawsze są to znaki słowne?
+c. Znaczenie kontekstu: biała flaga, podanie ręki a umowa, przysięga małżeńska.
+d. Znak a symptom, objaw — jest to coś innego.
+e. Język — system obejmujący zbiór znaków słownych. Języki naturalne i języki sztuczne. Żargon — w tym żargon prawniczy: domieszka do języka naturalnego.
+f. W różnych językach słowa mogą mieć to samo znaczenie i brzmieć inaczej, albo na odwrót.
+g. Naturalnie powstają nowe słowa oraz nowe znaczenia (np. nowe znaczenie słowa /dzban/).
+h. Język wyróżnia zarówno zasób słów, jak i jego składnia. Istnieją nieprzetłumaczalne wprost zwroty.
+i. Język prawny a język prawniczy.
 
 *** Metajęzyk
-
 **** Przykład
-
 #+begin_center
 1. /Zdanie poniżej jest prawdziwe./
 
@@ -130,49 +107,46 @@ Logika formalna zajmuje się poprawnymi rozumowaniami.
 #+end_center
 
 **** Wyjaśnienie
-
-- Metajęzyk: język, który mówi o języku.
-- Wypowiedź w języku pierwszego stopnia (języku przedmiotowym): /Pada deszcz./
-- Wypowiedź w języku drugiego stopnia (metajęzyku w stosunku do języka pierwszego stopnia): /Jan powiedział, że pada deszcz./
-- Wypowiedź w języku trzeciego stopnia (metajęzyku w stosunku do języka drugiego stopnia): /Marcin powiedział, że Jan powiedział, że pada deszcz./
+a. Metajęzyk: język, który mówi o języku.
+b. Wypowiedź w języku pierwszego stopnia (języku przedmiotowym): /Pada deszcz./
+c. Wypowiedź w języku drugiego stopnia (metajęzyku w stosunku do języka pierwszego stopnia): /Jan powiedział, że pada deszcz./
+d. Wypowiedź w języku trzeciego stopnia (metajęzyku w stosunku do języka drugiego stopnia): /Marcin powiedział, że Jan powiedział, że pada deszcz./
 
 *** Kategorie syntaktyczne
-
-- Zdania, nazwy i funktory.
-- Zdanie jest całkowicie samodzielną kategorią języka opisowego. Zdanie głosi więc, że jest tak a tak: /Granit jest skałą magmową. Sędzia opuścił salę rozpraw./
-- Nazwa, to coś co nadaje się na podmiot lub na orzecznik orzeczenia imiennego w zdaniu: /prawnik, planeta, sędzia/.
-- Funktor to wyraz lub wyrażenie (leks), które nie jest ani nazwą ani zdaniem, ale w połączeniu z nimi tworzy bardziej złożoną całość.
-- Funktory dzielimy na zdaniotwórcze, nazwotwórcze i funktorotwórcze. Wyrazy lub wyrażenia, które funktor wiąże w większą całość nazywamy argumentami funktora.
+a. Zdania, nazwy i funktory.
+b. Zdanie jest całkowicie samodzielną kategorią języka opisowego. Zdanie głosi więc, że jest tak a tak: /Granit jest skałą magmową. Sędzia opuścił salę rozpraw./
+c. Nazwa — coś co nadaje się na podmiot lub na orzecznik orzeczenia imiennego w zdaniu: /prawnik, planeta, sędzia/.
+d. Funktor to wyraz lub wyrażenie (leks), które nie jest ani nazwą, ani zdaniem, ale w połączeniu z nimi tworzy bardziej złożoną całość.
+e. Funktory dzielimy na zdaniotwórcze, nazwotwórcze i funktorotwórcze. Wyrazy lub wyrażenia, które funktor wiąże w większą całość, nazywamy argumentami funktora.
 
 Zdania oznacza się symbolicznie /z/. Nazwy oznacza się symbolicznie /n/.
 
 Przykłady funktorów:
 
-- funktor nazwotwórczy od (jednego) argumentu nazwowego: /zielona/ gęś: \(\frac{n}{n}\)
-- funktor nazwotwórczy od dwóch argumentów nazwowych: most /nad/ rzeką: \(\frac{n}{nn}\)
-- funktor zdaniotwórczy od argumentu nazwowego: sędzia /śpi/: \(\frac{z}{n}\)
-- funktor zdaniotwórczy od dwóch argumentów zdaniowych: /chociaż/ w Warszawie pada deszcz /to/ w Łodzi świeci słońce: \(\frac{z}{zz}\)
-- funktor funktorotwórczy od argumentu funktorowego: sędzia (/n/) /głęboko/ śpi \(\frac{z}{n}\) : Czym zatem, jest słowo /głęboko/? Tym: \(\frac{\frac{z}{n}}{\frac{z}{n}}\)
+a. funktor nazwotwórczy od (jednego) argumentu nazwowego: /zielona/ gęś: \(\frac{n}{n}\)
+b. funktor nazwotwórczy od dwóch argumentów nazwowych: most /nad/ rzeką: \(\frac{n}{nn}\)
+c. funktor zdaniotwórczy od argumentu nazwowego: sędzia /śpi/: \(\frac{z}{n}\)
+d. funktor zdaniotwórczy od dwóch argumentów zdaniowych: /chociaż/ w Warszawie pada deszcz /to/ w Łodzi świeci słońce: \(\frac{z}{zz}\)
+e. funktor funktorotwórczy od argumentu funktorowego: sędzia (/n/) /głęboko/ śpi \(\frac{z}{n}\) : Czym zatem, jest słowo /głęboko/? Tym: \(\frac{\frac{z}{n}}{\frac{z}{n}}\)
 
 Zastępowalność wyrażeń w tej samej kategorii syntaktycznej. Przykłady:
 
-- Sędzia głęboko śpi. Sędzia głęboko słucha.
-- Piękna melodia. Zielona melodia.
-- Rdza niszczy metal. Rdza podziwia metal.
+a. Sędzia głęboko śpi. Sędzia głęboko słucha.
+b. Piękna melodia. Zielona melodia.
+c. Rdza niszczy metal. Rdza podziwia metal.
 
-Ale już nie:
+Ale już nie: /zielona/ gęś \rarr  /nad/ gęś
 
-- /zielona/ gęś -> /nad/ gęś
+**** Zadanie — określ kategorie syntaktyczne w zdaniu
+***** Przykład 1
+a) Sędzia \(\type{n}\)
+b) przesłuchuje \(\frac{z}{nn}\)
+c) świadka. \(\type{n}\)
 
-**** Zadanie - określ kategorie syntaktyczne w zdaniu
-
-- Sędzia \(\type{n}\)
-- przesłuchuje \(\frac{z}{nn}\)
-- świadka. \(\type{n}\)
-
-- Nieprawda, że \(\frac{z}{z}\)
-- świeci \(\frac{z}{n}\)
-- słońce. \(\type{n}\)
+***** Przykład 2
+a) Nieprawda, że \(\frac{z}{z}\)
+b) świeci \(\frac{z}{n}\)
+c) słońce. \(\type{n}\)
 
 **** Role semiotyczne wypowiedzi
 
@@ -180,26 +154,26 @@ Ale już nie:
 
 Wypowiedź opisuje rzeczywistość.
 
-- Świeci słońce.
-- W lipcu w Polsce jest zima.
+a. Świeci słońce.
+b. W lipcu w Polsce jest zima.
 
 ***** Rola ekspresywna
 
 Komunikuje przeżycia, przemyślenia, stan wewnętrzny.
 
-- Moja poranna kawa była ekstatycznie smaczna!
-- Ach, świeci słońce!
-- Ten obraz jest przepiękny.
+a. Moja poranna kawa była ekstatycznie smaczna!
+b. Ach, świeci słońce!
+c. Ten obraz jest przepiękny.
 
 ***** Rola sugestywna
 
 Ma wywołać w odbiorcy komunikatu jakieś zachowanie.
 
-- Janku, o godz. 9 masz być w łóżku!
-- Nie jestem pewien, że podoba mi się ta twoja nowa koszulka.
-- Ta dziewczyna puściła do Ciebie oczko.
-- Kto przekracza dozwoloną prędkość podlega karze…
-- Palenie zabija!
+a. Janku, o godz. 9 masz być w łóżku!
+b. Nie jestem pewien, że podoba mi się ta twoja nowa koszulka.
+c. Ta dziewczyna puściła do Ciebie oczko.
+d. Kto przekracza dozwoloną prędkość podlega karze…
+e. Palenie zabija!
 
 ***** Rola performatywna
 
@@ -207,8 +181,8 @@ Wypowiedź wywołuje skutki konwencjonalne.
 
 Jan wypowiedział słowa przysięgi małżeńskiej wobec Małgosi, ale nie doszło do zawarcia małżeństwa; Małgosia również wypowiedziała odpowiednie słowa, nadal nie doszło do zawarcia małżeństwa. Dlaczego? Pomysł 1: nie byli uprawnieni do zawarcia małżeństwa; pomysł 2: wypowiedzi były nie na serio (np. aktorzy); pomysł 3: brak urzędnika albo świadków.
 
-- Złożenie przysięgi lub ślubowania.
-- Nakładam na Pana mandat karny w wysokości 500 zł.
+a. Złożenie przysięgi lub ślubowania.
+b. Nakładam na Pana mandat karny w wysokości 500 zł.
 
 * Nazwy
 
@@ -233,7 +207,6 @@ Jan wypowiedział słowa przysięgi małżeńskiej wobec Małgosi, ale nie dosz�
 ** Treść nazwy
 
 *** Cechy
-
 Cechy młotka:
 
 - konstytutywne
@@ -246,24 +219,21 @@ Cechy młotka:
   - jest solidny
 
 *** Supozycje
-
 - supozycja prosta: /zając schował się w krzakach/
 - supozycja formalna: /zając jest ssakiem/
 - supozycja materialna: /zając składa się z dwóch sylab/
 
 ** Zakres nazwy
-
 - Zakres nazwy to klasa wszystkich desygnatów danej nazwy.
-- Nazwy puste - nie ma desygnatów.
+- Nazwy puste — nie ma desygnatów.
 
 ** Nazwy zbiorowe
-
 - Nazwy zbiorowe to nazwy agregatów przedmiotów. Nie przysługują poszczególnym przedmiotom wchodzącym w skład tego agregatu.
-- Biblioteka jest nazwą zbiorową - oznacza zbiór książek. Czy przedmiot jakim jest książka jest desygnatem nazwy /biblioteka/?
+- Biblioteka jest nazwą zbiorową — oznacza zbiór książek. Czy przedmiot jakim jest książka jest desygnatem nazwy /biblioteka/?
 
 ** Ostrość nazw
 
-- Nazwa nieostra - nie wiadomo, które przemioty są jej desygnatami: 
+- Nazwa nieostra — nie wiadomo, które przemioty są jej desygnatami: 
   - /leń/ : leń 1, leń 2 … tacy, o których nie wiadomo czy są leniami… nie-leń
   - wysoki mężczyzna
 
