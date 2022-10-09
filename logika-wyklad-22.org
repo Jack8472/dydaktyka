@@ -9,15 +9,16 @@
 2) dyżur
 3) podręczniki
    a) Literatura obowiązkowa:
-      - Z. Ziembiński, Logika Praktyczna, Warszawa 2004.
-      - T. Bekrycht, Logiczne podstawy prawoznawstwa, Warszawa 2010, https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
+      - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004.
    b) Literatura uzupełniająca:
-      - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, Logika dla Prawników, Warszawa 2009
-      - J. Stelmach, B. Brożek, Metody Prawnicze, rozdziały I, II, III pkt. 1-2.
+      - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010, https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
+      - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt. 1-2.
+      - J. Wajszczyk, /Jestem więc myślę/
+      - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, /Logika dla Prawników/, Warszawa 2009
 4) kod teams: 0fwvm4b
 
 ** Przerwy
-sobota: 2x10 min. (11:10-11:20, 12:00:12:10)
+sobota: 2x10 min. (11:10-11:20, 12:00-12:10)
 
 ** Nieobecności
 W przypadku nieobecności na wykładzie należy samodzielnie nauczyć się materiału na podstawie literatury podanej powyżej. 
@@ -179,10 +180,11 @@ e. Palenie zabija!
 
 Wypowiedź wywołuje skutki konwencjonalne.
 
-Jan wypowiedział słowa przysięgi małżeńskiej wobec Małgosi, ale nie doszło do zawarcia małżeństwa; Małgosia również wypowiedziała odpowiednie słowa, nadal nie doszło do zawarcia małżeństwa. Dlaczego? Pomysł 1: nie byli uprawnieni do zawarcia małżeństwa; pomysł 2: wypowiedzi były nie na serio (np. aktorzy); pomysł 3: brak urzędnika albo świadków.
-
 a. Złożenie przysięgi lub ślubowania.
 b. Nakładam na Pana mandat karny w wysokości 500 zł.
+
+****** Zadanie
+Jan wypowiedział słowa przysięgi małżeńskiej wobec Małgosi, ale nie doszło do zawarcia małżeństwa; Małgosia również wypowiedziała odpowiednie słowa, nadal nie doszło do zawarcia małżeństwa. Dlaczego? 
 
 * Nazwy
 
