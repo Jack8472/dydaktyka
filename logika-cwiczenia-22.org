@@ -1,5 +1,5 @@
 #+title: Logika - notatka pomocnicza do ćwiczeń
-#+AUTHOR: JJS
+#+AUTHOR: J. Szczerbowski
 #+OPTIONS: tex:t
 #+LANGUAGE: pl
 #+STARTUP: latexpreview
@@ -156,7 +156,7 @@ Nazwy ostre:
 - pies
 - \pi 
 
-* Stosunki pomiędzy zakresami nazw
+** Stosunki pomiędzy zakresami nazw
 
 Diagram (źródło: Z. Ziembiński, /Logika praktyczna/, Warszawa 1999, s. 42):
 
@@ -190,3 +190,132 @@ Algorytm tworzenia par nazw podprzeciwnych: przeciwieństwo nazwy podrzędnej i�
 ** Do przeczytania
 
 Rozdział II  z podręcznika.
+
+* Zajęcia 3
+** Worki ze złotymi monetami :zagadka:
+
+Jest 100 worków z monetami. W 99 z nich są monety ze złota, ważące 20 g. W jednym z nich są monety fałszywe, ważące 19 gramów. W każdym z worków, jest nieco inna liczba monet. Monety złote i monety fałszywe nie różnią się niczym oprócz wagi. Dysponujesz wagą elektroniczną (nieskończenie dokładną), której możesz użyć tylko raz. Znajdź worek z fałszywkami.
+
+** Definicje
+
+Definicja realna: wypowiedź w języku pierwszego stopnia, która charakteryzuje przedmiot i tylko ten przedmiot.
+
+Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje o znaczeniu definiowanego słowa: /Wyraz kwadrat oznacza prostokąt, który ma wszystkie boki równe./
+
+*** Przykłady definicji (podawane przez studentów)
+
+1. Odcinek to jest fragment prostej, który ma początek i koniec.
+2. Bursztyn to jest skamieniała żywica.
+3. Wiatr to poziomy ruch powietrza z wyżu do niżu.
+4. Oszustwo to jest wprowadzenie innej osoby w błąd albo wyzyskanie błędu lub niezdolności do należytego pojmowania przedsiębranego działania w celu osiągnięcia korzyści majątkowej.
+
+*** Zadania definicji
+
+- Definicja sprawozdawcza: składa sprawozdanie z tego, jak pewna grupa ludzi posługuje się wyrazem lub wyrażeniem: /W języku polskim drugiej połowy XX-wieku wyraz księgarnia oznacza sklep, w którym sprzedaje się książki. W języku myśliwych wyraz farba oznacza krew zwierzęcia. W języku polskim wyraz czapka oznacza część garderoby noszoną na stopie./
+- Definicja projektująca: ustala znaczenie jakiegoś wyrazu na przyszłość. Np.: /Dokumentem jest nośnik informacji umożliwiający zapoznanie się z jej treścią./ (art. 77^3 k.c.).
+  - Definicja projektująca może być konstrukcyjna (/Ilekroć w ustawie jest mowa o przeciętnym konsumencie - rozumie się przez to konsumenta, który jest dostatecznie dobrze poinformowany, uważny i ostrożny/) albo
+  - regulująca (/Stan nietrzeźwości w rozumieniu tego kodeksu zachodzi, gdy: 1) zawartość alkoholu we krwi przekracza 0,5 promila albo prowadzi do stężenia przekraczającego tę wartość lub 2) zawartość alkoholu w 1 dm^3 wydychanego powietrza przekracza 0,25 mg albo prowadzi do stężenia przekraczającego tę wartość./).
+
+*** Budowa definicji
+
+- Definicja równościowa: /definiendum + zwrot łączący + definiens/: Bursztyn to kopalna żywica drzew iglastych.
+  + Definitio per genus et differentiam specificam (definicja klasyczna): A to takie B, które ma cechę C.
+- Definicje nierównościowe. Np. występujące w geometrii (definicja przez postulaty).
+
+#+BEGIN_SRC plantuml
+
+@startwbs
++ Definicje
+++ Definicje równościowe
+--- Definicje klasyczne
++++ Definicje nieklasyczne
+++ Definicje nierównościowe
+@endwbs
+
+#+END_SRC
+
+#+RESULTS:
+[[file:/tmp/babel-zu1Sgv/plantuml-ApeXyR.png]]
+
+Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
+
+- Art.  10. §  1. Pełnoletnim jest, kto ukończył lat osiemnaście.
+- Art. 627. Przez umowę o dzieło przyjmujący zamówienie zobowiązuje się do wykonania oznaczonego dzieła, a zamawiający do zapłaty wynagrodzenia.
+
+*** Poprawność definicji
+
+- nieprzystosowanie definicji do słownika osoby będącej adresatem definicji (ignotum per ignotum): /Krącitka/ to jest taka /frutka/, która ma /piląga/.
+- definiens zawiera definiendum (idem per idem). /Polak, to jest taki człowiek, który jest narodowości polskiej./ Błędne koło pośrednie: /Logika to nauka o logicznym myśleniu. Logiczny to taki, który jest zgodny z nauką logiki./
+- definicja zbyt szeroka: Człowiek to ssak dwunożny.
+- definicja zbyt wąska: Człowiek to ssak posługujący się mową i pismem.
+
+*** Do przeczytania
+Rozdział IV. 
+
+# * Zajęcia 4
+# ** Podział logiczny
+
+# Podział logiczny zakresu jakiejś nazwy /N/ na zakresy /A, B, C, D, E…/
+
+# Całość dzielona (/totium divisionis/) i człony podziału (/membra divisionis/).
+
+
+
+# Polskie miasta:
+
+# - duże, małe i średnie; (komentarz: powinniśmy mieć kryteria zaliczenia miasta jako dużego, średniego lub małego; kryteria muszą być dobrze dobrane)
+# - stare i nowe; (podobnie jak powyżej)
+# - dwuwyrazowe i jednowyrazowe; (a co z Nowym Dworem Mazowieckim?)
+# - w górach, nad morzem, na równinach i na wyżynach; (a co z innymi terenami?)
+# - zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki podział jest poprawny; inna sprawa, że niezbyt przydatny) 
+
+# *** Poprawność podziału
+
+# Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być zaliczony jakiegoś z członów podziału.
+
+# Podział dychotomiczny - podział według cech kontradyktorycznych:
+
+# - podmiot: podmiot będący podatnikiem VAT - podmiot niebędący podatnikiem VAT
+# - pies: pies mający cztery łapy - pies nie mający czterech łap
+
+# Niepoprawne podziały:
+
+# - oparte na niejednoznacznych kryteriach
+# - według przedziałów liczbowych, których granice się powtarzają: polskie rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7 osób, rodziny 7 osobowe i większe.
+  
+# *** Klasyfikacja
+
+# #+begin_src plantuml
+
+# @startwbs
+# + Zdarzenia prawne
+# ++ Zachowania
+# +++ Czynności
+# --- Czyny
+# ++++ Czyny dozwolone
+# ---- Czyny niedozwolone
+# ++ Zdarzenia niebędące zachowaniami
+# @endwbs
+
+# #+end_src
+
+# #+RESULTS:
+# [[file:/tmp/babel-8wASw9/plantuml-KNjJXI.png]]
+
+# *** Wyróżnianie typów
+
+# Wyodrębnianie przedmiotów o interesujących nas cechach.
+
+# ** Zdanie
+
+# - Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności wypowiedzi.
+# - Przykłady wyrażeń niebędących zdaniami w sensie logicznym, ale będących zdaniami w sensie gramatycznym: /Zapal światło. W razie niebezpieczeństwa zbij szybę./
+# - Zdarzenia i stany rzeczy.
+#   - Zdarzenie: rzecz lub osoba wykazywała w danym momencie własność X a w innym momencie jej nie wykazywała.
+#   - Stan rzeczy: rzecz lub osoba wykazywała od momentu A do momentu B jakąś własność.
+# - Zdanie prawdziwe - opisuje rzeczywistość tak, jak się ona ma. Nie można wolą, teorią ani poglądem zmienić wartości prawdziwościowej zdania.
+# - Prawdziwość wynikająca z sensu użytych w nich słów; zdanie analityczne.
+# - Fałszywość wynikająca z sensu słów; zdanie wewnętrznie kontradyktoryczne.
+# - Zdania syntetyczne - nie da się poznać ich wartości logicznej za pomocą sensu zawartych w nich słów.
+
+

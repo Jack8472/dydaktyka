@@ -1,5 +1,5 @@
 #+title: Logika - konspekt wykładu
-#+AUTHOR: JJS
+#+AUTHOR: J. Szczerbowski
 #+OPTIONS: tex:t
 #+LANGUAGE: pl
 #+STARTUP: latexpreview
@@ -26,8 +26,8 @@ W przypadku nieobecności na wykładzie należy samodzielnie nauczyć się mate
 * ŚCIĄGA: Symbole logiczne
 W nawiasach oznaczono alternatywne symbole.
 
-- Kwantyfikator ogólny: \prod{}x (\forall)
-- Kwantyfikator szczegółowy: \sum{}x (\exists)
+- Kwantyfikator ogólny: \prod x (\forall)
+- Kwantyfikator szczegółowy: \sum{} x (\exists)
 - Negacja: \sim{}p (\neg{}p)
 - Koniunkcja: p \cdot q (p \wedge q; Kpq; p & q; &&)
 - Implikacja: p \sup q (p \to  q)
@@ -243,158 +243,158 @@ Nazwy ostre:
 - pies
 - \pi 
 
-# * Stosunki pomiędzy zakresami nazw
+* Stosunki pomiędzy zakresami nazw
 
-# Diagram (źródło: Z. Ziembiński, /Logika praktyczna/, Warszawa 1999, s. 42):
+Diagram (źródło: Z. Ziembiński, /Logika praktyczna/, Warszawa 1999, s. 42):
 
-#   [[./nazwy.jpeg]]
+  [[./nazwy.jpeg]]
 
-# Kot i nie-kot:
+Kot i nie-kot:
 
-# - pies
-# - kula ziemska
-# - lampka
-# - zebra
-# - PZPR, \pi, Hilary Clinton, oko kota
+- pies
+- kula ziemska
+- lampka
+- zebra
+- PZPR, \pi, Hilary Clinton, oko kota
 
 
-# Definicje (źródło: Wikipedia, hasło Nazwa):
+Definicje (źródło: Wikipedia, hasło Nazwa):
 
-# 1. Nazwa P jest *zamienna* względem nazwy Q, gdy denotacje tych nazw pokrywają się, tj. gdy każdy desygnat nazwy P jest zarazem desygnatem nazwy Q, a każdy desygnat nazwy Q jest zarazem desygnatem nazwy P. Zamienne są np. nazwy "ziemniak" i kartofel".
-# 2. Nazwa P jest *podrzędna* względem nazwy Q wtedy, gdy denotacja nazwy P zawiera się w sposób właściwy w denotacji nazwy Q, tj. gdy wszystkie desygnaty nazwy P są zarazem desygnatami nazwy Q. Nazwa "krowa" jest podrzędna względem nazwy "zwierzę".
-# 3. Nazwa P jest *nadrzędna* względem nazwy Q, gdy denotacja nazwy Q zawiera się w sposób właściwy w denotacji nazwy P, tj. gdy wszystkie desygnaty nazwy Q są zarazem desygnatami nazwy P. Nazwa "rzeka" jest nadrzędna względem nazwy "rzeka, nad którą od wieków żyją krowy".
-# 4. Nazwa P jest przeciwna względem nazwy Q, gdy denotacja nazwy P wyklucza się z denotacją nazwy Q i zarazem suma denotacji nazw P i Q zawiera się w sposób właściwy w uniwersum przedmiotów. Nazwa "krowa" jest przeciwna względem nazwy "rzeka".
-# 5. Nazwa P jest niezależna względem nazwy Q, gdy denotacje nazw P i Q krzyżują się, a suma tych denotacji zawiera się w sposób właściwy w uniwersum przedmiotów. Nazwa "krowa" jest niezależna względem nazwy "czarno-białe zwierzę".
-# 6. Nazwa P jest sprzeczna względem nazwy Q, gdy denotacja nazwy P wyklucza się z denotacją nazwy Q i zarazem suma denotacji nazw P i Q pokrywa się z uniwersum przedmiotów. Nazwy "krowa" i "nie-krowa" są sprzeczne.
-# 7. Nazwa P jest podprzeciwna względem nazwy Q, gdy denotacje nazw P i Q krzyżują się, a suma tych denotacji pokrywa się z uniwersum przedmiotów. Nazwy "nie-krowa" i "zwierzę" są podprzeciwne.
+1. Nazwa P jest *zamienna* względem nazwy Q, gdy denotacje tych nazw pokrywają się, tj. gdy każdy desygnat nazwy P jest zarazem desygnatem nazwy Q, a każdy desygnat nazwy Q jest zarazem desygnatem nazwy P. Zamienne są np. nazwy "ziemniak" i kartofel".
+2. Nazwa P jest *podrzędna* względem nazwy Q wtedy, gdy denotacja nazwy P zawiera się w sposób właściwy w denotacji nazwy Q, tj. gdy wszystkie desygnaty nazwy P są zarazem desygnatami nazwy Q. Nazwa "krowa" jest podrzędna względem nazwy "zwierzę".
+3. Nazwa P jest *nadrzędna* względem nazwy Q, gdy denotacja nazwy Q zawiera się w sposób właściwy w denotacji nazwy P, tj. gdy wszystkie desygnaty nazwy Q są zarazem desygnatami nazwy P. Nazwa "rzeka" jest nadrzędna względem nazwy "rzeka, nad którą od wieków żyją krowy".
+4. Nazwa P jest przeciwna względem nazwy Q, gdy denotacja nazwy P wyklucza się z denotacją nazwy Q i zarazem suma denotacji nazw P i Q zawiera się w sposób właściwy w uniwersum przedmiotów. Nazwa "krowa" jest przeciwna względem nazwy "rzeka".
+5. Nazwa P jest niezależna względem nazwy Q, gdy denotacje nazw P i Q krzyżują się, a suma tych denotacji zawiera się w sposób właściwy w uniwersum przedmiotów. Nazwa "krowa" jest niezależna względem nazwy "czarno-białe zwierzę".
+6. Nazwa P jest sprzeczna względem nazwy Q, gdy denotacja nazwy P wyklucza się z denotacją nazwy Q i zarazem suma denotacji nazw P i Q pokrywa się z uniwersum przedmiotów. Nazwy "krowa" i "nie-krowa" są sprzeczne.
+7. Nazwa P jest podprzeciwna względem nazwy Q, gdy denotacje nazw P i Q krzyżują się, a suma tych denotacji pokrywa się z uniwersum przedmiotów. Nazwy "nie-krowa" i "zwierzę" są podprzeciwne.
 
-# Diagram (źródło: Nazwa [online]. Wikipedia : wolna encyklopedia, 2020-04-14 02:21Z [dostęp: 2020-10-30 13:36Z]. Dostępny w Internecie: //pl.wikipedia.org/w/index.php?title=Nazwa&oldid=59402236):
+Diagram (źródło: Nazwa [online]. Wikipedia : wolna encyklopedia, 2020-04-14 02:21Z [dostęp: 2020-10-30 13:36Z]. Dostępny w Internecie: //pl.wikipedia.org/w/index.php?title=Nazwa&oldid=59402236):
 
-# [[./relacje-nazw-wiki.jpg]]
+[[./relacje-nazw-wiki.jpg]]
 
-# Algorytm tworzenia par nazw podprzeciwnych: przeciwieństwo nazwy podrzędnej i nazwa nadrzędna.
+Algorytm tworzenia par nazw podprzeciwnych: przeciwieństwo nazwy podrzędnej i nazwa nadrzędna.
 
-# * Worki ze złotymi monetami :zagadka:
+* Worki ze złotymi monetami :zagadka:
 
-# Jest 100 worków z monetami. W 99 z nich są monety ze złota, ważące 20 g. W jednym z nich są monety fałszywe, ważące 19 gramów. W każdym z worków, jest nieco inna liczba monet. Monety złote i monety fałszywe nie różnią się niczym oprócz wagi. Dysponujesz wagą elektroniczną (nieskończenie dokładną), której możesz użyć tylko raz. Znajdź worek z fałszywkami.
+Jest 100 worków z monetami. W 99 z nich są monety ze złota, ważące 20 g. W jednym z nich są monety fałszywe, ważące 19 gramów. W każdym z worków, jest nieco inna liczba monet. Monety złote i monety fałszywe nie różnią się niczym oprócz wagi. Dysponujesz wagą elektroniczną (nieskończenie dokładną), której możesz użyć tylko raz. Znajdź worek z fałszywkami.
 
-# * Definicje
+* Definicje
 
-# Definicja realna: wypowiedź w języku pierwszego stopnia, która charakteryzuje przedmiot i tylko ten przedmiot.
+Definicja realna: wypowiedź w języku pierwszego stopnia, która charakteryzuje przedmiot i tylko ten przedmiot.
 
-# Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje o znaczeniu definiowanego słowa: /Wyraz kwadrat oznacza prostokąt, który ma wszystkie boki równe./
+Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje o znaczeniu definiowanego słowa: /Wyraz kwadrat oznacza prostokąt, który ma wszystkie boki równe./
 
-# ** Przykłady definicji (podawane przez studentów)
+** Przykłady definicji (podawane przez studentów)
 
-# 1. Odcinek to jest fragment prostej, który ma początek i koniec.
-# 2. Bursztyn to jest skamieniała żywica.
-# 3. Wiatr to poziomy ruch powietrza z wyżu do niżu.
-# 4. Oszustwo to jest wprowadzenie innej osoby w błąd albo wyzyskanie błędu lub niezdolności do należytego pojmowania przedsiębranego działania w celu osiągnięcia korzyści majątkowej.
+1. Odcinek to jest fragment prostej, który ma początek i koniec.
+2. Bursztyn to jest skamieniała żywica.
+3. Wiatr to poziomy ruch powietrza z wyżu do niżu.
+4. Oszustwo to jest wprowadzenie innej osoby w błąd albo wyzyskanie błędu lub niezdolności do należytego pojmowania przedsiębranego działania w celu osiągnięcia korzyści majątkowej.
 
-# ** Zadania definicji
+** Zadania definicji
 
-# - Definicja sprawozdawcza: składa sprawozdanie z tego, jak pewna grupa ludzi posługuje się wyrazem lub wyrażeniem: /W języku polskim drugiej połowy XX-wieku wyraz księgarnia oznacza sklep, w którym sprzedaje się książki. W języku myśliwych wyraz farba oznacza krew zwierzęcia. W języku polskim wyraz czapka oznacza część garderoby noszoną na stopie./
-# - Definicja projektująca: ustala znaczenie jakiegoś wyrazu na przyszłość. Np.: /Dokumentem jest nośnik informacji umożliwiający zapoznanie się z jej treścią./ (art. 77^3 k.c.).
-#   - Definicja projektująca może być konstrukcyjna (/Ilekroć w ustawie jest mowa o przeciętnym konsumencie - rozumie się przez to konsumenta, który jest dostatecznie dobrze poinformowany, uważny i ostrożny/) albo
-#   - regulująca (/Stan nietrzeźwości w rozumieniu tego kodeksu zachodzi, gdy: 1) zawartość alkoholu we krwi przekracza 0,5 promila albo prowadzi do stężenia przekraczającego tę wartość lub 2) zawartość alkoholu w 1 dm^3 wydychanego powietrza przekracza 0,25 mg albo prowadzi do stężenia przekraczającego tę wartość./).
+- Definicja sprawozdawcza: składa sprawozdanie z tego, jak pewna grupa ludzi posługuje się wyrazem lub wyrażeniem: /W języku polskim drugiej połowy XX-wieku wyraz księgarnia oznacza sklep, w którym sprzedaje się książki. W języku myśliwych wyraz farba oznacza krew zwierzęcia. W języku polskim wyraz czapka oznacza część garderoby noszoną na stopie./
+- Definicja projektująca: ustala znaczenie jakiegoś wyrazu na przyszłość. Np.: /Dokumentem jest nośnik informacji umożliwiający zapoznanie się z jej treścią./ (art. 77^3 k.c.).
+  - Definicja projektująca może być konstrukcyjna (/Ilekroć w ustawie jest mowa o przeciętnym konsumencie - rozumie się przez to konsumenta, który jest dostatecznie dobrze poinformowany, uważny i ostrożny/) albo
+  - regulująca (/Stan nietrzeźwości w rozumieniu tego kodeksu zachodzi, gdy: 1) zawartość alkoholu we krwi przekracza 0,5 promila albo prowadzi do stężenia przekraczającego tę wartość lub 2) zawartość alkoholu w 1 dm^3 wydychanego powietrza przekracza 0,25 mg albo prowadzi do stężenia przekraczającego tę wartość./).
 
-# ** Budowa definicji
+** Budowa definicji
 
-# - Definicja równościowa: /definiendum + zwrot łączący + definiens/: Bursztyn to kopalna żywica drzew iglastych.
-#   + Definitio per genus et differentiam specificam (definicja klasyczna): A to takie B, które ma cechę C.
-# - Definicje nierównościowe. Np. występujące w geometrii (definicja przez postulaty).
+- Definicja równościowa: /definiendum + zwrot łączący + definiens/: Bursztyn to kopalna żywica drzew iglastych.
+  + Definitio per genus et differentiam specificam (definicja klasyczna): A to takie B, które ma cechę C.
+- Definicje nierównościowe. Np. występujące w geometrii (definicja przez postulaty).
 
-# #+BEGIN_SRC plantuml
+#+BEGIN_SRC plantuml
 
-# @startwbs
-# + Definicje
-# ++ Definicje równościowe
-# --- Definicje klasyczne
-# +++ Definicje nieklasyczne
-# ++ Definicje nierównościowe
-# @endwbs
+@startwbs
++ Definicje
+++ Definicje równościowe
+--- Definicje klasyczne
++++ Definicje nieklasyczne
+++ Definicje nierównościowe
+@endwbs
 
-# #+END_SRC
+#+END_SRC
 
-# #+RESULTS:
-# [[file:/tmp/babel-tIBJd7/plantuml-YTsSYn.png]]
+#+RESULTS:
+[[file:/tmp/babel-tIBJd7/plantuml-YTsSYn.png]]
 
-# Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
+Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 
-# - Art.  10. §  1. Pełnoletnim jest, kto ukończył lat osiemnaście.
-# - Art. 627. Przez umowę o dzieło przyjmujący zamówienie zobowiązuje się do wykonania oznaczonego dzieła, a zamawiający do zapłaty wynagrodzenia.
+- Art.  10. §  1. Pełnoletnim jest, kto ukończył lat osiemnaście.
+- Art. 627. Przez umowę o dzieło przyjmujący zamówienie zobowiązuje się do wykonania oznaczonego dzieła, a zamawiający do zapłaty wynagrodzenia.
 
-# ** Poprawność definicji
+** Poprawność definicji
 
-# - nieprzystosowanie definicji do słownika osoby będącej adresatem definicji (ignotum per ignotum): /Krącitka/ to jest taka /frutka/, która ma /piląga/.
-# - definiens zawiera definiendum (idem per idem). /Polak, to jest taki człowiek, który jest narodowości polskiej./ Błędne koło pośrednie: /Logika to nauka o logicznym myśleniu. Logiczny to taki, który jest zgodny z nauką logiki./
-# - definicja zbyt szeroka: Człowiek to ssak dwunożny.
-# - definicja zbyt wąska: Człowiek to ssak posługujący się mową i pismem.
+- nieprzystosowanie definicji do słownika osoby będącej adresatem definicji (ignotum per ignotum): /Krącitka/ to jest taka /frutka/, która ma /piląga/.
+- definiens zawiera definiendum (idem per idem). /Polak, to jest taki człowiek, który jest narodowości polskiej./ Błędne koło pośrednie: /Logika to nauka o logicznym myśleniu. Logiczny to taki, który jest zgodny z nauką logiki./
+- definicja zbyt szeroka: Człowiek to ssak dwunożny.
+- definicja zbyt wąska: Człowiek to ssak posługujący się mową i pismem.
 
-# * Podział logiczny
+* Podział logiczny
 
-# Podział logiczny zakresu jakiejś nazwy /N/ na zakresy /A, B, C, D, E…/
+Podział logiczny zakresu jakiejś nazwy /N/ na zakresy /A, B, C, D, E…/
 
-# Całość dzielona (/totium divisionis/) i człony podziału (/membra divisionis/).
+Całość dzielona (/totium divisionis/) i człony podziału (/membra divisionis/).
 
-# Polskie miasta:
+Polskie miasta:
 
-# - duże, małe i średnie; (komentarz: powinniśmy mieć kryteria zaliczenia miasta jako dużego, średniego lub małego; kryteria muszą być dobrze dobrane)
-# - stare i nowe; (podobnie jak powyżej)
-# - dwuwyrazowe i jednowyrazowe; (a co z Nowym Dworem Mazowieckim?)
-# - w górach, nad morzem, na równinach i na wyżynach; (a co z innymi terenami?)
-# - zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki podział jest poprawny; inna sprawa, że niezbyt przydatny) 
+- duże, małe i średnie; (komentarz: powinniśmy mieć kryteria zaliczenia miasta jako dużego, średniego lub małego; kryteria muszą być dobrze dobrane)
+- stare i nowe; (podobnie jak powyżej)
+- dwuwyrazowe i jednowyrazowe; (a co z Nowym Dworem Mazowieckim?)
+- w górach, nad morzem, na równinach i na wyżynach; (a co z innymi terenami?)
+- zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki podział jest poprawny; inna sprawa, że niezbyt przydatny) 
 
-# ** Poprawność podziału
+** Poprawność podziału
 
-# Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być zaliczony jakiegoś z członów podziału.
+Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być zaliczony jakiegoś z członów podziału.
 
-# Podział dychotomiczny - podział według cech kontradyktorycznych:
+Podział dychotomiczny - podział według cech kontradyktorycznych:
 
-# - podmiot: podmiot będący podatnikiem VAT - podmiot niebędący podatnikiem VAT
-# - pies: pies mający cztery łapy - pies nie mający czterech łap
+- podmiot: podmiot będący podatnikiem VAT - podmiot niebędący podatnikiem VAT
+- pies: pies mający cztery łapy - pies nie mający czterech łap
 
-# Niepoprawne podziały:
+Niepoprawne podziały:
 
-# - oparte na niejednoznacznych kryteriach
-# - według przedziałów liczbowych, których granice się powtarzają: polskie rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7 osób, rodziny 7 osobowe i większe.
+- oparte na niejednoznacznych kryteriach
+- według przedziałów liczbowych, których granice się powtarzają: polskie rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7 osób, rodziny 7 osobowe i większe.
 
-# <2021-11-20 sob>
+<2021-11-20 sob>
   
-# ** Klasyfikacja
+** Klasyfikacja
 
-# #+begin_src plantuml
+#+begin_src plantuml
 
-# @startwbs
-# + Zdarzenia prawne
-# ++ Zachowania
-# +++ Czynności
-# --- Czyny
-# ++++ Czyny dozwolone
-# ---- Czyny niedozwolone
-# ++ Zdarzenia niebędące zachowaniami
-# @endwbs
+@startwbs
++ Zdarzenia prawne
+++ Zachowania
++++ Czynności
+--- Czyny
+++++ Czyny dozwolone
+---- Czyny niedozwolone
+++ Zdarzenia niebędące zachowaniami
+@endwbs
 
-# #+end_src
+#+end_src
 
-# #+RESULTS:
-# [[file:/tmp/babel-8wASw9/plantuml-KNjJXI.png]]
+#+RESULTS:
+[[file:/tmp/babel-8wASw9/plantuml-KNjJXI.png]]
 
-# ** Wyróżnianie typów
+** Wyróżnianie typów
 
-# Wyodrębnianie przedmiotów o interesujących nas cechach.
+Wyodrębnianie przedmiotów o interesujących nas cechach.
 
-# * Zdanie
+* Zdanie
 
-# - Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności wypowiedzi.
-# - Przykłady wyrażeń niebędących zdaniami w sensie logicznym, ale będących zdaniami w sensie gramatycznym: /Zapal światło. W razie niebezpieczeństwa zbij szybę./
-# - Zdarzenia i stany rzeczy.
-#   - Zdarzenie: rzecz lub osoba wykazywała w danym momencie własność X a w innym momencie jej nie wykazywała.
-#   - Stan rzeczy: rzecz lub osoba wykazywała od momentu A do momentu B jakąś własność.
-# - Zdanie prawdziwe - opisuje rzeczywistość tak, jak się ona ma. Nie można wolą, teorią ani poglądem zmienić wartości prawdziwościowej zdania.
-# - Prawdziwość wynikająca z sensu użytych w nich słów; zdanie analityczne.
-# - Fałszywość wynikająca z sensu słów; zdanie wewnętrznie kontradyktoryczne.
-# - Zdania syntetyczne - nie da się poznać ich wartości logicznej za pomocą sensu zawartych w nich słów.
+- Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności wypowiedzi.
+- Przykłady wyrażeń niebędących zdaniami w sensie logicznym, ale będących zdaniami w sensie gramatycznym: /Zapal światło. W razie niebezpieczeństwa zbij szybę./
+- Zdarzenia i stany rzeczy.
+  - Zdarzenie: rzecz lub osoba wykazywała w danym momencie własność X a w innym momencie jej nie wykazywała.
+  - Stan rzeczy: rzecz lub osoba wykazywała od momentu A do momentu B jakąś własność.
+- Zdanie prawdziwe - opisuje rzeczywistość tak, jak się ona ma. Nie można wolą, teorią ani poglądem zmienić wartości prawdziwościowej zdania.
+- Prawdziwość wynikająca z sensu użytych w nich słów; zdanie analityczne.
+- Fałszywość wynikająca z sensu słów; zdanie wewnętrznie kontradyktoryczne.
+- Zdania syntetyczne - nie da się poznać ich wartości logicznej za pomocą sensu zawartych w nich słów.
 
 # * Funktory prawdziwościowe
 
