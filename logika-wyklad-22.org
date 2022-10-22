@@ -129,7 +129,7 @@ b. funktor nazwotwórczy od dwóch argumentów nazwowych: most /nad/ rzeką: \(\
 c. funktor zdaniotwórczy od argumentu nazwowego: sędzia /śpi/: \(\frac{z}{n}\)
 d. funktor zdaniotwórczy od dwóch argumentów zdaniowych: /chociaż/ w Warszawie pada deszcz /to/ w Łodzi świeci słońce: \(\frac{z}{zz}\)
 e. funktor funktorotwórczy od argumentu funktorowego: sędzia (/n/) /głęboko/ śpi \(\frac{z}{n}\) : Czym zatem, jest słowo /głęboko/? Tym: \(\frac{\frac{z}{n}}{\frac{z}{n}}\)
-
+[2022-10-22 Sat]
 Zastępowalność wyrażeń w tej samej kategorii syntaktycznej. Przykłady:
 
 a. Sędzia głęboko śpi. Sędzia głęboko słucha.
