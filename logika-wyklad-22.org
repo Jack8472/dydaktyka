@@ -13,8 +13,8 @@
    b) Literatura uzupełniająca:
       - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010, https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
       - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt. 1-2.
-      - J. Wajszczyk, /Jestem więc myślę/
-      - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, /Logika dla Prawników/, Warszawa 2009
+      - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
+      - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, /Logika dla Prawników/, Warszawa 2009.
 4) kod teams: 0fwvm4b
 
 ** Przerwy
