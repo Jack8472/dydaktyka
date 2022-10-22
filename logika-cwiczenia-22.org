@@ -10,11 +10,12 @@
 2) dyżur
 3) podręczniki
    a) Literatura obowiązkowa:
-      - Z. Ziembiński, Logika Praktyczna, Warszawa 2004.
-      - T. Bekrycht, Logiczne podstawy prawoznawstwa, Warszawa 2010, https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
+      - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
    b) Literatura uzupełniająca:
-      - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, Logika dla Prawników, Warszawa 2009
-      - J. Stelmach, B. Brożek, Metody Prawnicze, rozdziały I, II, III pkt. 1-2.
+      - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010, https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
+      - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt. 1-2.
+      - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
+      - A. Malinowski, S. Lewandowski, H. Machińska, J. Petzel, /Logika dla Prawników/, Warszawa 2009.
 
 *** Przerwy
 5-10 minut - na wniosek grupy
