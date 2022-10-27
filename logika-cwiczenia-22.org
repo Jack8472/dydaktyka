@@ -250,62 +250,65 @@ Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 - definicja zbyt szeroka: Człowiek to ssak dwunożny.
 - definicja zbyt wąska: Człowiek to ssak posługujący się mową i pismem.
 
-*** Do przeczytania
+** Do przeczytania
 Rozdział IV. 
 
-# * Zajęcia 4
-# ** Podział logiczny
+* Zajęcia 4
+** Podział logiczny
 
-# Podział logiczny zakresu jakiejś nazwy /N/ na zakresy /A, B, C, D, E…/
+Podział logiczny zakresu jakiejś nazwy /N/ na zakresy /A, B, C, D, E/.
 
-# Całość dzielona (/totium divisionis/) i człony podziału (/membra divisionis/).
+Całość dzielona (/totium divisionis/) i człony podziału (/membra divisionis/).
 
+Polskie miasta:
 
+- duże, małe i średnie; (komentarz: powinniśmy mieć kryteria zaliczenia miasta jako dużego, średniego lub małego; kryteria muszą być dobrze dobrane)
+- stare i nowe; (podobnie jak powyżej)
+- dwuwyrazowe i jednowyrazowe; (a co z Nowym Dworem Mazowieckim?)
+- w górach, nad morzem, na równinach i na wyżynach; (a co z innymi terenami?)
+- zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki podział jest poprawny; inna sprawa, że niezbyt przydatny) 
 
-# Polskie miasta:
+*** Poprawność podziału
 
-# - duże, małe i średnie; (komentarz: powinniśmy mieć kryteria zaliczenia miasta jako dużego, średniego lub małego; kryteria muszą być dobrze dobrane)
-# - stare i nowe; (podobnie jak powyżej)
-# - dwuwyrazowe i jednowyrazowe; (a co z Nowym Dworem Mazowieckim?)
-# - w górach, nad morzem, na równinach i na wyżynach; (a co z innymi terenami?)
-# - zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki podział jest poprawny; inna sprawa, że niezbyt przydatny) 
+Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być zaliczony jakiegoś z członów podziału.
 
-# *** Poprawność podziału
+Podział dychotomiczny - podział według cech kontradyktorycznych:
 
-# Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być zaliczony jakiegoś z członów podziału.
+- podmiot: podmiot będący podatnikiem VAT - podmiot niebędący podatnikiem VAT
+- pies: pies mający cztery łapy - pies nie mający dokładnie czterech łap
 
-# Podział dychotomiczny - podział według cech kontradyktorycznych:
+Niepoprawne podziały:
 
-# - podmiot: podmiot będący podatnikiem VAT - podmiot niebędący podatnikiem VAT
-# - pies: pies mający cztery łapy - pies nie mający czterech łap
-
-# Niepoprawne podziały:
-
-# - oparte na niejednoznacznych kryteriach
-# - według przedziałów liczbowych, których granice się powtarzają: polskie rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7 osób, rodziny 7 osobowe i większe.
+- oparte na niejednoznacznych kryteriach
+- według przedziałów liczbowych, których granice się powtarzają: polskie rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7 osób, rodziny 7 osobowe i większe.
   
-# *** Klasyfikacja
+*** Klasyfikacja
 
-# #+begin_src plantuml
+#+begin_src plantuml
 
-# @startwbs
-# + Zdarzenia prawne
-# ++ Zachowania
-# +++ Czynności
-# --- Czyny
-# ++++ Czyny dozwolone
-# ---- Czyny niedozwolone
-# ++ Zdarzenia niebędące zachowaniami
-# @endwbs
+@startwbs
++ Zdarzenia prawne
+++ Zachowania
++++ Czynności
+--- Czyny
+++++ Czyny dozwolone
+---- Czyny niedozwolone
+++ Zdarzenia niebędące zachowaniami
+@endwbs
 
-# #+end_src
+#+end_src
 
-# #+RESULTS:
-# [[file:/tmp/babel-8wASw9/plantuml-KNjJXI.png]]
+#+RESULTS:
+[[file:/tmp/babel-8wASw9/plantuml-KNjJXI.png]]
 
-# *** Wyróżnianie typów
+*** Wyróżnianie typów
 
-# Wyodrębnianie przedmiotów o interesujących nas cechach.
+Wyodrębnianie przedmiotów o interesujących nas cechach.
+
+** Do przeczytania
+Rozdział V
+
+# * Zajęcia 5
 
 # ** Zdanie
 
@@ -315,8 +318,15 @@ Rozdział IV.
 #   - Zdarzenie: rzecz lub osoba wykazywała w danym momencie własność X a w innym momencie jej nie wykazywała.
 #   - Stan rzeczy: rzecz lub osoba wykazywała od momentu A do momentu B jakąś własność.
 # - Zdanie prawdziwe - opisuje rzeczywistość tak, jak się ona ma. Nie można wolą, teorią ani poglądem zmienić wartości prawdziwościowej zdania.
+#   - Czy może być zdanie prawdziwe dla kogoś?
 # - Prawdziwość wynikająca z sensu użytych w nich słów; zdanie analityczne.
 # - Fałszywość wynikająca z sensu słów; zdanie wewnętrznie kontradyktoryczne.
 # - Zdania syntetyczne - nie da się poznać ich wartości logicznej za pomocą sensu zawartych w nich słów.
+# - Zdanie niezupełne:
+#   - np.: „Deszcz jest pożyteczny.” - nie wiadomo dla kogo jest on pożyteczny
+#   - można uzupełniać je w języku potocznym kontekstem wypowiedzi
 
+# # zaczynamy: funkcje zdaniowe i struktura zdania; potem funktory prawdziwościowe
 
+# ** Do przeczytania
+# rozdział VI (§1-§5)
