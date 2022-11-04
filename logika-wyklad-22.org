@@ -36,8 +36,8 @@ W nawiasach oznaczono alternatywne symbole.
 - Dysjunkcja: p / q
 - Binegacja: p \downarrow q
 - Równoważność: p \equiv q (p \harr  q)
-- Konieczność: \(\Box{}p\)
-- Możliwość: \(\diamond{}p\) 
+- Konieczność: \(\Box{}p\) ◻ p  
+- Możliwość: \(\diamond{}p\) ♦p
 
 * Wprowadzenie
 Dlaczego to jest śmieszne:
@@ -335,6 +335,8 @@ Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 
 * Podział logiczny
 
+https://github.com/Jack8472/dydaktyka
+
 Podział logiczny zakresu jakiejś nazwy /N/ na zakresy /A, B, C, D, E…/
 
 Całość dzielona (/totium divisionis/) i człony podziału (/membra divisionis/).
@@ -398,119 +400,131 @@ Wyodrębnianie przedmiotów o interesujących nas cechach.
 - Fałszywość wynikająca z sensu słów; zdanie wewnętrznie kontradyktoryczne.
 - Zdania syntetyczne - nie da się poznać ich wartości logicznej za pomocą sensu zawartych w nich słów.
 
-# * Funktory prawdziwościowe
+* Funktory prawdziwościowe
+** Podstawowe zasady myślenia
 
-# ** Podstawowe zasady myślenia
+- /T1: \sim (p \cdot \sim{}p)/ : zasada sprzeczności
+- /T2: p \vee \sim(p)/ : zasada wyłączonego środka
+- /T3: p \equiv \sim ( \sim p )/ : zasada podwójnego zaprzeczenia
 
-# - /T1: \sim (p \cdot \sim{}p)/ : zasada sprzeczności
-# - /T2: p \vee \sim(p)/ : zasada wyłączonego środka
-# - /T3: p \equiv \sim ( \sim p )/ : zasada podwójnego zaprzeczenia
+** Wartości logiczne funktorów prawdziwościowych
 
-# ** Wartości logiczne funktorów prawdziwościowych
+| p | q | \sim{}p | p \vee q | p \cdot q | p \sup q | p \perp q | p \equiv q | p \downarrow q |
+|---+---+----+-------+-------+-------+-------+-------+-------|
+| 0 | 0 |  1 |     0 |     0 |     1 |     0 |     1 |     1 |
+| 0 | 1 |  1 |     1 |     0 |     1 |     1 |     0 |     0 |
+| 1 | 0 |  0 |     1 |     0 |     0 |     1 |     0 |     0 |
+| 1 | 1 |  0 |     1 |     1 |     1 |     0 |     1 |     0 |
 
-# | p | q | \sim{}p | p \vee q | p \cdot q | p \sup q | p \perp q | p \equiv q | p \downarrow q |
-# |---+---+----+-------+-------+-------+-------+-------+-------|
-# | 0 | 0 |  1 |     0 |     0 |     1 |     0 |     1 |     1 |
-# | 0 | 1 |  1 |     1 |     0 |     1 |     1 |     0 |     0 |
-# | 1 | 0 |  0 |     1 |     0 |     0 |     1 |     0 |     0 |
-# | 1 | 1 |  0 |     1 |     1 |     1 |     0 |     1 |     0 |
+#+BEGIN_VERSE
+Negacja:
+Nieprawda, że na trawniku leży śnieg.
+         \sim            p
+         1            0
+         0            1
 
-# #+BEGIN_VERSE
-# Negacja:
-# Nieprawda, że na trawniku leży śnieg.
-#          \sim            p
-#          1            0
-#          0            1
+Alternatywa nierozłączna:
+Na trawniku leży śnieg lub jest lato.
+        p                   \vee        q
+        1                   1         0
+        0                   1          1
+        1                   1          1
+        0                   0          0
 
-# Alternatywa nierozłączna:
-# Na trawniku leży śnieg lub jest lato.
-#         p                   \vee        q
-#         1                   1         0
-#         0                   1          1
-#         1                   1          1
-#         0                   0          0
+Koniunkcja:
+Pada deszcz i ulica jest mokra.
+      p        \cdot         q
+      1        1         1
+      0        0         0
+      1        0         0
+      0        0         1
 
-# Koniunkcja:
-# Pada deszcz i ulica jest mokra.
-#       p        \cdot         q
-#       1        1         1
-#       0        0         0
-#       1        0         0
-#       0        0         1
+Alternatywa rozłączna:
+Pójdziemy na lody albo pójdziemy do kina.
+           p           \perp             q
+           0           0             0
+           0           1             1
+           1           1             0
+           1           0             1
 
-# Alternatywa rozłączna:
-# Pójdziemy na lody albo pójdziemy do kina.
-#            p           \perp             q
-#            0           0             0
-#            0           1             1
-#            1           1             0
-#            1           0             1
+Implikacja:
+Jeżeli pada deszcz to ulica jest mokra.
+           p        \sup           q 
+           1        1           1
+           0        1           0
+           1        0           0
+           0        1           1
 
-# Implikacja:
-# Jeżeli pada deszcz to ulica jest mokra.
-#            p        \sup           q 
-#            1        1           1
-#            0        1           0
-#            1        0           0
-#            0        1           1
+Jeżeli (mam w kieszeni pierścień) to (koronawirus mutuje szybciej niż przeciętny wirus).
+                     p                   \sup               q
+                     0                   1               1
+                     1                   1               1
+                     0                   1               0
+                     1                   0               0
 
-# Jeżeli (mam w kieszeni pierścień) to (koronawirus mutuje szybciej niż przeciętny wirus).
-#                      p                   \sup               q
-#                      0                   1               1
-#                      1                   1               1
-#                      0                   1               0
-#                      1                   0               0
+Równoważność:
+Wtedy i tylko wtedy gdy pada deszcz to ulica jest mokra.
+             p        \equiv               q
+             1        1               1
+             0        1               0
+             1        0               0
+             0        0               1  
 
-# Równoważność:
-# Wtedy i tylko wtedy gdy pada deszcz to ulica jest mokra.
-#              p        \equiv               q
-#              1        1               1
-#              0        1               0
-#              1        0               0
-#              0        0               1  
+Binegacja:
+Ani nie pada deszcz ani nie pochodzę z Marsa.
+              p         \downarrow                  q
+              0         1                   0
+              1         0                   0
+              0         0                   1
+              1         0                   1
+#+END_VERSE
 
-# Binegacja:
-# Ani nie pada deszcz ani nie pochodzę z Marsa.
-#               p         \downarrow                  q
-#               0         1                   0
-#               1         0                   0
-#               0         0                   1
-#               1         0                   1
-# #+END_VERSE
+** Definicja implikacji przy pomocy koniunkcji i negacji
 
-# ** Definicja implikacji przy pomocy koniunkcji i negacji
+p \sup q \equiv \sim ( p \cdot \sim q )
 
-# p \sup q \equiv \sim ( p \cdot \sim q )
+** Definicja implikacji przy pomocy alternatywy i negacji
 
-# ** Definicja implikacji przy pomocy alternatywy i negacji
+p \sup q \equiv (\sim p) \vee q
 
-# p \sup q \equiv (\sim p) \vee q
+** Przykłady
 
-# ** Przykłady
+ - Jeżeli Ateny są stolicą Polski to Uniwersytet Łódzki ma siedzibę w Berlinie: 1
+ - Jeżeli Ateny są stolicą Polski to Robert Lewandowski jest piłkarzem: 1
+ - Jeżeli Ateny są stolicą Polski to mam w kieszeni chusteczkę: 1
+ - Jeżeli Warszawa jest stolicą Polski to Księżyc jest zrobiony z sera: 0
+ - Jeżeli Warszawa jest stolicą Polski to Albert Einstein opracował teorię względności: 1
+ - Nieprawda że ( Warszawa jest stolicą Polski i nieprawda Einstein opracował teorię względności): 1
+ - (Nieprawda że, Warszawa jest stolicą Polski) lub Einstein opracował teorię względności: 1
+ - Ani Ateny są stolicą Polski ani UŁ ma siedzibę w Berlinie: 1
 
-#  - Jeżeli Ateny są stolicą Polski to Uniwersytet Łódzki ma siedzibę w Berlinie: 1
-#  - Jeżeli Ateny są stolicą Polski to Robert Lewandowski jest piłkarzem: 1
-#  - Jeżeli Ateny są stolicą Polski to mam w kieszeni chusteczkę: 1
-#  - Jeżeli Warszawa jest stolicą Polski to Księżyc jest zrobiony z sera: 0
-#  - Jeżeli Warszawa jest stolicą Polski to Albert Einstein opracował teorię względności: 1
-#  - Nieprawda że ( Warszawa jest stolicą Polski i nieprawda Einstein opracował teorię względności): 1
-#  - (Nieprawda że, Warszawa jest stolicą Polski) lub Einstein opracował teorię względności: 1
-#  - Ani Ateny są stolicą Polski ani UŁ ma siedzibę w Berlinie: 1
+** Bezprawne samouwolnienie
 
-# ** Bezprawne samouwolnienie
+Art.  242. §  1.  Kto uwalnia się sam, będąc pozbawionym wolności na podstawie orzeczenia sądu lub prawnego nakazu wydanego przez inny organ państwowy, podlega grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2. […] §  4.  Jeżeli sprawca czynu określonego w § 1
 
-# Art.  242. §  1.  Kto uwalnia się sam, będąc pozbawionym wolności na podstawie orzeczenia sądu lub prawnego nakazu wydanego przez inny organ państwowy, podlega grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+- działa w porozumieniu z innymi osobami,
+- używa przemocy lub
+- grozi jej użyciem
+- *albo* uszkadza miejsce zamknięcia,
 
-# §  4.  Jeżeli sprawca czynu określonego w § 1
+  podlega karze pozbawienia wolności do lat 3.
 
-# - działa w porozumieniu z innymi osobami,
-# - używa przemocy lub
-# - grozi jej użyciem
-# - *albo* uszkadza miejsce zamknięcia,
 
-#   podlega karze pozbawienia wolności do lat 3.
 
-#  <2021-11-27 sob> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # * Relacje (stosunki) pomiędzy przedmiotami
 
 # ** Wstęp
@@ -704,137 +718,137 @@ Wyodrębnianie przedmiotów o interesujących nas cechach.
 #   + [(p \sup q) \cdot \sim q] \sup \sim p (modus tollendo tollens): /Jeżeli [(Jeżeli woda wrze to jest gorąca) i nieprawda, że woda jest gorąca] to nieprawda, że woda wrze./
 #   + [(p \vee q) \cdot \sim p] \sup q (modus tollendo ponens): /Jeżeli [(Wicked jest psem lub Wicked jest kotem) i nieprawda, że Wicked jest kotem] to Wicked jest psem./
 
-#    <2021-12-19 nie> 
+# #    <2021-12-19 nie> 
     
-# - sylogistyka Arystotelesa
-#   + zdania w postaci:
-#   + zd. ogólno-twierdzące:     SaP - /każde S jest P/
-#   + zd. ogólno-przeczące:      SeP - /żadne S nie jest P/
-#   + zd. szczególno-twierdzące: SiP - /istnieją S, które są P/
-#   + zd. szczególno-przeczące:  SoP - /istnieją S, które są nie-P/
-#   + SaP \equiv \sim (SoP)
-#   + SeP \equiv \sim (SiP)
-#   + SiP \equiv \sim (SeP)
-#   + SoP \equiv \sim (SaP)
+# # - sylogistyka Arystotelesa
+# #   + zdania w postaci:
+# #   + zd. ogólno-twierdzące:     SaP - /każde S jest P/
+# #   + zd. ogólno-przeczące:      SeP - /żadne S nie jest P/
+# #   + zd. szczególno-twierdzące: SiP - /istnieją S, które są P/
+# #   + zd. szczególno-przeczące:  SoP - /istnieją S, które są nie-P/
+# #   + SaP \equiv \sim (SoP)
+# #   + SeP \equiv \sim (SiP)
+# #   + SiP \equiv \sim (SeP)
+# #   + SoP \equiv \sim (SaP)
 
-# #+begin_verse
+# # #+begin_verse
 
-# MaP
-# SiM
-# ------
-# SiP
+# # MaP
+# # SiM
+# # ------
+# # SiP
 
-# Każdy adwokat jest prawnikiem.
-# Niektórzy ludzie są adwokatami.
-# ------
-# Niektórzy ludzie są prawnikami.
+# # Każdy adwokat jest prawnikiem.
+# # Niektórzy ludzie są adwokatami.
+# # ------
+# # Niektórzy ludzie są prawnikami.
 
-# Każdy polityk jest gadem.
-# Niektórzy profesorowie są politykami.
-# ------
-# Niektórzy profesorowie są gadami.
+# # Każdy polityk jest gadem.
+# # Niektórzy profesorowie są politykami.
+# # ------
+# # Niektórzy profesorowie są gadami.
 
-# #+end_verse
+# # #+end_verse
 
-# FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage out
+# # FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage out
 
-# * Implikatura
+# # * Implikatura
 
-# *Piotr*: Czy wszystko w porzadku? *Katarzyna*: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
+# # *Piotr*: Czy wszystko w porzadku? *Katarzyna*: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
 
-# Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. Wojciech: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr:
+# # Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. Wojciech: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr:
 
-# *** Zasady współpracy
+# # *** Zasady współpracy
 
-# 1. Nie wygłaszaj poglądów fałszych ani nawet niedostatecznie uzasadnionych (maksyma jakości).
-# 2. Nie udzielaj zbyt wiele, ani zbyt mało informacji (maksyma ilości).
-# 3. Nie wypowiadaj słów irrelewantnych (maksyma istotności).
-# 4. Mów w sposób zrozumiały (maksyma sposobu).
+# # 1. Nie wygłaszaj poglądów fałszych ani nawet niedostatecznie uzasadnionych (maksyma jakości).
+# # 2. Nie udzielaj zbyt wiele, ani zbyt mało informacji (maksyma ilości).
+# # 3. Nie wypowiadaj słów irrelewantnych (maksyma istotności).
+# # 4. Mów w sposób zrozumiały (maksyma sposobu).
 
-#    Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
+# #    Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
 
-# * Wnioskowania niededukcyjne
+# # * Wnioskowania niededukcyjne
 
-# ** Indukcja
+# # ** Indukcja
 
-# Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nastąpiło aż 1000 obserwacji potwierdzający tę hipotezę. Dnia 1001 człowiek upiekł indyka.
+# # Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nastąpiło aż 1000 obserwacji potwierdzający tę hipotezę. Dnia 1001 człowiek upiekł indyka.
 
-# - Indukcja enumeracyjna:
-#   - S_1 jest P,
-#   - S_2 jest P,
-#   - S_3 jest P,
-#   - S_4 jest P,
-#   - S_n jest P,
-#   - Każde S jest P.
-#   - S_n - dzień, P dzień mający cechę X (np. dzień w którym człowiek służy indykowi)<2022-01-08 sob> 
-# - Indukcja zupełna i niezupełna.
-# - Indukcja eliminacyjna:
-#   a. kanon jednej zgodności: O_1: A, B, C, Z; O_2: C, D, E, Z; O_3: C, F, G, Z.
-#   b. kanon jednej różnicy: 
-#      - O_1: A, B, C, Z;
-#      - O_2: B, C, Z;
-#      - O_3: A, C, Z;
-#      - O_4: A, B, ~Z.
-#   c. kanon zmian towarzyszących:
-#      - kuchenka gazowa ma palniki od 1 do 4 i 4 kurki (A…D)
-#      - zadanie: ustal który kurek steruje palnikiem nr 2
-#      - obserwacje:
-#        1) kurek A w poz. 50%, brak płomienia
-#        2) kurek A w poz. 100%, brak płomienia
-#        3) kurek B w poz. 50%, brak płomienia
-#        4) kurek B w poz. 100%, brak płomienia
-#        5) kurek C w poz. 50%, mały płomień
-#        6) kurek C w poz. 100%, duży płomień
-#        7) kurek D w poz. 50%, brak płomienia
-#        8) kurek D w poz. 100%, brak płomienia
-#      - wniosek: prawdopodobnie kurek C steruje płomieniem palnika nr 2.
+# # - Indukcja enumeracyjna:
+# #   - S_1 jest P,
+# #   - S_2 jest P,
+# #   - S_3 jest P,
+# #   - S_4 jest P,
+# #   - S_n jest P,
+# #   - Każde S jest P.
+# #   - S_n - dzień, P dzień mający cechę X (np. dzień w którym człowiek służy indykowi)<2022-01-08 sob> 
+# # - Indukcja zupełna i niezupełna.
+# # - Indukcja eliminacyjna:
+# #   a. kanon jednej zgodności: O_1: A, B, C, Z; O_2: C, D, E, Z; O_3: C, F, G, Z.
+# #   b. kanon jednej różnicy: 
+# #      - O_1: A, B, C, Z;
+# #      - O_2: B, C, Z;
+# #      - O_3: A, C, Z;
+# #      - O_4: A, B, ~Z.
+# #   c. kanon zmian towarzyszących:
+# #      - kuchenka gazowa ma palniki od 1 do 4 i 4 kurki (A…D)
+# #      - zadanie: ustal który kurek steruje palnikiem nr 2
+# #      - obserwacje:
+# #        1) kurek A w poz. 50%, brak płomienia
+# #        2) kurek A w poz. 100%, brak płomienia
+# #        3) kurek B w poz. 50%, brak płomienia
+# #        4) kurek B w poz. 100%, brak płomienia
+# #        5) kurek C w poz. 50%, mały płomień
+# #        6) kurek C w poz. 100%, duży płomień
+# #        7) kurek D w poz. 50%, brak płomienia
+# #        8) kurek D w poz. 100%, brak płomienia
+# #      - wniosek: prawdopodobnie kurek C steruje płomieniem palnika nr 2.
 
-# * Wnioskowania prawnicze
+# # * Wnioskowania prawnicze
 
-# - sylogizm prawniczy
-#   + (1) Kto zabija człowieka podlega karze. (2) Jan zabił człowieka. | Jan podlega karze.
-# - uzupełnianie luk w prawie; postulat zupełności kwalifikacyjnej
-# - argumenty prawnicze:
-#   + argumentum a simile (argument z podobieństwa)
-#     - analogia legis (analogia z ustawy)
-#     - analogia iuris (analogia z prawa)
-#   + argumentum a fortiori (jeżeli A, to tym bardziej B)
-#     - argumentum a maiori ad minus (argument z większego na mniejsze)
-#     - argumentum a miniori ad maius (argument z mniejszego na większe)
-#   + argumentum a contrario (argument z przeciwieństwa)
-#   + dyrektywa instrumentalnego nakazu i zakazu (argument z celu na środki)
+# # - sylogizm prawniczy
+# #   + (1) Kto zabija człowieka podlega karze. (2) Jan zabił człowieka. | Jan podlega karze.
+# # - uzupełnianie luk w prawie; postulat zupełności kwalifikacyjnej
+# # - argumenty prawnicze:
+# #   + argumentum a simile (argument z podobieństwa)
+# #     - analogia legis (analogia z ustawy)
+# #     - analogia iuris (analogia z prawa)
+# #   + argumentum a fortiori (jeżeli A, to tym bardziej B)
+# #     - argumentum a maiori ad minus (argument z większego na mniejsze)
+# #     - argumentum a miniori ad maius (argument z mniejszego na większe)
+# #   + argumentum a contrario (argument z przeciwieństwa)
+# #   + dyrektywa instrumentalnego nakazu i zakazu (argument z celu na środki)
 
-# ** Przykłady
+# # ** Przykłady
 
-# - a contrario
-#   + Już pełnomocnik oskarżycielki posiłkowej, sporządzający apelację, dostrzegł, że doszło do przedawnienia karalności czynu z art. 284 § 2 k.k., którego upatrywał w zachowaniu oskarżonego. Takie przedawnienie tym bardziej (wcześniej) nastąpiło w stosunku do czynu z art. 284 § 1 k.k., jakiego zdaniem obecnego pełnomocnika miał się dopuścić oskarżony (zob. art. 101 § 1 pkt 4 k.k. i 102 k.k.). Przedawnienie karalności, jako okoliczność wyłączająca ściganie, wyklucza możliwość wniesienia kasacji na niekorzyść oskarżonego. Wynika to z odczytywanego a contrario przepisu art. 529 k.p.k. Kasacja już w chwili jej wniesienia okazała się więc niedopuszczalna i nie powinna być przyjęta (art. 429 § 1 k.p.k. zw. z art. 530 § 2 k.p.k. w zw. z art. 529 k.p.k. a contrario). - Postanowienie SN z 28.10.2013 r., III KK 144/13, OSNKW 2014, nr 3, poz. 22.
-# - a maiori ad minus
-#   + Skarżący w niniejszej sprawie ma rację, iż powód nie zgłaszał żądania obniżenia tej kary. Pozostaje zatem problem, czy Sąd może dokonać takiego miarkowania bez wyraźnego wniosku zobowiązanego. Zarówno w dawnym orzecznictwie (por. wyrok SN z 14 lipca 1976 r. I CR 271/76, OSN 1977, poz. 76, jak i w obecnym por. wyrok z 21 listopada 1996 r. I CKN 330/97 - nie publikowany) Sąd Najwyższy przyjmuje, że żądanie dłużnika oddalenia powództwa o zapłatę kary umownej mieści w sobie także jednocześnie ewentualne żądanie wnioskowania jej wysokości (rozumowanie a maiori ad minus). Sąd w składzie rozpoznającym niniejszą sprawę podziela słuszność tego stanowiska, co oznacza, że wbrew zarzutowi kasacji pozwanego - Sąd Apelacyjny mógł zmniejszyć należną mu od powoda karę umowną za odstąpienie od umowy w sytuacji, kiedy powód kwestionował w ogóle możliwości jej naliczania. - Wyrok SN z 25.03.1998 r., II CKN 660/97, LEX nr 519952.
-# - a minori ad maius
-#   + Skoro wady uzasadnienia wyroku sądu odwoławczego polegające na naruszeniu art. 457 § 3 k.p.k. stanowić mogą podstawę uchylenia tego wyroku, to a minori ad maius podstawę taką stanowić może całkowity brak uzasadnienia. - Wyrok SN z 8.09.2005 r., II KK 373/04, OSNwSK 2005, nr 1, poz. 1615.
-# - a simile
-#   + Nie bez znaczenia jest fakt, że strony w tym czasie miały do siebie zaufanie, razem zamieszkiwały i mogły posiadać w domu własne i wspólne (w ramach konkubinatu - por. art. 860 k.c. a simile i następne) środki finansowe a także fakt, że powódka w tym okresie była uprawniona do dokonywania operacji finansowych na kontach pozwanego (bezsporne). - Wyrok SR w Olsztynie z 12.12.2017 r., I C 1882/17, LEX nr 2432212.
+# # - a contrario
+# #   + Już pełnomocnik oskarżycielki posiłkowej, sporządzający apelację, dostrzegł, że doszło do przedawnienia karalności czynu z art. 284 § 2 k.k., którego upatrywał w zachowaniu oskarżonego. Takie przedawnienie tym bardziej (wcześniej) nastąpiło w stosunku do czynu z art. 284 § 1 k.k., jakiego zdaniem obecnego pełnomocnika miał się dopuścić oskarżony (zob. art. 101 § 1 pkt 4 k.k. i 102 k.k.). Przedawnienie karalności, jako okoliczność wyłączająca ściganie, wyklucza możliwość wniesienia kasacji na niekorzyść oskarżonego. Wynika to z odczytywanego a contrario przepisu art. 529 k.p.k. Kasacja już w chwili jej wniesienia okazała się więc niedopuszczalna i nie powinna być przyjęta (art. 429 § 1 k.p.k. zw. z art. 530 § 2 k.p.k. w zw. z art. 529 k.p.k. a contrario). - Postanowienie SN z 28.10.2013 r., III KK 144/13, OSNKW 2014, nr 3, poz. 22.
+# # - a maiori ad minus
+# #   + Skarżący w niniejszej sprawie ma rację, iż powód nie zgłaszał żądania obniżenia tej kary. Pozostaje zatem problem, czy Sąd może dokonać takiego miarkowania bez wyraźnego wniosku zobowiązanego. Zarówno w dawnym orzecznictwie (por. wyrok SN z 14 lipca 1976 r. I CR 271/76, OSN 1977, poz. 76, jak i w obecnym por. wyrok z 21 listopada 1996 r. I CKN 330/97 - nie publikowany) Sąd Najwyższy przyjmuje, że żądanie dłużnika oddalenia powództwa o zapłatę kary umownej mieści w sobie także jednocześnie ewentualne żądanie wnioskowania jej wysokości (rozumowanie a maiori ad minus). Sąd w składzie rozpoznającym niniejszą sprawę podziela słuszność tego stanowiska, co oznacza, że wbrew zarzutowi kasacji pozwanego - Sąd Apelacyjny mógł zmniejszyć należną mu od powoda karę umowną za odstąpienie od umowy w sytuacji, kiedy powód kwestionował w ogóle możliwości jej naliczania. - Wyrok SN z 25.03.1998 r., II CKN 660/97, LEX nr 519952.
+# # - a minori ad maius
+# #   + Skoro wady uzasadnienia wyroku sądu odwoławczego polegające na naruszeniu art. 457 § 3 k.p.k. stanowić mogą podstawę uchylenia tego wyroku, to a minori ad maius podstawę taką stanowić może całkowity brak uzasadnienia. - Wyrok SN z 8.09.2005 r., II KK 373/04, OSNwSK 2005, nr 1, poz. 1615.
+# # - a simile
+# #   + Nie bez znaczenia jest fakt, że strony w tym czasie miały do siebie zaufanie, razem zamieszkiwały i mogły posiadać w domu własne i wspólne (w ramach konkubinatu - por. art. 860 k.c. a simile i następne) środki finansowe a także fakt, że powódka w tym okresie była uprawniona do dokonywania operacji finansowych na kontach pozwanego (bezsporne). - Wyrok SR w Olsztynie z 12.12.2017 r., I C 1882/17, LEX nr 2432212.
 
-# * Myślenie kierowane z góry postawionymi zadaniami
+# # * Myślenie kierowane z góry postawionymi zadaniami
 
-# - myślenie spontaniczne, a myślenie kierowane z góry postanowionymi zadaniami
-# - zadania:
-#   + zadania rozstrzygnięcia: „czy prawdą jest, że p”?
-#   + zadania wyjaśnienia: „dlaczego prawdą jest, że p”?<2022-01-15 sob> 
-# - dowodzenie
-#   + dowodzenie a wiadomości o świecie
-#   + dowodzenie wprost: wiadomo, że jeśli p to q; wiadomo, że p, a więc udowodnione jest, że q
-#   + dowodzenie nie wprost: przypuszczam, że \sim{}q; wiem, że jeżeli \sim{}q to r; wiem, że r; a więc wiem, że \sim{}\sim{}q czyli q
-#   + błędy w dowodzeniu:
-#     - błąd materialny, bład formalny, błąd petitio principi
-#     - błąd błędnego koła
-#     - nieznajomość tezy dowodzonej - ignoratio elenchi
-# - sprawdzanie
-#   + czy p?
-#     - wiem, że p \sup q
-#     - wiem, że q: a więc?
-#     - wiem, że \sim{}q: a więc?
-# - wyjaśnianie
-#   + dlaczego jest tak a tak?
-#   + hipoteza wyjaśniająca (np. hipoteza samorództwa)
+# # - myślenie spontaniczne, a myślenie kierowane z góry postanowionymi zadaniami
+# # - zadania:
+# #   + zadania rozstrzygnięcia: „czy prawdą jest, że p”?
+# #   + zadania wyjaśnienia: „dlaczego prawdą jest, że p”?<2022-01-15 sob> 
+# # - dowodzenie
+# #   + dowodzenie a wiadomości o świecie
+# #   + dowodzenie wprost: wiadomo, że jeśli p to q; wiadomo, że p, a więc udowodnione jest, że q
+# #   + dowodzenie nie wprost: przypuszczam, że \sim{}q; wiem, że jeżeli \sim{}q to r; wiem, że r; a więc wiem, że \sim{}\sim{}q czyli q
+# #   + błędy w dowodzeniu:
+# #     - błąd materialny, bład formalny, błąd petitio principi
+# #     - błąd błędnego koła
+# #     - nieznajomość tezy dowodzonej - ignoratio elenchi
+# # - sprawdzanie
+# #   + czy p?
+# #     - wiem, że p \sup q
+# #     - wiem, że q: a więc?
+# #     - wiem, że \sim{}q: a więc?
+# # - wyjaśnianie
+# #   + dlaczego jest tak a tak?
+# #   + hipoteza wyjaśniająca (np. hipoteza samorództwa)
 
