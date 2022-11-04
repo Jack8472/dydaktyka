@@ -334,9 +334,6 @@ Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 - definicja zbyt wąska: Człowiek to ssak posługujący się mową i pismem.
 
 * Podział logiczny
-
-https://github.com/Jack8472/dydaktyka
-
 Podział logiczny zakresu jakiejś nazwy /N/ na zakresy /A, B, C, D, E…/
 
 Całość dzielona (/totium divisionis/) i człony podziału (/membra divisionis/).
@@ -350,7 +347,6 @@ Polskie miasta:
 - zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki podział jest poprawny; inna sprawa, że niezbyt przydatny) 
 
 ** Poprawność podziału
-
 Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być zaliczony jakiegoś z członów podziału.
 
 Podział dychotomiczny - podział według cech kontradyktorycznych:
@@ -363,7 +359,6 @@ Niepoprawne podziały:
 - oparte na niejednoznacznych kryteriach
 - według przedziałów liczbowych, których granice się powtarzają: polskie rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7 osób, rodziny 7 osobowe i większe.
 
-<2021-11-20 sob>
   
 ** Klasyfikacja
 
@@ -382,7 +377,7 @@ Niepoprawne podziały:
 #+end_src
 
 #+RESULTS:
-[[file:/tmp/babel-8wASw9/plantuml-KNjJXI.png]]
+[[file:/tmp/babel-wEMl2t/plantuml-6S9aMc.png]]
 
 ** Wyróżnianie typów
 
