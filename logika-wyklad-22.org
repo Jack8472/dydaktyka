@@ -1,4 +1,4 @@
-#+title: Logika - konspekt wykładu
+#+title: Logika - konspekt wykładu (zaoczne ’22/23)
 #+AUTHOR: J. Szczerbowski
 #+OPTIONS: tex:t
 #+LANGUAGE: pl
@@ -11,17 +11,21 @@
    a) Literatura obowiązkowa:
       - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
    b) Literatura uzupełniająca:
-      - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010, https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
-      - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt. 1-2.
+      - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010,
+        https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
+      - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt.
+        1-2.
       - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
-      - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, /Logika dla Prawników/, Warszawa 2009.
+      - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, /Logika dla
+        Prawników/, Warszawa 2009.
 4) kod teams: 0fwvm4b
 
 ** Przerwy
 sobota: 2x10 min. (11:10-11:20, 12:00-12:10)
 
 ** Nieobecności
-W przypadku nieobecności na wykładzie należy samodzielnie nauczyć się materiału na podstawie literatury podanej powyżej. 
+W przypadku nieobecności na wykładzie należy samodzielnie nauczyć się materiału
+na podstawie literatury podanej powyżej.
 
 * ŚCIĄGA: Symbole logiczne
 W nawiasach oznaczono alternatywne symbole.
@@ -42,36 +46,58 @@ W nawiasach oznaczono alternatywne symbole.
 * Wprowadzenie
 Dlaczego to jest śmieszne:
 
-/Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?” Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak./
+/Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?”
+Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak./
 
-*Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach poprawnego rozumowania i uzasadniania twierdzeń.
+*Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach
+poprawnego rozumowania i uzasadniania twierdzeń.
 
 ** Przegląd treści
 1. Ogólne wiadomości o języku.
 2. Nazwy - dowiem się czym się różni książka od biblioteki i Sejm od posłów.
-3. Stosunki pomiędzy zakresami nazw - dowiem się, że jestem nie-krową i nie-PZPR.
-4. Definicje - dowiem się ile cech wspólnych ma śliwka i kosiarka do trawy oraz dlaczego pomimo ich tak wielkiej ilości nadal potrafię je rozróżnić.
-5. Podział logiczny - dowiem się jak napisać przepis przyznający dofinansowanie gospodarstwom domowym, który po wejściu w życie przyprawi urzędników o ból głowy.
-6. Zdanie - dowiem się co to jest prawda i dlaczego „Która godzina?” nie jest zdaniem w sensie logicznym.
-7. Funktory prawdziwościowe - dowiem się dlaczego „p lub nie-p” oraz pogramy wspólnie w grę komputerową.
-8. Relacje - dowiem się, dlaczego człowiek człowiekowi wilkiem, a kiwi kiwi kiwi. 
-9. Wypowiedzi oceniające i normy - dowiem się, z czego zbudowane jest prawo (i nie tylko).
-10. Wypowiedzi modalne - dowiem się, co to znaczy przedmiot fakultatywny (i dlaczego kradzież batonika jest też fakultatywna).
+3. Stosunki pomiędzy zakresami nazw - dowiem się, że jestem nie-krową
+   i nie-PZPR.
+4. Definicje - dowiem się ile cech wspólnych ma śliwka i kosiarka do trawy oraz
+   dlaczego pomimo ich tak wielkiej ilości nadal potrafię je rozróżnić.
+5. Podział logiczny - dowiem się jak napisać przepis przyznający dofinansowanie
+   gospodarstwom domowym, który po wejściu w życie przyprawi urzędników o ból
+   głowy.
+6. Zdanie - dowiem się co to jest prawda i dlaczego „Która godzina?” nie jest
+   zdaniem w sensie logicznym.
+7. Funktory prawdziwościowe - dowiem się dlaczego „p lub nie-p” oraz pogramy
+   wspólnie w grę komputerową.
+8. Relacje - dowiem się, dlaczego człowiek człowiekowi wilkiem, a kiwi kiwi
+   kiwi.
+9. Wypowiedzi oceniające i normy - dowiem się, z czego zbudowane jest prawo
+   (i nie tylko).
+10. Wypowiedzi modalne - dowiem się, co to znaczy przedmiot fakultatywny
+    (i dlaczego kradzież batonika jest też fakultatywna).
 11. Pytania i odpowiedzi - dowiem się, co to znaczy odpowiedzieć na pytanie.
-12. Przyczyny nieporozumień - dowiem się, dlaczego czasem ludzie się nie rozumieją.
-13. Uzasadnianie bezpośrednie - dowiem się o bezpośrednich spostrzeżeniach w przedmiocie rzeczywistości.
+12. Przyczyny nieporozumień - dowiem się, dlaczego czasem ludzie się nie
+    rozumieją.
+13. Uzasadnianie bezpośrednie - dowiem się o bezpośrednich spostrzeżeniach
+    w przedmiocie rzeczywistości.
 14. Dedukcja - może się okazać, że Sherlock Holmes nie zawsze stosował dedukcję.
 15. Redukcja i indukcja - dowiem się jak nie zostać indykiem.
-16. Myślenie z góry postanowionymi zadaniami - dowiem się, że czasem myślenie służy konkretnym celom.
-17. Prawdopodobieństwo – dowiem się, dlaczego nie powinienem martwić się tym, że co drugie dziecko rodzi się Azjatą, planując rodzinę.
-18. Umiejętność przekonywania - dowiem się jak stosować logikę w sporze i wykrywać nielojalne działania przeciwnika.
-19. Praca myślowa prawnika - dowiem się jak stosować reguły myślenia w zadaniach typowych dla zawodów prawniczych.
+16. Myślenie z góry postanowionymi zadaniami - dowiem się, że czasem myślenie
+    służy konkretnym celom.
+17. Prawdopodobieństwo – dowiem się, dlaczego nie powinienem martwić się tym, że
+    co drugie dziecko rodzi się Azjatą, planując rodzinę.
+18. Umiejętność przekonywania - dowiem się jak stosować logikę w sporze
+    i wykrywać nielojalne działania przeciwnika.
+19. Praca myślowa prawnika - dowiem się jak stosować reguły myślenia w zadaniach
+    typowych dla zawodów prawniczych.
 
 * Ogólne wiadomości o języku
 ** Znak i kategorie syntaktyczne
-Semiotyka (ogólna nauka o znakach): (1) semantyka — nauka o stosunku pomiędzy znakiem a tym do czego znak się odnosi; (2) syntaktyka — nauka o rodzajach znaków i regułach wiązania ich w znaki złożone; (3) nauka zajmująca się zagadnieniami stosunków pomiędzy znakami a wypowiadającym je lub odbierającym człowiekiem.
+Semiotyka (ogólna nauka o znakach): (1) semantyka — nauka o stosunku pomiędzy
+znakiem a tym do czego znak się odnosi; (2) syntaktyka — nauka o rodzajach
+znaków i regułach wiązania ich w znaki złożone; (3) nauka zajmująca się
+zagadnieniami stosunków pomiędzy znakami a wypowiadającym je lub odbierającym
+człowiekiem.
 
-Logika a prawda. Co to jest prawda? Co to jest zdanie prawdziwe? Czy każde zdanie może być prawdziwe?
+Logika a prawda. Co to jest prawda? Co to jest zdanie prawdziwe? Czy każde
+zdanie może być prawdziwe?
 
 Logika formalna zajmuje się poprawnymi rozumowaniami.
 
@@ -79,7 +105,8 @@ Logika formalna zajmuje się poprawnymi rozumowaniami.
 a. Studenci uczą się pilnie.
 b. Warszawa jest stolicą Polski.
 c. Robert: W połowie drogi mojego żywota pośród ciemnego znalazłem się lasu.
-d. Stateczny, pulchny Buck Mulligan wynurzył się z wylotu schodów, niosąc mydlaną pianę w miseczce, na której leżały skrzyżowane lusterko i brzytwa.
+d. Stateczny, pulchny Buck Mulligan wynurzył się z wylotu schodów, niosąc
+   mydlaną pianę w miseczce, na której leżały skrzyżowane lusterko i brzytwa.
 e. Wrzątek zawsze jest gorący.
 f. Ziemia jest płaska.
 g. Słońce świeci nocą.
@@ -93,10 +120,14 @@ a. *Pojęcie znaku* - układ rzeczy + reguły znaczeniowe.
 b. Czy zawsze są to znaki słowne?
 c. Znaczenie kontekstu: biała flaga, podanie ręki a umowa, przysięga małżeńska.
 d. Znak a symptom, objaw — jest to coś innego.
-e. Język — system obejmujący zbiór znaków słownych. Języki naturalne i języki sztuczne. Żargon — w tym żargon prawniczy: domieszka do języka naturalnego.
-f. W różnych językach słowa mogą mieć to samo znaczenie i brzmieć inaczej, albo na odwrót.
-g. Naturalnie powstają nowe słowa oraz nowe znaczenia (np. nowe znaczenie słowa /dzban/).
-h. Język wyróżnia zarówno zasób słów, jak i jego składnia. Istnieją nieprzetłumaczalne wprost zwroty.
+e. Język — system obejmujący zbiór znaków słownych. Języki naturalne i języki
+   sztuczne. Żargon — w tym żargon prawniczy: domieszka do języka naturalnego.
+f. W różnych językach słowa mogą mieć to samo znaczenie i brzmieć inaczej, albo
+   na odwrót.
+g. Naturalnie powstają nowe słowa oraz nowe znaczenia (np. nowe znaczenie słowa
+   /dzban/).
+h. Język wyróżnia zarówno zasób słów, jak i jego składnia. Istnieją
+   nieprzetłumaczalne wprost zwroty.
 i. Język prawny a język prawniczy.
 
 *** Metajęzyk
@@ -110,25 +141,37 @@ i. Język prawny a język prawniczy.
 **** Wyjaśnienie
 a. Metajęzyk: język, który mówi o języku.
 b. Wypowiedź w języku pierwszego stopnia (języku przedmiotowym): /Pada deszcz./
-c. Wypowiedź w języku drugiego stopnia (metajęzyku w stosunku do języka pierwszego stopnia): /Jan powiedział, że pada deszcz./
-d. Wypowiedź w języku trzeciego stopnia (metajęzyku w stosunku do języka drugiego stopnia): /Marcin powiedział, że Jan powiedział, że pada deszcz./
+c. Wypowiedź w języku drugiego stopnia (metajęzyku w stosunku do języka
+   pierwszego stopnia): /Jan powiedział, że pada deszcz./
+d. Wypowiedź w języku trzeciego stopnia (metajęzyku w stosunku do języka
+   drugiego stopnia): /Marcin powiedział, że Jan powiedział, że pada deszcz./
 
 *** Kategorie syntaktyczne
 a. Zdania, nazwy i funktory.
-b. Zdanie jest całkowicie samodzielną kategorią języka opisowego. Zdanie głosi więc, że jest tak a tak: /Granit jest skałą magmową. Sędzia opuścił salę rozpraw./
-c. Nazwa — coś co nadaje się na podmiot lub na orzecznik orzeczenia imiennego w zdaniu: /prawnik, planeta, sędzia/.
-d. Funktor to wyraz lub wyrażenie (leks), które nie jest ani nazwą, ani zdaniem, ale w połączeniu z nimi tworzy bardziej złożoną całość.
-e. Funktory dzielimy na zdaniotwórcze, nazwotwórcze i funktorotwórcze. Wyrazy lub wyrażenia, które funktor wiąże w większą całość, nazywamy argumentami funktora.
+b. Zdanie jest całkowicie samodzielną kategorią języka opisowego. Zdanie głosi
+   więc, że jest tak a tak: /Granit jest skałą magmową. Sędzia opuścił salę
+   rozpraw./
+c. Nazwa — coś co nadaje się na podmiot lub na orzecznik orzeczenia imiennego
+   w zdaniu: /prawnik, planeta, sędzia/.
+d. Funktor to wyraz lub wyrażenie (leks), które nie jest ani nazwą, ani zdaniem,
+   ale w połączeniu z nimi tworzy bardziej złożoną całość.
+e. Funktory dzielimy na zdaniotwórcze, nazwotwórcze i funktorotwórcze. Wyrazy
+   lub wyrażenia, które funktor wiąże w większą całość, nazywamy argumentami
+   funktora.
 
 Zdania oznacza się symbolicznie /z/. Nazwy oznacza się symbolicznie /n/.
 
 Przykłady funktorów:
 
-a. funktor nazwotwórczy od (jednego) argumentu nazwowego: /zielona/ gęś: \(\frac{n}{n}\)
-b. funktor nazwotwórczy od dwóch argumentów nazwowych: most /nad/ rzeką: \(\frac{n}{nn}\)
+a. funktor nazwotwórczy od (jednego) argumentu nazwowego: /zielona/ gęś:
+   \(\frac{n}{n}\)
+b. funktor nazwotwórczy od dwóch argumentów nazwowych: most /nad/ rzeką:
+   \(\frac{n}{nn}\)
 c. funktor zdaniotwórczy od argumentu nazwowego: sędzia /śpi/: \(\frac{z}{n}\)
-d. funktor zdaniotwórczy od dwóch argumentów zdaniowych: /chociaż/ w Warszawie pada deszcz /to/ w Łodzi świeci słońce: \(\frac{z}{zz}\)
-e. funktor funktorotwórczy od argumentu funktorowego: sędzia (/n/) /głęboko/ śpi \(\frac{z}{n}\) : Czym zatem, jest słowo /głęboko/? Tym: \(\frac{\frac{z}{n}}{\frac{z}{n}}\)
+d. funktor zdaniotwórczy od dwóch argumentów zdaniowych: /chociaż/ w Warszawie
+   pada deszcz /to/ w Łodzi świeci słońce: \(\frac{z}{zz}\)
+e. funktor funktorotwórczy od argumentu funktorowego: sędzia (/n/) /głęboko/ śpi
+   \(\frac{z}{n}\) : Czym zatem, jest słowo /głęboko/? Tym:  \(\frac{\frac{z}{n}}{\frac{z}{n}}\)
 
 [2022-10-22 Sat]
 
@@ -186,7 +229,9 @@ a. Złożenie przysięgi lub ślubowania.
 b. Nakładam na Pana mandat karny w wysokości 500 zł.
 
 ****** Zadanie
-Jan wypowiedział słowa przysięgi małżeńskiej wobec Małgosi, ale nie doszło do zawarcia małżeństwa; Małgosia również wypowiedziała odpowiednie słowa, nadal nie doszło do zawarcia małżeństwa. Dlaczego? 
+Jan wypowiedział słowa przysięgi małżeńskiej wobec Małgosi, ale nie doszło do
+zawarcia małżeństwa; Małgosia również wypowiedziała odpowiednie słowa, nadal nie
+doszło do zawarcia małżeństwa. Dlaczego?
 
 * Nazwy
 
@@ -194,19 +239,23 @@ Jan wypowiedział słowa przysięgi małżeńskiej wobec Małgosi, ale nie dosz�
 
 - konkretne: sędzia, człowiek, łobuz, biały stół; feniks
 - abstrakcyjne: białość, kradzież, braterstwo
-- mogą pojawiać się wątpliwości, czy mamy do czynienia z nazwą konkretną czy abstrakcyjną:
+- mogą pojawiać się wątpliwości, czy mamy do czynienia z nazwą konkretną czy
+  abstrakcyjną:
   - W sprawie Jana Kowalskiego zapadł długo oczekiwany /wyrok/.
   - Po zamknięciu rozprawy sąd wydaje /wyrok/.
 
 ** Desygnaty nazw
 
 - Desygnatem nazwy jest przedmiot, o którym można nazwę prawdziwie orzec.
-- Wobec książki można powiedzieć /to jest książka/ i będzie to prawda; nie można jednak powiedzieć /to jest pies/. Pies nie będzie desygnatem nazwy /książka/.
+- Wobec książki można powiedzieć /to jest książka/ i będzie to prawda; nie można
+  jednak powiedzieć /to jest pies/. Pies nie będzie desygnatem nazwy /książka/.
 
 ** Nazwy indywidualne i nazwy generalne
 
-- nazwy indywidualne oznaczają poszczególne przedmioty: /miasto Poznań/; /Zofia spóźni/ się na wykład.
-- nazwy generalne oznaczają przedmioty dzielące jakieś wspólne cechy: /miasto wojewódzkie/; /Zofia/ ma imieniny 15 maja.
+- nazwy indywidualne oznaczają poszczególne przedmioty: /miasto Poznań/; /Zofia
+  spóźni/ się na wykład.
+- nazwy generalne oznaczają przedmioty dzielące jakieś wspólne cechy: /miasto
+  wojewódzkie/; /Zofia/ ma imieniny 15 maja.
 
 ** Treść nazwy
 
@@ -216,7 +265,8 @@ Cechy młotka:
 - konstytutywne
   - przypomina literę T
   - jest narzędziem składającym się z członka i obucha
-  - służy do uderzania w inne narzędzia lub wbijania gwoździ i podobnych przedmiotów
+  - służy do uderzania w inne narzędzia lub wbijania gwoździ i podobnych
+    przedmiotów
 - konsekutywne
   - jest rzeczą
   - może być metalowy lub drewniany
@@ -232,8 +282,10 @@ Cechy młotka:
 - Nazwy puste — nie ma desygnatów.
 
 ** Nazwy zbiorowe
-- Nazwy zbiorowe to nazwy agregatów przedmiotów. Nie przysługują poszczególnym przedmiotom wchodzącym w skład tego agregatu.
-- Biblioteka jest nazwą zbiorową — oznacza zbiór książek. Czy przedmiot jakim jest książka jest desygnatem nazwy /biblioteka/?
+- Nazwy zbiorowe to nazwy agregatów przedmiotów. Nie przysługują poszczególnym
+  przedmiotom wchodzącym w skład tego agregatu.
+- Biblioteka jest nazwą zbiorową — oznacza zbiór książek. Czy przedmiot jakim
+  jest książka jest desygnatem nazwy /biblioteka/?
 
 ** Ostrość nazw
 
@@ -262,15 +314,36 @@ Kot i nie-kot:
 
 Definicje (źródło: Wikipedia, hasło Nazwa):
 
-1. Nazwa P jest *zamienna* względem nazwy Q, gdy denotacje tych nazw pokrywają się, tj. gdy każdy desygnat nazwy P jest zarazem desygnatem nazwy Q, a każdy desygnat nazwy Q jest zarazem desygnatem nazwy P. Zamienne są np. nazwy "ziemniak" i kartofel".
-2. Nazwa P jest *podrzędna* względem nazwy Q wtedy, gdy denotacja nazwy P zawiera się w sposób właściwy w denotacji nazwy Q, tj. gdy wszystkie desygnaty nazwy P są zarazem desygnatami nazwy Q. Nazwa "krowa" jest podrzędna względem nazwy "zwierzę".
-3. Nazwa P jest *nadrzędna* względem nazwy Q, gdy denotacja nazwy Q zawiera się w sposób właściwy w denotacji nazwy P, tj. gdy wszystkie desygnaty nazwy Q są zarazem desygnatami nazwy P. Nazwa "rzeka" jest nadrzędna względem nazwy "rzeka, nad którą od wieków żyją krowy".
-4. Nazwa P jest przeciwna względem nazwy Q, gdy denotacja nazwy P wyklucza się z denotacją nazwy Q i zarazem suma denotacji nazw P i Q zawiera się w sposób właściwy w uniwersum przedmiotów. Nazwa "krowa" jest przeciwna względem nazwy "rzeka".
-5. Nazwa P jest niezależna względem nazwy Q, gdy denotacje nazw P i Q krzyżują się, a suma tych denotacji zawiera się w sposób właściwy w uniwersum przedmiotów. Nazwa "krowa" jest niezależna względem nazwy "czarno-białe zwierzę".
-6. Nazwa P jest sprzeczna względem nazwy Q, gdy denotacja nazwy P wyklucza się z denotacją nazwy Q i zarazem suma denotacji nazw P i Q pokrywa się z uniwersum przedmiotów. Nazwy "krowa" i "nie-krowa" są sprzeczne.
-7. Nazwa P jest podprzeciwna względem nazwy Q, gdy denotacje nazw P i Q krzyżują się, a suma tych denotacji pokrywa się z uniwersum przedmiotów. Nazwy "nie-krowa" i "zwierzę" są podprzeciwne.
+1. Nazwa P jest *zamienna* względem nazwy Q, gdy denotacje tych nazw pokrywają
+   się, tj. gdy każdy desygnat nazwy P jest zarazem desygnatem nazwy Q, a każdy
+   desygnat nazwy Q jest zarazem desygnatem nazwy P. Zamienne są np. nazwy
+   "ziemniak" i kartofel".
+2. Nazwa P jest *podrzędna* względem nazwy Q wtedy, gdy denotacja nazwy P
+   zawiera się w sposób właściwy w denotacji nazwy Q, tj. gdy wszystkie
+   desygnaty nazwy P są zarazem desygnatami nazwy Q. Nazwa "krowa" jest
+   podrzędna względem nazwy "zwierzę".
+3. Nazwa P jest *nadrzędna* względem nazwy Q, gdy denotacja nazwy Q zawiera się
+   w sposób właściwy w denotacji nazwy P, tj. gdy wszystkie desygnaty nazwy Q są
+   zarazem desygnatami nazwy P. Nazwa "rzeka" jest nadrzędna względem nazwy
+   "rzeka, nad którą od wieków żyją krowy".
+4. Nazwa P jest przeciwna względem nazwy Q, gdy denotacja nazwy P wyklucza się z
+   denotacją nazwy Q i zarazem suma denotacji nazw P i Q zawiera się w sposób
+   właściwy w uniwersum przedmiotów. Nazwa "krowa" jest przeciwna względem nazwy
+   "rzeka".
+5. Nazwa P jest niezależna względem nazwy Q, gdy denotacje nazw P i Q krzyżują
+   się, a suma tych denotacji zawiera się w sposób właściwy w uniwersum
+   przedmiotów. Nazwa "krowa" jest niezależna względem nazwy "czarno-białe
+   zwierzę".
+6. Nazwa P jest sprzeczna względem nazwy Q, gdy denotacja nazwy P wyklucza się z
+   denotacją nazwy Q i zarazem suma denotacji nazw P i Q pokrywa się z uniwersum
+   przedmiotów. Nazwy "krowa" i "nie-krowa" są sprzeczne.
+7. Nazwa P jest podprzeciwna względem nazwy Q, gdy denotacje nazw P i Q krzyżują
+   się, a suma tych denotacji pokrywa się z uniwersum przedmiotów. Nazwy
+   "nie-krowa" i "zwierzę" są podprzeciwne.
 
-Diagram (źródło: Nazwa [online]. Wikipedia : wolna encyklopedia, 2020-04-14 02:21Z [dostęp: 2020-10-30 13:36Z]. Dostępny w Internecie: //pl.wikipedia.org/w/index.php?title=Nazwa&oldid=59402236):
+Diagram (źródło: Nazwa [online]. Wikipedia : wolna encyklopedia, 2020-04-14
+02:21Z [dostęp: 2020-10-30 13:36Z]. Dostępny w Internecie:
+//pl.wikipedia.org/w/index.php?title=Nazwa&oldid=59402236):
 
 [[./relacje-nazw-wiki.jpg]]
 
@@ -278,33 +351,57 @@ Algorytm tworzenia par nazw podprzeciwnych: przeciwieństwo nazwy podrzędnej i�
 
 * Worki ze złotymi monetami :zagadka:
 
-Jest 100 worków z monetami. W 99 z nich są monety ze złota, ważące 20 g. W jednym z nich są monety fałszywe, ważące 19 gramów. W każdym z worków, jest nieco inna liczba monet. Monety złote i monety fałszywe nie różnią się niczym oprócz wagi. Dysponujesz wagą elektroniczną (nieskończenie dokładną), której możesz użyć tylko raz. Znajdź worek z fałszywkami.
+Jest 100 worków z monetami. W 99 z nich są monety ze złota, ważące 20 g.
+W jednym z nich są monety fałszywe, ważące 19 gramów. W każdym z worków, jest
+nieco inna liczba monet. Monety złote i monety fałszywe nie różnią się niczym
+oprócz wagi. Dysponujesz wagą elektroniczną (nieskończenie dokładną), której
+możesz użyć tylko raz. Znajdź worek z fałszywkami.
 
 * Definicje
 
-Definicja realna: wypowiedź w języku pierwszego stopnia, która charakteryzuje przedmiot i tylko ten przedmiot.
+Definicja realna: wypowiedź w języku pierwszego stopnia, która charakteryzuje
+przedmiot i tylko ten przedmiot.
 
-Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje o znaczeniu definiowanego słowa: /Wyraz kwadrat oznacza prostokąt, który ma wszystkie boki równe./
+Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje
+o znaczeniu definiowanego słowa: /Wyraz kwadrat oznacza prostokąt, który ma
+wszystkie boki równe./
 
 ** Przykłady definicji (podawane przez studentów)
 
 1. Odcinek to jest fragment prostej, który ma początek i koniec.
 2. Bursztyn to jest skamieniała żywica.
 3. Wiatr to poziomy ruch powietrza z wyżu do niżu.
-4. Oszustwo to jest wprowadzenie innej osoby w błąd albo wyzyskanie błędu lub niezdolności do należytego pojmowania przedsiębranego działania w celu osiągnięcia korzyści majątkowej.
+4. Oszustwo to jest wprowadzenie innej osoby w błąd albo wyzyskanie błędu lub
+   niezdolności do należytego pojmowania przedsiębranego działania w celu
+   osiągnięcia korzyści majątkowej.
 
 ** Zadania definicji
 
-- Definicja sprawozdawcza: składa sprawozdanie z tego, jak pewna grupa ludzi posługuje się wyrazem lub wyrażeniem: /W języku polskim drugiej połowy XX-wieku wyraz księgarnia oznacza sklep, w którym sprzedaje się książki. W języku myśliwych wyraz farba oznacza krew zwierzęcia. W języku polskim wyraz czapka oznacza część garderoby noszoną na stopie./
-- Definicja projektująca: ustala znaczenie jakiegoś wyrazu na przyszłość. Np.: /Dokumentem jest nośnik informacji umożliwiający zapoznanie się z jej treścią./ (art. 77^3 k.c.).
-  - Definicja projektująca może być konstrukcyjna (/Ilekroć w ustawie jest mowa o przeciętnym konsumencie - rozumie się przez to konsumenta, który jest dostatecznie dobrze poinformowany, uważny i ostrożny/) albo
-  - regulująca (/Stan nietrzeźwości w rozumieniu tego kodeksu zachodzi, gdy: 1) zawartość alkoholu we krwi przekracza 0,5 promila albo prowadzi do stężenia przekraczającego tę wartość lub 2) zawartość alkoholu w 1 dm^3 wydychanego powietrza przekracza 0,25 mg albo prowadzi do stężenia przekraczającego tę wartość./).
+- Definicja sprawozdawcza: składa sprawozdanie z tego, jak pewna grupa ludzi
+  posługuje się wyrazem lub wyrażeniem: /W języku polskim drugiej połowy
+  XX-wieku wyraz księgarnia oznacza sklep, w którym sprzedaje się książki.
+  W języku myśliwych wyraz farba oznacza krew zwierzęcia. W języku polskim wyraz
+  czapka oznacza część garderoby noszoną na stopie./
+- Definicja projektująca: ustala znaczenie jakiegoś wyrazu na przyszłość. Np.:
+  /Dokumentem jest nośnik informacji umożliwiający zapoznanie się z jej
+  treścią./ (art. 77^3 k.c.).
+  - Definicja projektująca może być konstrukcyjna (/Ilekroć w ustawie jest mowa
+    o przeciętnym konsumencie - rozumie się przez to konsumenta, który jest
+    dostatecznie dobrze poinformowany, uważny i ostrożny/) albo
+  - regulująca (/Stan nietrzeźwości w rozumieniu tego kodeksu zachodzi, gdy: 1)
+    zawartość alkoholu we krwi przekracza 0,5 promila albo prowadzi do stężenia
+    przekraczającego tę wartość lub 2) zawartość alkoholu w 1 dm^3 wydychanego
+    powietrza przekracza 0,25 mg albo prowadzi do stężenia przekraczającego tę
+    wartość./).
 
 ** Budowa definicji
 
-- Definicja równościowa: /definiendum + zwrot łączący + definiens/: Bursztyn to kopalna żywica drzew iglastych.
-  + Definitio per genus et differentiam specificam (definicja klasyczna): A to takie B, które ma cechę C.
-- Definicje nierównościowe. Np. występujące w geometrii (definicja przez postulaty).
+- Definicja równościowa: /definiendum + zwrot łączący + definiens/: Bursztyn to
+  kopalna żywica drzew iglastych.
+  + Definitio per genus et differentiam specificam (definicja klasyczna): A to
+    takie B, które ma cechę C.
+- Definicje nierównościowe. Np. występujące w geometrii (definicja przez
+  postulaty).
 
 #+BEGIN_SRC plantuml
 
@@ -324,12 +421,16 @@ Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje o�
 Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 
 - Art.  10. §  1. Pełnoletnim jest, kto ukończył lat osiemnaście.
-- Art. 627. Przez umowę o dzieło przyjmujący zamówienie zobowiązuje się do wykonania oznaczonego dzieła, a zamawiający do zapłaty wynagrodzenia.
+- Art. 627. Przez umowę o dzieło przyjmujący zamówienie zobowiązuje się do
+  wykonania oznaczonego dzieła, a zamawiający do zapłaty wynagrodzenia.
 
 ** Poprawność definicji
 
-- nieprzystosowanie definicji do słownika osoby będącej adresatem definicji (ignotum per ignotum): /Krącitka/ to jest taka /frutka/, która ma /piląga/.
-- definiens zawiera definiendum (idem per idem). /Polak, to jest taki człowiek, który jest narodowości polskiej./ Błędne koło pośrednie: /Logika to nauka o logicznym myśleniu. Logiczny to taki, który jest zgodny z nauką logiki./
+- nieprzystosowanie definicji do słownika osoby będącej adresatem definicji
+  (ignotum per ignotum): /Krącitka/ to jest taka /frutka/, która ma /piląga/.
+- definiens zawiera definiendum (idem per idem). /Polak, to jest taki człowiek,
+  który jest narodowości polskiej./ Błędne koło pośrednie: /Logika to nauka
+  o logicznym myśleniu. Logiczny to taki, który jest zgodny z nauką logiki./
 - definicja zbyt szeroka: Człowiek to ssak dwunożny.
 - definicja zbyt wąska: Człowiek to ssak posługujący się mową i pismem.
 
@@ -340,14 +441,18 @@ Całość dzielona (/totium divisionis/) i człony podziału (/membra divisioni
 
 Polskie miasta:
 
-- duże, małe i średnie; (komentarz: powinniśmy mieć kryteria zaliczenia miasta jako dużego, średniego lub małego; kryteria muszą być dobrze dobrane)
+- duże, małe i średnie; (komentarz: powinniśmy mieć kryteria zaliczenia miasta
+  jako dużego, średniego lub małego; kryteria muszą być dobrze dobrane)
 - stare i nowe; (podobnie jak powyżej)
 - dwuwyrazowe i jednowyrazowe; (a co z Nowym Dworem Mazowieckim?)
 - w górach, nad morzem, na równinach i na wyżynach; (a co z innymi terenami?)
-- zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki podział jest poprawny; inna sprawa, że niezbyt przydatny) 
+- zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki
+  podział jest poprawny; inna sprawa, że niezbyt przydatny)
 
 ** Poprawność podziału
-Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być zaliczony jakiegoś z członów podziału.
+Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być
+zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być
+zaliczony jakiegoś z członów podziału.
 
 Podział dychotomiczny - podział według cech kontradyktorycznych:
 
@@ -357,9 +462,10 @@ Podział dychotomiczny - podział według cech kontradyktorycznych:
 Niepoprawne podziały:
 
 - oparte na niejednoznacznych kryteriach
-- według przedziałów liczbowych, których granice się powtarzają: polskie rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7 osób, rodziny 7 osobowe i większe.
+- według przedziałów liczbowych, których granice się powtarzają: polskie
+  rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7
+  osób, rodziny 7 osobowe i większe.
 
-  
 ** Klasyfikacja
 
 #+begin_src plantuml
@@ -383,25 +489,37 @@ Niepoprawne podziały:
 
 Wyodrębnianie przedmiotów o interesujących nas cechach.
 
+#+begin_src plantuml
+@startwbs
++ Pies
+++ Wyżeł
+++ Spaniel
+@endwbs
+#+end_src
+
+#+RESULTS:
+[[file:/tmp/babel-wEMl2t/plantuml-AaEhBo.png]]
+
 * Zdanie
 
-- Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności wypowiedzi.
-- Przykłady wyrażeń niebędących zdaniami w sensie logicznym, ale będących zdaniami w sensie gramatycznym: /Zapal światło. W razie niebezpieczeństwa zbij szybę./
+- Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności
+  wypowiedzi.
+- Przykłady wyrażeń niebędących zdaniami w sensie logicznym, ale będących
+  zdaniami w sensie gramatycznym: /Zapal światło. W razie niebezpieczeństwa zbij
+  szybę./
 - Zdarzenia i stany rzeczy.
-  - Zdarzenie: rzecz lub osoba wykazywała w danym momencie własność X a w innym momencie jej nie wykazywała.
-  - Stan rzeczy: rzecz lub osoba wykazywała od momentu A do momentu B jakąś własność.
-- Zdanie prawdziwe - opisuje rzeczywistość tak, jak się ona ma. Nie można wolą, teorią ani poglądem zmienić wartości prawdziwościowej zdania.
+  - Zdarzenie: rzecz lub osoba wykazywała w danym momencie własność X a w innym
+    momencie jej nie wykazywała.
+  - Stan rzeczy: rzecz lub osoba wykazywała od momentu A do momentu B jakąś
+    własność.
+- Zdanie prawdziwe - opisuje rzeczywistość tak, jak się ona ma. Nie można wolą,
+  teorią ani poglądem zmienić wartości prawdziwościowej zdania.
 - Prawdziwość wynikająca z sensu użytych w nich słów; zdanie analityczne.
 - Fałszywość wynikająca z sensu słów; zdanie wewnętrznie kontradyktoryczne.
-- Zdania syntetyczne - nie da się poznać ich wartości logicznej za pomocą sensu zawartych w nich słów.
+- Zdania syntetyczne - nie da się poznać ich wartości logicznej za pomocą sensu
+  zawartych w nich słów.
 
 * Funktory prawdziwościowe
-** Podstawowe zasady myślenia
-
-- /T1: \sim (p \cdot \sim{}p)/ : zasada sprzeczności
-- /T2: p \vee \sim(p)/ : zasada wyłączonego środka
-- /T3: p \equiv \sim ( \sim p )/ : zasada podwójnego zaprzeczenia
-
 ** Wartości logiczne funktorów prawdziwościowych
 
 | p | q | \sim{}p | p \vee q | p \cdot q | p \sup q | p \perp q | p \equiv q | p \downarrow q |
@@ -474,28 +592,37 @@ Ani nie pada deszcz ani nie pochodzę z Marsa.
               1         0                   1
 #+END_VERSE
 
-** Definicja implikacji przy pomocy koniunkcji i negacji
+** Podstawowe zasady myślenia
 
-p \sup q \equiv \sim ( p \cdot \sim q )
+- /T1: \sim (p \cdot \sim{}p)/ : zasada sprzeczności
+- /T2: p \vee \sim(p)/ : zasada wyłączonego środka
+- /T3: p \equiv \sim ( \sim p )/ : zasada podwójnego zaprzeczenia
 
 ** Definicja implikacji przy pomocy alternatywy i negacji
-
 p \sup q \equiv (\sim p) \vee q
 
-** Przykłady
+** Definicja implikacji przy pomocy koniunkcji i negacji
+p \sup q \equiv \sim ( p \cdot \sim q )
 
- - Jeżeli Ateny są stolicą Polski to Uniwersytet Łódzki ma siedzibę w Berlinie: 1
+** Przykłady
+ - Jeżeli Ateny są stolicą Polski to Uniwersytet Łódzki ma siedzibę w Berlinie:
+   1
  - Jeżeli Ateny są stolicą Polski to Robert Lewandowski jest piłkarzem: 1
  - Jeżeli Ateny są stolicą Polski to mam w kieszeni chusteczkę: 1
  - Jeżeli Warszawa jest stolicą Polski to Księżyc jest zrobiony z sera: 0
- - Jeżeli Warszawa jest stolicą Polski to Albert Einstein opracował teorię względności: 1
- - Nieprawda że ( Warszawa jest stolicą Polski i nieprawda Einstein opracował teorię względności): 1
- - (Nieprawda że, Warszawa jest stolicą Polski) lub Einstein opracował teorię względności: 1
+ - Jeżeli Warszawa jest stolicą Polski to Albert Einstein opracował teorię
+   względności: 1
+ - Nieprawda że ( Warszawa jest stolicą Polski i nieprawda Einstein opracował
+   teorię względności): 1
+ - (Nieprawda że, Warszawa jest stolicą Polski) lub Einstein opracował teorię
+   względności: 1
  - Ani Ateny są stolicą Polski ani UŁ ma siedzibę w Berlinie: 1
 
 ** Bezprawne samouwolnienie
-
-Art.  242. §  1.  Kto uwalnia się sam, będąc pozbawionym wolności na podstawie orzeczenia sądu lub prawnego nakazu wydanego przez inny organ państwowy, podlega grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2. […] §  4.  Jeżeli sprawca czynu określonego w § 1
+Art. 242. § 1. Kto uwalnia się sam, będąc pozbawionym wolności na podstawie
+orzeczenia sądu lub prawnego nakazu wydanego przez inny organ państwowy, podlega
+grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2. […]
+§ 4. Jeżeli sprawca czynu określonego w § 1
 
 - działa w porozumieniu z innymi osobami,
 - używa przemocy lub
