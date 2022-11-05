@@ -195,7 +195,6 @@ b) świeci \(\frac{z}{n}\)
 c) słońce. \(\type{n}\)
 
 **** Role semiotyczne wypowiedzi
-
 ***** Rola opisowa
 
 Wypowiedź opisuje rzeczywistość.
@@ -234,7 +233,6 @@ zawarcia małżeństwa; Małgosia również wypowiedziała odpowiednie słowa, n
 doszło do zawarcia małżeństwa. Dlaczego?
 
 * Nazwy
-
 ** Nazwy konkretne i nazwy abstrakcyjne
 
 - konkretne: sędzia, człowiek, łobuz, biały stół; feniks
@@ -245,13 +243,11 @@ doszło do zawarcia małżeństwa. Dlaczego?
   - Po zamknięciu rozprawy sąd wydaje /wyrok/.
 
 ** Desygnaty nazw
-
 - Desygnatem nazwy jest przedmiot, o którym można nazwę prawdziwie orzec.
 - Wobec książki można powiedzieć /to jest książka/ i będzie to prawda; nie można
   jednak powiedzieć /to jest pies/. Pies nie będzie desygnatem nazwy /książka/.
 
 ** Nazwy indywidualne i nazwy generalne
-
 - nazwy indywidualne oznaczają poszczególne przedmioty: /miasto Poznań/; /Zofia
   spóźni/ się na wykład.
 - nazwy generalne oznaczają przedmioty dzielące jakieś wspólne cechy: /miasto
