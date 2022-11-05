@@ -349,14 +349,6 @@ Diagram (źródło: Nazwa [online]. Wikipedia : wolna encyklopedia, 2020-04-14
 
 Algorytm tworzenia par nazw podprzeciwnych: przeciwieństwo nazwy podrzędnej i nazwa nadrzędna.
 
-* Worki ze złotymi monetami :zagadka:
-
-Jest 100 worków z monetami. W 99 z nich są monety ze złota, ważące 20 g.
-W jednym z nich są monety fałszywe, ważące 19 gramów. W każdym z worków, jest
-nieco inna liczba monet. Monety złote i monety fałszywe nie różnią się niczym
-oprócz wagi. Dysponujesz wagą elektroniczną (nieskończenie dokładną), której
-możesz użyć tylko raz. Znajdź worek z fałszywkami.
-
 * Definicje
 
 Definicja realna: wypowiedź w języku pierwszego stopnia, która charakteryzuje
