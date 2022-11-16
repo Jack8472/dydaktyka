@@ -329,7 +329,7 @@ Rozdział V
 # zaczynamy: funkcje zdaniowe i struktura zdania; potem funktory prawdziwościowe
 
 ** Do przeczytania
-rozdział VI (§1-§5)
+rozdział VI (§1-§4)
 
 * Zajęcia 6
 ** Funktory prawdziwościowe
