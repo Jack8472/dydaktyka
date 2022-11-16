@@ -345,6 +345,10 @@ Diagram (źródło: Nazwa [online]. Wikipedia : wolna encyklopedia, 2020-04-14
 
 Algorytm tworzenia par nazw podprzeciwnych: przeciwieństwo nazwy podrzędnej i nazwa nadrzędna.
 
+[2022-11-05 Sat]
+** TODO nie-krowa i nie-koń
+SCHEDULED: <2022-11-19 Sat>
+
 * Definicje
 
 Definicja realna: wypowiedź w języku pierwszego stopnia, która charakteryzuje
