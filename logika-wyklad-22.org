@@ -346,8 +346,8 @@ Diagram (źródło: Nazwa [online]. Wikipedia : wolna encyklopedia, 2020-04-14
 Algorytm tworzenia par nazw podprzeciwnych: przeciwieństwo nazwy podrzędnej i nazwa nadrzędna.
 
 [2022-11-05 Sat]
-** TODO nie-krowa i nie-koń
-SCHEDULED: <2022-11-19 Sat>
+** DONE nie-krowa i nie-koń (a zwierzę?)
+CLOSED: [2022-11-20 Sun 08:44] SCHEDULED: <2022-11-19 Sat>
 
 * Definicje
 
@@ -475,22 +475,10 @@ Niepoprawne podziały:
 #+end_src
 
 #+RESULTS:
-[[file:/tmp/babel-wEMl2t/plantuml-6S9aMc.png]]
+[[file:/tmp/babel-Ler0JD/plantuml-aO4CDJ.png]]
 
 ** Wyróżnianie typów
-
-Wyodrębnianie przedmiotów o interesujących nas cechach.
-
-#+begin_src plantuml
-@startwbs
-+ Pies
-++ Wyżeł
-++ Spaniel
-@endwbs
-#+end_src
-
-#+RESULTS:
-[[file:/tmp/babel-wEMl2t/plantuml-AaEhBo.png]]
+Wyodrębnianie przedmiotów o interesujących nas cechach. Przykładowo z nazwy =pies= wyróżniamy typy takie jak =wyżeł= i =spaniel=.
 
 * Zdanie
 
@@ -622,22 +610,13 @@ grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2. […
 - *albo* uszkadza miejsce zamknięcia,
 
   podlega karze pozbawienia wolności do lat 3.
+  
+[2022-11-19 Sat]
 
+** Tautologia, kontrtautologia
+SCHEDULED: <2022-12-03 Sat>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# ** Turing Complete
 
 # * Relacje (stosunki) pomiędzy przedmiotami
 
@@ -717,7 +696,7 @@ grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2. […
 # - Przykład normy generalnej i abstrakcyjnej: Kto zabija człowieka, podlega karze pozbawienia wolności na czas nie krótszy od lat 8, karze 25 lat pozbawienia wolności albo karze dożywotniego pozbawienia wolności - Każdemu i w każdych okolicznościach zakazuje się zabić człowieka.
 # - Przykład normy konkretnej i indywidualnej: Sąd Okręgowy w Warszawie … zasądza od Jana Kowalskiego kwotę 1000 zł na rzecz Adama Malinowskiego z odsetkami ustawowymi za opóźnienie…
 # - Przykład normy generalnej i konkretnej: Kto z uczestników wycieczki wróci dziś pierwszy do schroniska powinien rozpalić ogień.
-# - Przykład normy indywidualnej i abstrakcyjnej: Szeregowy Kowalski, gdy dostrzeżecie niebezpieczeństwo macie wszcząć alarm.<2021-12-04 sob> 
+# - Przykład normy indywidualnej i abstrakcyjnej: Szeregowy Kowalski, gdy dostrzeżecie niebezpieczeństwo macie wszcząć alarm.
 # - Podporządkowanie normie.
 
 # - Obowiązywanie normy.
@@ -762,8 +741,6 @@ grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2. […
 # Milczenie norm a zachowanie człowieka.
 
 # Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane. 
-
-# <2021-12-11 sob>
 
 # * Pytania i odpowiedzi
 
@@ -832,8 +809,6 @@ grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2. […
 #   + [(p \sup q) \cdot \sim q] \sup \sim p (modus tollendo tollens): /Jeżeli [(Jeżeli woda wrze to jest gorąca) i nieprawda, że woda jest gorąca] to nieprawda, że woda wrze./
 #   + [(p \vee q) \cdot \sim p] \sup q (modus tollendo ponens): /Jeżeli [(Wicked jest psem lub Wicked jest kotem) i nieprawda, że Wicked jest kotem] to Wicked jest psem./
 
-# #    <2021-12-19 nie> 
-    
 # # - sylogistyka Arystotelesa
 # #   + zdania w postaci:
 # #   + zd. ogólno-twierdzące:     SaP - /każde S jest P/
@@ -894,7 +869,7 @@ grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2. […
 # #   - S_4 jest P,
 # #   - S_n jest P,
 # #   - Każde S jest P.
-# #   - S_n - dzień, P dzień mający cechę X (np. dzień w którym człowiek służy indykowi)<2022-01-08 sob> 
+# #   - S_n - dzień, P dzień mający cechę X (np. dzień w którym człowiek służy indykowi)
 # # - Indukcja zupełna i niezupełna.
 # # - Indukcja eliminacyjna:
 # #   a. kanon jednej zgodności: O_1: A, B, C, Z; O_2: C, D, E, Z; O_3: C, F, G, Z.
@@ -948,7 +923,7 @@ grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2. […
 # # - myślenie spontaniczne, a myślenie kierowane z góry postanowionymi zadaniami
 # # - zadania:
 # #   + zadania rozstrzygnięcia: „czy prawdą jest, że p”?
-# #   + zadania wyjaśnienia: „dlaczego prawdą jest, że p”?<2022-01-15 sob> 
+# #   + zadania wyjaśnienia: „dlaczego prawdą jest, że p”?
 # # - dowodzenie
 # #   + dowodzenie a wiadomości o świecie
 # #   + dowodzenie wprost: wiadomo, że jeśli p to q; wiadomo, że p, a więc udowodnione jest, że q

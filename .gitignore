@@ -2,3 +2,9 @@
 /*.jpeg
 /*.jpg
 /*.html
+/*.fls
+/*.log
+/*.out
+/*.aux
+/*.toc
+/*.fdb_latexmk
