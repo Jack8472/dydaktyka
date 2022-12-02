@@ -10,12 +10,12 @@
 2) dyżur
 3) podręczniki
    a) Literatura obowiązkowa:
-      - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
+   - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
    b) Literatura uzupełniająca:
-      - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010, https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
-      - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt. 1-2.
-      - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
-      - A. Malinowski, S. Lewandowski, H. Machińska, J. Petzel, /Logika dla Prawników/, Warszawa 2009.
+   - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010, https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
+   - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt. 1-2.
+   - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
+   - A. Malinowski, S. Lewandowski, H. Machińska, J. Petzel, /Logika dla Prawników/, Warszawa 2009.
 
 *** Przerwy
 5-10 minut - na wniosek grupy
@@ -55,26 +55,26 @@ c. Rdza niszczy metal. Rdza podziwia metal.
 
 Ale już nie: /zielona/ gęś \rarr  /nad/ gęś
 
-**** Zadanie — określ kategorie syntaktyczne w zdaniu
-***** Przykład 1
+*** Zadanie — określ kategorie syntaktyczne w zdaniu
+**** Przykład 1
 a) Sędzia \(\type{n}\)
 b) przesłuchuje \(\frac{z}{nn}\)
 c) świadka. \(\type{n}\)
 
-***** Przykład 2
+**** Przykład 2
 a) Nieprawda, że \(\frac{z}{z}\)
 b) świeci \(\frac{z}{n}\)
 c) słońce. \(\type{n}\)
 
 ** Role semiotyczne wypowiedzi
-**** Rola opisowa
+*** Rola opisowa
 
 Wypowiedź opisuje rzeczywistość.
 
 a. Świeci słońce.
 b. W lipcu w Polsce jest zima.
 
-**** Rola ekspresywna
+*** Rola ekspresywna
 
 Komunikuje przeżycia, przemyślenia, stan wewnętrzny.
 
@@ -82,7 +82,7 @@ a. Moja poranna kawa była ekstatycznie smaczna!
 b. Ach, świeci słońce!
 c. Ten obraz jest przepiękny.
 
-**** Rola sugestywna
+*** Rola sugestywna
 
 Ma wywołać w odbiorcy komunikatu jakieś zachowanie.
 
@@ -92,7 +92,7 @@ c. Ta dziewczyna puściła do Ciebie oczko.
 d. Kto przekracza dozwoloną prędkość podlega karze…
 e. Palenie zabija!
 
-**** Rola performatywna
+*** Rola performatywna
 
 Wypowiedź wywołuje skutki konwencjonalne.
 
@@ -223,7 +223,7 @@ Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje o�
   + Definitio per genus et differentiam specificam (definicja klasyczna): A to takie B, które ma cechę C.
 - Definicje nierównościowe. Np. występujące w geometrii (definicja przez postulaty).
 
-#+BEGIN_SRC plantuml
+#+BEGIN_SRC plantuml :file definicje.png
 
 @startwbs
 + Definicje
@@ -236,7 +236,7 @@ Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje o�
 #+END_SRC
 
 #+RESULTS:
-[[file:/tmp/babel-zu1Sgv/plantuml-ApeXyR.png]]
+[[file:definicje.png]]
 
 Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 
@@ -284,7 +284,7 @@ Niepoprawne podziały:
   
 *** Klasyfikacja
 
-#+begin_src plantuml
+#+begin_src plantuml :file klasyfikacja.png
 
 @startwbs
 + Zdarzenia prawne
@@ -299,7 +299,7 @@ Niepoprawne podziały:
 #+end_src
 
 #+RESULTS:
-[[file:/tmp/babel-8wASw9/plantuml-KNjJXI.png]]
+[[file:klasyfikacja.png]]
 
 *** Wyróżnianie typów
 
@@ -509,6 +509,10 @@ Przykładowy zapis:
 ** Wypowiedzi oceniające i normy
 
 - Wypowiedź oceniająca.
+  - Rodzaje ocen
+    - ocena estetyczna
+    - ocena hedonistyczna
+    - ocena moralna
 - Preferencje.
 - Globalne oceny stanu rzeczy.
 
@@ -517,13 +521,14 @@ Przykładowy zapis:
 - Wypowiedź dyrektywalna.
 - Pojęcie postępowania.
 - Zakaz, nakaz: zakaz czynienia X to nakaz nieczynienia X; nakaz czynienia X to zakaz nieczynienia X.
+  - N X \equiv Z \sim{}X
 - Normy mogą być:
   1) a) generalne, b) indywidualne;
   2) a) abstrakcyjne, b) konkretne.
 - Przykład normy generalnej i abstrakcyjnej: Kto zabija człowieka, podlega karze pozbawienia wolności na czas nie krótszy od lat 8, karze 25 lat pozbawienia wolności albo karze dożywotniego pozbawienia wolności - Każdemu i w każdych okolicznościach zakazuje się zabić człowieka.
 - Przykład normy konkretnej i indywidualnej: Sąd Okręgowy w Warszawie … zasądza od Jana Kowalskiego kwotę 1000 zł na rzecz Adama Malinowskiego z odsetkami ustawowymi za opóźnienie…
 - Przykład normy generalnej i konkretnej: Kto z uczestników wycieczki wróci dziś pierwszy do schroniska powinien rozpalić ogień.
-- Przykład normy indywidualnej i abstrakcyjnej: Szeregowy Kowalski, gdy dostrzeżecie niebezpieczeństwo macie wszcząć alarm.<2021-12-04 sob> 
+- Przykład normy indywidualnej i abstrakcyjnej: Szeregowy Kowalski, gdy dostrzeżecie niebezpieczeństwo macie wszcząć alarm.
 - Podporządkowanie normie.
 
 - Obowiązywanie normy.

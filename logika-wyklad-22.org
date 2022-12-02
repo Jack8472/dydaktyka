@@ -359,7 +359,6 @@ o znaczeniu definiowanego słowa: /Wyraz kwadrat oznacza prostokąt, który ma
 wszystkie boki równe./
 
 ** Przykłady definicji (podawane przez studentów)
-
 1. Odcinek to jest fragment prostej, który ma początek i koniec.
 2. Bursztyn to jest skamieniała żywica.
 3. Wiatr to poziomy ruch powietrza z wyżu do niżu.
@@ -440,7 +439,7 @@ Polskie miasta:
 - w górach, nad morzem, na równinach i na wyżynach; (a co z innymi terenami?)
 - zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki
   podział jest poprawny; inna sprawa, że niezbyt przydatny)
-
+  
 ** Poprawność podziału
 Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być
 zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być
@@ -616,134 +615,131 @@ grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2. […
 ** Tautologia, kontrtautologia
 SCHEDULED: <2022-12-03 Sat>
 
-# ** Turing Complete
+** Turing Complete
+* Relacje (stosunki) pomiędzy przedmiotami
+** Wstęp
 
-# * Relacje (stosunki) pomiędzy przedmiotami
+/xRy/
 
-# ** Wstęp
+x R_1 y - Adam jest wyższy od Piotra
 
-# /xRy/
+y R_2 x - Piotr jest niższy od Adama
 
-# x R_1 y - Adam jest wyższy od Piotra
+x = y, y = z
 
-# y R_2 x - Piotr jest niższy od Adama
+kiwi kiwi kiwi
 
-# x = y, y = z
+x R y
 
-# kiwi kiwi kiwi
+** Relacje symetryczne, asymetryczne i nonsymetryczne
 
-# x R y
+Jan jest małżonkiem Zofii.
 
-# ** Relacje symetryczne, asymetryczne i nonsymetryczne
+Jan jest starszy od Zofii. x jest mniejszy od y, x jest większy od y, x jest brzydszy od y, x jest grubszy od y.
 
-# Jan jest małżonkiem Zofii.
+Jan kocha Zofię. x jest bratem y, x patrzy na y, x mówi do y.
 
-# Jan jest starszy od Zofii. x jest mniejszy od y, x jest większy od y, x jest brzydszy od y, x jest grubszy od y.
+** Stosunek przechodni (tranzytywny), atranzytywny, nontranzytywny
 
-# Jan kocha Zofię. x jest bratem y, x patrzy na y, x mówi do y.
+- Stosunek tranzytywny: jeśli xRy i yRz to xRz.
+- Stosunek atranzytywny: jeśli xRy i yRz to \sim xRz.
+- Stosunek nontranzytywny: jeśli xRy i yRz to xRz \perp (\sim xRz).
 
-# ** Stosunek przechodni (tranzytywny), atranzytywny, nontranzytywny
-
-# - Stosunek tranzytywny: jeśli xRy i yRz to xRz.
-# - Stosunek atranzytywny: jeśli xRy i yRz to \sim xRz.
-# - Stosunek nontranzytywny: jeśli xRy i yRz to xRz \perp (\sim xRz).
-
-# - zawiera - jest tranzytywny
-# - jest częścią - relacja tranzytywna
-# - jest matką - relacja atranzytywna: x jest matką y, y jest matką z \sup x nie jest matką z
-# - samodzielnie wychowywać - relacja atranzytywna
-# - jest krewnym - relacja nontranzytywna
-# - jest szefem - relacja nontranzytywna
-# - jest pracownikiem tej samej firmy - relacja nontranzytywna
-# - lubi - relacja nontranzytywna
-# - jest przyjacielem - relacja nontranzytywna
+- zawiera - jest tranzytywny
+- jest częścią - relacja tranzytywna
+- jest matką - relacja atranzytywna: x jest matką y, y jest matką z \sup x nie jest matką z
+- samodzielnie wychowywać - relacja atranzytywna
+- jest krewnym - relacja nontranzytywna
+- jest szefem - relacja nontranzytywna
+- jest pracownikiem tej samej firmy - relacja nontranzytywna
+- lubi - relacja nontranzytywna
+- jest przyjacielem - relacja nontranzytywna
   
-# ** Stosunek spójny, porządkujący, równościowy i zwrotne
+** Stosunek spójny, porządkujący, równościowy i zwrotne
 
-# Przykładowy zapis:
+Przykładowy zapis:
 
-#   - { 4, 1, 2, 3 }; R: <
+  - { 4, 1, 2, 3 }; R: <
 
-#   - *Stosunek spójny* zachodzi w jednym lub drugim kierunku w danej klasie przedmiotów między każdym i dowolnie wybranym przedmiotem.
-#     - {1, 1, 1, 1}, R: =
-#     - {1, 2, 3, 1}, R: =<
-#     - {1, 2, 3, 4}, R: <
-#   - *Stosunek porządkujący* pozwala ustawić przedmioty w szeregu: asymetryczny, przechodni i spójny.
-#     - { 4, 1, 2, 3 }, R: <
-#     - { Adam lat 10, Weronika lat 12, Bronisław lat 64, Kunegunda lat 102 }, R: jest starszy(a) 
-#   - *Stosunek zwrotny* zachodzi pomiędzy każdym elementem w danej klasie przedmiotów a nim samym:
-#     - { 4 , 5 , 9, 23 }, R: jest równe
-#   - *Stosunek równościowy*: symetryczny, przechodni i zwrotny:
-#     + { 4, 4, 4 } R: /jest równe/
-#     + { Wojtek blondyn, Kasia blondynka, Alicja blondynka, Cezary blondyn }, R: /ma taki sam kolor włosów jak/
-#     + { Skoda Octavia 1.9TDI, Audi A3 2.0TDI, BMW 330d }, R: /jest na takie samo paliwo jak/
-#     + { Adam, Franciszek, Bartek }^1 R: /być bratem/ (1 - panowie są braćmi)
+  - *Stosunek spójny* zachodzi w jednym lub drugim kierunku w danej klasie przedmiotów między każdym i dowolnie wybranym przedmiotem.
+    - {1, 1, 1, 1}, R: =
+    - {1, 2, 3, 1}, R: =<
+    - {1, 2, 3, 4}, R: <
+  - *Stosunek porządkujący* pozwala ustawić przedmioty w szeregu: asymetryczny, przechodni i spójny.
+    - { 4, 1, 2, 3 }, R: <
+    - { Adam lat 10, Weronika lat 12, Bronisław lat 64, Kunegunda lat 102 }, R: jest starszy(a) 
+  - *Stosunek zwrotny* zachodzi pomiędzy każdym elementem w danej klasie przedmiotów a nim samym:
+    - { 4 , 5 , 9, 23 }, R: jest równe
+  - *Stosunek równościowy*: symetryczny, przechodni i zwrotny:
+    + { 4, 4, 4 } R: /jest równe/
+    + { Wojtek blondyn, Kasia blondynka, Alicja blondynka, Cezary blondyn }, R: /ma taki sam kolor włosów jak/
+    + { Skoda Octavia 1.9TDI, Audi A3 2.0TDI, BMW 330d }, R: /jest na takie samo paliwo jak/
+    + { Adam, Franciszek, Bartek }^1 R: /być bratem/ (1 - panowie są braćmi)
       
-# * Wypowiedzi oceniające i normy
+* Wypowiedzi oceniające i normy
 
-# - Wypowiedź oceniająca.
-# - Preferencje.
-# - Globalne oceny stanu rzeczy.
+- Wypowiedź oceniająca.
+- Preferencje.
+- Globalne oceny stanu rzeczy.
 
-# - Norma postępowania.
-# - Normy prawne, to normy postępowania, ale należy pamiętać, że zakres nazwy norma prawna jest podrzędny zakresowi nazwy norma postępowania.
-# - Wypowiedź dyrektywalna.
-# - Pojęcie postępowania.
-# - Zakaz, nakaz: zakaz czynienia X to nakaz nieczynienia X; nakaz czynienia X to zakaz nieczynienia X.
-# - Normy mogą być:
-#   1) a) generalne, b) indywidualne;
-#   2) a) abstrakcyjne, b) konkretne.
-# - Przykład normy generalnej i abstrakcyjnej: Kto zabija człowieka, podlega karze pozbawienia wolności na czas nie krótszy od lat 8, karze 25 lat pozbawienia wolności albo karze dożywotniego pozbawienia wolności - Każdemu i w każdych okolicznościach zakazuje się zabić człowieka.
-# - Przykład normy konkretnej i indywidualnej: Sąd Okręgowy w Warszawie … zasądza od Jana Kowalskiego kwotę 1000 zł na rzecz Adama Malinowskiego z odsetkami ustawowymi za opóźnienie…
-# - Przykład normy generalnej i konkretnej: Kto z uczestników wycieczki wróci dziś pierwszy do schroniska powinien rozpalić ogień.
-# - Przykład normy indywidualnej i abstrakcyjnej: Szeregowy Kowalski, gdy dostrzeżecie niebezpieczeństwo macie wszcząć alarm.
-# - Podporządkowanie normie.
+- Norma postępowania.
+- Normy prawne, to normy postępowania, ale należy pamiętać, że zakres nazwy norma prawna jest podrzędny zakresowi nazwy norma postępowania.
+- Wypowiedź dyrektywalna.
+- Pojęcie postępowania.
+- Zakaz, nakaz: zakaz czynienia X to nakaz nieczynienia X; nakaz czynienia X to zakaz nieczynienia X.
+- Normy mogą być:
+  1) a) generalne, b) indywidualne;
+  2) a) abstrakcyjne, b) konkretne.
+- Przykład normy generalnej i abstrakcyjnej: Kto zabija człowieka, podlega karze pozbawienia wolności na czas nie krótszy od lat 8, karze 25 lat pozbawienia wolności albo karze dożywotniego pozbawienia wolności - Każdemu i w każdych okolicznościach zakazuje się zabić człowieka.
+- Przykład normy konkretnej i indywidualnej: Sąd Okręgowy w Warszawie … zasądza od Jana Kowalskiego kwotę 1000 zł na rzecz Adama Malinowskiego z odsetkami ustawowymi za opóźnienie…
+- Przykład normy generalnej i konkretnej: Kto z uczestników wycieczki wróci dziś pierwszy do schroniska powinien rozpalić ogień.
+- Przykład normy indywidualnej i abstrakcyjnej: Szeregowy Kowalski, gdy dostrzeżecie niebezpieczeństwo macie wszcząć alarm.
+- Podporządkowanie normie.
 
-# - Obowiązywanie normy.
-#   + Uzasadnienie tetyczne;
-#   + uzasadnienie aksjologiczne.
+- Obowiązywanie normy.
+  + Uzasadnienie tetyczne;
+  + uzasadnienie aksjologiczne.
 
-# * Wypowiedzi modalne
+* Wypowiedzi modalne
 
-# - wzajemna definiowalność: /musi robić to znaczy, że nie może nie robić ; może robić to znaczy, że nie musi nie robić/
-# - interpretacje słów „musi” i „może”
-#   + interpretacja logiczna - słowo „musi” oznacza pewien związek pomiędzy zdaniami; /obwód okręgu o promieniu 1 cm musi mieć 2 pi cm/; /kwadrat musi mieć cztery boki/
-#   + interpretacja dynamiczna - fakt jest nieuchronny; /ciało niepodparte musi spadać/, /Żołnierze bez pożywienia muszą w końcu przegrać./
-#   + interpretacja aksjologiczna - aprobujemy stan A i nie godzimy się na to, aby stan przeciwny nie zachodził - /Musisz płacić podatki. Jeśli jesteś bogatszy od innych to musisz płacić wyższe podatki. Musisz przestać palić papierosy, bo osierocisz swoje dzieci./
-#   + interpretacja tetyczna - zrealizowanie stanu A jest nakazane normą: /W końcu będziesz musiał wydać wyrok./ /Musisz zawiadomić prokuratora o tym, że próbowano Cię przekupić. Musisz płacić podatki./
-#   + interpretacja psychologiczna - jesteśmy silnie przeświadczeni, że A: /musi być A/.
-# - ćwiczenie:
-#   + Żołnierz musi nosić mundur na służbie.
-#   + W terenie zabudowanym musisz jechać z prędkością poniżej 50 km/h.
-#   + Sędzia może wydać wyrok a prokurator nie może wydać wyroku.
-#   + Warszawa musi być stolicą Polski.
-#   + Łódź musi być stolicą Polski.
-#   + Adam może wyjść z domu. = Adam nie musi nie wychodzić z domu.
-#   + Lecący samolot, w którym skończyło się paliwo, musi spaść.
-# - Modalności
-#   + zdanie asertoryczne: Jest tak a tak. /Na pasie startowym stoi samolot. Łódź jest położona w centralnej Polsce./
-#   + zdanie apodyktyczne: Musi być tak a tak. /Musisz nauczyć się logiki./
-#   + zdanie problematyczne: Może być tak a tak. /Logiki możesz uczyć się nawet w okresie świątecznym. Jutro możliwe są opady deszczu./
-# - Możliwość jednostronna i możliwość dwustronna
-#   + Kwadrat musi mieć cztery boki. Czy kwadrat może mieć cztery boki?
-#   + Kwadrat może mieć cztery boki. Adam może wyjść z domu. Rzecznikiem Praw Obywatelskich może być obywatel polski wyróżniający się wiedzą prawniczą, doświadczeniem zawodowym oraz wysokim autorytetem ze względu na swe walory moralne i wrażliwość społeczną.
-#   + Jest możliwe zjeść kawałek pizzy. Jan może zjeść kawałek pizzy.
-#   + Jest możliwe, że Lech Wałęsa był prezydentem Polski.
-#   + Ziemia może być trzecią planetą od Słońca (możliwość jednostronna). Każdy dorosły Polak może głosować w wyborach prezydenckich (możliwość dwustronna - może przecież także nie głosować).
-# - Modalności normatywne
-#   + nakaz /osoba x musi postąpić w określony sposób/
-#   + zakaz /osoba x nie może postąpić w określony sposób/
-#   + dozwolenie /brak zakazu/
-#   + fakultatywność /brak nakazu/
-#   + indyferentność - dozwolony i fakultatywny
-#   + obowiązek - zakaz albo nakaz
+- wzajemna definiowalność: /musi robić to znaczy, że nie może nie robić ; może robić to znaczy, że nie musi nie robić/
+- interpretacje słów „musi” i „może”
+  + interpretacja logiczna - słowo „musi” oznacza pewien związek pomiędzy zdaniami; /obwód okręgu o promieniu 1 cm musi mieć 2 pi cm/; /kwadrat musi mieć cztery boki/
+  + interpretacja dynamiczna - fakt jest nieuchronny; /ciało niepodparte musi spadać/, /Żołnierze bez pożywienia muszą w końcu przegrać./
+  + interpretacja aksjologiczna - aprobujemy stan A i nie godzimy się na to, aby stan przeciwny nie zachodził - /Musisz płacić podatki. Jeśli jesteś bogatszy od innych to musisz płacić wyższe podatki. Musisz przestać palić papierosy, bo osierocisz swoje dzieci./
+  + interpretacja tetyczna - zrealizowanie stanu A jest nakazane normą: /W końcu będziesz musiał wydać wyrok./ /Musisz zawiadomić prokuratora o tym, że próbowano Cię przekupić. Musisz płacić podatki./
+  + interpretacja psychologiczna - jesteśmy silnie przeświadczeni, że A: /musi być A/.
+- ćwiczenie:
+  + Żołnierz musi nosić mundur na służbie.
+  + W terenie zabudowanym musisz jechać z prędkością poniżej 50 km/h.
+  + Sędzia może wydać wyrok a prokurator nie może wydać wyroku.
+  + Warszawa musi być stolicą Polski.
+  + Łódź musi być stolicą Polski.
+  + Adam może wyjść z domu. = Adam nie musi nie wychodzić z domu.
+  + Lecący samolot, w którym skończyło się paliwo, musi spaść.
+- Modalności
+  + zdanie asertoryczne: Jest tak a tak. /Na pasie startowym stoi samolot. Łódź jest położona w centralnej Polsce./
+  + zdanie apodyktyczne: Musi być tak a tak. /Musisz nauczyć się logiki./
+  + zdanie problematyczne: Może być tak a tak. /Logiki możesz uczyć się nawet w okresie świątecznym. Jutro możliwe są opady deszczu./
+- Możliwość jednostronna i możliwość dwustronna
+  + Kwadrat musi mieć cztery boki. Czy kwadrat może mieć cztery boki?
+  + Kwadrat może mieć cztery boki. Adam może wyjść z domu. Rzecznikiem Praw Obywatelskich może być obywatel polski wyróżniający się wiedzą prawniczą, doświadczeniem zawodowym oraz wysokim autorytetem ze względu na swe walory moralne i wrażliwość społeczną.
+  + Jest możliwe zjeść kawałek pizzy. Jan może zjeść kawałek pizzy.
+  + Jest możliwe, że Lech Wałęsa był prezydentem Polski.
+  + Ziemia może być trzecią planetą od Słońca (możliwość jednostronna). Każdy dorosły Polak może głosować w wyborach prezydenckich (możliwość dwustronna - może przecież także nie głosować).
+- Modalności normatywne
+  + nakaz /osoba x musi postąpić w określony sposób/
+  + zakaz /osoba x nie może postąpić w określony sposób/
+  + dozwolenie /brak zakazu/
+  + fakultatywność /brak nakazu/
+  + indyferentność - dozwolony i fakultatywny
+  + obowiązek - zakaz albo nakaz
 
-# Milczenie norm a zachowanie człowieka.
+Milczenie norm a zachowanie człowieka.
 
-# Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane. 
+Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane. 
 
-# * Pytania i odpowiedzi
-
+* Pytania i odpowiedzi
 # - Pytanie: nie jest zdaniem w sensie logicznym; pytania na serio, pytania retoryczne
 # - założenia pytania i pytania niewłaściwie postawione
 #   + Czy nadal bijesz swoją siostrę? Założenia: masz siostrę, kiedyś biłeś siostrę; jeżeli adresat pytania nie miał nigdy siostry to jest to /pytanie źle postawione/
@@ -940,4 +936,3 @@ SCHEDULED: <2022-12-03 Sat>
 # # - wyjaśnianie
 # #   + dlaczego jest tak a tak?
 # #   + hipoteza wyjaśniająca (np. hipoteza samorództwa)
-
