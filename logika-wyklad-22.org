@@ -394,7 +394,7 @@ wszystkie boki równe./
 - Definicje nierównościowe. Np. występujące w geometrii (definicja przez
   postulaty).
 
-#+BEGIN_SRC plantuml
+#+BEGIN_SRC plantuml :file definicje.png
 
 @startwbs
 + Definicje
@@ -407,7 +407,7 @@ wszystkie boki równe./
 #+END_SRC
 
 #+RESULTS:
-[[file:/tmp/babel-tIBJd7/plantuml-YTsSYn.png]]
+[[file:definicje.png]]
 
 Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 
@@ -459,7 +459,7 @@ Niepoprawne podziały:
 
 ** Klasyfikacja
 
-#+begin_src plantuml
+#+begin_src plantuml :file klasyfikacja.png
 
 @startwbs
 + Zdarzenia prawne
@@ -474,7 +474,7 @@ Niepoprawne podziały:
 #+end_src
 
 #+RESULTS:
-[[file:/tmp/babel-Ler0JD/plantuml-aO4CDJ.png]]
+[[file:klasyfikacja.png]]
 
 ** Wyróżnianie typów
 Wyodrębnianie przedmiotów o interesujących nas cechach. Przykładowo z nazwy =pies= wyróżniamy typy takie jak =wyżeł= i =spaniel=.
@@ -661,7 +661,7 @@ Przykładowy zapis:
 
   - { 4, 1, 2, 3 }; R: <
 
-  - *Stosunek spójny* zachodzi w jednym lub drugim kierunku w danej klasie przedmiotów między każdym i dowolnie wybranym przedmiotem.
+  - *Stosunek spójny* zachodzi w jednym lub drugim kierunku w danej klasie przedmiotów między każdym i innym dowolnie wybranym przedmiotem.
     - {1, 1, 1, 1}, R: =
     - {1, 2, 3, 1}, R: =<
     - {1, 2, 3, 4}, R: <
@@ -676,7 +676,9 @@ Przykładowy zapis:
     + { Skoda Octavia 1.9TDI, Audi A3 2.0TDI, BMW 330d }, R: /jest na takie samo paliwo jak/
     + { Adam, Franciszek, Bartek }^1 R: /być bratem/ (1 - panowie są braćmi)
       
+[2022-12-03 Sat]
 * Wypowiedzi oceniające i normy
+SCHEDULED: <2022-12-10 Sat>
 
 - Wypowiedź oceniająca.
 - Preferencje.
