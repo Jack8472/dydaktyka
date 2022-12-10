@@ -508,68 +508,90 @@ Wyodrębnianie przedmiotów o interesujących nas cechach. Przykładowo z nazw
 | 1 | 0 |  0 |     1 |     0 |     0 |     1 |     0 |     0 |
 | 1 | 1 |  0 |     1 |     1 |     1 |     0 |     1 |     0 |
 
-#+BEGIN_VERSE
-Negacja:
+*** Przykłady
+**** Negacja
+
 Nieprawda, że na trawniku leży śnieg.
-         \sim            p
-         1            0
-         0            1
 
-Alternatywa nierozłączna:
+| \sim{}p | p |
+|----+---|
+|  1 | 0 |
+|  0 | 1 |
+
+**** Alternatywa nierozłączna
+
 Na trawniku leży śnieg lub jest lato.
-        p                   \vee        q
-        1                   1         0
-        0                   1          1
-        1                   1          1
-        0                   0          0
 
-Koniunkcja:
+| p | p \vee q | q |
+|---+-------+---|
+| 1 |     1 | 0 |
+| 0 |     1 | 1 |
+| 1 |     1 | 1 |
+| 0 |     0 | 0 |
+
+**** Koniunkcja
+
 Pada deszcz i ulica jest mokra.
-      p        \cdot         q
-      1        1         1
-      0        0         0
-      1        0         0
-      0        0         1
 
-Alternatywa rozłączna:
+| p | p \cdot q | q |
+|---+-------+---|
+| 1 |     1 | 1 |
+| 0 |     0 | 0 |
+| 1 |     0 | 0 |
+| 0 |     0 | 1 |
+
+**** Alternatywa rozłączna
+
 Pójdziemy na lody albo pójdziemy do kina.
-           p           \perp             q
-           0           0             0
-           0           1             1
-           1           1             0
-           1           0             1
 
-Implikacja:
+| p | p \perp q | q |
+|---+-------+---|
+| 0 |     0 | 0 |
+| 0 |     1 | 1 |
+| 1 |     1 | 0 |
+| 1 |     0 | 1 |
+
+**** Implikacja
+
 Jeżeli pada deszcz to ulica jest mokra.
-           p        \sup           q 
-           1        1           1
-           0        1           0
-           1        0           0
-           0        1           1
+
+| p | p \sup{} q | q |
+|---+-------+---|
+| 1 |     1 | 1 |
+| 0 |     1 | 0 |
+| 1 |     0 | 0 |
+| 0 |     1 | 1 |
 
 Jeżeli (mam w kieszeni pierścień) to (koronawirus mutuje szybciej niż przeciętny wirus).
-                     p                   \sup               q
-                     0                   1               1
-                     1                   1               1
-                     0                   1               0
-                     1                   0               0
 
-Równoważność:
+| p | p \sup q | q |
+|---+-------+---|
+| 1 |     1 | 1 |
+| 0 |     1 | 0 |
+| 1 |     0 | 0 |
+| 0 |     1 | 1 |
+
+**** Równoważność
+
 Wtedy i tylko wtedy gdy pada deszcz to ulica jest mokra.
-             p        \equiv               q
-             1        1               1
-             0        1               0
-             1        0               0
-             0        0               1  
 
-Binegacja:
+| p | p\equiv{}q | q |
+|---+-----+---|
+| 1 |   1 | 1 |
+| 0 |   1 | 0 |
+| 1 |   0 | 0 |
+| 0 |   0 | 1 |
+
+**** Binegacja
+
 Ani nie pada deszcz ani nie pochodzę z Marsa.
-              p         \downarrow                  q
-              0         1                   0
-              1         0                   0
-              0         0                   1
-              1         0                   1
-#+END_VERSE
+
+| p | p\downarrow{}q | q |
+|---+-----+---|
+| 0 |   1 | 0 |
+| 1 |   0 | 0 |
+| 0 |   0 | 1 |
+| 1 |   0 | 1 |
 
 ** Podstawowe zasady myślenia
 
@@ -598,10 +620,11 @@ p \sup q \equiv \sim ( p \cdot \sim q )
  - Ani Ateny są stolicą Polski ani UŁ ma siedzibę w Berlinie: 1
 
 ** Bezprawne samouwolnienie
-Art. 242. § 1. Kto uwalnia się sam, będąc pozbawionym wolności na podstawie
-orzeczenia sądu lub prawnego nakazu wydanego przez inny organ państwowy, podlega
-grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2. […]
-§ 4. Jeżeli sprawca czynu określonego w § 1
+Art. 242. § 1. Kto uwalnia się sam, będąc pozbawionym wolności na
+podstawie orzeczenia sądu lub prawnego nakazu wydanego przez inny
+organ państwowy, podlega grzywnie, karze ograniczenia wolności albo
+pozbawienia wolności do lat 2. […]  § 4. Jeżeli sprawca czynu
+określonego w § 1
 
 - działa w porozumieniu z innymi osobami,
 - używa przemocy lub
@@ -684,20 +707,29 @@ SCHEDULED: <2022-12-10 Sat>
 - Preferencje.
 - Globalne oceny stanu rzeczy.
 
+** Rodzaje ocen
+  - ocena estetyczna
+  - ocena hedonistyczna
+  - ocena moralna
+
+** Normy postępowania
 - Norma postępowania.
 - Normy prawne, to normy postępowania, ale należy pamiętać, że zakres nazwy norma prawna jest podrzędny zakresowi nazwy norma postępowania.
 - Wypowiedź dyrektywalna.
-- Pojęcie postępowania.
-- Zakaz, nakaz: zakaz czynienia X to nakaz nieczynienia X; nakaz czynienia X to zakaz nieczynienia X.
+- Pojęcie postępowania
+  - zachowanie osoby zależne od jej woli
+- Zakaz, nakaz:
+  - zakaz czynienia X to nakaz nieczynienia X; nakaz czynienia X to zakaz nieczynienia X.
 - Normy mogą być:
   1) a) generalne, b) indywidualne;
   2) a) abstrakcyjne, b) konkretne.
-- Przykład normy generalnej i abstrakcyjnej: Kto zabija człowieka, podlega karze pozbawienia wolności na czas nie krótszy od lat 8, karze 25 lat pozbawienia wolności albo karze dożywotniego pozbawienia wolności - Każdemu i w każdych okolicznościach zakazuje się zabić człowieka.
-- Przykład normy konkretnej i indywidualnej: Sąd Okręgowy w Warszawie … zasądza od Jana Kowalskiego kwotę 1000 zł na rzecz Adama Malinowskiego z odsetkami ustawowymi za opóźnienie…
-- Przykład normy generalnej i konkretnej: Kto z uczestników wycieczki wróci dziś pierwszy do schroniska powinien rozpalić ogień.
-- Przykład normy indywidualnej i abstrakcyjnej: Szeregowy Kowalski, gdy dostrzeżecie niebezpieczeństwo macie wszcząć alarm.
-- Podporządkowanie normie.
-
+- Przykłady
+  - Przykład normy generalnej i abstrakcyjnej: Kto zabija człowieka, podlega karze pozbawienia wolności na czas nie krótszy od lat 8, karze 25 lat pozbawienia wolności albo karze dożywotniego pozbawienia wolności - Każdemu i w każdych okolicznościach zakazuje się zabić człowieka.
+  - Przykład normy konkretnej i indywidualnej: Sąd Okręgowy w Warszawie … zasądza od Jana Kowalskiego kwotę 1000 zł na rzecz Adama Malinowskiego z odsetkami ustawowymi za opóźnienie…
+  - Przykład normy generalnej i konkretnej: Kto z uczestników wycieczki wróci dziś pierwszy do schroniska powinien rozpalić ogień.
+  - Przykład normy indywidualnej i abstrakcyjnej: Szeregowy Kowalski, gdy dostrzeżecie niebezpieczeństwo macie wszcząć alarm.
+- Podporządkowanie normie
+- Czy ma sens pytanie: Czy to prawda, że /x/ powinien /A/?
 - Obowiązywanie normy.
   + Uzasadnienie tetyczne;
   + uzasadnienie aksjologiczne.
@@ -742,26 +774,27 @@ Milczenie norm a zachowanie człowieka.
 Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane. 
 
 * Pytania i odpowiedzi
-# - Pytanie: nie jest zdaniem w sensie logicznym; pytania na serio, pytania retoryczne
-# - założenia pytania i pytania niewłaściwie postawione
-#   + Czy nadal bijesz swoją siostrę? Założenia: masz siostrę, kiedyś biłeś siostrę; jeżeli adresat pytania nie miał nigdy siostry to jest to /pytanie źle postawione/
-# - sposób zadawania pytań:
-#   + partykuła pytajna: kto, kiedy, jak, gdzie
-#   + otwarte i zamknięte
-#   + pytania do rozstrzygnięcia: Czy najwyższy w klasie jest Wojtek czy Bartek?
-#   + pytania do uzupełnienia: Kto zjadł moją pizzę?
-#   + niewiadoma pytania
-#   + zakres niewiadomej pytania - klasa elementów, których nazwy można wstawić w miejsce niewiadomej pytania
-#   + pytania sugestywne/sugerujące i podchwytliwe:
-#     - Czy uciekający mężczyzna miał na sobie czerwoną kurtkę? (gdy nie wiemy czy adresat pytania widział aby ktokolwiek uciekał)
-#     - Czy pozwany zgodzi się zapłacić 100 zł tytułem zwrotu pożyczki? (gdy pozew opiewa na większą kwotę a pozwany zaprzecza istnieniu pożyczki)
-# - odpowiedzi:
-#   + właściwa / niewłaściwa (nie jest tożsame z prawidłowością odpowiedzi): Kto był najwybitniejszym polskim poetą? Najwybitniejszym polskim poetą był William Shakspeare.
-#   + całkowite / częściowe:
-#     - Jakiego koloru są mundury aspirantów w Policji? Mundury aspirantów w Policji są koloru niebieskiego (odpowiedź całkowita wprost). Wszystkie mundury w Policji są niebieskie (odpowiedź całkowita nie wprost).
-#     - Kto pana pobił? Pobił mnie mężczyzna w płaszczu i czapce z dwoma daszkami (odpowiedź częściowa).
+SCHEDULED: <2022-12-17 Sat>
+- Pytanie: nie jest zdaniem w sensie logicznym; pytania na serio, pytania retoryczne
+- założenia pytania i pytania niewłaściwie postawione
+  + Czy nadal bijesz swoją siostrę? Założenia: masz siostrę, kiedyś biłeś siostrę; jeżeli adresat pytania nie miał nigdy siostry to jest to /pytanie źle postawione/
+- sposób zadawania pytań:
+  + partykuła pytajna: kto, kiedy, jak, gdzie
+  + otwarte i zamknięte
+  + pytania do rozstrzygnięcia: Czy najwyższy w klasie jest Wojtek czy Bartek?
+  + pytania do uzupełnienia: Kto zjadł moją pizzę?
+  + niewiadoma pytania
+  + zakres niewiadomej pytania - klasa elementów, których nazwy można wstawić w miejsce niewiadomej pytania
+  + pytania sugestywne/sugerujące i podchwytliwe:
+    - Czy uciekający mężczyzna miał na sobie czerwoną kurtkę? (gdy nie wiemy czy adresat pytania widział aby ktokolwiek uciekał)
+    - Czy pozwany zgodzi się zapłacić 100 zł tytułem zwrotu pożyczki? (gdy pozew opiewa na większą kwotę a pozwany zaprzecza istnieniu pożyczki)
+- odpowiedzi:
+  + właściwa / niewłaściwa (nie jest tożsame z prawidłowością odpowiedzi): Kto był najwybitniejszym polskim poetą? Najwybitniejszym polskim poetą był William Shakspeare.
+  + całkowite / częściowe:
+    - Jakiego koloru są mundury aspirantów w Policji? Mundury aspirantów w Policji są koloru niebieskiego (odpowiedź całkowita wprost). Wszystkie mundury w Policji są niebieskie (odpowiedź całkowita nie wprost).
+    - Kto pana pobił? Pobił mnie mężczyzna w płaszczu i czapce z dwoma daszkami (odpowiedź częściowa).
 
-# * Nieporozumienia
+* Nieporozumienia
 
 # - wieloznaczność słów:
 #   + Każdy lubiący jeść pączki, lubi chodzić do cukierni. Łoś lubi jeść pączki. A więc, łoś lubi chodzić do cukierni.
