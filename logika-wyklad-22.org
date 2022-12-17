@@ -5,6 +5,7 @@
 #+STARTUP: latexpreview
 
 * Sprawy formalne i organizacyjne
+** Ogólne
 1) warunki zaliczenia
 2) dyżur
 3) podręczniki
@@ -40,8 +41,8 @@ W nawiasach oznaczono alternatywne symbole.
 - Dysjunkcja: p / q
 - Binegacja: p \downarrow q
 - Równoważność: p \equiv q (p \harr  q)
-- Konieczność: \(\Box{}p\) ◻ p  
-- Możliwość: \(\diamond{}p\) ♦p
+- Konieczność: \(\Box{}p\)  
+- Możliwość: \(\diamond{}p\) 
 
 * Wprowadzenie
 Dlaczego to jest śmieszne:
@@ -367,7 +368,6 @@ wszystkie boki równe./
    osiągnięcia korzyści majątkowej.
 
 ** Zadania definicji
-
 - Definicja sprawozdawcza: składa sprawozdanie z tego, jak pewna grupa ludzi
   posługuje się wyrazem lub wyrażeniem: /W języku polskim drugiej połowy
   XX-wieku wyraz księgarnia oznacza sklep, w którym sprzedaje się książki.
@@ -783,8 +783,7 @@ SCHEDULED: <2022-12-17 Sat>
   + otwarte i zamknięte
   + pytania do rozstrzygnięcia: Czy najwyższy w klasie jest Wojtek czy Bartek?
   + pytania do uzupełnienia: Kto zjadł moją pizzę?
-  + niewiadoma pytania
-  + zakres niewiadomej pytania - klasa elementów, których nazwy można wstawić w miejsce niewiadomej pytania
+  + niewiadoma pytania i zakres niewiadomej pytania - klasa elementów, których nazwy można wstawić w miejsce niewiadomej pytania
   + pytania sugestywne/sugerujące i podchwytliwe:
     - Czy uciekający mężczyzna miał na sobie czerwoną kurtkę? (gdy nie wiemy czy adresat pytania widział aby ktokolwiek uciekał)
     - Czy pozwany zgodzi się zapłacić 100 zł tytułem zwrotu pożyczki? (gdy pozew opiewa na większą kwotę a pozwany zaprzecza istnieniu pożyczki)
@@ -795,26 +794,25 @@ SCHEDULED: <2022-12-17 Sat>
     - Kto pana pobił? Pobił mnie mężczyzna w płaszczu i czapce z dwoma daszkami (odpowiedź częściowa).
 
 * Nieporozumienia
+- wieloznaczność słów:
+  + Każdy lubiący jeść pączki, lubi chodzić do cukierni. Łoś lubi jeść pączki. A więc, łoś lubi chodzić do cukierni.
+  + znaczenie aktualne i znaczenie potencjalne: Czy Tadek gra w brydża?
+- błąd ekwiwokacji: użycie tego samego słowa w różnych znaczeniach; szczególne znaczenie w przypadku mowy prawniczej
+- wieloznaczność wypowiedzi złożonej: Nigdy nie można zrobić zbyt wiele dla ludzi starych i chorych.
+- skróty myślowe: Mniej znaczy więcej.
 
-# - wieloznaczność słów:
-#   + Każdy lubiący jeść pączki, lubi chodzić do cukierni. Łoś lubi jeść pączki. A więc, łoś lubi chodzić do cukierni.
-#   + znaczenie aktualne i znaczenie potencjalne: Czy Tadek gra w brydża?
-# - błąd ekwiwokacji: użycie tego samego słowa w różnych znaczeniach; szczególne znaczenie w przypadku mowy prawniczej
-# - wieloznaczność wypowiedzi złożonej: Nigdy nie można zrobić zbyt wiele dla ludzi starych i chorych.
-# - skróty myślowe: Mniej znaczy więcej.
-
-# * Uzasadnianie bezpośrednie twierdzeń
-
-# - w jaki sposób można uznać zdanie za prawdziwe? /Postulat racji dostatecznej/ - za prawdziwe należy uznać jedynie takie zdanie, dla którego da się uzyskać należyte uzasadnienie
-#   + dla zdań syntetycznych - uzasadnienie opiera się na spostrzeżeniach
-#   + dla zdań analitycznych - uzasadnienie opiera się na regułach znaczeniowych danego języka
-#   + uzasadnienia pośrednie pochodzą z wnioskowania z innych zdań przyjętych uprzednio za prawdziwe
-# - spostrzeżenia: zewnętrzne i wewnętrzne; problem iluzji (https://www.youtube.com/watch?v=BzNzgsAE4F0)
-# - spostrzeżenia:
-#   + przypadkowe,
-#   + obserwacja,
-#   + pomiar i 
-#   + eksperyment
+* Uzasadnianie bezpośrednie twierdzeń
+SCHEDULED: <2023-01-07 Sat>
+- w jaki sposób można uznać zdanie za prawdziwe? /Postulat racji dostatecznej/ - za prawdziwe należy uznać jedynie takie zdanie, dla którego da się uzyskać należyte uzasadnienie
+  + dla zdań syntetycznych - uzasadnienie opiera się na spostrzeżeniach
+  + dla zdań analitycznych - uzasadnienie opiera się na regułach znaczeniowych danego języka
+  + uzasadnienia pośrednie pochodzą z wnioskowania z innych zdań przyjętych uprzednio za prawdziwe
+- spostrzeżenia: zewnętrzne i wewnętrzne; problem iluzji (https://www.youtube.com/watch?v=BzNzgsAE4F0)
+- spostrzeżenia:
+  + przypadkowe,
+  + obserwacja,
+  + pomiar i 
+  + eksperyment
 
 # * Dedukcja
 

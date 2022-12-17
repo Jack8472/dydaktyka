@@ -507,7 +507,6 @@ Przykładowy zapis:
       
 * Zajęcia 8
 ** Wypowiedzi oceniające i normy
-
 - Wypowiedź oceniająca.
   - Rodzaje ocen
     - ocena estetyczna
@@ -535,8 +534,9 @@ Przykładowy zapis:
   + Uzasadnienie tetyczne;
   + uzasadnienie aksjologiczne.
 
+* Zajęcia 9
+SCHEDULED: <2022-12-14 Wed>
 ** Wypowiedzi modalne
-
 - wzajemna definiowalność: /musi robić to znaczy, że nie może nie robić ; może robić to znaczy, że nie musi nie robić/
 - interpretacje słów „musi” i „może”
   + interpretacja logiczna - słowo „musi” oznacza pewien związek pomiędzy zdaniami; /obwód okręgu o promieniu 1 cm musi mieć 2 pi cm/; /kwadrat musi mieć cztery boki/
@@ -574,28 +574,31 @@ Milczenie norm a zachowanie człowieka.
 
 Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane. 
 
-# <2021-12-11 sob>
+** Do przeczytania
+Rozdział 7.
 
-# * Pytania i odpowiedzi
+* Zajęcia 10
+SCHEDULED: <2022-12-21 Wed>
+** Pytania i odpowiedzi
 
-# - Pytanie: nie jest zdaniem w sensie logicznym; pytania na serio, pytania retoryczne
-# - założenia pytania i pytania niewłaściwie postawione
-#   + Czy nadal bijesz swoją siostrę? Założenia: masz siostrę, kiedyś biłeś siostrę; jeżeli adresat pytania nie miał nigdy siostry to jest to /pytanie źle postawione/
-# - sposób zadawania pytań:
-#   + partykuła pytajna: kto, kiedy, jak, gdzie
-#   + otwarte i zamknięte
-#   + pytania do rozstrzygnięcia: Czy najwyższy w klasie jest Wojtek czy Bartek?
-#   + pytania do uzupełnienia: Kto zjadł moją pizzę?
-#   + niewiadoma pytania
-#   + zakres niewiadomej pytania - klasa elementów, których nazwy można wstawić w miejsce niewiadomej pytania
-#   + pytania sugestywne/sugerujące i podchwytliwe:
-#     - Czy uciekający mężczyzna miał na sobie czerwoną kurtkę? (gdy nie wiemy czy adresat pytania widział aby ktokolwiek uciekał)
-#     - Czy pozwany zgodzi się zapłacić 100 zł tytułem zwrotu pożyczki? (gdy pozew opiewa na większą kwotę a pozwany zaprzecza istnieniu pożyczki)
-# - odpowiedzi:
-#   + właściwa / niewłaściwa (nie jest tożsame z prawidłowością odpowiedzi): Kto był najwybitniejszym polskim poetą? Najwybitniejszym polskim poetą był William Shakspeare.
-#   + całkowite / częściowe:
-#     - Jakiego koloru są mundury aspirantów w Policji? Mundury aspirantów w Policji są koloru niebieskiego (odpowiedź całkowita wprost). Wszystkie mundury w Policji są niebieskie (odpowiedź całkowita nie wprost).
-#     - Kto pana pobił? Pobił mnie mężczyzna w płaszczu i czapce z dwoma daszkami (odpowiedź częściowa).
+- Pytanie: nie jest zdaniem w sensie logicznym; pytania na serio, pytania retoryczne
+- założenia pytania i pytania niewłaściwie postawione
+  + Czy nadal bijesz swoją siostrę? Założenia: masz siostrę, kiedyś biłeś siostrę; jeżeli adresat pytania nie miał nigdy siostry to jest to /pytanie źle postawione/
+- sposób zadawania pytań:
+  + partykuła pytajna: kto, kiedy, jak, gdzie
+  + otwarte i zamknięte
+  + pytania do rozstrzygnięcia: Czy najwyższy w klasie jest Wojtek czy Bartek?
+  + pytania do uzupełnienia: Kto zjadł moją pizzę?
+  + niewiadoma pytania
+  + zakres niewiadomej pytania - klasa elementów, których nazwy można wstawić w miejsce niewiadomej pytania
+  + pytania sugestywne/sugerujące i podchwytliwe:
+    - Czy uciekający mężczyzna miał na sobie czerwoną kurtkę? (gdy nie wiemy czy adresat pytania widział aby ktokolwiek uciekał)
+    - Czy pozwany zgodzi się zapłacić 100 zł tytułem zwrotu pożyczki? (gdy pozew opiewa na większą kwotę a pozwany zaprzecza istnieniu pożyczki)
+- odpowiedzi:
+  + właściwa / niewłaściwa (nie jest tożsame z prawidłowością odpowiedzi): Kto był najwybitniejszym polskim poetą? Najwybitniejszym polskim poetą był William Shakspeare.
+  + całkowite / częściowe:
+    - Jakiego koloru są mundury aspirantów w Policji? Mundury aspirantów w Policji są koloru niebieskiego (odpowiedź całkowita wprost). Wszystkie mundury w Policji są niebieskie (odpowiedź całkowita nie wprost).
+    - Kto pana pobił? Pobił mnie mężczyzna w płaszczu i czapce z dwoma daszkami (odpowiedź częściowa).
 
 # * Nieporozumienia
 
@@ -776,6 +779,3 @@ Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi wi�
 # # - wyjaśnianie
 # #   + dlaczego jest tak a tak?
 # #   + hipoteza wyjaśniająca (np. hipoteza samorództwa)
-
-**** Do przeczytania
-Rozdział 7.
