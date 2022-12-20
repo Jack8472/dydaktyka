@@ -578,7 +578,7 @@ Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi wi�
 Rozdział 7.
 
 * Zajęcia 10
-SCHEDULED: <2022-12-21 Wed>
+SCHEDULED: <2022-12-20 Tue>
 ** Pytania i odpowiedzi
 
 - Pytanie: nie jest zdaniem w sensie logicznym; pytania na serio, pytania retoryczne
