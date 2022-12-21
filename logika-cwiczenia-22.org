@@ -575,8 +575,7 @@ Milczenie norm a zachowanie człowieka.
 Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane. 
 
 ** Do przeczytania
-Rozdział 7.
-
+Rozdział 10.
 * Zajęcia 10
 SCHEDULED: <2022-12-20 Tue>
 ** Pytania i odpowiedzi
@@ -599,102 +598,103 @@ SCHEDULED: <2022-12-20 Tue>
   + całkowite / częściowe:
     - Jakiego koloru są mundury aspirantów w Policji? Mundury aspirantów w Policji są koloru niebieskiego (odpowiedź całkowita wprost). Wszystkie mundury w Policji są niebieskie (odpowiedź całkowita nie wprost).
     - Kto pana pobił? Pobił mnie mężczyzna w płaszczu i czapce z dwoma daszkami (odpowiedź częściowa).
+** Do przeczytania
+Rozdział 11
+* Zajęcia 11 
+SCHEDULED: <2022-12-21 Wed>
+** Nieporozumienia
+- wieloznaczność słów:
+  + Każdy lubiący jeść pączki, lubi chodzić do cukierni. Łoś lubi jeść pączki. A więc, łoś lubi chodzić do cukierni.
+  + znaczenie aktualne i znaczenie potencjalne: Czy Tadek gra w brydża?
+- błąd ekwiwokacji: użycie tego samego słowa w różnych znaczeniach; szczególne znaczenie w przypadku mowy prawniczej
+- wieloznaczność wypowiedzi złożonej: Nigdy nie można zrobić zbyt wiele dla ludzi starych i chorych.
+- skróty myślowe: Mniej znaczy więcej.
 
-# * Nieporozumienia
+** Uzasadnianie bezpośrednie twierdzeń
+- w jaki sposób można uznać zdanie za prawdziwe? /Postulat racji dostatecznej/ - za prawdziwe należy uznać jedynie takie zdanie, dla którego da się uzyskać należyte uzasadnienie
+  + dla zdań syntetycznych - uzasadnienie opiera się na spostrzeżeniach
+  + dla zdań analitycznych - uzasadnienie opiera się na regułach znaczeniowych danego języka
+  + uzasadnienia pośrednie pochodzą z wnioskowania z innych zdań przyjętych uprzednio za prawdziwe
+- spostrzeżenia: zewnętrzne i wewnętrzne; problem iluzji (https://www.youtube.com/watch?v=BzNzgsAE4F0)
+- spostrzeżenia:
+  + przypadkowe,
+  + obserwacja,
+  + pomiar i 
+  + eksperyment
 
-# - wieloznaczność słów:
-#   + Każdy lubiący jeść pączki, lubi chodzić do cukierni. Łoś lubi jeść pączki. A więc, łoś lubi chodzić do cukierni.
-#   + znaczenie aktualne i znaczenie potencjalne: Czy Tadek gra w brydża?
-# - błąd ekwiwokacji: użycie tego samego słowa w różnych znaczeniach; szczególne znaczenie w przypadku mowy prawniczej
-# - wieloznaczność wypowiedzi złożonej: Nigdy nie można zrobić zbyt wiele dla ludzi starych i chorych.
-# - skróty myślowe: Mniej znaczy więcej.
+** Dedukcja
+- wnioskowanie jako proces myślowy, przesłanki, przesłanki entymematyczne
+  + przykłady wnioskowań (piątek):
+    - Kto zabija zwierzęta ten ma predyspozycje do mordowania ludzi.
+    - Jest piątek, a więc czas na pizzę.
+    - Kto sprzedaje narkotyki jest dealerem.
+    - Kto zażywa narkotyki ten jest dealerem.
+    - Jan prowadzi samochód kompletnie pijany, a więc Jan podlega karze.
+  + przykłady wnioskowań (sobota):
+    - Jest sobota, a więc czas na kuchnię hinduską.
+    - Jestem ubogi, a więc idę do pracy.
+    - Jeśli zauważam wzrastające temperatury co roku, to znaczy, że następuje ocieplenie klimatu.
+    - Wschodzi krwawe słońce a więc przelano krew tej nocy.
+- wnioskowania zawodne i wnioskowania niezawodne (/Każdy człowiek jest śmiertelny. Sokrates jest człowiekiem. A więc, Sokrates jest śmiertelny./)
+- prawa logiki
+  + prawo transpozycji: (p \sup q) \sup (\sim q \sup \sim p): Jeżeli (Jeżeli pada deszcz, to ulica jest mokra) to (Jeżeli nieprawda, że ulica jest mokra to nieprawda, że pada deszcz)
+  + prawo kontrapozycji: \prod S,P: SaP \equiv nie-S a nie-P
+- sylogizm: /Ponieważ (1) jeżeli p, to q i (2) jeżeli q, to r (3) to jeżeli p to r./
+  + [ (p \sup q) \cdot (q \sup r)] \sup (p \sup r)
+  + [(p \sup q) \cdot p] \sup q (modus ponendo ponens): Jeżeli [(Jeżeli woda wrze to jest gorąca) i woda wrze] to woda jest gorąca
+  + [(p \sup q) \cdot \sim q] \sup \sim p (modus tollendo tollens): /Jeżeli [(Jeżeli woda wrze to jest gorąca) i nieprawda, że woda jest gorąca] to nieprawda, że woda wrze./
+  + [(p \vee q) \cdot \sim p] \sup q (modus tollendo ponens): /Jeżeli [(Wicked jest psem lub Wicked jest kotem) i nieprawda, że Wicked jest kotem] to Wicked jest psem./
 
-# * Uzasadnianie bezpośrednie twierdzeń
-
-# - w jaki sposób można uznać zdanie za prawdziwe? /Postulat racji dostatecznej/ - za prawdziwe należy uznać jedynie takie zdanie, dla którego da się uzyskać należyte uzasadnienie
-#   + dla zdań syntetycznych - uzasadnienie opiera się na spostrzeżeniach
-#   + dla zdań analitycznych - uzasadnienie opiera się na regułach znaczeniowych danego języka
-#   + uzasadnienia pośrednie pochodzą z wnioskowania z innych zdań przyjętych uprzednio za prawdziwe
-# - spostrzeżenia: zewnętrzne i wewnętrzne; problem iluzji (https://www.youtube.com/watch?v=BzNzgsAE4F0)
-# - spostrzeżenia:
-#   + przypadkowe,
-#   + obserwacja,
-#   + pomiar i 
-#   + eksperyment
-
-# * Dedukcja
-
-# - wnioskowanie jako proces myślowy, przesłanki, przesłanki entymematyczne
-#   + przykłady wnioskowań (piątek):
-#     - Kto zabija zwierzęta ten ma predyspozycje do mordowania ludzi.
-#     - Jest piątek, a więc czas na pizzę.
-#     - Kto sprzedaje narkotyki jest dealerem.
-#     - Kto zażywa narkotyki ten jest dealerem.
-#     - Jan prowadzi samochód kompletnie pijany, a więc Jan podlega karze.
-#   + przykłady wnioskowań (sobota):
-#     - Jest sobota, a więc czas na kuchnię hinduską.
-#     - Jestem ubogi, a więc idę do pracy.
-#     - Jeśli zauważam wzrastające temperatury co roku, to znaczy, że następuje ocieplenie klimatu.
-#     - Wschodzi krwawe słońce a więc przelano krew tej nocy.
-# - wnioskowania zawodne i wnioskowania niezawodne (/Każdy człowiek jest śmiertelny. Sokrates jest człowiekiem. A więc, Sokrates jest śmiertelny./)
-# - prawa logiki
-#   + prawo transpozycji: (p \sup q) \sup (\sim q \sup \sim p): Jeżeli (Jeżeli pada deszcz, to ulica jest mokra) to (Jeżeli nieprawda, że ulica jest mokra to nieprawda, że pada deszcz)
-#   + prawo kontrapozycji: \prod S,P: SaP \equiv nie-S a nie-P
-# - sylogizm: /Ponieważ (1) jeżeli p, to q i (2) jeżeli q, to r (3) to jeżeli p to r./
-#   + [ (p \sup q) \cdot (q \sup r)] \sup (p \sup r)
-#   + [(p \sup q) \cdot p] \sup q (modus ponendo ponens): Jeżeli [(Jeżeli woda wrze to jest gorąca) i woda wrze] to woda jest gorąca
-#   + [(p \sup q) \cdot \sim q] \sup \sim p (modus tollendo tollens): /Jeżeli [(Jeżeli woda wrze to jest gorąca) i nieprawda, że woda jest gorąca] to nieprawda, że woda wrze./
-#   + [(p \vee q) \cdot \sim p] \sup q (modus tollendo ponens): /Jeżeli [(Wicked jest psem lub Wicked jest kotem) i nieprawda, że Wicked jest kotem] to Wicked jest psem./
-
-# #    <2021-12-19 nie> 
     
-# # - sylogistyka Arystotelesa
-# #   + zdania w postaci:
-# #   + zd. ogólno-twierdzące:     SaP - /każde S jest P/
-# #   + zd. ogólno-przeczące:      SeP - /żadne S nie jest P/
-# #   + zd. szczególno-twierdzące: SiP - /istnieją S, które są P/
-# #   + zd. szczególno-przeczące:  SoP - /istnieją S, które są nie-P/
-# #   + SaP \equiv \sim (SoP)
-# #   + SeP \equiv \sim (SiP)
-# #   + SiP \equiv \sim (SeP)
-# #   + SoP \equiv \sim (SaP)
+- sylogistyka Arystotelesa
+  + zdania w postaci:
+  + zd. ogólno-twierdzące:     SaP - /każde S jest P/
+  + zd. ogólno-przeczące:      SeP - /żadne S nie jest P/
+  + zd. szczególno-twierdzące: SiP - /istnieją S, które są P/
+  + zd. szczególno-przeczące:  SoP - /istnieją S, które są nie-P/
+  + SaP \equiv \sim (SoP)
+  + SeP \equiv \sim (SiP)
+  + SiP \equiv \sim (SeP)
+  + SoP \equiv \sim (SaP)
 
-# # #+begin_verse
+#+begin_verse
 
-# # MaP
-# # SiM
-# # ------
-# # SiP
+MaP
+SiM
+------
+SiP
 
-# # Każdy adwokat jest prawnikiem.
-# # Niektórzy ludzie są adwokatami.
-# # ------
-# # Niektórzy ludzie są prawnikami.
+Każdy adwokat jest prawnikiem.
+Niektórzy ludzie są adwokatami.
+------
+Niektórzy ludzie są prawnikami.
 
-# # Każdy polityk jest gadem.
-# # Niektórzy profesorowie są politykami.
-# # ------
-# # Niektórzy profesorowie są gadami.
+Każdy polityk jest gadem.
+Niektórzy profesorowie są politykami.
+------
+Niektórzy profesorowie są gadami.
 
-# # #+end_verse
+#+end_verse
 
-# # FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage out
+FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage out
 
-# # * Implikatura
+** Implikatura
 
-# # *Piotr*: Czy wszystko w porzadku? *Katarzyna*: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
+*Piotr*: Czy wszystko w porzadku? *Katarzyna*: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
 
-# # Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. Wojciech: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr:
+Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. Wojciech: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr:
 
-# # *** Zasady współpracy
+*** Zasady współpracy
 
-# # 1. Nie wygłaszaj poglądów fałszych ani nawet niedostatecznie uzasadnionych (maksyma jakości).
-# # 2. Nie udzielaj zbyt wiele, ani zbyt mało informacji (maksyma ilości).
-# # 3. Nie wypowiadaj słów irrelewantnych (maksyma istotności).
-# # 4. Mów w sposób zrozumiały (maksyma sposobu).
+1. Nie wygłaszaj poglądów fałszych ani nawet niedostatecznie uzasadnionych (maksyma jakości).
+2. Nie udzielaj zbyt wiele, ani zbyt mało informacji (maksyma ilości).
+3. Nie wypowiadaj słów irrelewantnych (maksyma istotności).
+4. Mów w sposób zrozumiały (maksyma sposobu).
 
-# #    Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
+   Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
 
+* Zajęcia 12 
+SCHEDULED: <2023-01-04 Wed>
 # # * Wnioskowania niededukcyjne
 
 # # ** Indukcja
