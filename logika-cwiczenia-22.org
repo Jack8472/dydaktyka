@@ -16,10 +16,8 @@
    - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt. 1-2.
    - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
    - A. Malinowski, S. Lewandowski, H. Machińska, J. Petzel, /Logika dla Prawników/, Warszawa 2009.
-
 *** Przerwy
 5-10 minut - na wniosek grupy
-
 *** Nieobecności
 Dopuszczalne dwie nieobecności. Nieobecność ponad dwie nieobecności należy zaliczyć na dyżurze w ciągu dwóch tygodni od wystąpienia nieobecności.
 
@@ -609,7 +607,6 @@ SCHEDULED: <2022-12-21 Wed>
 - błąd ekwiwokacji: użycie tego samego słowa w różnych znaczeniach; szczególne znaczenie w przypadku mowy prawniczej
 - wieloznaczność wypowiedzi złożonej: Nigdy nie można zrobić zbyt wiele dla ludzi starych i chorych.
 - skróty myślowe: Mniej znaczy więcej.
-
 ** Uzasadnianie bezpośrednie twierdzeń
 - w jaki sposób można uznać zdanie za prawdziwe? /Postulat racji dostatecznej/ - za prawdziwe należy uznać jedynie takie zdanie, dla którego da się uzyskać należyte uzasadnienie
   + dla zdań syntetycznych - uzasadnienie opiera się na spostrzeżeniach
@@ -621,7 +618,11 @@ SCHEDULED: <2022-12-21 Wed>
   + obserwacja,
   + pomiar i 
   + eksperyment
-
+** Dedukcja a indukcja
+   - dedukcja jako wnioskowanie niezawodne
+   - indukcja jako wnioskowanie zawodne 
+* Zajęcia 12 
+SCHEDULED: <2023-01-04 Wed>
 ** Dedukcja
 - wnioskowanie jako proces myślowy, przesłanki, przesłanki entymematyczne
   + przykłady wnioskowań (piątek):
@@ -693,8 +694,6 @@ Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią
 
    Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
 
-* Zajęcia 12 
-SCHEDULED: <2023-01-04 Wed>
 # # * Wnioskowania niededukcyjne
 
 # # ** Indukcja
