@@ -623,6 +623,41 @@ SCHEDULED: <2022-12-21 Wed>
    - indukcja jako wnioskowanie zawodne 
 * Zajęcia 12 
 SCHEDULED: <2023-01-04 Wed>
+** Indukcja
+
+Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nastąpiło aż 1000 obserwacji potwierdzający tę hipotezę. Dnia 1001 człowiek upiekł indyka.
+
+- Indukcja enumeracyjna:
+  - S_1 jest P,
+  - S_2 jest P,
+  - S_3 jest P,
+  - S_4 jest P,
+  - S_n jest P,
+  - Każde S jest P.
+  - S_n - dzień, P dzień mający cechę X (np. dzień w którym człowiek służy indykowi)<2022-01-08 sob> 
+- Indukcja zupełna i niezupełna.
+- Indukcja eliminacyjna:
+  a. kanon jednej zgodności: O_1: A, B, C, Z; O_2: C, D, E, Z; O_3: C, F, G, Z.
+  b. kanon jednej różnicy: 
+     - O_1: A, B, C, Z;
+     - O_2: B, C, Z;
+     - O_3: A, C, Z;
+     - O_4: A, B, ~Z.
+  c. kanon zmian towarzyszących:
+     - kuchenka gazowa ma palniki od 1 do 4 i 4 kurki (A…D)
+     - zadanie: ustal który kurek steruje palnikiem nr 2
+     - obserwacje:
+       1) kurek A w poz. 50%, brak płomienia
+       2) kurek A w poz. 100%, brak płomienia
+       3) kurek B w poz. 50%, brak płomienia
+       4) kurek B w poz. 100%, brak płomienia
+       5) kurek C w poz. 50%, mały płomień
+       6) kurek C w poz. 100%, duży płomień
+       7) kurek D w poz. 50%, brak płomienia
+       8) kurek D w poz. 100%, brak płomienia
+     - wniosek: prawdopodobnie kurek C steruje płomieniem palnika nr 2.
+* Zajęcia 13
+SCHEDULED: <2023-01-11 Wed>
 ** Dedukcja
 - wnioskowanie jako proces myślowy, przesłanki, przesłanki entymematyczne
   + przykłady wnioskowań (piątek):
@@ -645,7 +680,6 @@ SCHEDULED: <2023-01-04 Wed>
   + [(p \sup q) \cdot p] \sup q (modus ponendo ponens): Jeżeli [(Jeżeli woda wrze to jest gorąca) i woda wrze] to woda jest gorąca
   + [(p \sup q) \cdot \sim q] \sup \sim p (modus tollendo tollens): /Jeżeli [(Jeżeli woda wrze to jest gorąca) i nieprawda, że woda jest gorąca] to nieprawda, że woda wrze./
   + [(p \vee q) \cdot \sim p] \sup q (modus tollendo ponens): /Jeżeli [(Wicked jest psem lub Wicked jest kotem) i nieprawda, że Wicked jest kotem] to Wicked jest psem./
-
     
 - sylogistyka Arystotelesa
   + zdania w postaci:
@@ -683,7 +717,7 @@ FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage o
 
 *Piotr*: Czy wszystko w porzadku? *Katarzyna*: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
 
-Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. Wojciech: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr:
+Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. Wojciech: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr?
 
 *** Zasady współpracy
 
@@ -693,42 +727,6 @@ Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią
 4. Mów w sposób zrozumiały (maksyma sposobu).
 
    Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
-
-# # * Wnioskowania niededukcyjne
-
-# # ** Indukcja
-
-# # Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nastąpiło aż 1000 obserwacji potwierdzający tę hipotezę. Dnia 1001 człowiek upiekł indyka.
-
-# # - Indukcja enumeracyjna:
-# #   - S_1 jest P,
-# #   - S_2 jest P,
-# #   - S_3 jest P,
-# #   - S_4 jest P,
-# #   - S_n jest P,
-# #   - Każde S jest P.
-# #   - S_n - dzień, P dzień mający cechę X (np. dzień w którym człowiek służy indykowi)<2022-01-08 sob> 
-# # - Indukcja zupełna i niezupełna.
-# # - Indukcja eliminacyjna:
-# #   a. kanon jednej zgodności: O_1: A, B, C, Z; O_2: C, D, E, Z; O_3: C, F, G, Z.
-# #   b. kanon jednej różnicy: 
-# #      - O_1: A, B, C, Z;
-# #      - O_2: B, C, Z;
-# #      - O_3: A, C, Z;
-# #      - O_4: A, B, ~Z.
-# #   c. kanon zmian towarzyszących:
-# #      - kuchenka gazowa ma palniki od 1 do 4 i 4 kurki (A…D)
-# #      - zadanie: ustal który kurek steruje palnikiem nr 2
-# #      - obserwacje:
-# #        1) kurek A w poz. 50%, brak płomienia
-# #        2) kurek A w poz. 100%, brak płomienia
-# #        3) kurek B w poz. 50%, brak płomienia
-# #        4) kurek B w poz. 100%, brak płomienia
-# #        5) kurek C w poz. 50%, mały płomień
-# #        6) kurek C w poz. 100%, duży płomień
-# #        7) kurek D w poz. 50%, brak płomienia
-# #        8) kurek D w poz. 100%, brak płomienia
-# #      - wniosek: prawdopodobnie kurek C steruje płomieniem palnika nr 2.
 
 # # * Wnioskowania prawnicze
 
