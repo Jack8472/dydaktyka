@@ -717,23 +717,8 @@ Niektórzy profesorowie są gadami.
 
 FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage out
 
-** Implikatura
-
-*Piotr*: Czy wszystko w porzadku? *Katarzyna*: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
-
-Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. Wojciech: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr?
-
-*** Zasady współpracy
-
-1. Nie wygłaszaj poglądów fałszych ani nawet niedostatecznie uzasadnionych (maksyma jakości).
-2. Nie udzielaj zbyt wiele, ani zbyt mało informacji (maksyma ilości).
-3. Nie wypowiadaj słów irrelewantnych (maksyma istotności).
-4. Mów w sposób zrozumiały (maksyma sposobu).
-
-   Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
-
 ** Do przeczytania
-Rozdział 14; wiadomości o implikaturze w: T. Bekrycht, /Logiczne podstawy prawoznawstwa/.
+Rozdział 14.
    
 # # * Wnioskowania prawnicze
 
@@ -783,4 +768,19 @@ Rozdział 14; wiadomości o implikaturze w: T. Bekrycht, /Logiczne podstawy pr
 # # - wyjaśnianie
 # #   + dlaczego jest tak a tak?
 # #   + hipoteza wyjaśniająca (np. hipoteza samorództwa)
+
+# ** Implikatura
+
+# *Piotr*: Czy wszystko w porzadku? *Katarzyna*: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
+
+# Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. Wojciech: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr?
+
+# *** Zasady współpracy
+
+# 1. Nie wygłaszaj poglądów fałszych ani nawet niedostatecznie uzasadnionych (maksyma jakości).
+# 2. Nie udzielaj zbyt wiele, ani zbyt mało informacji (maksyma ilości).
+# 3. Nie wypowiadaj słów irrelewantnych (maksyma istotności).
+# 4. Mów w sposób zrozumiały (maksyma sposobu).
+
+#    Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
 
