@@ -28,7 +28,7 @@ Dlaczego to jest śmieszne:
 
 *Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach poprawnego rozumowania i uzasadniania twierdzeń.
 
-** Kategorie syntaktyczne
+** kategorie syntaktyczne
 a. Zdania, nazwy i funktory.
 b. Zdanie jest całkowicie samodzielną kategorią języka opisowego. Zdanie głosi więc, że jest tak a tak: /Granit jest skałą magmową. Sędzia opuścił salę rozpraw./
 c. Nazwa — coś co nadaje się na podmiot lub na orzecznik orzeczenia imiennego w zdaniu: /prawnik, planeta, sędzia/.
@@ -621,6 +621,8 @@ SCHEDULED: <2022-12-21 Wed>
 ** Dedukcja a indukcja
    - dedukcja jako wnioskowanie niezawodne
    - indukcja jako wnioskowanie zawodne 
+** Do przeczytania
+       Rozdział 12, 13
 * Zajęcia 12 
 SCHEDULED: <2023-01-04 Wed>
 ** Indukcja
@@ -656,6 +658,8 @@ Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nas
        7) kurek D w poz. 50%, brak płomienia
        8) kurek D w poz. 100%, brak płomienia
      - wniosek: prawdopodobnie kurek C steruje płomieniem palnika nr 2.
+** Do przeczytania
+       Rozdział 15
 * Zajęcia 13
 SCHEDULED: <2023-01-11 Wed>
 ** Dedukcja
@@ -728,6 +732,9 @@ Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią
 
    Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
 
+** Do przeczytania
+Rozdział 14; wiadomości o implikaturze w: T. Bekrycht, /Logiczne podstawy prawoznawstwa/.
+   
 # # * Wnioskowania prawnicze
 
 # # - sylogizm prawniczy
@@ -776,3 +783,4 @@ Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią
 # # - wyjaśnianie
 # #   + dlaczego jest tak a tak?
 # #   + hipoteza wyjaśniająca (np. hipoteza samorództwa)
+
