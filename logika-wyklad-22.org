@@ -814,6 +814,64 @@ SCHEDULED: <2023-01-07 Sat>
   + pomiar i 
   + eksperyment
 
+* Wnioskowania niededukcyjne
+** Indukcja
+Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nastąpiło aż 1000 obserwacji potwierdzający tę hipotezę. Dnia 1001 człowiek upiekł indyka.
+
+- Indukcja enumeracyjna:
+  - S_1 jest P,
+  - S_2 jest P,
+  - S_3 jest P,
+  - S_4 jest P,
+  - S_n jest P,
+  - Każde S jest P.
+  - S_n - dzień, P dzień mający cechę X (np. dzień w którym człowiek służy indykowi)
+- Indukcja zupełna i niezupełna.
+- Indukcja eliminacyjna:
+  a. kanon jednej zgodności: O_1: A, B, C, Z; O_2: C, D, E, Z; O_3: C, F, G, Z.
+  b. kanon jednej różnicy: 
+     - O_1: A, B, C, Z;
+     - O_2: B, C, Z;
+     - O_3: A, C, Z;
+     - O_4: A, B, ~Z.
+  c. kanon zmian towarzyszących:
+     - kuchenka gazowa ma palniki od 1 do 4 i 4 kurki (A…D)
+     - zadanie: ustal który kurek steruje palnikiem nr 2
+     - obserwacje:
+       1) kurek A w poz. 50%, brak płomienia
+       2) kurek A w poz. 100%, brak płomienia
+       3) kurek B w poz. 50%, brak płomienia
+       4) kurek B w poz. 100%, brak płomienia
+       5) kurek C w poz. 50%, mały płomień
+       6) kurek C w poz. 100%, duży płomień
+       7) kurek D w poz. 50%, brak płomienia
+       8) kurek D w poz. 100%, brak płomienia
+     - wniosek: prawdopodobnie kurek C steruje płomieniem palnika nr 2.
+
+* Wnioskowania prawnicze
+- sylogizm prawniczy
+  + (1) Kto zabija człowieka podlega karze. (2) Jan zabił człowieka. | Jan podlega karze.
+- uzupełnianie luk w prawie; postulat zupełności kwalifikacyjnej
+- argumenty prawnicze:
+  + argumentum a simile (argument z podobieństwa)
+    - analogia legis (analogia z ustawy)
+    - analogia iuris (analogia z prawa)
+  + argumentum a fortiori (jeżeli A, to tym bardziej B)
+    - argumentum a maiori ad minus (argument z większego na mniejsze)
+    - argumentum a miniori ad maius (argument z mniejszego na większe)
+  + argumentum a contrario (argument z przeciwieństwa)
+  + dyrektywa instrumentalnego nakazu i zakazu (argument z celu na środki)
+
+** Przykłady
+- a contrario
+  + Już pełnomocnik oskarżycielki posiłkowej, sporządzający apelację, dostrzegł, że doszło do przedawnienia karalności czynu z art. 284 § 2 k.k., którego upatrywał w zachowaniu oskarżonego. Takie przedawnienie tym bardziej (wcześniej) nastąpiło w stosunku do czynu z art. 284 § 1 k.k., jakiego zdaniem obecnego pełnomocnika miał się dopuścić oskarżony (zob. art. 101 § 1 pkt 4 k.k. i 102 k.k.). Przedawnienie karalności, jako okoliczność wyłączająca ściganie, wyklucza możliwość wniesienia kasacji na niekorzyść oskarżonego. Wynika to z odczytywanego a contrario przepisu art. 529 k.p.k. Kasacja już w chwili jej wniesienia okazała się więc niedopuszczalna i nie powinna być przyjęta (art. 429 § 1 k.p.k. zw. z art. 530 § 2 k.p.k. w zw. z art. 529 k.p.k. a contrario). - Postanowienie SN z 28.10.2013 r., III KK 144/13, OSNKW 2014, nr 3, poz. 22.
+- a maiori ad minus
+  + Skarżący w niniejszej sprawie ma rację, iż powód nie zgłaszał żądania obniżenia tej kary. Pozostaje zatem problem, czy Sąd może dokonać takiego miarkowania bez wyraźnego wniosku zobowiązanego. Zarówno w dawnym orzecznictwie (por. wyrok SN z 14 lipca 1976 r. I CR 271/76, OSN 1977, poz. 76, jak i w obecnym por. wyrok z 21 listopada 1996 r. I CKN 330/97 - nie publikowany) Sąd Najwyższy przyjmuje, że żądanie dłużnika oddalenia powództwa o zapłatę kary umownej mieści w sobie także jednocześnie ewentualne żądanie wnioskowania jej wysokości (rozumowanie a maiori ad minus). Sąd w składzie rozpoznającym niniejszą sprawę podziela słuszność tego stanowiska, co oznacza, że wbrew zarzutowi kasacji pozwanego - Sąd Apelacyjny mógł zmniejszyć należną mu od powoda karę umowną za odstąpienie od umowy w sytuacji, kiedy powód kwestionował w ogóle możliwości jej naliczania. - Wyrok SN z 25.03.1998 r., II CKN 660/97, LEX nr 519952.
+- a minori ad maius
+  + Skoro wady uzasadnienia wyroku sądu odwoławczego polegające na naruszeniu art. 457 § 3 k.p.k. stanowić mogą podstawę uchylenia tego wyroku, to a minori ad maius podstawę taką stanowić może całkowity brak uzasadnienia. - Wyrok SN z 8.09.2005 r., II KK 373/04, OSNwSK 2005, nr 1, poz. 1615.
+- a simile
+  + Nie bez znaczenia jest fakt, że strony w tym czasie miały do siebie zaufanie, razem zamieszkiwały i mogły posiadać w domu własne i wspólne (w ramach konkubinatu - por. art. 860 k.c. a simile i następne) środki finansowe a także fakt, że powódka w tym okresie była uprawniona do dokonywania operacji finansowych na kontach pozwanego (bezsporne). - Wyrok SR w Olsztynie z 12.12.2017 r., I C 1882/17, LEX nr 2432212.
+
 * Dedukcja
 - wnioskowanie jako proces myślowy, przesłanki, przesłanki entymematyczne
   + przykłady wnioskowań:
@@ -881,64 +939,6 @@ Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią
 
 Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
 
-* Wnioskowania niededukcyjne
-** Indukcja
-Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nastąpiło aż 1000 obserwacji potwierdzający tę hipotezę. Dnia 1001 człowiek upiekł indyka.
-
-- Indukcja enumeracyjna:
-  - S_1 jest P,
-  - S_2 jest P,
-  - S_3 jest P,
-  - S_4 jest P,
-  - S_n jest P,
-  - Każde S jest P.
-  - S_n - dzień, P dzień mający cechę X (np. dzień w którym człowiek służy indykowi)
-- Indukcja zupełna i niezupełna.
-- Indukcja eliminacyjna:
-  a. kanon jednej zgodności: O_1: A, B, C, Z; O_2: C, D, E, Z; O_3: C, F, G, Z.
-  b. kanon jednej różnicy: 
-     - O_1: A, B, C, Z;
-     - O_2: B, C, Z;
-     - O_3: A, C, Z;
-     - O_4: A, B, ~Z.
-  c. kanon zmian towarzyszących:
-     - kuchenka gazowa ma palniki od 1 do 4 i 4 kurki (A…D)
-     - zadanie: ustal który kurek steruje palnikiem nr 2
-     - obserwacje:
-       1) kurek A w poz. 50%, brak płomienia
-       2) kurek A w poz. 100%, brak płomienia
-       3) kurek B w poz. 50%, brak płomienia
-       4) kurek B w poz. 100%, brak płomienia
-       5) kurek C w poz. 50%, mały płomień
-       6) kurek C w poz. 100%, duży płomień
-       7) kurek D w poz. 50%, brak płomienia
-       8) kurek D w poz. 100%, brak płomienia
-     - wniosek: prawdopodobnie kurek C steruje płomieniem palnika nr 2.
-
-* Wnioskowania prawnicze
-- sylogizm prawniczy
-  + (1) Kto zabija człowieka podlega karze. (2) Jan zabił człowieka. | Jan podlega karze.
-- uzupełnianie luk w prawie; postulat zupełności kwalifikacyjnej
-- argumenty prawnicze:
-  + argumentum a simile (argument z podobieństwa)
-    - analogia legis (analogia z ustawy)
-    - analogia iuris (analogia z prawa)
-  + argumentum a fortiori (jeżeli A, to tym bardziej B)
-    - argumentum a maiori ad minus (argument z większego na mniejsze)
-    - argumentum a miniori ad maius (argument z mniejszego na większe)
-  + argumentum a contrario (argument z przeciwieństwa)
-  + dyrektywa instrumentalnego nakazu i zakazu (argument z celu na środki)
-
-** Przykłady
-- a contrario
-  + Już pełnomocnik oskarżycielki posiłkowej, sporządzający apelację, dostrzegł, że doszło do przedawnienia karalności czynu z art. 284 § 2 k.k., którego upatrywał w zachowaniu oskarżonego. Takie przedawnienie tym bardziej (wcześniej) nastąpiło w stosunku do czynu z art. 284 § 1 k.k., jakiego zdaniem obecnego pełnomocnika miał się dopuścić oskarżony (zob. art. 101 § 1 pkt 4 k.k. i 102 k.k.). Przedawnienie karalności, jako okoliczność wyłączająca ściganie, wyklucza możliwość wniesienia kasacji na niekorzyść oskarżonego. Wynika to z odczytywanego a contrario przepisu art. 529 k.p.k. Kasacja już w chwili jej wniesienia okazała się więc niedopuszczalna i nie powinna być przyjęta (art. 429 § 1 k.p.k. zw. z art. 530 § 2 k.p.k. w zw. z art. 529 k.p.k. a contrario). - Postanowienie SN z 28.10.2013 r., III KK 144/13, OSNKW 2014, nr 3, poz. 22.
-- a maiori ad minus
-  + Skarżący w niniejszej sprawie ma rację, iż powód nie zgłaszał żądania obniżenia tej kary. Pozostaje zatem problem, czy Sąd może dokonać takiego miarkowania bez wyraźnego wniosku zobowiązanego. Zarówno w dawnym orzecznictwie (por. wyrok SN z 14 lipca 1976 r. I CR 271/76, OSN 1977, poz. 76, jak i w obecnym por. wyrok z 21 listopada 1996 r. I CKN 330/97 - nie publikowany) Sąd Najwyższy przyjmuje, że żądanie dłużnika oddalenia powództwa o zapłatę kary umownej mieści w sobie także jednocześnie ewentualne żądanie wnioskowania jej wysokości (rozumowanie a maiori ad minus). Sąd w składzie rozpoznającym niniejszą sprawę podziela słuszność tego stanowiska, co oznacza, że wbrew zarzutowi kasacji pozwanego - Sąd Apelacyjny mógł zmniejszyć należną mu od powoda karę umowną za odstąpienie od umowy w sytuacji, kiedy powód kwestionował w ogóle możliwości jej naliczania. - Wyrok SN z 25.03.1998 r., II CKN 660/97, LEX nr 519952.
-- a minori ad maius
-  + Skoro wady uzasadnienia wyroku sądu odwoławczego polegające na naruszeniu art. 457 § 3 k.p.k. stanowić mogą podstawę uchylenia tego wyroku, to a minori ad maius podstawę taką stanowić może całkowity brak uzasadnienia. - Wyrok SN z 8.09.2005 r., II KK 373/04, OSNwSK 2005, nr 1, poz. 1615.
-- a simile
-  + Nie bez znaczenia jest fakt, że strony w tym czasie miały do siebie zaufanie, razem zamieszkiwały i mogły posiadać w domu własne i wspólne (w ramach konkubinatu - por. art. 860 k.c. a simile i następne) środki finansowe a także fakt, że powódka w tym okresie była uprawniona do dokonywania operacji finansowych na kontach pozwanego (bezsporne). - Wyrok SR w Olsztynie z 12.12.2017 r., I C 1882/17, LEX nr 2432212.
-
 * Myślenie kierowane z góry postawionymi zadaniami
 - myślenie spontaniczne, a myślenie kierowane z góry postanowionymi zadaniami
 - zadania:
@@ -960,3 +960,14 @@ Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nas
 - wyjaśnianie
   + dlaczego jest tak a tak?
   + hipoteza wyjaśniająca (np. hipoteza samorództwa)
+
+* Prawdopodobieństwo
+- *Prawdopodobieństwo* ma różne znaczenia:
+  - psychologiczne — siła przekonania o pewności danego zdania
+  - logiczne (metodologiczne) — istnieją podstawy statystyczne (lub wynikające z innych metod) do uznania zdania za prawdziwe
+- *prawodpodobieństwo aprioryczne*
+- *prawodpodobieństwo aposterioryczne*
+
+* Umiejętność przekonywania
+ - agrumentowanie to czynność polegającu na wywołaniu adresata wypowiedzi określonego przeświadczenia
+ - nie zawsze argument musi być rozsądny \rarr wszystko zależy od adresata
