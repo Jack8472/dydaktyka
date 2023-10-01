@@ -3,6 +3,10 @@
 #+OPTIONS: tex:t
 #+LANGUAGE: pl
 #+STARTUP: latexpreview
+#+REVEAL_THEME: night
+#+REVEAL_MIN_SCALE: 0.25
+#+REVEAL_MAX_SCALE: 5
+#+REVEAL: split
 
 * Sprawy formalne i organizacyjne
 ** Ogólne
@@ -11,6 +15,7 @@
 3) podręczniki
    a) Literatura obowiązkowa:
       - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
+#+REVEAL
    b) Literatura uzupełniająca:
       - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010,
         https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.

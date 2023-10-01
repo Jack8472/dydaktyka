@@ -307,7 +307,6 @@ Wyodrębnianie przedmiotów o interesujących nas cechach.
 Rozdział V
 
 * Zajęcia 5
-
 ** Zdanie
 
 - Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności wypowiedzi.
