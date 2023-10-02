@@ -1,34 +1,36 @@
-#+title: Logika - notatka pomocnicza do ćwiczeń
+#+title: Logika - notatka pomocnicza do ćwiczeń (2023/2024)
 #+AUTHOR: J. Szczerbowski
 #+OPTIONS: tex:t
 #+LANGUAGE: pl
 #+STARTUP: latexpreview
 
 * Zajęcia 1
+SCHEDULED: <2023-10-04 Wed>
 ** Sprawy formalne i organizacyjne
-1) warunki zaliczenia
-2) dyżur
-3) podręczniki
-   a) Literatura obowiązkowa:
-   - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
-   b) Literatura uzupełniająca:
-   - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010, https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
-   - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt. 1-2.
-   - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
-   - A. Malinowski, S. Lewandowski, H. Machińska, J. Petzel, /Logika dla Prawników/, Warszawa 2009.
+1. Gdzie znajdę ten materiał: https://github.com/szczerbowski/dydaktyka
+2. warunki zaliczenia
+3. dyżur
+4. podręczniki
+   + Literatura obowiązkowa:
+     - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
+   + Literatura uzupełniająca:
+     - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010, https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
+     - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt. 1-2.
+     - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
+     - A. Malinowski, S. Lewandowski, H. Machińska, J. Petzel, /Logika dla Prawników/, Warszawa 2009.
+5. kod teams: g8fg6vl
+
 *** Przerwy
 5-10 minut - na wniosek grupy
+
 *** Nieobecności
-Dopuszczalne dwie nieobecności. Nieobecność ponad dwie nieobecności należy zaliczyć na dyżurze w ciągu dwóch tygodni od wystąpienia nieobecności.
+Dopuszczalne dwie nieobecności. Nieobecność ponad dwie nieobecności należy zaliczyć na dyżurze w ciągu dwóch tygodni od wystąpienia nieobecności. Niezaliczona nieobecność obniża ocenę końcową o pół stopnia.
 
 ** Wprowadzenie
-Dlaczego to jest śmieszne:
+- Dlaczego to jest śmieszne: /Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?” Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak./
+- *Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach poprawnego rozumowania i uzasadniania twierdzeń.
 
-/Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?” Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak./
-
-*Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach poprawnego rozumowania i uzasadniania twierdzeń.
-
-** kategorie syntaktyczne
+** Kategorie syntaktyczne
 a. Zdania, nazwy i funktory.
 b. Zdanie jest całkowicie samodzielną kategorią języka opisowego. Zdanie głosi więc, że jest tak a tak: /Granit jest skałą magmową. Sędzia opuścił salę rozpraw./
 c. Nazwa — coś co nadaje się na podmiot lub na orzecznik orzeczenia imiennego w zdaniu: /prawnik, planeta, sędzia/.
@@ -103,7 +105,7 @@ b. Nakładam na Pana mandat karny w wysokości 500 zł.
 Rozdział 1 z podręcznika Z. Ziembińskiego
 
 * Zajęcia 2
-** Ogólne wiadomości o języku (ciąg dalszy)
+SCHEDULED: <2023-10-11 Wed>
 ** Nazwy
 *** Nazwy konkretne i nazwy abstrakcyjne
 - konkretne: sędzia, człowiek, łobuz, biały stół; feniks
@@ -532,7 +534,6 @@ Przykładowy zapis:
   + uzasadnienie aksjologiczne.
 
 * Zajęcia 9
-SCHEDULED: <2022-12-14 Wed>
 ** Wypowiedzi modalne
 - wzajemna definiowalność: /musi robić to znaczy, że nie może nie robić ; może robić to znaczy, że nie musi nie robić/
 - interpretacje słów „musi” i „może”
@@ -574,7 +575,6 @@ Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi wi�
 ** Do przeczytania
 Rozdział 10.
 * Zajęcia 10
-SCHEDULED: <2022-12-20 Tue>
 ** Pytania i odpowiedzi
 
 - Pytanie: nie jest zdaniem w sensie logicznym; pytania na serio, pytania retoryczne
@@ -598,7 +598,6 @@ SCHEDULED: <2022-12-20 Tue>
 ** Do przeczytania
 Rozdział 11
 * Zajęcia 11 
-SCHEDULED: <2022-12-21 Wed>
 ** Nieporozumienia
 - wieloznaczność słów:
   + Każdy lubiący jeść pączki, lubi chodzić do cukierni. Łoś lubi jeść pączki. A więc, łoś lubi chodzić do cukierni.
@@ -623,7 +622,6 @@ SCHEDULED: <2022-12-21 Wed>
 ** Do przeczytania
        Rozdział 12, 13
 * Zajęcia 12 
-SCHEDULED: <2023-01-04 Wed>
 ** Indukcja
 
 Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nastąpiło aż 1000 obserwacji potwierdzający tę hipotezę. Dnia 1001 człowiek upiekł indyka.
@@ -660,7 +658,6 @@ Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nas
 ** Do przeczytania
        Rozdział 15
 * Zajęcia 13
-SCHEDULED: <2023-01-11 Wed>
 ** Dedukcja
 - wnioskowanie jako proces myślowy, przesłanki, przesłanki entymematyczne
   + przykłady wnioskowań (piątek):
