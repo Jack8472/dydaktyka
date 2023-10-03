@@ -9,20 +9,19 @@ SCHEDULED: <2023-10-14 Sat>
 ** Sprawy formalne i organizacyjne
 *** Ogólne
 1. Gdzie znajdę ten materiał: https://github.com/szczerbowski/dydaktyka
-1. warunki zaliczenia
-2. kod teams: inf2zd0 (uq
+2. warunki zaliczenia
 3. dyżur
 4. podręczniki
-   + Literatura obowiązkowa:
-     - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
-   + Literatura uzupełniająca:
-     - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010,
-     https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
-     - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt.
-     1-2.
-     - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
-     - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, /Logika dla
-     Prawników/, Warszawa 2009.
+   a. Literatura obowiązkowa:
+      - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
+   b. Literatura uzupełniająca:
+      - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010,
+      https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
+      - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt.
+      1-2.
+      - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
+      - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, /Logika dla Prawników/, Warszawa 2009.
+5. kod teams: =inf2zd0 (uq=
 
 *** Przerwy
 sobota: 2x10 min. (11:10-11:20, 12:00-12:10)
@@ -32,13 +31,8 @@ W przypadku nieobecności na wykładzie należy samodzielnie nauczyć się mate
 na podstawie literatury podanej powyżej.
 
 ** Wprowadzenie
-Dlaczego to jest śmieszne:
-
-/Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?”
-Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak./
-
-*Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach
-poprawnego rozumowania i uzasadniania twierdzeń.
+- Dlaczego to jest śmieszne: /Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?” Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak./
+- *Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach poprawnego rozumowania i uzasadniania twierdzeń.
 
 *** Przegląd treści
 1. Ogólne wiadomości o języku.
@@ -92,8 +86,7 @@ Logika formalna zajmuje się poprawnymi rozumowaniami.
 - Studenci uczą się pilnie.
 - Warszawa jest stolicą Polski.
 - Robert: W połowie drogi mojego żywota pośród ciemnego znalazłem się lasu.
-- Stateczny, pulchny Buck Mulligan wynurzył się z wylotu schodów, niosąc
-- mydlaną pianę w miseczce, na której leżały skrzyżowane lusterko i brzytwa.
+- Stateczny, pulchny Buck Mulligan wynurzył się z wylotu schodów, niosąc mydlaną pianę w miseczce, na której leżały skrzyżowane lusterko i brzytwa.
 - Wrzątek zawsze jest gorący.
 - Ziemia jest płaska.
 - Słońce świeci nocą.
@@ -177,24 +170,21 @@ a) Nieprawda, że \(\frac{z}{z}\)
 b) świeci \(\frac{z}{n}\)
 c) słońce. \(\type{n}\)
 
-***** Role semiotyczne wypowiedzi
-****** Rola opisowa
-
+**** Role semiotyczne wypowiedzi
+***** Rola opisowa
 Wypowiedź opisuje rzeczywistość.
 
 a. Świeci słońce.
 b. W lipcu w Polsce jest zima.
 
-****** Rola ekspresywna
-
+***** Rola ekspresywna
 Komunikuje przeżycia, przemyślenia, stan wewnętrzny.
 
 a. Moja poranna kawa była ekstatycznie smaczna!
 b. Ach, świeci słońce!
 c. Ten obraz jest przepiękny.
 
-****** Rola sugestywna
-
+***** Rola sugestywna
 Ma wywołać w odbiorcy komunikatu jakieś zachowanie.
 
 a. Janku, o godz. 9 masz być w łóżku!
@@ -203,14 +193,13 @@ c. Ta dziewczyna puściła do Ciebie oczko.
 d. Kto przekracza dozwoloną prędkość podlega karze…
 e. Palenie zabija!
 
-****** Rola performatywna
-
+***** Rola performatywna
 Wypowiedź wywołuje skutki konwencjonalne.
 
 a. Złożenie przysięgi lub ślubowania.
 b. Nakładam na Pana mandat karny w wysokości 500 zł.
 
-******* Zadanie
+****** Zadanie
 Jan wypowiedział słowa przysięgi małżeńskiej wobec Małgosi, ale nie doszło do
 zawarcia małżeństwa; Małgosia również wypowiedziała odpowiednie słowa, nadal nie
 doszło do zawarcia małżeństwa. Dlaczego?
@@ -403,9 +392,10 @@ Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 
 - nieprzystosowanie definicji do słownika osoby będącej adresatem definicji
   (ignotum per ignotum): /Krącitka/ to jest taka /frutka/, która ma /piląga/.
-- definiens zawiera definiendum (idem per idem). /Polak, to jest taki człowiek,
-  który jest narodowości polskiej./ Błędne koło pośrednie: /Logika to nauka
-  o logicznym myśleniu. Logiczny to taki, który jest zgodny z nauką logiki./
+- definiens zawiera definiendum (idem per idem). /Polak, to jest taki
+  człowiek, który jest narodowości polskiej./ Błędne koło pośrednie:
+  /Logika to nauka o logicznym myśleniu. Logiczny to taki, który jest
+  zgodny z nauką logiki./
 - definicja zbyt szeroka: Człowiek to ssak dwunożny.
 - definicja zbyt wąska: Człowiek to ssak posługujący się mową i pismem.
 

@@ -8,9 +8,10 @@
 SCHEDULED: <2023-10-04 Wed>
 ** Sprawy formalne i organizacyjne
 1. Gdzie znajdę ten materiał: https://github.com/szczerbowski/dydaktyka
-2. warunki zaliczenia
-3. dyżur
-4. podręczniki
+2. kod MS Teams: =g8fg6vl=
+3. warunki zaliczenia
+4. dyżur
+5. podręczniki
    + Literatura obowiązkowa:
      - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
    + Literatura uzupełniająca:
@@ -18,42 +19,41 @@ SCHEDULED: <2023-10-04 Wed>
      - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt. 1-2.
      - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
      - A. Malinowski, S. Lewandowski, H. Machińska, J. Petzel, /Logika dla Prawników/, Warszawa 2009.
-5. kod teams: g8fg6vl
 
 *** Przerwy
-5-10 minut - na wniosek grupy
+5-10 minut w połowie zajęć
 
 *** Nieobecności
 Dopuszczalne dwie nieobecności. Nieobecność ponad dwie nieobecności należy zaliczyć na dyżurze w ciągu dwóch tygodni od wystąpienia nieobecności. Niezaliczona nieobecność obniża ocenę końcową o pół stopnia.
 
 ** Wprowadzenie
 - Dlaczego to jest śmieszne: /Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?” Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak./
-- *Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach poprawnego rozumowania i uzasadniania twierdzeń.
+- *Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach poprawnego rozumowania i uzasadniania twierdzeń.
 
 ** Kategorie syntaktyczne
-a. Zdania, nazwy i funktory.
-b. Zdanie jest całkowicie samodzielną kategorią języka opisowego. Zdanie głosi więc, że jest tak a tak: /Granit jest skałą magmową. Sędzia opuścił salę rozpraw./
-c. Nazwa — coś co nadaje się na podmiot lub na orzecznik orzeczenia imiennego w zdaniu: /prawnik, planeta, sędzia/.
-d. Funktor to wyraz lub wyrażenie (leks), które nie jest ani nazwą, ani zdaniem, ale w połączeniu z nimi tworzy bardziej złożoną całość.
-e. Funktory dzielimy na zdaniotwórcze, nazwotwórcze i funktorotwórcze. Wyrazy lub wyrażenia, które funktor wiąże w większą całość, nazywamy argumentami funktora.
+- Zdania, nazwy i funktory.
+- Zdanie jest całkowicie samodzielną kategorią języka opisowego. Zdanie głosi więc, że jest tak a tak: /Granit jest skałą magmową. Sędzia opuścił salę rozpraw./
+- Nazwa — coś co nadaje się na podmiot lub na orzecznik orzeczenia imiennego w zdaniu: /prawnik, planeta, sędzia/.
+- Funktor to wyraz lub wyrażenie (leks), które nie jest ani nazwą, ani zdaniem, ale w połączeniu z nimi tworzy bardziej złożoną całość.
+- Funktory dzielimy na zdaniotwórcze, nazwotwórcze i funktorotwórcze. Wyrazy lub wyrażenia, które funktor wiąże w większą całość, nazywamy argumentami funktora.
 
 Zdania oznacza się symbolicznie /z/. Nazwy oznacza się symbolicznie /n/.
 
 Przykłady funktorów:
 
-a. funktor nazwotwórczy od (jednego) argumentu nazwowego: /zielona/ gęś: \(\frac{n}{n}\)
-b. funktor nazwotwórczy od dwóch argumentów nazwowych: most /nad/ rzeką: \(\frac{n}{nn}\)
-c. funktor zdaniotwórczy od argumentu nazwowego: sędzia /śpi/: \(\frac{z}{n}\)
-d. funktor zdaniotwórczy od dwóch argumentów zdaniowych: /chociaż/ w Warszawie pada deszcz /to/ w Łodzi świeci słońce: \(\frac{z}{zz}\)
-e. funktor funktorotwórczy od argumentu funktorowego: sędzia (/n/) /głęboko/ śpi \(\frac{z}{n}\) : Czym zatem, jest słowo /głęboko/? Tym: \(\frac{\frac{z}{n}}{\frac{z}{n}}\)
+- funktor nazwotwórczy od (jednego) argumentu nazwowego: /zielona/ gęś: \(\frac{n}{n}\)
+- funktor nazwotwórczy od dwóch argumentów nazwowych: most /nad/ rzeką: \(\frac{n}{nn}\)
+- funktor zdaniotwórczy od argumentu nazwowego: sędzia /śpi/: \(\frac{z}{n}\)
+- funktor zdaniotwórczy od dwóch argumentów zdaniowych: /chociaż/ w Warszawie pada deszcz /to/ w Łodzi świeci słońce: \(\frac{z}{zz}\)
+- funktor funktorotwórczy od argumentu funktorowego: sędzia (/n/) /głęboko/ śpi \(\frac{z}{n}\) : Czym zatem, jest słowo /głęboko/? Tym: \(\frac{\frac{z}{n}}{\frac{z}{n}}\)
 
 Zastępowalność wyrażeń w tej samej kategorii syntaktycznej. Przykłady:
+- Sędzia głęboko śpi. Sędzia głęboko słucha.
+- Piękna melodia. Zielona melodia.
+- Rdza niszczy metal. Rdza podziwia metal.
 
-a. Sędzia głęboko śpi. Sędzia głęboko słucha.
-b. Piękna melodia. Zielona melodia.
-c. Rdza niszczy metal. Rdza podziwia metal.
-
-Ale już nie: /zielona/ gęś \rarr  /nad/ gęś
+Ale już nie:
+- /zielona/ gęś \rarr  /nad/ gęś
 
 *** Zadanie — określ kategorie syntaktyczne w zdaniu
 **** Przykład 1
@@ -68,14 +68,12 @@ c) słońce. \(\type{n}\)
 
 ** Role semiotyczne wypowiedzi
 *** Rola opisowa
-
 Wypowiedź opisuje rzeczywistość.
 
 a. Świeci słońce.
 b. W lipcu w Polsce jest zima.
 
 *** Rola ekspresywna
-
 Komunikuje przeżycia, przemyślenia, stan wewnętrzny.
 
 a. Moja poranna kawa była ekstatycznie smaczna!
@@ -83,7 +81,6 @@ b. Ach, świeci słońce!
 c. Ten obraz jest przepiękny.
 
 *** Rola sugestywna
-
 Ma wywołać w odbiorcy komunikatu jakieś zachowanie.
 
 a. Janku, o godz. 9 masz być w łóżku!
@@ -93,7 +90,6 @@ d. Kto przekracza dozwoloną prędkość podlega karze…
 e. Palenie zabija!
 
 *** Rola performatywna
-
 Wypowiedź wywołuje skutki konwencjonalne.
 
 Jan wypowiedział słowa przysięgi małżeńskiej wobec Małgosi, ale nie doszło do zawarcia małżeństwa; Małgosia również wypowiedziała odpowiednie słowa, nadal nie doszło do zawarcia małżeństwa. Dlaczego? Pomysł 1: nie byli uprawnieni do zawarcia małżeństwa; pomysł 2: wypowiedzi były nie na serio (np. aktorzy); pomysł 3: brak urzędnika albo świadków.
@@ -102,7 +98,7 @@ a. Złożenie przysięgi lub ślubowania.
 b. Nakładam na Pana mandat karny w wysokości 500 zł.
 
 ** Do przeczytania
-Rozdział 1 z podręcznika Z. Ziembińskiego
+Rozdział 1. z podręcznika Z. Ziembińskiego
 
 * Zajęcia 2
 SCHEDULED: <2023-10-11 Wed>
@@ -111,29 +107,28 @@ SCHEDULED: <2023-10-11 Wed>
 - konkretne: sędzia, człowiek, łobuz, biały stół; feniks
 - abstrakcyjne: białość, kradzież, braterstwo
 - mogą pojawiać się wątpliwości, czy mamy do czynienia z nazwą konkretną czy abstrakcyjną:
-  - W sprawie Jana Kowalskiego zapadł długo oczekiwany /wyrok/.
-  - Po zamknięciu rozprawy sąd wydaje /wyrok/.
+  + W sprawie Jana Kowalskiego zapadł długo oczekiwany /wyrok/.
+  + Po zamknięciu rozprawy sąd wydaje /wyrok/.
 
 *** Desygnaty nazw
 - Desygnatem nazwy jest przedmiot, o którym można nazwę prawdziwie orzec.
 - Wobec książki można powiedzieć /to jest książka/ i będzie to prawda; nie można jednak powiedzieć /to jest pies/. Pies nie będzie desygnatem nazwy /książka/.
 
 *** Nazwy indywidualne i nazwy generalne
-- nazwy indywidualne oznaczają poszczególne przedmioty: /miasto Poznań/; /Zofia spóźni/ się na wykład.
+- nazwy indywidualne oznaczają poszczególne przedmioty: /miasto Poznań/; /Zofia/ spóźni się na wykład.
 - nazwy generalne oznaczają przedmioty dzielące jakieś wspólne cechy: /miasto wojewódzkie/; /Zofia/ ma imieniny 15 maja.
 
 *** Treść nazwy
 **** Cechy
 Cechy młotka:
-
-- konstytutywne
-  - przypomina literę T
-  - jest narzędziem składającym się z członka i obucha
-  - służy do uderzania w inne narzędzia lub wbijania gwoździ i podobnych przedmiotów
-- konsekutywne
-  - jest rzeczą
-  - może być metalowy lub drewniany
-  - jest solidny
+a) konstytutywne
+   - przypomina literę T
+   - jest narzędziem składającym się z członka i obucha
+   - służy do uderzania w inne narzędzia lub wbijania gwoździ i podobnych przedmiotów
+b) konsekutywne
+   - jest rzeczą
+   - może być metalowy lub drewniany
+   - jest solidny
 
 **** Supozycje
 - supozycja prosta: /zając schował się w krzakach/
@@ -186,7 +181,7 @@ Diagram (źródło: Nazwa [online]. Wikipedia : wolna encyklopedia, 2020-04-14 0
 
 [[./relacje-nazw-wiki.jpg]]
 
-Algorytm tworzenia par nazw podprzeciwnych: przeciwieństwo nazwy podrzędnej i nazwa nadrzędna.
+Czy jest jakiś algorytm tworzenia par nazw podprzeciwnych?
 
 ** Do przeczytania
 
