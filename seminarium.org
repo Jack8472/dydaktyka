@@ -1,6 +1,6 @@
-#+title: Informacje dla moim seminarzystów (dot. zarówno studiów magisterskich jak i licencjackich)
+#+title: Informacje dla moim seminarzystów
 
-** Kalendarz seminarzysty
+* Kalendarz seminarzysty
 1. Październik - ustalenie tematu pracy.
 2. Listopad - przedstawienie spisu literatury, która będzie w pracy
    wykorzystana.
@@ -29,7 +29,7 @@ nieprzewidziane zdarzenia życiowe, które powodują późniejsze trudności z
 dotrzymaniem terminu (np. o charakterze rodzinnym lub okazuje się, że
 egzamin na aplikację wymaga więcej pracy niż zakładano).
 
-** Zasady współpracy
+* Zasady współpracy
 Seminarium odbywa się w taki sposób, że na początku semestru odbywa się
 spotkanie w grupie (o ile zostanie ono ujęte w planie zajęć), a
 następnie praca odbywa się w formie indywidualnych konsultacji poprzez
@@ -52,3 +52,253 @@ okresie lipca i sierpnia; zasadne jest wzięcie tego po uwagę w swoich
 planach dotyczących terminu obrony.
 
 Zasady pisania pracy opisane są [[file:proseminarium.org][tutaj]].
+
+* Jak pisać pracę magisterską?
+** Wprowadzenie
+To jest krótki poradnik dla moich studentów na kierunkach prawo i prawo
+w biznesie, będący uzupełnieniem przedmiotów /proseminarium/,
+/metodologia pisania pracy licencjackiej/ oraz prowadzonego przeze mnie
+seminarium.
+
+Z doświadczenia promotora wiem, że studenci w publikacjach dotyczących
+pisania pracy zalewani są dywagacjami naukowymi przez co w gąszczu
+informacji gubią się kluczowe kwestie takie jak forma przypisów,
+struktura pracy, które w finalnej ocenie potrafią zaważyć i kosztować
+brak piątki na dyplomie.
+
+Należy także pamiętać, że pisanie pracy dyplomowej jest sprawdzianem
+dyscypliny i organizacji pracy, które potrzebne są przez całe życie;
+umiejętności te warto więc zacząć szlifować jak najwcześniej.
+
+** Praca licencjacka a magisterska
+Często pojawia się pytanie o to jaka jest różnica pomiędzy pracą
+licencjacką a pracą magisterską. Różnicy tej nie da się wyrazić
+ilościowo, chociaż to prawda, że prace licencjackie są zazwyczaj krótsze
+niż prace magisterskie. Podkreślenia wymaga jednak to, że w pracy
+licencjackiej oczekuje się od studenta dobrej znajomości literatury
+fachowej dotyczącej danego tematu - w pracy magisterskiej zaś, student
+powinien wykazać się dobrą znajomością literatury naukowej.
+
+Objętości prac wahają się od 40 do 200 stron. W większości przypadków
+dobrych prac mają one jednak pomiędzy 50 a 80 stron włączając
+bibliografię i inne elementy formalne pracy. Prace bardzo długie nie są
+oczywiście błędne, ale obszerność tekstu wiąże się z ryzykiem
+popełnienia większej ilości omyłek formalnych i błędów merytorycznych.
+*Warto więc postawić na jakość tekstu, nie zaś na jego ilość.* Taka
+filozofia sprawdza się także w pracy zawodowej prawnika. Niejednokrotnie
+krótkie, ale dobrze napisane pismo odniesie lepszy skutek niż pismo
+przegadane i nadmiernie rozbudowane. Niepożądane są obszerne cytaty ze
+źródeł, do których każdy może mieć dostęp w ciągu kilku sekund przez
+internet.
+
+** Struktura pracy
+Każda praca dyplomowa musi mieć wyraźną strukturę. Zachowanie struktury
+ułatwia śledzenie myśli autora, ale także pozwala oceniającemu pracę
+stwierdzić jaki jest stopień swobody autora posługiwaniu się komentowaną
+materią. Poniżej omówiono poszczególne główne elementy struktury pracy
+oraz przykładowe spisy treści.
+
+*** Wstęp
+Elementem strukturalnym rozpoczynającym pracę jest wstęp, powinien on
+zawierać:
+
+1. przedstawienie tematu (ta część powinna dawać informacje o zakresie
+   przedmiotu badania);
+2. uzasadnienie wyboru tematu (wskazuje na motywacje autora powodujące
+   zainteresowanie tematem; w zasadzie część opcjonalna, lepiej ją
+   pominąć jeżeli miałaby być wymuszona);
+3. uzasadnienie potrzeby opracowania tematu (przykładowo: brak
+   opracowania w literaturze, niedawne zmiany w prawie lub w sferze
+   faktycznej zasługujące na omówienie);
+4. przedstawić znaczenie wybranego tematu (tu wskazać jakie jest
+   znaczenie tematu dla społeczeństwa, nauki, określonej grupy
+   społecznej);
+5. cele postępowania badawczego;
+6. główne hipotezy pracy,
+7. zastosowane metody badawcze;
+8. charakter i rodzaj źródeł, z których korzystano;
+9. przedstawienie stanu wiedzy;
+10. przedstawienie kolejnych rozdziałów.
+
+Opcjonalnym elementem wstępu są podziękowania. Decydując się na
+podziękowania należy kierować się wyczuciem - powinny być one szczere, a
+jeżeli kierowane są w stronę promotora lub innego pracownika uczelni, to
+warto aby były one powściągliwe, wszak osoby te wykonują swoją pracę.
+Podziękowanie więc nie powinno przekraczać tonu kierowanego względem
+innych osób, z których usług autor korzysta.
+
+Często powtarza się, że wstęp pisze się dwa razy. Jest w tym
+stwierdzeniu sporo prawdy; warto napisać wstęp przed rozpoczęciem
+pracy - jako manifest badawczy autora. Po napisaniu pracy
+warto zaś taki wstęp zrewidować do nowej wiedzy zdobytej przez autora w
+trakcie pisania pracy.
+
+*** Rozdział
+Rozdział to podstawowa jednostka budowy pracy. Sposób w jaki student
+dzieli materiał na rozdziały ujawnia jego biegłość w opracowywanym
+temacie. Istnieją dwa podstawowe sposoby dzielenia materiału na
+rozdziały:
+
+1. podział historyczny,
+2. podział problemowy.
+
+Obok nich mogą występować jeszcze inne sposoby dzielenia materiału na
+rozdziały, np. mieszane (część rozdziałów dotyczy zagadnień
+historycznych a część problemowych), podział metodologiczny
+(poszczególne rozdziały odpowiadają stadiom przeprowadzanego badania.
+
+Jest podstawową jednostką składową. Liczby rozdziałów nie da się z góry
+precyzyjnie określić, ponieważ zależy ona od podjętych badań i
+wchodzących w ich zakres poszczególnych zagadnień. Niejednokrotnie
+istnieje potrzeba bardziej szczegółowej strukturalizacji tekstu, tzn.
+wyróżnienia w obrębie rozdziałów podrozdziałów (a w nich jeszcze
+ewentualnie paragrafów), poprzedzonych odpowiednimi nagłówkami.
+
+Przykłady sposobów dzielenia materiału na rozdziały:
+
+**** Podział historyczny
+Tytuł: Historia odpowiedzialności sprzedawcy za wady ukryte
+
+#+begin_verse
+Wstęp
+Rozdział 1. Odpowiedzialność sprzedawcy w starożytnym prawie rzymskim
+1.2. Kształtowanie się odpowiedzialności w prawie archaicznym i przedklasycznym
+1.3. Okres prawa klasycznego
+1.4. Podsumowanie
+Rozdział 2. Odejście od modelu rzymskiego w prawie średniowiecza
+2.1. Wprowadzenie
+2.2. Wczesna myśl chrześcijańska a odpowiedzialność sprzedawcy
+2.3. Wpływ tomizmu na odpowiedzialność sprzedawcy
+2.4. Podsumowanie
+Rozdział 3. Od kazuistyki do klauzul generalnych. Odpowiedzialność sprzedawcy w epoce wielkich kodyfikacji
+3.1. Wprowadzenie
+3.2. Sprzedaż w kodeksie napoleońskim
+3.3. Wpływy napoleońskie w prawie hiszpańskim
+3.4. Odpowiedzialność sprzedawcy w BGB
+3.5. Podsumowanie
+Wnioski końcowe
+Bibliografia
+#+end_verse
+
+**** Podział problemowy
+Tytuł: Odpowiedzialność sprzedawcy a efektywność obrotu prawnego
+
+#+begin_verse
+Wstęp
+Rozdział 1. Asymetria informacyjna jako czynnik uzasadniający istnienie odpowiedzialności cywilnej sprzedawcy
+1.1. Wprowadzenie
+1.2. Przenoszenie ryzyka informacyjnego w świetle teorii gier
+1.3. Ryzyko jako wartość ekonomiczna
+1.4. Podsumowanie
+Rozdział 2. Problem wad nieznanych obu stronom z punktu widzenia efektywności obrotu
+2.1. Wprowadzenie
+2.2. Analiza ekonomiczna odpowiedzialności za wady nieznane stronom w stosunku do sprzedaży przez producenta
+2.3. Analiza ekonomiczna odpowiedzialności za wady nieznane stronom w stosunku do sprzedaży przez dystrybutora
+2.4. Podsumowanie
+Rozdział 3. Model optymalnego zakresu odpowiedzialności sprzedawcy
+3.1. Wprowadzenie
+3.2. Przedstawienie modelu
+3.3. Zakres zastosowania modelu
+3.4. Podsumowanie
+Wnioski końcowe
+Bibliografia
+#+end_verse
+
+*** Wnioski końcowe
+Ostatnim obowiązkowym elementem pracy są wnioski końcowe. Jest to
+element bardzo ważny bowiem to tam znajduje się podsumowanie wszystkich
+osiągniętych rezultatów pracy. Należy we wnioskach krótko wspomnieć o
+drodze w jakiej do wniosków doszliśmy. Wnioski mogą mieć charakter
+poznawczy, tj. wskazujemy zaobserwowanie jakiejś prawidłowości nieznanej
+wcześniej, mogą mieć też charakter postulatu reformy prawa (tzw. wnioski
+/de lege ferenda/).
+
+*** Aneksy (materiały źródłowe)
+W niektórych pracach dyplomowych istnieje potrzeba dołączania na końcu
+pracy różnorodnych aneksów, do których odwołujemy się w tekście. W
+pracach empirycznych konieczne jest zamieszczenie w aneksie wzorów
+narzędzi badawczych (wzoru ankiety, dyspozycji do wywiadu, schematu
+analizy, itp.).
+
+** Przypisy i bibliografia
+Obowiązek opatrzenia pracy przypisami wynika z przepisów prawa cywilnego
+i prawa autorskiego. Z punktu widzenia studenta jednakże, przypisy są
+jedną z niewielu metod aby wykazać się oczytaniem przed oceniającymi go
+promotorem i recenzentem. Przypisy robić więc warto. Poprawne zrobienie
+przypisów bibliograficznych pozwala uniknąć nieprzyjemnych zarzutów
+plagiatu, których skutki mogą być tak niewinne jak konieczność
+wyjaśnienia pozornego plagiatu z promotorem, aż do tak poważnych jak
+kara, o której mowa w przepisie art. 115 ust. 1 ustawy z dnia 4 lutego
+1994 r. o prawie autorskim i prawach pokrewnych .
+
+Sposobów robienia przypisów jest wiele (zwane są one stylami cytowań), w
+polskim piśmiennictwie prawniczym stosuje się tzw. system tradycyjny,
+który nie został skodyfikowany (w przeciwieństwie do systemów
+zagranicznych np. [[https://www.legalbluebook.com][Bluebook]] lub
+[[http://www.chicagomanualofstyle.org][Chicago Manual of Style]]).
+
+*** Przykładowe przypisy
+| Typ utworu                                                            | Forma przypisu                                                                                                                                                                       |
+|-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Monografia napisana przez jednego autora                              | J.A. Kowalski, /Prawo o gumach balonowych/, Warszawa 1999, s. 15.                                                                                                                    |
+| Odniesienie się do kolejnej strony z monografii zacytowanej powyżej   | Ibid., s. 16.                                                                                                                                                                        |
+| Odnośnik do publikacji już wczesniej cytowanej.                       | J.A. Kowalskiego, /Prawo o gumach.../, s. 17.                                                                                                                                        |
+| Monografia wieloautorska -- każdy rozdział pisany przez innego autora | J.A. Kowalski, /Prawo o czekoladzie z orzechami jako nowa gałąź prawa/ [w:] J. Nowak, B. Malinowski (red.), /Nowe gałęzie prawa/, New York 1995, s. 25.                              |
+| Artykuł w czasopiśmie naukowym                                        | J.J. Kowalski, A. Nowak, /Aspekty prawne przyprawiania steków/, „Journal of Advanced Steak Seasoning” vol. 3 (2009), s. 616.                                                         |
+| Monografia wieloautorska, dzieło wspólne                              | J.J. Kowalski, A. Nowak, /Aspekty prawne grilowania steków/, Pcim Dolny 2011, s. 35.                                                                                                 |
+| Komentarze                                                            | J. Nowak [w:] E. Kwiatkowski (red.), /Komentarz do kodeksu cywilnego/, Warszawa 2018, s.546.                                                                                         |
+| Komentarze (elektroniczne)                                            | J. Nowak [w:] E. Kwiatkowski (red.), „Komentarz do kodeksu cywilnego”, Warszawa 2018, komentarz do art. 140, teza 7.                                                                 |
+| Systemy                                                               | J. Nowak [w:] E. Kwiatkowski (red.), /System Prawa Prywatnego. Prawo rzeczowe/, Tom III, Warszawa 2018, s. 546.                                                                      |
+| Materiał ze strony internetowej                                       | S. Coelho-Prabhu, /Announcing Bitcoin Cash (BCH) Support on Coinbase Wallet/ [na:] „The Coinbase Blog”, https://blog.coinbase.com/announcing-bitcoin-cash-bch-support-on-coinbase-wallet-8c5b8313bd2d, 20.02.2019, dostęp 4.3.2019). |
+| Orzeczenia sądów                                                      | Wyrok Sądu Okręgowego w Katowicach z dnia 20.10.2014 r., sygn. akt II C 509/14, niepubl.                                                                                             |
+
+Umiejętność prawidłowego robienia przypisów jest niezbędna, jednakże nie
+oznacza to, że podczas pracy powinniśmy sami je robić. Do tego używa się
+tzw. menedżerów bibliograficznych, które na podstawie danych o
+publikacjach same sformatują przypisy oraz wygenerują bibliografię.
+Polecam program /open source/ o nazwie
+[[https://www.zotero.org][Zotero]], który dostępny jest za darmo na
+Maca, Windowsa i Linuksa. Po zainstalowaniu konieczne będzie wejście w
+ustawienia i zainstalowanie wtyczki do naszego edytora tekstu. Ponadto,
+potrzebne jest zainstalowanie obsługi stylu używanego w pracach
+dyplomowych w Polsce (styl mojego autorstwa dostępny jest w
+[[https://www.zotero.org/styles?q=polish%20legal][repozytorium styli
+Zotero]]; są tam dostępne tysiące innych styli, które mogą być pomocne w
+późniejszej pracy zawodowej i naukowej).
+
+*** Bibliografia
+W bibliografii powinny znaleźć się wszystkie pozycje literatury, które
+znalazły się w przypisach pracy. Nie powinny się w niej znaleźć pozycje
+niecytowane w pracy. Bibliografię należy sortować alfabetycznie według
+nazwisk autorów.
+
+Zapisy bibliograficzne różnią się od cytowań zawartych w przypisach
+przerzuceniem inicjału imienia za nazwisko. Ma to istotny walor
+praktyczny ponieważ pozwala łatwo posortować bibliografię alfabetycznie:
+
+Gardocki L., /Prawo karne/, Warszawa 2015.
+
+*** Jak uniknąć robienia przypisów i bibliografii
+Robienie przypisów i bibliografii jest pracą żmudną i, chociaż to
+kwestia subiektywna, wydaje się nie dawać satysfakcji większości
+autorów. Aby zautomatyzować tę część pracy można skorzystać z
+oprogramowania do zarządzania cytowaniami.
+[[https://alternativeto.net/software/zotero/][Aplikacji takich jest wiele]]. Jedną z najpopularniejszych jest darmowa aplikacja
+[[https://www.zotero.org][Zotero]], której demo autorstwa LMU Library
+dostępne jest tutaj: http://www.youtube.com/embed/H8UTehdF92s.
+
+Zotero korzysta z tzw. styli cytowania, które pozwalają dostosować
+wygląd przypisów do wymogów stawianych przez uczelnię. Polecam styl
+mojego autorstwa Polish-Legal, który pozwala na tworzenie przypisów w
+postaci typowej dla polskich tekstów prawniczych. Można go pobrać ze
+strony [[https://github.com/citation-style-language/styles/blob/master/polish-legal.csl][github]].
+
+Najpewniejszym sposobem opracowywania długiego tekstu jest wykorzystanie
+edytora tekstu. Najpopularnieszje edytory to [[http://emacs.org][Emacs]], Vim, Visual Studio Cod. Pozwalają one na edycję czystego tekstu i działają bardzo stabilnie - co ma ogromne znaczenie dla kilkumiesięcznych projektów. Pisząc pracę w plikach tekstowych należy skorzystać z zewnętrznego oprogramowania go wygenerowania pliku finalnego z pracą; programem tu polecanym jest Pandoc wraz z rozszerzeniami pandoc-citeproc (dla cytowań) i pandoc-crosref (dla odnośników wewnętrznych). Poniżej zamieszczam kilka źródeł, z których można zaczerpnąć wiedzę o używaniu edytorów tekstu w piśmiennictwie akademickim:
+
+1. [[https://www.youtube.com/watch?v=hpAJMSS8pvs][Nicholas  Cifuentes-Goodbody, /Academic Writing in Markdown/]]
+2. [[https://www.youtube.com/watch?v=Iagbv974GlQ&t=1943s][Derek Banas,  /Emacs Tutorial/]]
+3. [[https://www.youtube.com/watch?v=SzA2YODtgK4][Harry Schwartz, /Getting Started With Org Mode/]]
+4. [[https://retorque.re/zotero-better-bibtex/][Better BibTeX for Zotero]]
+5. [[http://arthurcgusmao.com/academia/2018/01/27/markdown-pandoc.html][Arthur Colombini Gusmão, /Markdown and Pandoc for academic writing/]]
+6. [[https://www.chriskrycho.com/2015/academic-markdown-and-citations.html][Chris Krycho, /Academic Markdown and Citations/]]

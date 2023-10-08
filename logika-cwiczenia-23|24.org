@@ -21,7 +21,7 @@ SCHEDULED: <2023-10-04 Wed>
      - A. Malinowski, S. Lewandowski, H. Machińska, J. Petzel, /Logika dla Prawników/, Warszawa 2009.
 
 *** Przerwy
-5-10 minut w połowie zajęć
+5-10 minut w połowie zajęć albo w ostatniej części zajęć.
 
 *** Nieobecności
 Dopuszczalne dwie nieobecności. Nieobecność ponad dwie nieobecności należy zaliczyć na dyżurze w ciągu dwóch tygodni od wystąpienia nieobecności. Niezaliczona nieobecność obniża ocenę końcową o pół stopnia.
@@ -98,7 +98,7 @@ a. Złożenie przysięgi lub ślubowania.
 b. Nakładam na Pana mandat karny w wysokości 500 zł.
 
 ** Do przeczytania
-Rozdział 1. z podręcznika Z. Ziembińskiego
+Z podręcznika Z. Ziembińskiego przeczytaj *rozdział I*.
 
 * Zajęcia 2
 SCHEDULED: <2023-10-11 Wed>
@@ -153,19 +153,18 @@ Nazwy ostre:
 - \pi 
 
 ** Stosunki pomiędzy zakresami nazw
-
-Diagram (źródło: Z. Ziembiński, /Logika praktyczna/, Warszawa 1999, s. 42):
-
-  [[./nazwy.jpeg]]
-
-Kot i nie-kot:
-
+Co to jest nie-kot:
 - pies
 - kula ziemska
 - lampka
 - zebra
 - PZPR, \pi, Hilary Clinton, oko kota
 
+#+CAPTION: Stostunki pomiędzy zakresami nazw (źródło: Z. Ziembiński, /Logika praktyczna/, Warszawa 1999, s. 42):
+  [[./img/nazwy.jpeg]]
+
+#+CAPTION: Stosunki pomiędzy zakresami nazw - wersja rozszerzona (źródło: Nazwa [online]. Wikipedia : wolna encyklopedia, 2020-04-14 02:21Z [dostęp: 2020-10-30 13:36Z]. Dostępny w Internecie: //pl.wikipedia.org/w/index.php?title=Nazwa&oldid=59402236):
+[[./img/relacje-nazw-wiki.jpg]]
 
 Definicje (źródło: Wikipedia, hasło Nazwa):
 
@@ -177,15 +176,10 @@ Definicje (źródło: Wikipedia, hasło Nazwa):
 6. Nazwa P jest sprzeczna względem nazwy Q, gdy denotacja nazwy P wyklucza się z denotacją nazwy Q i zarazem suma denotacji nazw P i Q pokrywa się z uniwersum przedmiotów. Nazwy "krowa" i "nie-krowa" są sprzeczne.
 7. Nazwa P jest podprzeciwna względem nazwy Q, gdy denotacje nazw P i Q krzyżują się, a suma tych denotacji pokrywa się z uniwersum przedmiotów. Nazwy "nie-krowa" i "zwierzę" są podprzeciwne.
 
-Diagram (źródło: Nazwa [online]. Wikipedia : wolna encyklopedia, 2020-04-14 02:21Z [dostęp: 2020-10-30 13:36Z]. Dostępny w Internecie: //pl.wikipedia.org/w/index.php?title=Nazwa&oldid=59402236):
-
-[[./relacje-nazw-wiki.jpg]]
-
 Czy jest jakiś algorytm tworzenia par nazw podprzeciwnych?
 
 ** Do przeczytania
-
-Rozdział II  z podręcznika.
+Z podręcznika Z. Ziembińskiego przeczytaj *rozdziały II i III*.
 
 * Zajęcia 3
 ** Worki ze złotymi monetami :zagadka:
@@ -218,7 +212,7 @@ Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje o�
   + Definitio per genus et differentiam specificam (definicja klasyczna): A to takie B, które ma cechę C.
 - Definicje nierównościowe. Np. występujące w geometrii (definicja przez postulaty).
 
-#+BEGIN_SRC plantuml :file definicje.png
+#+BEGIN_SRC plantuml :file img/definicje.png
 
 @startwbs
 + Definicje
@@ -231,7 +225,7 @@ Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje o�
 #+END_SRC
 
 #+RESULTS:
-[[file:definicje.png]]
+[[file:img/definicje.png]]
 
 Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 
@@ -246,7 +240,7 @@ Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 - definicja zbyt wąska: Człowiek to ssak posługujący się mową i pismem.
 
 ** Do przeczytania
-Rozdział IV. 
+Z podręcznika Z. Ziembińskiego przeczytaj *rozdział IV*.
 
 * Zajęcia 4
 ** Podział logiczny
@@ -279,7 +273,7 @@ Niepoprawne podziały:
   
 *** Klasyfikacja
 
-#+begin_src plantuml :file klasyfikacja.png
+#+begin_src plantuml :file img/klasyfikacja.png
 
 @startwbs
 + Zdarzenia prawne
@@ -294,36 +288,35 @@ Niepoprawne podziały:
 #+end_src
 
 #+RESULTS:
-[[file:klasyfikacja.png]]
+[[file:img/klasyfikacja.png]]
 
 *** Wyróżnianie typów
 
 Wyodrębnianie przedmiotów o interesujących nas cechach.
 
 ** Do przeczytania
-Rozdział V
+Z podręcznika Z. Ziembińskiego przeczytaj *rozdział __*.
 
 * Zajęcia 5
 ** Zdanie
 
-- Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności wypowiedzi.
-- Przykłady wyrażeń niebędących zdaniami w sensie logicznym, ale będących zdaniami w sensie gramatycznym: /Zapal światło. W razie niebezpieczeństwa zbij szybę./
-- Zdarzenia i stany rzeczy.
++ Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności wypowiedzi.
++ Przykłady wyrażeń niebędących zdaniami w sensie logicznym, ale będących zdaniami w sensie gramatycznym: /Zapal światło. W razie niebezpieczeństwa zbij szybę./
++ Zdarzenia i stany rzeczy.
   - Zdarzenie: rzecz lub osoba wykazywała w danym momencie własność X a w innym momencie jej nie wykazywała.
   - Stan rzeczy: rzecz lub osoba wykazywała od momentu A do momentu B jakąś własność.
-- Zdanie prawdziwe - opisuje rzeczywistość tak, jak się ona ma. Nie można wolą, teorią ani poglądem zmienić wartości prawdziwościowej zdania.
++ Zdanie prawdziwe - opisuje rzeczywistość tak, jak się ona ma. Nie można wolą, teorią ani poglądem zmienić wartości prawdziwościowej zdania.
   - Czy może być zdanie prawdziwe dla kogoś?
-- Prawdziwość wynikająca z sensu użytych w nich słów; zdanie analityczne.
-- Fałszywość wynikająca z sensu słów; zdanie wewnętrznie kontradyktoryczne.
-- Zdania syntetyczne - nie da się poznać ich wartości logicznej za pomocą sensu zawartych w nich słów.
-- Zdanie niezupełne:
++ Prawdziwość wynikająca z sensu użytych w nich słów; zdanie analityczne.
++ Fałszywość wynikająca z sensu słów; zdanie wewnętrznie kontradyktoryczne.
++ Zdania syntetyczne - nie da się poznać ich wartości logicznej za pomocą sensu zawartych w nich słów.
++ Zdanie niezupełne:
   - np.: „Deszcz jest pożyteczny.” - nie wiadomo dla kogo jest on pożyteczny
   - można uzupełniać je w języku potocznym kontekstem wypowiedzi
 
-# zaczynamy: funkcje zdaniowe i struktura zdania; potem funktory prawdziwościowe
-
 ** Do przeczytania
 rozdział VI (§1-§4)
+Z podręcznika Z. Ziembińskiego przeczytaj *rozdział __*.
 
 * Zajęcia 6
 ** Funktory prawdziwościowe
@@ -345,7 +338,7 @@ Nieprawda, że na trawniku leży śnieg.
 
 Alternatywa nierozłączna:
 Na trawniku leży śnieg lub jest lato.
-        p                   \vee        q
+        p                 \vee        q
         1                   1         0
         0                   1          1
         1                   1          1
@@ -569,6 +562,7 @@ Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi wi�
 
 ** Do przeczytania
 Rozdział 10.
+Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział __*.
 * Zajęcia 10
 ** Pytania i odpowiedzi
 
@@ -592,6 +586,7 @@ Rozdział 10.
     - Kto pana pobił? Pobił mnie mężczyzna w płaszczu i czapce z dwoma daszkami (odpowiedź częściowa).
 ** Do przeczytania
 Rozdział 11
+Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział __*.
 * Zajęcia 11 
 ** Nieporozumienia
 - wieloznaczność słów:
@@ -616,6 +611,7 @@ Rozdział 11
    - indukcja jako wnioskowanie zawodne 
 ** Do przeczytania
        Rozdział 12, 13
+Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział __*.
 * Zajęcia 12 
 ** Indukcja
 
@@ -652,6 +648,7 @@ Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nas
      - wniosek: prawdopodobnie kurek C steruje płomieniem palnika nr 2.
 ** Do przeczytania
        Rozdział 15
+Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział __*.
 * Zajęcia 13
 ** Dedukcja
 - wnioskowanie jako proces myślowy, przesłanki, przesłanki entymematyczne
@@ -710,6 +707,7 @@ FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage o
 
 ** Do przeczytania
 Rozdział 14.
+Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział __*.
    
 # # * Wnioskowania prawnicze
 
