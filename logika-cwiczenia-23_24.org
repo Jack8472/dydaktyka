@@ -182,6 +182,7 @@ Czy jest jakiś algorytm tworzenia par nazw podprzeciwnych?
 Z podręcznika Z. Ziembińskiego przeczytaj *rozdziały II i III*.
 
 * Zajęcia 3
+SCHEDULED: <2023-10-18 Wed>
 ** Worki ze złotymi monetami :zagadka:
 
 Jest 100 worków z monetami. W 99 z nich są monety ze złota, ważące 20 g. W jednym z nich są monety fałszywe, ważące 19 gramów. W każdym z worków, jest nieco inna liczba monet. Monety złote i monety fałszywe nie różnią się niczym oprócz wagi. Dysponujesz wagą elektroniczną (nieskończenie dokładną), której możesz użyć tylko raz. Znajdź worek z fałszywkami.
@@ -243,6 +244,7 @@ Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 Z podręcznika Z. Ziembińskiego przeczytaj *rozdział IV*.
 
 * Zajęcia 4
+SCHEDULED: <2023-11-08 Wed>
 ** Podział logiczny
 
 Podział logiczny zakresu jakiejś nazwy /N/ na zakresy /A, B, C, D, E/.
@@ -295,7 +297,7 @@ Niepoprawne podziały:
 Wyodrębnianie przedmiotów o interesujących nas cechach.
 
 ** Do przeczytania
-Z podręcznika Z. Ziembińskiego przeczytaj *rozdział __*.
+Z podręcznika Z. Ziembińskiego przeczytaj *rozdział V*.
 
 * Zajęcia 5
 ** Zdanie
@@ -315,8 +317,7 @@ Z podręcznika Z. Ziembińskiego przeczytaj *rozdział __*.
   - można uzupełniać je w języku potocznym kontekstem wypowiedzi
 
 ** Do przeczytania
-rozdział VI (§1-§4)
-Z podręcznika Z. Ziembińskiego przeczytaj *rozdział __*.
+Z podręcznika Z. Ziembińskiego przeczytaj *rozdział VI*.
 
 * Zajęcia 6
 ** Funktory prawdziwościowe
