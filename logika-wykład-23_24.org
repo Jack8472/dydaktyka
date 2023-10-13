@@ -8,20 +8,23 @@
 SCHEDULED: <2023-10-14 Sat>
 ** Sprawy formalne i organizacyjne
 *** Ogólne
-1. Gdzie znajdę ten materiał: https://github.com/szczerbowski/dydaktyka
-2. warunki zaliczenia
-3. dyżur
-4. podręczniki
-   a. Literatura obowiązkowa:
+1. Kod teams: =inf2zd0=
+2. Gdzie znajdę ten materiał: https://github.com/szczerbowski/dydaktyka
+3. Jak korzystać z tego dokumentu:
+   - jest to jedynie uzupełnienie wykładu i podręcznika
+   - przed każdym wykładem dokument jest aktualizowany - pamiętaj, aby sprawdzić najnowszą wersję
+4. Warunki zaliczenia.
+5. Dyżur - informacja jest na https://www.uni.lodz.pl/pracownicy/jakub-szczerbowski
+6. Literatura:
+   a) literatura obowiązkowa:
       - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
-   b. Literatura uzupełniająca:
+   b) literatura uzupełniająca:
       - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010,
       https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
       - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt.
       1-2.
       - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
       - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, /Logika dla Prawników/, Warszawa 2009.
-5. kod teams: =inf2zd0 (uq=
 
 *** Przerwy
 sobota: 2x10 min. (11:10-11:20, 12:00-12:10)
@@ -69,6 +72,7 @@ na podstawie literatury podanej powyżej.
     i wykrywać nielojalne działania przeciwnika.
 19. Praca myślowa prawnika - dowiem się jak stosować reguły myślenia w zadaniach
     typowych dla zawodów prawniczych.
+
 ** Ogólne wiadomości o języku
 *** Znak i kategorie syntaktyczne
 Semiotyka (ogólna nauka o znakach): (1) semantyka — nauka o stosunku pomiędzy
@@ -149,8 +153,6 @@ d. funktor zdaniotwórczy od dwóch argumentów zdaniowych: /chociaż/ w Warsza
 e. funktor funktorotwórczy od argumentu funktorowego: sędzia (/n/) /głęboko/ śpi
    \(\frac{z}{n}\) : Czym zatem, jest słowo /głęboko/? Tym:  \(\frac{\frac{z}{n}}{\frac{z}{n}}\)
 
-[2022-10-22 Sat]
-
 Zastępowalność wyrażeń w tej samej kategorii syntaktycznej. Przykłady:
 
 a. Sędzia głęboko śpi. Sędzia głęboko słucha.
@@ -189,7 +191,6 @@ Ma wywołać w odbiorcy komunikatu jakieś zachowanie.
 
 a. Janku, o godz. 9 masz być w łóżku!
 b. Nie jestem pewien, że podoba mi się ta twoja nowa koszulka.
-c. Ta dziewczyna puściła do Ciebie oczko.
 d. Kto przekracza dozwoloną prędkość podlega karze…
 e. Palenie zabija!
 
@@ -208,7 +209,6 @@ doszło do zawarcia małżeństwa. Dlaczego?
 SCHEDULED: <2023-10-21 Sat>
 ** Nazwy
 *** Nazwy konkretne i nazwy abstrakcyjne
-
 - konkretne: sędzia, człowiek, łobuz, biały stół; feniks
 - abstrakcyjne: białość, kradzież, braterstwo
 - mogą pojawiać się wątpliwości, czy mamy do czynienia z nazwą konkretną czy

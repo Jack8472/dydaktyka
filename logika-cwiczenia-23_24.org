@@ -7,18 +7,20 @@
 * Zajęcia 1
 SCHEDULED: <2023-10-04 Wed>
 ** Sprawy formalne i organizacyjne
-1. Gdzie znajdę ten materiał: https://github.com/szczerbowski/dydaktyka
-2. kod MS Teams: =g8fg6vl=
-3. warunki zaliczenia
-4. dyżur
-5. podręczniki
-   + Literatura obowiązkowa:
-     - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
-   + Literatura uzupełniająca:
-     - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010, https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
-     - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt. 1-2.
-     - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
-     - A. Malinowski, S. Lewandowski, H. Machińska, J. Petzel, /Logika dla Prawników/, Warszawa 2009.
+1. Kod MS Teams: =g8fg6vl=
+2. Gdzie znajdę ten materiał: https://github.com/szczerbowski/dydaktyka
+3. Warunki zaliczenia.
+4. Dyżur - informacja jest na https://www.uni.lodz.pl/pracownicy/jakub-szczerbowski
+6. Literatura:
+   a) literatura obowiązkowa:
+      - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
+   b) literatura uzupełniająca:
+      - T. Bekrycht, /Logiczne podstawy prawoznawstwa/, Warszawa 2010,
+      https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht.
+      - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt.
+      1-2.
+      - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
+      - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, /Logika dla Prawników/, Warszawa 2009.
 
 *** Przerwy
 5-10 minut w połowie zajęć albo w ostatniej części zajęć.
