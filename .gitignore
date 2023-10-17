@@ -1,5 +1,2 @@
-*
-!/*.org
-!/*.pdf
-!/img/*
-!/old/*
+/*.tex
+/ltximg/
