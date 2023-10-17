@@ -15,7 +15,8 @@ SCHEDULED: <2023-10-14 Sat>
    - przed każdym wykładem dokument jest aktualizowany - pamiętaj, aby sprawdzić najnowszą wersję
 4. Warunki zaliczenia.
 5. Dyżur - informacja jest na https://www.uni.lodz.pl/pracownicy/jakub-szczerbowski
-6. Literatura:
+
+*** Literatura
    a) literatura obowiązkowa:
       - Z. Ziembiński, /Logika Praktyczna/, Warszawa 2004 (albo inne wydanie).
    b) literatura uzupełniająca:
@@ -34,7 +35,7 @@ W przypadku nieobecności na wykładzie należy samodzielnie nauczyć się mate
 na podstawie literatury podanej powyżej.
 
 ** Wprowadzenie
-- Dlaczego to jest śmieszne: /Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?” Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak./
+- Dowcip logiczny: /Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?” Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak./
 - *Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach poprawnego rozumowania i uzasadniania twierdzeń.
 
 *** Przegląd treści
@@ -125,7 +126,7 @@ c. Wypowiedź w języku drugiego stopnia (metajęzyku w stosunku do języka
    pierwszego stopnia): /Jan powiedział, że pada deszcz./
 d. Wypowiedź w języku trzeciego stopnia (metajęzyku w stosunku do języka
    drugiego stopnia): /Marcin powiedział, że Jan powiedział, że pada deszcz./
-
+   
 **** Kategorie syntaktyczne
 a. Zdania, nazwy i funktory.
 b. Zdanie jest całkowicie samodzielną kategorią języka opisowego. Zdanie głosi
@@ -272,7 +273,7 @@ SCHEDULED: <2023-10-28 Sat>
 
 Diagram (źródło: Z. Ziembiński, /Logika praktyczna/, Warszawa 1999, s. 42):
 
-  [[./nazwy.jpeg]]
+  [[./img/nazwy.jpeg]]
 
 Kot i nie-kot:
 
@@ -316,13 +317,10 @@ Diagram (źródło: Nazwa [online]. Wikipedia : wolna encyklopedia, 2020-04-14
 02:21Z [dostęp: 2020-10-30 13:36Z]. Dostępny w Internecie:
 //pl.wikipedia.org/w/index.php?title=Nazwa&oldid=59402236):
 
-[[./relacje-nazw-wiki.jpg]]
+[[./img/relacje-nazw-wiki.jpg]]
 
 Algorytm tworzenia par nazw podprzeciwnych: przeciwieństwo nazwy podrzędnej i nazwa nadrzędna.
 
-[2022-11-05 Sat]
-*** DONE nie-krowa i nie-koń (a zwierzę?)
-CLOSED: [2022-11-20 Sun 08:44] SCHEDULED: <2022-11-19 Sat>
 ** Definicje
 
 Definicja realna: wypowiedź w języku pierwszego stopnia, która charakteryzuje
@@ -367,7 +365,7 @@ wszystkie boki równe./
 - Definicje nierównościowe. Np. występujące w geometrii (definicja przez
   postulaty).
 
-#+BEGIN_SRC plantuml :file definicje.png
+#+BEGIN_SRC plantuml :file img/definicje.png
 
 @startwbs
 + Definicje
@@ -434,7 +432,7 @@ Niepoprawne podziały:
 
 *** Klasyfikacja
 
-#+begin_src plantuml :file klasyfikacja.png
+#+begin_src plantuml :file img/klasyfikacja.png
 
 @startwbs
 + Zdarzenia prawne
@@ -488,9 +486,9 @@ Wyodrębnianie przedmiotów o interesujących nas cechach. Przykładowo z nazw
 Nieprawda, że na trawniku leży śnieg.
 
 | \sim{}p | p |
-|----+---|
-|  1 | 0 |
-|  0 | 1 |
+|---+---|
+| 1 | 0 |
+| 0 | 1 |
 
 ***** Alternatywa nierozłączna
 
