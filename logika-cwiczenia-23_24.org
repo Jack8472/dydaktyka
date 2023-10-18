@@ -165,7 +165,7 @@ Co to jest nie-kot:
 #+CAPTION: Stostunki pomiędzy zakresami nazw (źródło: Z. Ziembiński, /Logika praktyczna/, Warszawa 1999, s. 42):
   [[./img/nazwy.jpeg]]
 
-#+CAPTION: Stosunki pomiędzy zakresami nazw - wersja rozszerzona (źródło: Nazwa [online]. Wikipedia : wolna encyklopedia, 2020-04-14 02:21Z [dostęp: 2020-10-30 13:36Z]. Dostępny w Internecie: //pl.wikipedia.org/w/index.php?title=Nazwa&oldid=59402236):
+#+CAPTION: Stosunki pomiędzy zakresami nazw - wersja rozszerzona (źródło: Nazwa. Wikipedia. Dostępny w Internecie: //pl.wikipedia.org/w/index.php?title=Nazwa&oldid=59402236):
 [[./img/relacje-nazw-wiki.jpg]]
 
 Definicje (źródło: Wikipedia, hasło Nazwa):

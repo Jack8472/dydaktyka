@@ -126,7 +126,7 @@ c. Wypowiedź w języku drugiego stopnia (metajęzyku w stosunku do języka
    pierwszego stopnia): /Jan powiedział, że pada deszcz./
 d. Wypowiedź w języku trzeciego stopnia (metajęzyku w stosunku do języka
    drugiego stopnia): /Marcin powiedział, że Jan powiedział, że pada deszcz./
-   
+
 **** Kategorie syntaktyczne
 a. Zdania, nazwy i funktory.
 b. Zdanie jest całkowicie samodzielną kategorią języka opisowego. Zdanie głosi
@@ -209,10 +209,15 @@ doszło do zawarcia małżeństwa. Dlaczego?
 * Wykład 2
 SCHEDULED: <2023-10-21 Sat>
 ** Nazwy
+1. Nazwa jako podmiot w zdaniu.
+2. Nazwy proste i nazwy złożone.
 *** Nazwy konkretne i nazwy abstrakcyjne
-- konkretne: sędzia, człowiek, łobuz, biały stół; feniks
-- abstrakcyjne: białość, kradzież, braterstwo
-- mogą pojawiać się wątpliwości, czy mamy do czynienia z nazwą konkretną czy
+- konkretne :: znaki rzeczy lub osób, albo czegoś co można sobie jako byt fizyczny wyobrazić
+  - sędzia, człowiek, łobuz, biały stół; feniks
+- abstrakcyjne :: takie, które nie są nazwami konkretnymi - nie możemy sobie ich wyobrazić jako rzecz lub osobę
+  - białość, kradzież, braterstwo
+
+Mogą pojawiać się wątpliwości, czy mamy do czynienia z nazwą konkretną czy
   abstrakcyjną:
   - W sprawie Jana Kowalskiego zapadł długo oczekiwany /wyrok/.
   - Po zamknięciu rozprawy sąd wydaje /wyrok/.
@@ -220,7 +225,7 @@ SCHEDULED: <2023-10-21 Sat>
 *** Desygnaty nazw
 - Desygnatem nazwy jest przedmiot, o którym można nazwę prawdziwie orzec.
 - Wobec książki można powiedzieć /to jest książka/ i będzie to prawda; nie można
-  jednak powiedzieć /to jest pies/. Pies nie będzie desygnatem nazwy /książka/.
+  jednak powiedzieć /to jest pies/. Podobnie pies nie będzie desygnatem nazwy /książka/.
 
 *** Nazwy indywidualne i nazwy generalne
 - nazwy indywidualne oznaczają poszczególne przedmioty: /miasto Poznań/; /Zofia
@@ -228,31 +233,41 @@ SCHEDULED: <2023-10-21 Sat>
 - nazwy generalne oznaczają przedmioty dzielące jakieś wspólne cechy: /miasto
   wojewódzkie/; /Zofia/ ma imieniny 15 maja.
 
-*** Treść nazwy
+**** Treść nazwy generalnej
+***** Cechy
 
-**** Cechy
-Cechy młotka:
+Cechy samochodu:
 
-- konstytutywne
-  - przypomina literę T
-  - jest narzędziem składającym się z członka i obucha
-  - służy do uderzania w inne narzędzia lub wbijania gwoździ i podobnych
-    przedmiotów
-- konsekutywne
-  - jest rzeczą
-  - może być metalowy lub drewniany
-  - jest solidny
++ konstytutywne (wystarczają aby odróżnić przedmioty bedące desygnatami nazwy od innych przedmiotów):
+  - pojazd lądowy,
+  - posiadający koła,
+  - używany do przewozu ludzi i towarów,
++ konsekutywne:
+  - jest rzeczą,
+  - waży powyżej 1 kg,
+  - posiada metalowe elementy.
 
-**** Supozycje
+***** Supozycje
+
+Nazwa generalna może być używana w różnych rolach znaczeniowych nazywanych supozycjami:
+
 - supozycja prosta: /zając schował się w krzakach/
 - supozycja formalna: /zając jest ssakiem/
 - supozycja materialna: /zając składa się z dwóch sylab/
 
 *** Zakres nazwy
+
 - Zakres nazwy to klasa wszystkich desygnatów danej nazwy.
-- Nazwy puste — nie ma desygnatów.
+- Ze względu na to ile desygnatów ma nazwa możemy je podzielić na:
+  + nazwy ogólne - mają więcej niż jeden desygnat
+  + nazwy jednostkowe - mają jeden desygnat
+  + nazwy puste - nie mają desygnatów (czy zatem wszystkie nazwy puste znaczą to samo?)
+    - człowiek, który ma 4 metry wzrostu
+    - czworoboczny trójkąt
+    - szafa w mojej kieszeni
 
 *** Nazwy zbiorowe
+
 - Nazwy zbiorowe to nazwy agregatów przedmiotów. Nie przysługują poszczególnym
   przedmiotom wchodzącym w skład tego agregatu.
 - Biblioteka jest nazwą zbiorową — oznacza zbiór książek. Czy przedmiot jakim
@@ -260,31 +275,103 @@ Cechy młotka:
 
 *** Ostrość nazw
 
-- Nazwa nieostra — nie wiadomo, które przemioty są jej desygnatami: 
+- Nazwa nieostra — są takie przemioty, o których nie wiadomo czy są desygnatami danej nazwy
   - /leń/ : leń 1, leń 2 … tacy, o których nie wiadomo czy są leniami… nie-leń
   - wysoki mężczyzna
 
 Nazwy ostre:
 - pies
-- \pi 
-* Wykład 3
-SCHEDULED: <2023-10-28 Sat>
+- \pi
+
 ** Stosunki pomiędzy zakresami nazw
+UWAGA: wersja rozszerzona względem podręcznika!
+*** Zamienność
+#+begin_src plantuml :file img/zamiennosc.png
+@startditaa -E -S
++--------+------------------+
+| S cGRE |               ~S |
++--------+------------------+
+| P cBLU |               ~P |
++--------+------------------+
+|             U     cBLK    |
++---------------------------+
+@endditaa
+#+end_src
 
-Diagram (źródło: Z. Ziembiński, /Logika praktyczna/, Warszawa 1999, s. 42):
+*** Podrzędność /S/ względem /P/
+#+begin_src plantuml :file img/podrzednosc.png
+@startditaa -E -S
++--------+------------------+
+| S cGRE |               ~S |
++--------+------+-----------+
+| P cBLU        |        ~P |
++---------------+-----------+
+|             U     cBLK    |
++---------------------------+
+@endditaa
+#+end_src
 
-  [[./img/nazwy.jpeg]]
+*** Nadrzędność /S/ względem /P/
+#+begin_src plantuml :file img/nadrzednosc.png
+@startditaa -E -S
++---------------+-----------+
+| S  cGRE       |        ~S |
++--------+------+-----------+
+| P cBLU |               ~P |
++--------+------------------+
+|             U     cBLK    |
++---------------------------+
+@endditaa
+#+end_src
+*** Przeciwieństwo
+#+begin_src plantuml :file img/przeciwienstwo.png
+@startditaa -E -S
++--------+------+---+-------+
+| P cBLU | S  cGRE  |       |
++--------+----------+-------+
+|             U    cBLK     |
++---------------------------+
+@endditaa
+#+end_src
 
-Kot i nie-kot:
+*** Niezależność
+#+begin_src plantuml :file img/niezaleznosc.png
+@startditaa -E -S
++-----------+---------------+
+|     S cGRE|            ~S |
++--------+--+--------+------+
+| ~P     |     P cBLU|   ~P |
++--------+-----------+------+
+|             U     cBLK    |
++---------------------------+
+@endditaa
+#+end_src
 
-- pies
-- kula ziemska
-- lampka
-- zebra
-- PZPR, \pi, Hilary Clinton, oko kota
+*** Sprzeczność
+#+begin_src plantuml :file img/sprzecznosc.png
+@startditaa -E -S
++-------------+-------------+
+|      P cBLU |      S cGRE |
++-------------+-------------+
+|             U    cBLK     |
++---------------------------+
+@endditaa
+#+end_src
 
+*** Podprzeciwieństwo
+#+begin_src plantuml :file img/podprzeciwienstwo.png
+@startditaa -E -S
++----------------+----------+
+| S  cGRE        |       ~S |
++---------+------+----------+
+| ~P      |        cBLU   P | 
++---------+-----------------+
+|             U     cBLK    |
++---------------------------+
+@endditaa
+#+end_src
 
-Definicje (źródło: Wikipedia, hasło Nazwa):
+*** Definicje (źródło: Wikipedia, hasło Nazwa):
 
 1. Nazwa P jest *zamienna* względem nazwy Q, gdy denotacje tych nazw pokrywają
    się, tj. gdy każdy desygnat nazwy P jest zarazem desygnatem nazwy Q, a każdy
@@ -313,14 +400,8 @@ Definicje (źródło: Wikipedia, hasło Nazwa):
    się, a suma tych denotacji pokrywa się z uniwersum przedmiotów. Nazwy
    "nie-krowa" i "zwierzę" są podprzeciwne.
 
-Diagram (źródło: Nazwa [online]. Wikipedia : wolna encyklopedia, 2020-04-14
-02:21Z [dostęp: 2020-10-30 13:36Z]. Dostępny w Internecie:
-//pl.wikipedia.org/w/index.php?title=Nazwa&oldid=59402236):
-
-[[./img/relacje-nazw-wiki.jpg]]
-
-Algorytm tworzenia par nazw podprzeciwnych: przeciwieństwo nazwy podrzędnej i nazwa nadrzędna.
-
+* Wykład 3
+SCHEDULED: <2023-10-28 Sat>
 ** Definicje
 
 Definicja realna: wypowiedź w języku pierwszego stopnia, która charakteryzuje
@@ -397,7 +478,6 @@ Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 - definicja zbyt szeroka: Człowiek to ssak dwunożny.
 - definicja zbyt wąska: Człowiek to ssak posługujący się mową i pismem.
 
-* Wykład 4
 ** Podział logiczny
 Podział logiczny zakresu jakiejś nazwy /N/ na zakresy /A, B, C, D, E…/
 
@@ -412,7 +492,7 @@ Polskie miasta:
 - w górach, nad morzem, na równinach i na wyżynach; (a co z innymi terenami?)
 - zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki
   podział jest poprawny; inna sprawa, że niezbyt przydatny)
-  
+
 *** Poprawność podziału
 Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być
 zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być
@@ -451,17 +531,18 @@ Niepoprawne podziały:
 
 *** Wyróżnianie typów
 Wyodrębnianie przedmiotów o interesujących nas cechach. Przykładowo z nazwy =pies= wyróżniamy typy takie jak =wyżeł= i =spaniel=.
+* Wykład 4
+SCHEDULED: <2023-11-04 Sat>
 ** Zdanie
-
 - Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności
   wypowiedzi.
 - Przykłady wyrażeń niebędących zdaniami w sensie logicznym, ale będących
   zdaniami w sensie gramatycznym: /Zapal światło. W razie niebezpieczeństwa zbij
   szybę./
 - Zdarzenia i stany rzeczy.
-  - Zdarzenie: rzecz lub osoba wykazywała w danym momencie własność X a w innym
+  + Zdarzenie: rzecz lub osoba wykazywała w danym momencie własność X a w innym
     momencie jej nie wykazywała.
-  - Stan rzeczy: rzecz lub osoba wykazywała od momentu A do momentu B jakąś
+  + Stan rzeczy: rzecz lub osoba wykazywała od momentu A do momentu B jakąś
     własność.
 - Zdanie prawdziwe - opisuje rzeczywistość tak, jak się ona ma. Nie można wolą,
   teorią ani poglądem zmienić wartości prawdziwościowej zdania.
@@ -474,11 +555,11 @@ Wyodrębnianie przedmiotów o interesujących nas cechach. Przykładowo z nazw
 *** Wartości logiczne funktorów prawdziwościowych
 
 | p | q | \sim{}p | p \vee q | p \cdot q | p \sup q | p \perp q | p \equiv q | p \downarrow q |
-|---+---+----+-------+-------+-------+-------+-------+-------|
-| 0 | 0 |  1 |     0 |     0 |     1 |     0 |     1 |     1 |
-| 0 | 1 |  1 |     1 |     0 |     1 |     1 |     0 |     0 |
-| 1 | 0 |  0 |     1 |     0 |     0 |     1 |     0 |     0 |
-| 1 | 1 |  0 |     1 |     1 |     1 |     0 |     1 |     0 |
+|---+---+---+-------+------+-------+-------+-------+-------|
+| 0 | 0 | 1 |     0 |    0 |     1 |     0 |     1 |     1 |
+| 0 | 1 | 1 |     1 |    0 |     1 |     1 |     0 |     0 |
+| 1 | 0 | 0 |     1 |    0 |     0 |     1 |     0 |     0 |
+| 1 | 1 | 0 |     1 |    1 |     1 |     0 |     1 |     0 |
 
 **** Przykłady
 ***** Negacja
@@ -524,17 +605,8 @@ Pójdziemy na lody albo pójdziemy do kina.
 | 1 |     0 | 1 |
 
 ***** Implikacja
-
-Jeżeli pada deszcz to ulica jest mokra.
-
-| p | p \sup{} q | q |
-|---+-------+---|
-| 1 |     1 | 1 |
-| 0 |     1 | 0 |
-| 1 |     0 | 0 |
-| 0 |     1 | 1 |
-
-Jeżeli (mam w kieszeni pierścień) to (koronawirus mutuje szybciej niż przeciętny wirus).
+- Jeżeli pada deszcz to ulica jest mokra.
+- Jeżeli (Zakopane jest stolicą Polski) to (Arystoteles był pierwszym człowiekiem na księżycu).
 
 | p | p \sup q | q |
 |---+-------+---|
@@ -577,19 +649,21 @@ p \sup q \equiv (\sim p) \vee q
 *** Definicja implikacji przy pomocy koniunkcji i negacji
 p \sup q \equiv \sim ( p \cdot \sim q )
 
-*** Przykłady
- - Jeżeli Ateny są stolicą Polski to Uniwersytet Łódzki ma siedzibę w Berlinie:
-   1
- - Jeżeli Ateny są stolicą Polski to Robert Lewandowski jest piłkarzem: 1
- - Jeżeli Ateny są stolicą Polski to mam w kieszeni chusteczkę: 1
- - Jeżeli Warszawa jest stolicą Polski to Księżyc jest zrobiony z sera: 0
+*** Zadanie
+
+Czy te zdania są prawdziwe?
+
+ - Jeżeli Ateny są stolicą Polski to Uniwersytet Łódzki ma siedzibę w Berlinie.
+ - Jeżeli Ateny są stolicą Polski to Robert Lewandowski jest piłkarzem.
+ - Jeżeli Ateny są stolicą Polski to mam w kieszeni chusteczkę.
+ - Jeżeli Warszawa jest stolicą Polski to Księżyc jest zrobiony z sera.
  - Jeżeli Warszawa jest stolicą Polski to Albert Einstein opracował teorię
-   względności: 1
- - Nieprawda że ( Warszawa jest stolicą Polski i nieprawda Einstein opracował
-   teorię względności): 1
+   względności.
+ - Nieprawda że (Warszawa jest stolicą Polski i nieprawda Einstein opracował
+   teorię względności).
  - (Nieprawda że, Warszawa jest stolicą Polski) lub Einstein opracował teorię
-   względności: 1
- - Ani Ateny są stolicą Polski ani UŁ ma siedzibę w Berlinie: 1
+   względności.
+ - Ani Ateny są stolicą Polski ani UŁ ma siedzibę w Berlinie.
 
 *** Bezprawne samouwolnienie
 Art. 242. § 1. Kto uwalnia się sam, będąc pozbawionym wolności na
@@ -604,14 +678,13 @@ określonego w § 1
 - *albo* uszkadza miejsce zamknięcia,
 
   podlega karze pozbawienia wolności do lat 3.
-  
-[2022-11-19 Sat]
 
 *** Tautologia, kontrtautologia
 
 *** Turing Complete
 
 * Wykład 5
+SCHEDULED: <2023-11-04 Sat>
 ** Relacje (stosunki) pomiędzy przedmiotami
 *** Wstęp
 
@@ -650,7 +723,7 @@ Jan kocha Zofię. x jest bratem y, x patrzy na y, x mówi do y.
 - jest pracownikiem tej samej firmy - relacja nontranzytywna
 - lubi - relacja nontranzytywna
 - jest przyjacielem - relacja nontranzytywna
-  
+
 *** Stosunek spójny, porządkujący, równościowy i zwrotne
 
 Przykładowy zapis:
@@ -663,7 +736,7 @@ Przykładowy zapis:
     - {1, 2, 3, 4}, R: <
   - *Stosunek porządkujący* pozwala ustawić przedmioty w szeregu: asymetryczny, przechodni i spójny.
     - { 4, 1, 2, 3 }, R: <
-    - { Adam lat 10, Weronika lat 12, Bronisław lat 64, Kunegunda lat 102 }, R: jest starszy(a) 
+    - { Adam lat 10, Weronika lat 12, Bronisław lat 64, Kunegunda lat 102 }, R: jest starszy(a)
   - *Stosunek zwrotny* zachodzi pomiędzy każdym elementem w danej klasie przedmiotów a nim samym:
     - { 4 , 5 , 9, 23 }, R: jest równe
   - *Stosunek równościowy*: symetryczny, przechodni i zwrotny:
@@ -671,7 +744,7 @@ Przykładowy zapis:
     + { Wojtek blondyn, Kasia blondynka, Alicja blondynka, Cezary blondyn }, R: /ma taki sam kolor włosów jak/
     + { Skoda Octavia 1.9TDI, Audi A3 2.0TDI, BMW 330d }, R: /jest na takie samo paliwo jak/
     + { Adam, Franciszek, Bartek }^1 R: /być bratem/ (1 - panowie są braćmi)
-      
+
 [2022-12-03 Sat]
 
 * Wykład 6
@@ -744,7 +817,7 @@ Przykładowy zapis:
 
 Milczenie norm a zachowanie człowieka.
 
-Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane. 
+Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane.
 
 * Wykład 7
 ** Pytania i odpowiedzi
@@ -783,7 +856,7 @@ Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi wi�
 - spostrzeżenia:
   + przypadkowe,
   + obserwacja,
-  + pomiar i 
+  + pomiar i
   + eksperyment
 ** Wnioskowania niededukcyjne
 *** Indukcja
@@ -800,7 +873,7 @@ Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nas
 - Indukcja zupełna i niezupełna.
 - Indukcja eliminacyjna:
   a. kanon jednej zgodności: O_1: A, B, C, Z; O_2: C, D, E, Z; O_3: C, F, G, Z.
-  b. kanon jednej różnicy: 
+  b. kanon jednej różnicy:
      - O_1: A, B, C, Z;
      - O_2: B, C, Z;
      - O_3: A, C, Z;
@@ -953,5 +1026,5 @@ W nawiasach oznaczono alternatywne symbole.
 - Dysjunkcja: p / q
 - Binegacja: p \downarrow q
 - Równoważność: p \equiv q (p \harr  q)
-- Konieczność: \(\Box{}p\)  
-- Możliwość: \(\diamond{}p\) 
+- Konieczność: \(\Box{}p\)
+- Możliwość: \(\diamond{}p\)
