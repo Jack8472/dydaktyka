@@ -1,0 +1,2412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl">
+<head>
+<!-- 2023-10-21 Sat 07:36 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Logika - konspekt wykładu (’23/24)</title>
+<meta name="author" content="J. Szczerbowski" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Logika - konspekt wykładu (’23/24)</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Spis tre&#x015b;ci</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org188da49">1. Wykład 1</a>
+<ul>
+<li><a href="#orgff84284">1.1. Sprawy formalne i organizacyjne</a>
+<ul>
+<li><a href="#org4848f0b">1.1.1. Ogólne</a></li>
+<li><a href="#org4a4b32c">1.1.2. Literatura</a></li>
+<li><a href="#orgdef3508">1.1.3. Przerwy</a></li>
+<li><a href="#org31ad3e8">1.1.4. Nieobecności</a></li>
+</ul>
+</li>
+<li><a href="#org81e6b6f">1.2. Wprowadzenie</a>
+<ul>
+<li><a href="#org82d9df6">1.2.1. Przegląd treści</a></li>
+</ul>
+</li>
+<li><a href="#orge52637d">1.3. Ogólne wiadomości o języku</a>
+<ul>
+<li><a href="#orga5a6435">1.3.1. Znak i kategorie syntaktyczne</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgb35a0b9">2. Wykład 2</a>
+<ul>
+<li><a href="#org7c22ec3">2.1. Nazwy</a>
+<ul>
+<li><a href="#org3a8e884">2.1.1. Nazwy konkretne i nazwy abstrakcyjne</a></li>
+<li><a href="#org450e3fc">2.1.2. Desygnaty nazw</a></li>
+<li><a href="#org950fb71">2.1.3. Nazwy indywidualne i nazwy generalne</a></li>
+<li><a href="#org5f01fa9">2.1.4. Zakres nazwy</a></li>
+<li><a href="#orgf93baa1">2.1.5. Nazwy zbiorowe</a></li>
+<li><a href="#org242ceaa">2.1.6. Ostrość nazw</a></li>
+</ul>
+</li>
+<li><a href="#org7d3626d">2.2. Stosunki pomiędzy zakresami nazw</a>
+<ul>
+<li><a href="#orgc1bc195">2.2.1. Zamienność</a></li>
+<li><a href="#orgf1d03e6">2.2.2. Podrzędność <i>S</i> względem <i>P</i></a></li>
+<li><a href="#orgc15bc3e">2.2.3. Nadrzędność <i>S</i> względem <i>P</i></a></li>
+<li><a href="#org6c43d4f">2.2.4. Przeciwieństwo</a></li>
+<li><a href="#orgd844188">2.2.5. Niezależność</a></li>
+<li><a href="#orgd3e7723">2.2.6. Sprzeczność</a></li>
+<li><a href="#org8ade9dc">2.2.7. Podprzeciwieństwo</a></li>
+<li><a href="#orgf9ef6d7">2.2.8. Definicje (źródło: Wikipedia, hasło Nazwa):</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgc858363">3. Wykład 3</a>
+<ul>
+<li><a href="#orgf907eef">3.1. Definicje</a>
+<ul>
+<li><a href="#orgeaf250b">3.1.1. Przykłady definicji (podawane przez studentów)</a></li>
+<li><a href="#orgefe0b12">3.1.2. Zadania definicji</a></li>
+<li><a href="#orgf41381d">3.1.3. Budowa definicji</a></li>
+<li><a href="#org4bb1484">3.1.4. Poprawność definicji</a></li>
+</ul>
+</li>
+<li><a href="#org0cb7407">3.2. Podział logiczny</a>
+<ul>
+<li><a href="#org0407bbc">3.2.1. Poprawność podziału</a></li>
+<li><a href="#org837bb47">3.2.2. Klasyfikacja</a></li>
+<li><a href="#org438fd1e">3.2.3. Wyróżnianie typów</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org6d4b154">4. Wykład 4</a>
+<ul>
+<li><a href="#org6d7e04c">4.1. Zdanie</a></li>
+<li><a href="#org699d82f">4.2. Funktory prawdziwościowe</a>
+<ul>
+<li><a href="#org773f4a4">4.2.1. Wartości logiczne funktorów prawdziwościowych</a></li>
+<li><a href="#org17951c8">4.2.2. Podstawowe zasady myślenia</a></li>
+<li><a href="#org593d05d">4.2.3. Definicja implikacji przy pomocy alternatywy i negacji</a></li>
+<li><a href="#org1fa8888">4.2.4. Definicja implikacji przy pomocy koniunkcji i negacji</a></li>
+<li><a href="#orgbb657e0">4.2.5. Zadanie</a></li>
+<li><a href="#orge9eba7e">4.2.6. Bezprawne samouwolnienie</a></li>
+<li><a href="#orgf4fc95b">4.2.7. Tautologia, kontrtautologia</a></li>
+<li><a href="#org5256610">4.2.8. Turing Complete</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org443a54d">5. Wykład 5</a>
+<ul>
+<li><a href="#org459197a">5.1. Relacje (stosunki) pomiędzy przedmiotami</a>
+<ul>
+<li><a href="#org30b3dd1">5.1.1. Wstęp</a></li>
+<li><a href="#orga8f8c66">5.1.2. Relacje symetryczne, asymetryczne i nonsymetryczne</a></li>
+<li><a href="#org6c54208">5.1.3. Stosunek przechodni (tranzytywny), atranzytywny, nontranzytywny</a></li>
+<li><a href="#org333b308">5.1.4. Stosunek spójny, porządkujący, równościowy i zwrotne</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org72489a2">6. Wykład 6</a>
+<ul>
+<li><a href="#orgf06a999">6.1. Wypowiedzi oceniające i normy</a>
+<ul>
+<li><a href="#org00709d4">6.1.1. Rodzaje ocen</a></li>
+<li><a href="#orge3e5397">6.1.2. Normy postępowania</a></li>
+</ul>
+</li>
+<li><a href="#org57456ae">6.2. Wypowiedzi modalne</a></li>
+</ul>
+</li>
+<li><a href="#orgc4eea3c">7. Wykład 7</a>
+<ul>
+<li><a href="#org4ecd956">7.1. Pytania i odpowiedzi</a></li>
+</ul>
+</li>
+<li><a href="#org6604b45">8. Wykład 8</a>
+<ul>
+<li><a href="#orge649a18">8.1. Nieporozumienia</a></li>
+<li><a href="#org705f5ef">8.2. Uzasadnianie bezpośrednie twierdzeń</a></li>
+<li><a href="#orgd745193">8.3. Wnioskowania niededukcyjne</a>
+<ul>
+<li><a href="#org63e75b8">8.3.1. Indukcja</a></li>
+</ul>
+</li>
+<li><a href="#org87ab644">8.4. Wnioskowania prawnicze</a>
+<ul>
+<li><a href="#orgb87d3d7">8.4.1. Przykłady</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgdba5df7">9. Wykład 9</a>
+<ul>
+<li><a href="#orgfaa7758">9.1. Dedukcja</a></li>
+</ul>
+</li>
+<li><a href="#org38dc729">10. Wykład 10</a>
+<ul>
+<li><a href="#orgf3a361c">10.1. Implikatura</a></li>
+<li><a href="#org00b0908">10.2. Myślenie kierowane z góry postawionymi zadaniami</a></li>
+<li><a href="#orga8f2676">10.3. Prawdopodobieństwo</a></li>
+<li><a href="#org1a80c85">10.4. Umiejętność przekonywania</a></li>
+</ul>
+</li>
+<li><a href="#org56b0eaa">11. ŚCIĄGA: Symbole logiczne</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org188da49" class="outline-2">
+<h2 id="org188da49"><span class="section-number-2">1.</span> Wykład 1</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgff84284" class="outline-3">
+<h3 id="orgff84284"><span class="section-number-3">1.1.</span> Sprawy formalne i organizacyjne</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-org4848f0b" class="outline-4">
+<h4 id="org4848f0b"><span class="section-number-4">1.1.1.</span> Ogólne</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<ol class="org-ol">
+<li>Kod teams: <code>inf2zd0</code></li>
+<li>Gdzie znajdę ten materiał: <a href="https://github.com/szczerbowski/dydaktyka">https://github.com/szczerbowski/dydaktyka</a></li>
+<li>Jak korzystać z tego dokumentu:
+<ul class="org-ul">
+<li>jest to jedynie uzupełnienie wykładu i podręcznika</li>
+<li>przed każdym wykładem dokument jest aktualizowany - pamiętaj, aby sprawdzić najnowszą wersję</li>
+</ul></li>
+<li>Warunki zaliczenia.</li>
+<li>Dyżur - informacja jest na <a href="https://www.uni.lodz.pl/pracownicy/jakub-szczerbowski">https://www.uni.lodz.pl/pracownicy/jakub-szczerbowski</a></li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org4a4b32c" class="outline-4">
+<h4 id="org4a4b32c"><span class="section-number-4">1.1.2.</span> Literatura</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<ol class="org-ol">
+<li>literatura obowiązkowa:
+<ul class="org-ul">
+<li>Z. Ziembiński, <i>Logika Praktyczna</i>, Warszawa 2004 (albo inne wydanie).</li>
+</ul></li>
+<li><p>
+literatura uzupełniająca:
+</p>
+<ul class="org-ul">
+<li>T. Bekrycht, <i>Logiczne podstawy prawoznawstwa</i>, Warszawa 2010,</li>
+</ul>
+<p>
+<a href="https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht">https://www.academia.edu/21615638/LOGIKA_skrypt_Bekrycht</a>.
+</p>
+<ul class="org-ul">
+<li>J. Stelmach, B. Brożek, <i>Metody Prawnicze</i>, rozdziały I, II, III pkt.</li>
+</ul>
+<p>
+1-2.
+</p>
+<ul class="org-ul">
+<li>J. Wajszczyk, <i>Jestem więc myślę</i>, Warszawa 2003.</li>
+<li>A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, <i>Logika dla Prawników</i>, Warszawa 2009.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orgdef3508" class="outline-4">
+<h4 id="orgdef3508"><span class="section-number-4">1.1.3.</span> Przerwy</h4>
+<div class="outline-text-4" id="text-1-1-3">
+<p>
+sobota: 2x10 min. (11:10-11:20, 12:00-12:10)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org31ad3e8" class="outline-4">
+<h4 id="org31ad3e8"><span class="section-number-4">1.1.4.</span> Nieobecności</h4>
+<div class="outline-text-4" id="text-1-1-4">
+<p>
+W przypadku nieobecności na wykładzie należy samodzielnie nauczyć się materiału
+na podstawie literatury podanej powyżej.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org81e6b6f" class="outline-3">
+<h3 id="org81e6b6f"><span class="section-number-3">1.2.</span> Wprowadzenie</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>Dowcip logiczny: <i>Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?” Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak.</i></li>
+<li><b>Logika</b> – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach poprawnego rozumowania i uzasadniania twierdzeń.</li>
+</ul>
+</div>
+
+<div id="outline-container-org82d9df6" class="outline-4">
+<h4 id="org82d9df6"><span class="section-number-4">1.2.1.</span> Przegląd treści</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<ol class="org-ol">
+<li>Ogólne wiadomości o języku.</li>
+<li>Nazwy - dowiem się czym się różni książka od biblioteki i Sejm od posłów.</li>
+<li>Stosunki pomiędzy zakresami nazw - dowiem się, że jestem nie-krową
+i nie-PZPR.</li>
+<li>Definicje - dowiem się ile cech wspólnych ma śliwka i kosiarka do trawy oraz
+dlaczego pomimo ich tak wielkiej ilości nadal potrafię je rozróżnić.</li>
+<li>Podział logiczny - dowiem się jak napisać przepis przyznający dofinansowanie
+gospodarstwom domowym, który po wejściu w życie przyprawi urzędników o ból
+głowy.</li>
+<li>Zdanie - dowiem się co to jest prawda i dlaczego „Która godzina?” nie jest
+zdaniem w sensie logicznym.</li>
+<li>Funktory prawdziwościowe - dowiem się dlaczego „p lub nie-p” oraz pogramy
+wspólnie w grę komputerową.</li>
+<li>Relacje - dowiem się, dlaczego człowiek człowiekowi wilkiem, a kiwi kiwi
+kiwi.</li>
+<li>Wypowiedzi oceniające i normy - dowiem się, z czego zbudowane jest prawo
+(i nie tylko).</li>
+<li>Wypowiedzi modalne - dowiem się, co to znaczy przedmiot fakultatywny
+(i dlaczego kradzież batonika jest też fakultatywna).</li>
+<li>Pytania i odpowiedzi - dowiem się, co to znaczy odpowiedzieć na pytanie.</li>
+<li>Przyczyny nieporozumień - dowiem się, dlaczego czasem ludzie się nie
+rozumieją.</li>
+<li>Uzasadnianie bezpośrednie - dowiem się o bezpośrednich spostrzeżeniach
+w przedmiocie rzeczywistości.</li>
+<li>Dedukcja - może się okazać, że Sherlock Holmes nie zawsze stosował dedukcję.</li>
+<li>Redukcja i indukcja - dowiem się jak nie zostać indykiem.</li>
+<li>Myślenie z góry postanowionymi zadaniami - dowiem się, że czasem myślenie
+służy konkretnym celom.</li>
+<li>Prawdopodobieństwo – dowiem się, dlaczego nie powinienem martwić się tym, że
+co drugie dziecko rodzi się Azjatą, planując rodzinę.</li>
+<li>Umiejętność przekonywania - dowiem się jak stosować logikę w sporze
+i wykrywać nielojalne działania przeciwnika.</li>
+<li>Praca myślowa prawnika - dowiem się jak stosować reguły myślenia w zadaniach
+typowych dla zawodów prawniczych.</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge52637d" class="outline-3">
+<h3 id="orge52637d"><span class="section-number-3">1.3.</span> Ogólne wiadomości o języku</h3>
+<div class="outline-text-3" id="text-1-3">
+</div>
+<div id="outline-container-orga5a6435" class="outline-4">
+<h4 id="orga5a6435"><span class="section-number-4">1.3.1.</span> Znak i kategorie syntaktyczne</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<p>
+Semiotyka (ogólna nauka o znakach): (1) semantyka — nauka o stosunku pomiędzy
+znakiem a tym do czego znak się odnosi; (2) syntaktyka — nauka o rodzajach
+znaków i regułach wiązania ich w znaki złożone; (3) nauka zajmująca się
+zagadnieniami stosunków pomiędzy znakami a wypowiadającym je lub odbierającym
+człowiekiem.
+</p>
+
+<p>
+Logika a prawda. Co to jest prawda? Co to jest zdanie prawdziwe? Czy każde
+zdanie może być prawdziwe?
+</p>
+
+<p>
+Logika formalna zajmuje się poprawnymi rozumowaniami.
+</p>
+</div>
+
+<ol class="org-ol">
+<li><a id="orgd76f700"></a>Przykłady zdań<br />
+<div class="outline-text-5" id="text-1-3-1-1">
+<ul class="org-ul">
+<li>Studenci uczą się pilnie.</li>
+<li>Warszawa jest stolicą Polski.</li>
+<li>Robert: W połowie drogi mojego żywota pośród ciemnego znalazłem się lasu.</li>
+<li>Stateczny, pulchny Buck Mulligan wynurzył się z wylotu schodów, niosąc mydlaną pianę w miseczce, na której leżały skrzyżowane lusterko i brzytwa.</li>
+<li>Wrzątek zawsze jest gorący.</li>
+<li>Ziemia jest płaska.</li>
+<li>Słońce świeci nocą.</li>
+<li>W konkursie chopinowskim wygrał najlepszy pianista.</li>
+<li>Gdzie leży mój długopis? - nie jest to zdanie w sensie logicznym</li>
+<li>Trójkąt ma cztery boki.</li>
+<li>Siedzę na niebieskim fotelu.</li>
+</ul>
+</div>
+</li>
+
+<li><a id="org931c440"></a>Znak<br />
+<div class="outline-text-5" id="text-1-3-1-2">
+<ul class="org-ul">
+<li><b>Pojęcie znaku</b> - układ rzeczy + reguły znaczeniowe.</li>
+<li>Czy zawsze są to znaki słowne?</li>
+<li>Znaczenie kontekstu: biała flaga, podanie ręki a umowa, przysięga małżeńska.</li>
+<li>Znak a symptom, objaw — jest to coś innego.</li>
+<li>Język — system obejmujący zbiór znaków słownych. Istnieją języki naturalne i języki sztuczne. Żargon — w tym żargon prawniczy: domieszka do języka naturalnego.</li>
+<li>W różnych językach słowa mogą mieć to samo znaczenie i brzmieć inaczej, albo na odwrót.</li>
+<li>Naturalnie powstają nowe słowa oraz nowe znaczenia (np. nowe znaczenie słowa <i>dzban</i>).</li>
+<li>Język wyróżnia zarówno zasób słów, jak i jego składnia. Istnieją nieprzetłumaczalne wprost zwroty.</li>
+<li>Język prawny a język prawniczy.</li>
+</ul>
+</div>
+</li>
+
+<li><a id="org5588943"></a>Metajęzyk<br />
+<ol class="org-ol">
+<li><a id="org35db31c"></a>Przykład<br />
+<div class="outline-text-6" id="text-1-3-1-3-1">
+<div class="org-center">
+<ol class="org-ol">
+<li><i>Zdanie poniżej jest prawdziwe.</i></li>
+
+<li><i>Zdanie powyżej jest fałszywe.</i></li>
+</ol>
+</div>
+</div>
+</li>
+
+<li><a id="org9b77f60"></a>Wyjaśnienie<br />
+<div class="outline-text-6" id="text-1-3-1-3-2">
+<ol class="org-ol">
+<li>Metajęzyk: język, który mówi o języku.</li>
+<li>Wypowiedź w języku pierwszego stopnia (języku przedmiotowym): <i>Pada deszcz.</i></li>
+<li>Wypowiedź w języku drugiego stopnia (metajęzyku w stosunku do języka
+pierwszego stopnia): <i>Jan powiedział, że pada deszcz.</i></li>
+<li>Wypowiedź w języku trzeciego stopnia (metajęzyku w stosunku do języka
+drugiego stopnia): <i>Marcin powiedział, że Jan powiedział, że pada deszcz.</i></li>
+</ol>
+</div>
+</li>
+</ol>
+</li>
+
+<li><a id="orga7904a3"></a>Kategorie syntaktyczne<br />
+<div class="outline-text-5" id="text-1-3-1-4">
+<ol class="org-ol">
+<li>Zdania, nazwy i funktory.</li>
+<li>Zdanie jest całkowicie samodzielną kategorią języka opisowego. Zdanie głosi
+więc, że jest tak a tak: <i>Granit jest skałą magmową. Sędzia opuścił salę
+rozpraw.</i></li>
+<li>Nazwa — coś co nadaje się na podmiot lub na orzecznik orzeczenia imiennego
+w zdaniu: <i>prawnik, planeta, sędzia</i>.</li>
+<li>Funktor to wyraz lub wyrażenie (leks), które nie jest ani nazwą, ani zdaniem,
+ale w połączeniu z nimi tworzy bardziej złożoną całość.</li>
+<li>Funktory dzielimy na zdaniotwórcze, nazwotwórcze i funktorotwórcze. Wyrazy
+lub wyrażenia, które funktor wiąże w większą całość, nazywamy argumentami
+funktora.</li>
+</ol>
+
+<p>
+Zdania oznacza się symbolicznie <i>z</i>. Nazwy oznacza się symbolicznie <i>n</i>.
+</p>
+
+<p>
+Przykłady funktorów:
+</p>
+
+<ol class="org-ol">
+<li>funktor nazwotwórczy od (jednego) argumentu nazwowego: <i>zielona</i> gęś:
+\(\frac{n}{n}\)</li>
+<li>funktor nazwotwórczy od dwóch argumentów nazwowych: most <i>nad</i> rzeką:
+\(\frac{n}{nn}\)</li>
+<li>funktor zdaniotwórczy od argumentu nazwowego: sędzia <i>śpi</i>: \(\frac{z}{n}\)</li>
+<li>funktor zdaniotwórczy od dwóch argumentów zdaniowych: <i>chociaż</i> w Warszawie
+pada deszcz <i>to</i> w Łodzi świeci słońce: \(\frac{z}{zz}\)</li>
+<li>funktor funktorotwórczy od argumentu funktorowego: sędzia (<i>n</i>) <i>głęboko</i> śpi
+\(\frac{z}{n}\) : Czym zatem, jest słowo <i>głęboko</i>? Tym:  \(\frac{\frac{z}{n}}{\frac{z}{n}}\)</li>
+</ol>
+
+<p>
+Zastępowalność wyrażeń w tej samej kategorii syntaktycznej. Przykłady:
+</p>
+
+<ol class="org-ol">
+<li>Sędzia głęboko śpi. Sędzia głęboko słucha.</li>
+<li>Piękna melodia. Zielona melodia.</li>
+<li>Rdza niszczy metal. Rdza podziwia metal.</li>
+</ol>
+
+<p>
+Ale już nie: <i>zielona</i> gęś &rarr;  <i>nad</i> gęś
+</p>
+</div>
+
+<ol class="org-ol">
+<li><a id="org5634979"></a>Zadanie — określ kategorie syntaktyczne w zdaniu<br />
+<ol class="org-ol">
+<li><a id="org4c28c88"></a>Przykład 1<br />
+<div class="outline-text-7" id="text-1-3-1-4-1-1">
+<ol class="org-ol">
+<li>Sędzia <i>n</i></li>
+<li>przesłuchuje \(\frac{z}{nn}\)</li>
+<li>świadka. <i>n</i></li>
+</ol>
+</div>
+</li>
+
+<li><a id="org7df85dd"></a>Przykład 2<br />
+<div class="outline-text-7" id="text-1-3-1-4-1-2">
+<ol class="org-ol">
+<li>Nieprawda, że \(\frac{z}{z}\)</li>
+<li>świeci \(\frac{z}{n}\)</li>
+<li>słońce. <i>n</i></li>
+</ol>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+
+<li><a id="org72845ed"></a>Role semiotyczne wypowiedzi<br />
+<ol class="org-ol">
+<li><a id="org9269db8"></a>Rola opisowa<br />
+<div class="outline-text-6" id="text-1-3-1-5-1">
+<p>
+Wypowiedź opisuje rzeczywistość.
+</p>
+
+<ol class="org-ol">
+<li>Świeci słońce.</li>
+<li>W lipcu w Polsce jest zima.</li>
+</ol>
+</div>
+</li>
+
+<li><a id="org8842d7f"></a>Rola ekspresywna<br />
+<div class="outline-text-6" id="text-1-3-1-5-2">
+<p>
+Komunikuje przeżycia, przemyślenia, stan wewnętrzny.
+</p>
+
+<ol class="org-ol">
+<li>Moja poranna kawa była ekstatycznie smaczna!</li>
+<li>Ach, świeci słońce!</li>
+<li>Ten obraz jest przepiękny.</li>
+</ol>
+</div>
+</li>
+
+<li><a id="org277f277"></a>Rola sugestywna<br />
+<div class="outline-text-6" id="text-1-3-1-5-3">
+<p>
+Ma wywołać w odbiorcy komunikatu jakieś zachowanie.
+</p>
+
+<ol class="org-ol">
+<li>Janku, o godz. 9 masz być w łóżku!</li>
+<li>Nie jestem pewien, że podoba mi się ta twoja nowa koszulka.</li>
+<li>Kto przekracza dozwoloną prędkość podlega karze…</li>
+<li>Palenie zabija!</li>
+</ol>
+</div>
+</li>
+
+<li><a id="orge3fff90"></a>Rola performatywna<br />
+<div class="outline-text-6" id="text-1-3-1-5-4">
+<p>
+Wypowiedź wywołuje skutki konwencjonalne.
+</p>
+
+<ol class="org-ol">
+<li>Złożenie przysięgi lub ślubowania.</li>
+<li>Nakładam na Pana mandat karny w wysokości 500 zł.</li>
+</ol>
+</div>
+
+<ol class="org-ol">
+<li><a id="org957435b"></a>Zadanie<br />
+<div class="outline-text-7" id="text-1-3-1-5-4-1">
+<p>
+Jan wypowiedział słowa przysięgi małżeńskiej wobec Małgosi, ale nie doszło do
+zawarcia małżeństwa; Małgosia również wypowiedziała odpowiednie słowa, nadal nie
+doszło do zawarcia małżeństwa. Dlaczego?
+</p>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb35a0b9" class="outline-2">
+<h2 id="orgb35a0b9"><span class="section-number-2">2.</span> Wykład 2</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org7c22ec3" class="outline-3">
+<h3 id="org7c22ec3"><span class="section-number-3">2.1.</span> Nazwy</h3>
+<div class="outline-text-3" id="text-2-1">
+<ol class="org-ol">
+<li>Nazwa jako podmiot w zdaniu.</li>
+<li>Nazwy proste i nazwy złożone.</li>
+</ol>
+</div>
+<div id="outline-container-org3a8e884" class="outline-4">
+<h4 id="org3a8e884"><span class="section-number-4">2.1.1.</span> Nazwy konkretne i nazwy abstrakcyjne</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<dl class="org-dl">
+<dt>konkretne</dt><dd>znaki rzeczy lub osób, albo czegoś co można sobie jako byt fizyczny wyobrazić
+<ul class="org-ul">
+<li>sędzia, człowiek, łobuz, biały stół; feniks</li>
+</ul></dd>
+<dt>abstrakcyjne</dt><dd>takie, które nie są nazwami konkretnymi - nie możemy sobie ich wyobrazić jako rzecz lub osobę
+<ul class="org-ul">
+<li>białość, kradzież, braterstwo</li>
+</ul></dd>
+</dl>
+
+<p>
+Mogą pojawiać się wątpliwości, czy mamy do czynienia z nazwą konkretną czy
+  abstrakcyjną:
+</p>
+<ul class="org-ul">
+<li>W sprawie Jana Kowalskiego zapadł długo oczekiwany <i>wyrok</i>.</li>
+<li>Po zamknięciu rozprawy sąd wydaje <i>wyrok</i>.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org450e3fc" class="outline-4">
+<h4 id="org450e3fc"><span class="section-number-4">2.1.2.</span> Desygnaty nazw</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<ul class="org-ul">
+<li>Desygnatem nazwy jest przedmiot, o którym można nazwę prawdziwie orzec.</li>
+<li>Wobec książki można powiedzieć <i>to jest książka</i> i będzie to prawda; nie można
+jednak powiedzieć <i>to jest pies</i>. Podobnie pies nie będzie desygnatem nazwy <i>książka</i>.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org950fb71" class="outline-4">
+<h4 id="org950fb71"><span class="section-number-4">2.1.3.</span> Nazwy indywidualne i nazwy generalne</h4>
+<div class="outline-text-4" id="text-2-1-3">
+<ul class="org-ul">
+<li>nazwy indywidualne oznaczają poszczególne przedmioty: <i>miasto Poznań</i>; <i>Zofia
+spóźni</i> się na wykład.</li>
+<li>nazwy generalne oznaczają przedmioty dzielące jakieś wspólne cechy: <i>miasto
+wojewódzkie</i>; <i>Zofia</i> ma imieniny 15 maja.</li>
+</ul>
+</div>
+
+<ol class="org-ol">
+<li><a id="org2450258"></a>Treść nazwy generalnej<br />
+<ol class="org-ol">
+<li><a id="org3755506"></a>Cechy<br />
+<div class="outline-text-6" id="text-2-1-3-1-1">
+<p>
+Cechy samochodu:
+</p>
+
+<ul class="org-ul">
+<li>konstytutywne (wystarczają aby odróżnić przedmioty bedące desygnatami nazwy od innych przedmiotów):
+<ul class="org-ul">
+<li>pojazd lądowy,</li>
+<li>posiadający koła,</li>
+<li>używany do przewozu ludzi i towarów,</li>
+</ul></li>
+<li>konsekutywne:
+<ul class="org-ul">
+<li>jest rzeczą,</li>
+<li>waży powyżej 1 kg,</li>
+<li>posiada metalowe elementy.</li>
+</ul></li>
+</ul>
+</div>
+</li>
+
+<li><a id="org31b6315"></a>Supozycje<br />
+<div class="outline-text-6" id="text-2-1-3-1-2">
+<p>
+Nazwa generalna może być używana w różnych rolach znaczeniowych nazywanych supozycjami:
+</p>
+
+<ul class="org-ul">
+<li>supozycja prosta: <i>zając schował się w krzakach</i></li>
+<li>supozycja formalna: <i>zając jest ssakiem</i></li>
+<li>supozycja materialna: <i>zając składa się z dwóch sylab</i></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org5f01fa9" class="outline-4">
+<h4 id="org5f01fa9"><span class="section-number-4">2.1.4.</span> Zakres nazwy</h4>
+<div class="outline-text-4" id="text-2-1-4">
+<ul class="org-ul">
+<li>Zakres nazwy to klasa wszystkich desygnatów danej nazwy.</li>
+<li>Ze względu na to ile desygnatów ma nazwa możemy je podzielić na:
+<ul class="org-ul">
+<li>nazwy ogólne - mają więcej niż jeden desygnat</li>
+<li>nazwy jednostkowe - mają jeden desygnat</li>
+<li>nazwy puste - nie mają desygnatów (czy zatem wszystkie nazwy puste znaczą to samo?)
+<ul class="org-ul">
+<li>człowiek, który ma 4 metry wzrostu</li>
+<li>czworoboczny trójkąt</li>
+<li>szafa w mojej kieszeni</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf93baa1" class="outline-4">
+<h4 id="orgf93baa1"><span class="section-number-4">2.1.5.</span> Nazwy zbiorowe</h4>
+<div class="outline-text-4" id="text-2-1-5">
+<ul class="org-ul">
+<li>Nazwy zbiorowe to nazwy agregatów przedmiotów. Nie przysługują poszczególnym
+przedmiotom wchodzącym w skład tego agregatu.</li>
+<li>Biblioteka jest nazwą zbiorową — oznacza zbiór książek. Czy przedmiot jakim
+jest książka jest desygnatem nazwy <i>biblioteka</i>?</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org242ceaa" class="outline-4">
+<h4 id="org242ceaa"><span class="section-number-4">2.1.6.</span> Ostrość nazw</h4>
+<div class="outline-text-4" id="text-2-1-6">
+<ul class="org-ul">
+<li>Nazwa nieostra — są takie przemioty, o których nie wiadomo czy są desygnatami danej nazwy
+<ul class="org-ul">
+<li><i>leń</i> : leń 1, leń 2 … tacy, o których nie wiadomo czy są leniami… nie-leń</li>
+<li>wysoki mężczyzna</li>
+</ul></li>
+</ul>
+
+<p>
+Nazwy ostre:
+</p>
+<ul class="org-ul">
+<li>pies</li>
+<li>&pi;</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7d3626d" class="outline-3">
+<h3 id="org7d3626d"><span class="section-number-3">2.2.</span> Stosunki pomiędzy zakresami nazw</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+UWAGA: wersja rozszerzona względem podręcznika!
+</p>
+</div>
+<div id="outline-container-orgc1bc195" class="outline-4">
+<h4 id="orgc1bc195"><span class="section-number-4">2.2.1.</span> Zamienność</h4>
+<div class="outline-text-4" id="text-2-2-1">
+
+<div id="orgaf8bf14" class="figure">
+<p><img src="img/zamiennosc.png" alt="zamiennosc.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf1d03e6" class="outline-4">
+<h4 id="orgf1d03e6"><span class="section-number-4">2.2.2.</span> Podrzędność <i>S</i> względem <i>P</i></h4>
+<div class="outline-text-4" id="text-2-2-2">
+
+<div id="org94b6341" class="figure">
+<p><img src="img/podrzednosc.png" alt="podrzednosc.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc15bc3e" class="outline-4">
+<h4 id="orgc15bc3e"><span class="section-number-4">2.2.3.</span> Nadrzędność <i>S</i> względem <i>P</i></h4>
+<div class="outline-text-4" id="text-2-2-3">
+
+<div id="orgbcd5714" class="figure">
+<p><img src="img/nadrzednosc.png" alt="nadrzednosc.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org6c43d4f" class="outline-4">
+<h4 id="org6c43d4f"><span class="section-number-4">2.2.4.</span> Przeciwieństwo</h4>
+<div class="outline-text-4" id="text-2-2-4">
+
+<div id="orgdaf2650" class="figure">
+<p><img src="img/przeciwienstwo.png" alt="przeciwienstwo.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd844188" class="outline-4">
+<h4 id="orgd844188"><span class="section-number-4">2.2.5.</span> Niezależność</h4>
+<div class="outline-text-4" id="text-2-2-5">
+
+<div id="org8f17733" class="figure">
+<p><img src="img/niezaleznosc.png" alt="niezaleznosc.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd3e7723" class="outline-4">
+<h4 id="orgd3e7723"><span class="section-number-4">2.2.6.</span> Sprzeczność</h4>
+<div class="outline-text-4" id="text-2-2-6">
+
+<div id="orgb9887be" class="figure">
+<p><img src="img/sprzecznosc.png" alt="sprzecznosc.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8ade9dc" class="outline-4">
+<h4 id="org8ade9dc"><span class="section-number-4">2.2.7.</span> Podprzeciwieństwo</h4>
+<div class="outline-text-4" id="text-2-2-7">
+
+<div id="org606e45e" class="figure">
+<p><img src="img/podprzeciwienstwo.png" alt="podprzeciwienstwo.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf9ef6d7" class="outline-4">
+<h4 id="orgf9ef6d7"><span class="section-number-4">2.2.8.</span> Definicje (źródło: Wikipedia, hasło Nazwa):</h4>
+<div class="outline-text-4" id="text-2-2-8">
+<ol class="org-ol">
+<li>Nazwa P jest <b>zamienna</b> względem nazwy Q, gdy denotacje tych nazw pokrywają
+się, tj. gdy każdy desygnat nazwy P jest zarazem desygnatem nazwy Q, a każdy
+desygnat nazwy Q jest zarazem desygnatem nazwy P. Zamienne są np. nazwy
+"ziemniak" i kartofel".</li>
+<li>Nazwa P jest <b>podrzędna</b> względem nazwy Q wtedy, gdy denotacja nazwy P
+zawiera się w sposób właściwy w denotacji nazwy Q, tj. gdy wszystkie
+desygnaty nazwy P są zarazem desygnatami nazwy Q. Nazwa "krowa" jest
+podrzędna względem nazwy "zwierzę".</li>
+<li>Nazwa P jest <b>nadrzędna</b> względem nazwy Q, gdy denotacja nazwy Q zawiera się
+w sposób właściwy w denotacji nazwy P, tj. gdy wszystkie desygnaty nazwy Q są
+zarazem desygnatami nazwy P. Nazwa "rzeka" jest nadrzędna względem nazwy
+"rzeka, nad którą od wieków żyją krowy".</li>
+<li>Nazwa P jest przeciwna względem nazwy Q, gdy denotacja nazwy P wyklucza się z
+denotacją nazwy Q i zarazem suma denotacji nazw P i Q zawiera się w sposób
+właściwy w uniwersum przedmiotów. Nazwa "krowa" jest przeciwna względem nazwy
+"rzeka".</li>
+<li>Nazwa P jest niezależna względem nazwy Q, gdy denotacje nazw P i Q krzyżują
+się, a suma tych denotacji zawiera się w sposób właściwy w uniwersum
+przedmiotów. Nazwa "krowa" jest niezależna względem nazwy "czarno-białe
+zwierzę".</li>
+<li>Nazwa P jest sprzeczna względem nazwy Q, gdy denotacja nazwy P wyklucza się z
+denotacją nazwy Q i zarazem suma denotacji nazw P i Q pokrywa się z uniwersum
+przedmiotów. Nazwy "krowa" i "nie-krowa" są sprzeczne.</li>
+<li>Nazwa P jest podprzeciwna względem nazwy Q, gdy denotacje nazw P i Q krzyżują
+się, a suma tych denotacji pokrywa się z uniwersum przedmiotów. Nazwy
+"nie-krowa" i "zwierzę" są podprzeciwne.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc858363" class="outline-2">
+<h2 id="orgc858363"><span class="section-number-2">3.</span> Wykład 3</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orgf907eef" class="outline-3">
+<h3 id="orgf907eef"><span class="section-number-3">3.1.</span> Definicje</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Definicja realna: wypowiedź w języku pierwszego stopnia, która charakteryzuje
+przedmiot i tylko ten przedmiot.
+</p>
+
+<p>
+Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje
+o znaczeniu definiowanego słowa: <i>Wyraz kwadrat oznacza prostokąt, który ma
+wszystkie boki równe.</i>
+</p>
+</div>
+
+<div id="outline-container-orgeaf250b" class="outline-4">
+<h4 id="orgeaf250b"><span class="section-number-4">3.1.1.</span> Przykłady definicji (podawane przez studentów)</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<ol class="org-ol">
+<li>Odcinek to jest fragment prostej, który ma początek i koniec.</li>
+<li>Bursztyn to jest skamieniała żywica.</li>
+<li>Wiatr to poziomy ruch powietrza z wyżu do niżu.</li>
+<li>Oszustwo to jest wprowadzenie innej osoby w błąd albo wyzyskanie błędu lub
+niezdolności do należytego pojmowania przedsiębranego działania w celu
+osiągnięcia korzyści majątkowej.</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orgefe0b12" class="outline-4">
+<h4 id="orgefe0b12"><span class="section-number-4">3.1.2.</span> Zadania definicji</h4>
+<div class="outline-text-4" id="text-3-1-2">
+<ul class="org-ul">
+<li>Definicja sprawozdawcza: składa sprawozdanie z tego, jak pewna grupa ludzi
+posługuje się wyrazem lub wyrażeniem: <i>W języku polskim drugiej połowy
+XX-wieku wyraz księgarnia oznacza sklep, w którym sprzedaje się książki.
+W języku myśliwych wyraz farba oznacza krew zwierzęcia. W języku polskim wyraz
+czapka oznacza część garderoby noszoną na stopie.</i></li>
+<li>Definicja projektująca: ustala znaczenie jakiegoś wyrazu na przyszłość. Np.:
+<i>Dokumentem jest nośnik informacji umożliwiający zapoznanie się z jej
+treścią.</i> (art. 77<sup>3</sup> k.c.).
+<ul class="org-ul">
+<li>Definicja projektująca może być konstrukcyjna (<i>Ilekroć w ustawie jest mowa
+o przeciętnym konsumencie - rozumie się przez to konsumenta, który jest
+dostatecznie dobrze poinformowany, uważny i ostrożny</i>) albo</li>
+<li>regulująca (<i>Stan nietrzeźwości w rozumieniu tego kodeksu zachodzi, gdy: 1)
+zawartość alkoholu we krwi przekracza 0,5 promila albo prowadzi do stężenia
+przekraczającego tę wartość lub 2) zawartość alkoholu w 1 dm<sup>3</sup> wydychanego
+powietrza przekracza 0,25 mg albo prowadzi do stężenia przekraczającego tę
+wartość.</i>).</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf41381d" class="outline-4">
+<h4 id="orgf41381d"><span class="section-number-4">3.1.3.</span> Budowa definicji</h4>
+<div class="outline-text-4" id="text-3-1-3">
+<ul class="org-ul">
+<li>Definicja równościowa: <i>definiendum + zwrot łączący + definiens</i>: Bursztyn to
+kopalna żywica drzew iglastych.
+<ul class="org-ul">
+<li>Definitio per genus et differentiam specificam (definicja klasyczna): A to
+takie B, które ma cechę C.</li>
+</ul></li>
+<li>Definicje nierównościowe. Np. występujące w geometrii (definicja przez
+postulaty).</li>
+</ul>
+
+
+<div id="org6c60a4c" class="figure">
+<p><img src="img/definicje.png" alt="definicje.png" />
+</p>
+</div>
+
+<p>
+Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
+</p>
+
+<ul class="org-ul">
+<li>Art.  10. §  1. Pełnoletnim jest, kto ukończył lat osiemnaście.</li>
+<li>Art. 627. Przez umowę o dzieło przyjmujący zamówienie zobowiązuje się do
+wykonania oznaczonego dzieła, a zamawiający do zapłaty wynagrodzenia.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org4bb1484" class="outline-4">
+<h4 id="org4bb1484"><span class="section-number-4">3.1.4.</span> Poprawność definicji</h4>
+<div class="outline-text-4" id="text-3-1-4">
+<ul class="org-ul">
+<li>nieprzystosowanie definicji do słownika osoby będącej adresatem definicji
+(ignotum per ignotum): <i>Krącitka</i> to jest taka <i>frutka</i>, która ma <i>piląga</i>.</li>
+<li>definiens zawiera definiendum (idem per idem). <i>Polak, to jest taki
+człowiek, który jest narodowości polskiej.</i> Błędne koło pośrednie:
+<i>Logika to nauka o logicznym myśleniu. Logiczny to taki, który jest
+zgodny z nauką logiki.</i></li>
+<li>definicja zbyt szeroka: Człowiek to ssak dwunożny.</li>
+<li>definicja zbyt wąska: Człowiek to ssak posługujący się mową i pismem.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0cb7407" class="outline-3">
+<h3 id="org0cb7407"><span class="section-number-3">3.2.</span> Podział logiczny</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+Podział logiczny zakresu jakiejś nazwy <i>N</i> na zakresy <i>A, B, C, D, E…</i>
+</p>
+
+<p>
+Całość dzielona (<i>totium divisionis</i>) i człony podziału (<i>membra divisionis</i>).
+</p>
+
+<p>
+Polskie miasta:
+</p>
+
+<ul class="org-ul">
+<li>duże, małe i średnie; (komentarz: powinniśmy mieć kryteria zaliczenia miasta
+jako dużego, średniego lub małego; kryteria muszą być dobrze dobrane)</li>
+<li>stare i nowe; (podobnie jak powyżej)</li>
+<li>dwuwyrazowe i jednowyrazowe; (a co z Nowym Dworem Mazowieckim?)</li>
+<li>w górach, nad morzem, na równinach i na wyżynach; (a co z innymi terenami?)</li>
+<li>zaczynające się na literę <i>a</i> i zaczynające się na literę inną niż <i>a</i> (taki
+podział jest poprawny; inna sprawa, że niezbyt przydatny)</li>
+</ul>
+</div>
+
+<div id="outline-container-org0407bbc" class="outline-4">
+<h4 id="org0407bbc"><span class="section-number-4">3.2.1.</span> Poprawność podziału</h4>
+<div class="outline-text-4" id="text-3-2-1">
+<p>
+Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być
+zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być
+zaliczony jakiegoś z członów podziału.
+</p>
+
+<p>
+Podział dychotomiczny - podział według cech kontradyktorycznych:
+</p>
+
+<ul class="org-ul">
+<li>podmiot: podmiot będący podatnikiem VAT - podmiot niebędący podatnikiem VAT</li>
+<li>pies: pies mający cztery łapy - pies nie mający czterech łap</li>
+</ul>
+
+<p>
+Niepoprawne podziały:
+</p>
+
+<ul class="org-ul">
+<li>oparte na niejednoznacznych kryteriach</li>
+<li>według przedziałów liczbowych, których granice się powtarzają: polskie
+rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7
+osób, rodziny 7 osobowe i większe.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org837bb47" class="outline-4">
+<h4 id="org837bb47"><span class="section-number-4">3.2.2.</span> Klasyfikacja</h4>
+<div class="outline-text-4" id="text-3-2-2">
+
+<div id="org80adc18" class="figure">
+<p><img src="img/klasyfikacja.png" alt="klasyfikacja.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org438fd1e" class="outline-4">
+<h4 id="org438fd1e"><span class="section-number-4">3.2.3.</span> Wyróżnianie typów</h4>
+<div class="outline-text-4" id="text-3-2-3">
+<p>
+Wyodrębnianie przedmiotów o interesujących nas cechach. Przykładowo z nazwy <code>pies</code> wyróżniamy typy takie jak <code>wyżeł</code> i <code>spaniel</code>.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org6d4b154" class="outline-2">
+<h2 id="org6d4b154"><span class="section-number-2">4.</span> Wykład 4</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org6d7e04c" class="outline-3">
+<h3 id="org6d7e04c"><span class="section-number-3">4.1.</span> Zdanie</h3>
+<div class="outline-text-3" id="text-4-1">
+<ul class="org-ul">
+<li>Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności
+wypowiedzi.</li>
+<li>Przykłady wyrażeń niebędących zdaniami w sensie logicznym, ale będących
+zdaniami w sensie gramatycznym: <i>Zapal światło. W razie niebezpieczeństwa zbij
+szybę.</i></li>
+<li>Zdarzenia i stany rzeczy.
+<ul class="org-ul">
+<li>Zdarzenie: rzecz lub osoba wykazywała w danym momencie własność X a w innym
+momencie jej nie wykazywała.</li>
+<li>Stan rzeczy: rzecz lub osoba wykazywała od momentu A do momentu B jakąś
+własność.</li>
+</ul></li>
+<li>Zdanie prawdziwe - opisuje rzeczywistość tak, jak się ona ma. Nie można wolą,
+teorią ani poglądem zmienić wartości prawdziwościowej zdania.</li>
+<li>Prawdziwość wynikająca z sensu użytych w nich słów; zdanie analityczne.</li>
+<li>Fałszywość wynikająca z sensu słów; zdanie wewnętrznie kontradyktoryczne.</li>
+<li>Zdania syntetyczne - nie da się poznać ich wartości logicznej za pomocą sensu
+zawartych w nich słów.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org699d82f" class="outline-3">
+<h3 id="org699d82f"><span class="section-number-3">4.2.</span> Funktory prawdziwościowe</h3>
+<div class="outline-text-3" id="text-4-2">
+</div>
+<div id="outline-container-org773f4a4" class="outline-4">
+<h4 id="org773f4a4"><span class="section-number-4">4.2.1.</span> Wartości logiczne funktorów prawdziwościowych</h4>
+<div class="outline-text-4" id="text-4-2-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">p</th>
+<th scope="col" class="org-right">q</th>
+<th scope="col" class="org-right">&sim;p</th>
+<th scope="col" class="org-right">p &or; q</th>
+<th scope="col" class="org-right">p &sdot; q</th>
+<th scope="col" class="org-right">p &sup; q</th>
+<th scope="col" class="org-right">p &perp; q</th>
+<th scope="col" class="org-right">p &equiv; q</th>
+<th scope="col" class="org-right">p &darr; q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<ol class="org-ol">
+<li><a id="orgabac004"></a>Przykłady<br />
+<ol class="org-ol">
+<li><a id="org5c184f3"></a>Negacja<br />
+<div class="outline-text-6" id="text-4-2-1-1-1">
+<p>
+Nieprawda, że na trawniku leży śnieg.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">&sim;p</th>
+<th scope="col" class="org-right">p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="org66a565c"></a>Alternatywa nierozłączna<br />
+<div class="outline-text-6" id="text-4-2-1-1-2">
+<p>
+Na trawniku leży śnieg lub jest lato.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">p</th>
+<th scope="col" class="org-right">p &or; q</th>
+<th scope="col" class="org-right">q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="org7e32c92"></a>Koniunkcja<br />
+<div class="outline-text-6" id="text-4-2-1-1-3">
+<p>
+Pada deszcz i ulica jest mokra.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">p</th>
+<th scope="col" class="org-right">p &sdot; q</th>
+<th scope="col" class="org-right">q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="orgba2aac0"></a>Alternatywa rozłączna<br />
+<div class="outline-text-6" id="text-4-2-1-1-4">
+<p>
+Pójdziemy na lody albo pójdziemy do kina.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">p</th>
+<th scope="col" class="org-right">p &perp; q</th>
+<th scope="col" class="org-right">q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="org397923b"></a>Implikacja<br />
+<div class="outline-text-6" id="text-4-2-1-1-5">
+<ul class="org-ul">
+<li>Jeżeli pada deszcz to ulica jest mokra.</li>
+<li>Jeżeli (Zakopane jest stolicą Polski) to (Arystoteles był pierwszym człowiekiem na księżycu).</li>
+</ul>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">p</th>
+<th scope="col" class="org-right">p &sup; q</th>
+<th scope="col" class="org-right">q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="org924d968"></a>Równoważność<br />
+<div class="outline-text-6" id="text-4-2-1-1-6">
+<p>
+Wtedy i tylko wtedy gdy pada deszcz to ulica jest mokra.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">p</th>
+<th scope="col" class="org-right">p&equiv;q</th>
+<th scope="col" class="org-right">q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="org41e2ac6"></a>Binegacja<br />
+<div class="outline-text-6" id="text-4-2-1-1-7">
+<p>
+Ani nie pada deszcz ani nie pochodzę z Marsa.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">p</th>
+<th scope="col" class="org-right">p&darr;q</th>
+<th scope="col" class="org-right">q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org17951c8" class="outline-4">
+<h4 id="org17951c8"><span class="section-number-4">4.2.2.</span> Podstawowe zasady myślenia</h4>
+<div class="outline-text-4" id="text-4-2-2">
+<ul class="org-ul">
+<li><i>T1: &sim; (p &sdot; &sim;p)</i> : zasada sprzeczności</li>
+<li><i>T2: p &or; &sim;(p)</i> : zasada wyłączonego środka</li>
+<li><i>T3: p &equiv; &sim; ( &sim; p )</i> : zasada podwójnego zaprzeczenia</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org593d05d" class="outline-4">
+<h4 id="org593d05d"><span class="section-number-4">4.2.3.</span> Definicja implikacji przy pomocy alternatywy i negacji</h4>
+<div class="outline-text-4" id="text-4-2-3">
+<p>
+p &sup; q &equiv; (&sim; p) &or; q
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1fa8888" class="outline-4">
+<h4 id="org1fa8888"><span class="section-number-4">4.2.4.</span> Definicja implikacji przy pomocy koniunkcji i negacji</h4>
+<div class="outline-text-4" id="text-4-2-4">
+<p>
+p &sup; q &equiv; &sim; ( p &sdot; &sim; q )
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbb657e0" class="outline-4">
+<h4 id="orgbb657e0"><span class="section-number-4">4.2.5.</span> Zadanie</h4>
+<div class="outline-text-4" id="text-4-2-5">
+<p>
+Czy te zdania są prawdziwe?
+</p>
+
+<ul class="org-ul">
+<li>Jeżeli Ateny są stolicą Polski to Uniwersytet Łódzki ma siedzibę w Berlinie.</li>
+<li>Jeżeli Ateny są stolicą Polski to Robert Lewandowski jest piłkarzem.</li>
+<li>Jeżeli Ateny są stolicą Polski to mam w kieszeni chusteczkę.</li>
+<li>Jeżeli Warszawa jest stolicą Polski to Księżyc jest zrobiony z sera.</li>
+<li>Jeżeli Warszawa jest stolicą Polski to Albert Einstein opracował teorię
+względności.</li>
+<li>Nieprawda że (Warszawa jest stolicą Polski i nieprawda Einstein opracował
+teorię względności).</li>
+<li>(Nieprawda że, Warszawa jest stolicą Polski) lub Einstein opracował teorię
+względności.</li>
+<li>Ani Ateny są stolicą Polski ani UŁ ma siedzibę w Berlinie.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge9eba7e" class="outline-4">
+<h4 id="orge9eba7e"><span class="section-number-4">4.2.6.</span> Bezprawne samouwolnienie</h4>
+<div class="outline-text-4" id="text-4-2-6">
+<p>
+Art. 242. § 1. Kto uwalnia się sam, będąc pozbawionym wolności na
+podstawie orzeczenia sądu lub prawnego nakazu wydanego przez inny
+organ państwowy, podlega grzywnie, karze ograniczenia wolności albo
+pozbawienia wolności do lat 2. […]  § 4. Jeżeli sprawca czynu
+określonego w § 1
+</p>
+
+<ul class="org-ul">
+<li>działa w porozumieniu z innymi osobami,</li>
+<li>używa przemocy lub</li>
+<li>grozi jej użyciem</li>
+<li><p>
+<b>albo</b> uszkadza miejsce zamknięcia,
+</p>
+
+<p>
+podlega karze pozbawienia wolności do lat 3.
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf4fc95b" class="outline-4">
+<h4 id="orgf4fc95b"><span class="section-number-4">4.2.7.</span> Tautologia, kontrtautologia</h4>
+</div>
+
+<div id="outline-container-org5256610" class="outline-4">
+<h4 id="org5256610"><span class="section-number-4">4.2.8.</span> Turing Complete</h4>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org443a54d" class="outline-2">
+<h2 id="org443a54d"><span class="section-number-2">5.</span> Wykład 5</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org459197a" class="outline-3">
+<h3 id="org459197a"><span class="section-number-3">5.1.</span> Relacje (stosunki) pomiędzy przedmiotami</h3>
+<div class="outline-text-3" id="text-5-1">
+</div>
+<div id="outline-container-org30b3dd1" class="outline-4">
+<h4 id="org30b3dd1"><span class="section-number-4">5.1.1.</span> Wstęp</h4>
+<div class="outline-text-4" id="text-5-1-1">
+<p>
+<i>xRy</i>
+</p>
+
+<p>
+x R<sub>1</sub> y - Adam jest wyższy od Piotra
+</p>
+
+<p>
+y R<sub>2</sub> x - Piotr jest niższy od Adama
+</p>
+
+<p>
+x = y, y = z
+</p>
+
+<p>
+kiwi kiwi kiwi
+</p>
+
+<p>
+x R y
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga8f8c66" class="outline-4">
+<h4 id="orga8f8c66"><span class="section-number-4">5.1.2.</span> Relacje symetryczne, asymetryczne i nonsymetryczne</h4>
+<div class="outline-text-4" id="text-5-1-2">
+<p>
+Jan jest małżonkiem Zofii.
+</p>
+
+<p>
+Jan jest starszy od Zofii. x jest mniejszy od y, x jest większy od y, x jest brzydszy od y, x jest grubszy od y.
+</p>
+
+<p>
+Jan kocha Zofię. x jest bratem y, x patrzy na y, x mówi do y.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6c54208" class="outline-4">
+<h4 id="org6c54208"><span class="section-number-4">5.1.3.</span> Stosunek przechodni (tranzytywny), atranzytywny, nontranzytywny</h4>
+<div class="outline-text-4" id="text-5-1-3">
+<ul class="org-ul">
+<li>Stosunek tranzytywny: jeśli xRy i yRz to xRz.</li>
+<li>Stosunek atranzytywny: jeśli xRy i yRz to &sim; xRz.</li>
+<li>Stosunek nontranzytywny: jeśli xRy i yRz to xRz &perp; (&sim; xRz).</li>
+
+<li>zawiera - jest tranzytywny</li>
+<li>jest częścią - relacja tranzytywna</li>
+<li>jest matką - relacja atranzytywna: x jest matką y, y jest matką z &sup; x nie jest matką z</li>
+<li>samodzielnie wychowywać - relacja atranzytywna</li>
+<li>jest krewnym - relacja nontranzytywna</li>
+<li>jest szefem - relacja nontranzytywna</li>
+<li>jest pracownikiem tej samej firmy - relacja nontranzytywna</li>
+<li>lubi - relacja nontranzytywna</li>
+<li>jest przyjacielem - relacja nontranzytywna</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org333b308" class="outline-4">
+<h4 id="org333b308"><span class="section-number-4">5.1.4.</span> Stosunek spójny, porządkujący, równościowy i zwrotne</h4>
+<div class="outline-text-4" id="text-5-1-4">
+<p>
+Przykładowy zapis:
+</p>
+
+<ul class="org-ul">
+<li>{ 4, 1, 2, 3 }; R: &lt;</li>
+
+<li><b>Stosunek spójny</b> zachodzi w jednym lub drugim kierunku w danej klasie przedmiotów między każdym i innym dowolnie wybranym przedmiotem.
+<ul class="org-ul">
+<li>{1, 1, 1, 1}, R: =</li>
+<li>{1, 2, 3, 1}, R: =&lt;</li>
+<li>{1, 2, 3, 4}, R: &lt;</li>
+</ul></li>
+<li><b>Stosunek porządkujący</b> pozwala ustawić przedmioty w szeregu: asymetryczny, przechodni i spójny.
+<ul class="org-ul">
+<li>{ 4, 1, 2, 3 }, R: &lt;</li>
+<li>{ Adam lat 10, Weronika lat 12, Bronisław lat 64, Kunegunda lat 102 }, R: jest starszy(a)</li>
+</ul></li>
+<li><b>Stosunek zwrotny</b> zachodzi pomiędzy każdym elementem w danej klasie przedmiotów a nim samym:
+<ul class="org-ul">
+<li>{ 4 , 5 , 9, 23 }, R: jest równe</li>
+</ul></li>
+<li><b>Stosunek równościowy</b>: symetryczny, przechodni i zwrotny:
+<ul class="org-ul">
+<li>{ 4, 4, 4 } R: <i>jest równe</i></li>
+<li>{ Wojtek blondyn, Kasia blondynka, Alicja blondynka, Cezary blondyn }, R: <i>ma taki sam kolor włosów jak</i></li>
+<li>{ Skoda Octavia 1.9TDI, Audi A3 2.0TDI, BMW 330d }, R: <i>jest na takie samo paliwo jak</i></li>
+<li>{ Adam, Franciszek, Bartek }<sup>1</sup> R: <i>być bratem</i> (1 - panowie są braćmi)</li>
+</ul></li>
+</ul>
+
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2022-12-03 Sat]</span></span>
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org72489a2" class="outline-2">
+<h2 id="org72489a2"><span class="section-number-2">6.</span> Wykład 6</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-orgf06a999" class="outline-3">
+<h3 id="orgf06a999"><span class="section-number-3">6.1.</span> Wypowiedzi oceniające i normy</h3>
+<div class="outline-text-3" id="text-6-1">
+<ul class="org-ul">
+<li>Wypowiedź oceniająca.</li>
+<li>Preferencje.</li>
+<li>Globalne oceny stanu rzeczy.</li>
+</ul>
+</div>
+
+<div id="outline-container-org00709d4" class="outline-4">
+<h4 id="org00709d4"><span class="section-number-4">6.1.1.</span> Rodzaje ocen</h4>
+<div class="outline-text-4" id="text-6-1-1">
+<ul class="org-ul">
+<li>ocena estetyczna</li>
+<li>ocena hedonistyczna</li>
+<li>ocena moralna</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge3e5397" class="outline-4">
+<h4 id="orge3e5397"><span class="section-number-4">6.1.2.</span> Normy postępowania</h4>
+<div class="outline-text-4" id="text-6-1-2">
+<ul class="org-ul">
+<li>Norma postępowania.</li>
+<li>Normy prawne, to normy postępowania, ale należy pamiętać, że zakres nazwy norma prawna jest podrzędny zakresowi nazwy norma postępowania.</li>
+<li>Wypowiedź dyrektywalna.</li>
+<li>Pojęcie postępowania
+<ul class="org-ul">
+<li>zachowanie osoby zależne od jej woli</li>
+</ul></li>
+<li>Zakaz, nakaz:
+<ul class="org-ul">
+<li>zakaz czynienia X to nakaz nieczynienia X; nakaz czynienia X to zakaz nieczynienia X.</li>
+</ul></li>
+<li>Normy mogą być:
+<ol class="org-ol">
+<li>a) generalne, b) indywidualne;</li>
+<li>a) abstrakcyjne, b) konkretne.</li>
+</ol></li>
+<li>Przykłady
+<ul class="org-ul">
+<li>Przykład normy generalnej i abstrakcyjnej: Kto zabija człowieka, podlega karze pozbawienia wolności na czas nie krótszy od lat 8, karze 25 lat pozbawienia wolności albo karze dożywotniego pozbawienia wolności - Każdemu i w każdych okolicznościach zakazuje się zabić człowieka.</li>
+<li>Przykład normy konkretnej i indywidualnej: Sąd Okręgowy w Warszawie … zasądza od Jana Kowalskiego kwotę 1000 zł na rzecz Adama Malinowskiego z odsetkami ustawowymi za opóźnienie…</li>
+<li>Przykład normy generalnej i konkretnej: Kto z uczestników wycieczki wróci dziś pierwszy do schroniska powinien rozpalić ogień.</li>
+<li>Przykład normy indywidualnej i abstrakcyjnej: Szeregowy Kowalski, gdy dostrzeżecie niebezpieczeństwo macie wszcząć alarm.</li>
+</ul></li>
+<li>Podporządkowanie normie</li>
+<li>Czy ma sens pytanie: Czy to prawda, że <i>x</i> powinien <i>A</i>?</li>
+<li>Obowiązywanie normy.
+<ul class="org-ul">
+<li>Uzasadnienie tetyczne;</li>
+<li>uzasadnienie aksjologiczne.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org57456ae" class="outline-3">
+<h3 id="org57456ae"><span class="section-number-3">6.2.</span> Wypowiedzi modalne</h3>
+<div class="outline-text-3" id="text-6-2">
+<ul class="org-ul">
+<li>wzajemna definiowalność: <i>musi robić to znaczy, że nie może nie robić ; może robić to znaczy, że nie musi nie robić</i></li>
+<li>interpretacje słów „musi” i „może”
+<ul class="org-ul">
+<li>interpretacja logiczna - słowo „musi” oznacza pewien związek pomiędzy zdaniami; <i>obwód okręgu o promieniu 1 cm musi mieć 2 pi cm</i>; <i>kwadrat musi mieć cztery boki</i></li>
+<li>interpretacja dynamiczna - fakt jest nieuchronny; <i>ciało niepodparte musi spadać</i>, <i>Żołnierze bez pożywienia muszą w końcu przegrać.</i></li>
+<li>interpretacja aksjologiczna - aprobujemy stan A i nie godzimy się na to, aby stan przeciwny nie zachodził - <i>Musisz płacić podatki. Jeśli jesteś bogatszy od innych to musisz płacić wyższe podatki. Musisz przestać palić papierosy, bo osierocisz swoje dzieci.</i></li>
+<li>interpretacja tetyczna - zrealizowanie stanu A jest nakazane normą: <i>W końcu będziesz musiał wydać wyrok.</i> <i>Musisz zawiadomić prokuratora o tym, że próbowano Cię przekupić. Musisz płacić podatki.</i></li>
+<li>interpretacja psychologiczna - jesteśmy silnie przeświadczeni, że A: <i>musi być A</i>.</li>
+</ul></li>
+<li>ćwiczenie:
+<ul class="org-ul">
+<li>Żołnierz musi nosić mundur na służbie.</li>
+<li>W terenie zabudowanym musisz jechać z prędkością poniżej 50 km/h.</li>
+<li>Sędzia może wydać wyrok a prokurator nie może wydać wyroku.</li>
+<li>Warszawa musi być stolicą Polski.</li>
+<li>Łódź musi być stolicą Polski.</li>
+<li>Adam może wyjść z domu. = Adam nie musi nie wychodzić z domu.</li>
+<li>Lecący samolot, w którym skończyło się paliwo, musi spaść.</li>
+</ul></li>
+<li>Modalności
+<ul class="org-ul">
+<li>zdanie asertoryczne: Jest tak a tak. <i>Na pasie startowym stoi samolot. Łódź jest położona w centralnej Polsce.</i></li>
+<li>zdanie apodyktyczne: Musi być tak a tak. <i>Musisz nauczyć się logiki.</i></li>
+<li>zdanie problematyczne: Może być tak a tak. <i>Logiki możesz uczyć się nawet w okresie świątecznym. Jutro możliwe są opady deszczu.</i></li>
+</ul></li>
+<li>Możliwość jednostronna i możliwość dwustronna
+<ul class="org-ul">
+<li>Kwadrat musi mieć cztery boki. Czy kwadrat może mieć cztery boki?</li>
+<li>Kwadrat może mieć cztery boki. Adam może wyjść z domu. Rzecznikiem Praw Obywatelskich może być obywatel polski wyróżniający się wiedzą prawniczą, doświadczeniem zawodowym oraz wysokim autorytetem ze względu na swe walory moralne i wrażliwość społeczną.</li>
+<li>Jest możliwe zjeść kawałek pizzy. Jan może zjeść kawałek pizzy.</li>
+<li>Jest możliwe, że Lech Wałęsa był prezydentem Polski.</li>
+<li>Ziemia może być trzecią planetą od Słońca (możliwość jednostronna). Każdy dorosły Polak może głosować w wyborach prezydenckich (możliwość dwustronna - może przecież także nie głosować).</li>
+</ul></li>
+<li>Modalności normatywne
+<ul class="org-ul">
+<li>nakaz <i>osoba x musi postąpić w określony sposób</i></li>
+<li>zakaz <i>osoba x nie może postąpić w określony sposób</i></li>
+<li>dozwolenie <i>brak zakazu</i></li>
+<li>fakultatywność <i>brak nakazu</i></li>
+<li>indyferentność - dozwolony i fakultatywny</li>
+<li>obowiązek - zakaz albo nakaz</li>
+</ul></li>
+</ul>
+
+<p>
+Milczenie norm a zachowanie człowieka.
+</p>
+
+<p>
+Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc4eea3c" class="outline-2">
+<h2 id="orgc4eea3c"><span class="section-number-2">7.</span> Wykład 7</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-org4ecd956" class="outline-3">
+<h3 id="org4ecd956"><span class="section-number-3">7.1.</span> Pytania i odpowiedzi</h3>
+<div class="outline-text-3" id="text-7-1">
+<ul class="org-ul">
+<li>Pytanie: nie jest zdaniem w sensie logicznym; pytania na serio, pytania retoryczne</li>
+<li>założenia pytania i pytania niewłaściwie postawione
+<ul class="org-ul">
+<li>Czy nadal bijesz swoją siostrę? Założenia: masz siostrę, kiedyś biłeś siostrę; jeżeli adresat pytania nie miał nigdy siostry to jest to <i>pytanie źle postawione</i></li>
+</ul></li>
+<li>sposób zadawania pytań:
+<ul class="org-ul">
+<li>partykuła pytajna: kto, kiedy, jak, gdzie</li>
+<li>otwarte i zamknięte</li>
+<li>pytania do rozstrzygnięcia: Czy najwyższy w klasie jest Wojtek czy Bartek?</li>
+<li>pytania do uzupełnienia: Kto zjadł moją pizzę?</li>
+<li>niewiadoma pytania i zakres niewiadomej pytania - klasa elementów, których nazwy można wstawić w miejsce niewiadomej pytania</li>
+<li>pytania sugestywne/sugerujące i podchwytliwe:
+<ul class="org-ul">
+<li>Czy uciekający mężczyzna miał na sobie czerwoną kurtkę? (gdy nie wiemy czy adresat pytania widział aby ktokolwiek uciekał)</li>
+<li>Czy pozwany zgodzi się zapłacić 100 zł tytułem zwrotu pożyczki? (gdy pozew opiewa na większą kwotę a pozwany zaprzecza istnieniu pożyczki)</li>
+</ul></li>
+</ul></li>
+<li>odpowiedzi:
+<ul class="org-ul">
+<li>właściwa / niewłaściwa (nie jest tożsame z prawidłowością odpowiedzi): Kto był najwybitniejszym polskim poetą? Najwybitniejszym polskim poetą był William Shakspeare.</li>
+<li>całkowite / częściowe:
+<ul class="org-ul">
+<li>Jakiego koloru są mundury aspirantów w Policji? Mundury aspirantów w Policji są koloru niebieskiego (odpowiedź całkowita wprost). Wszystkie mundury w Policji są niebieskie (odpowiedź całkowita nie wprost).</li>
+<li>Kto pana pobił? Pobił mnie mężczyzna w płaszczu i czapce z dwoma daszkami (odpowiedź częściowa).</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org6604b45" class="outline-2">
+<h2 id="org6604b45"><span class="section-number-2">8.</span> Wykład 8</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-orge649a18" class="outline-3">
+<h3 id="orge649a18"><span class="section-number-3">8.1.</span> Nieporozumienia</h3>
+<div class="outline-text-3" id="text-8-1">
+<ul class="org-ul">
+<li>wieloznaczność słów:
+<ul class="org-ul">
+<li>Każdy lubiący jeść pączki, lubi chodzić do cukierni. Łoś lubi jeść pączki. A więc, łoś lubi chodzić do cukierni.</li>
+<li>znaczenie aktualne i znaczenie potencjalne: Czy Tadek gra w brydża?</li>
+</ul></li>
+<li>błąd ekwiwokacji: użycie tego samego słowa w różnych znaczeniach; szczególne znaczenie w przypadku mowy prawniczej</li>
+<li>wieloznaczność wypowiedzi złożonej: Nigdy nie można zrobić zbyt wiele dla ludzi starych i chorych.</li>
+<li>skróty myślowe: Mniej znaczy więcej.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org705f5ef" class="outline-3">
+<h3 id="org705f5ef"><span class="section-number-3">8.2.</span> Uzasadnianie bezpośrednie twierdzeń</h3>
+<div class="outline-text-3" id="text-8-2">
+<ul class="org-ul">
+<li>w jaki sposób można uznać zdanie za prawdziwe? <i>Postulat racji dostatecznej</i> - za prawdziwe należy uznać jedynie takie zdanie, dla którego da się uzyskać należyte uzasadnienie
+<ul class="org-ul">
+<li>dla zdań syntetycznych - uzasadnienie opiera się na spostrzeżeniach</li>
+<li>dla zdań analitycznych - uzasadnienie opiera się na regułach znaczeniowych danego języka</li>
+<li>uzasadnienia pośrednie pochodzą z wnioskowania z innych zdań przyjętych uprzednio za prawdziwe</li>
+</ul></li>
+<li>spostrzeżenia: zewnętrzne i wewnętrzne; problem iluzji (<a href="https://www.youtube.com/watch?v=BzNzgsAE4F0">https://www.youtube.com/watch?v=BzNzgsAE4F0</a>)</li>
+<li>spostrzeżenia:
+<ul class="org-ul">
+<li>przypadkowe,</li>
+<li>obserwacja,</li>
+<li>pomiar i</li>
+<li>eksperyment</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd745193" class="outline-3">
+<h3 id="orgd745193"><span class="section-number-3">8.3.</span> Wnioskowania niededukcyjne</h3>
+<div class="outline-text-3" id="text-8-3">
+</div>
+<div id="outline-container-org63e75b8" class="outline-4">
+<h4 id="org63e75b8"><span class="section-number-4">8.3.1.</span> Indukcja</h4>
+<div class="outline-text-4" id="text-8-3-1">
+<p>
+Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nastąpiło aż 1000 obserwacji potwierdzający tę hipotezę. Dnia 1001 człowiek upiekł indyka.
+</p>
+
+<ul class="org-ul">
+<li>Indukcja enumeracyjna:
+<ul class="org-ul">
+<li>S<sub>1</sub> jest P,</li>
+<li>S<sub>2</sub> jest P,</li>
+<li>S<sub>3</sub> jest P,</li>
+<li>S<sub>4</sub> jest P,</li>
+<li>S<sub>n</sub> jest P,</li>
+<li>Każde S jest P.</li>
+<li>S<sub>n</sub> - dzień, P dzień mający cechę X (np. dzień w którym człowiek służy indykowi)</li>
+</ul></li>
+<li>Indukcja zupełna i niezupełna.</li>
+<li>Indukcja eliminacyjna:
+<ol class="org-ol">
+<li>kanon jednej zgodności: O<sub>1</sub>: A, B, C, Z; O<sub>2</sub>: C, D, E, Z; O<sub>3</sub>: C, F, G, Z.</li>
+<li>kanon jednej różnicy:
+<ul class="org-ul">
+<li>O<sub>1</sub>: A, B, C, Z;</li>
+<li>O<sub>2</sub>: B, C, Z;</li>
+<li>O<sub>3</sub>: A, C, Z;</li>
+<li>O<sub>4</sub>: A, B, ~Z.</li>
+</ul></li>
+<li>kanon zmian towarzyszących:
+<ul class="org-ul">
+<li>kuchenka gazowa ma palniki od 1 do 4 i 4 kurki (A…D)</li>
+<li>zadanie: ustal który kurek steruje palnikiem nr 2</li>
+<li>obserwacje:
+<ol class="org-ol">
+<li>kurek A w poz. 50%, brak płomienia</li>
+<li>kurek A w poz. 100%, brak płomienia</li>
+<li>kurek B w poz. 50%, brak płomienia</li>
+<li>kurek B w poz. 100%, brak płomienia</li>
+<li>kurek C w poz. 50%, mały płomień</li>
+<li>kurek C w poz. 100%, duży płomień</li>
+<li>kurek D w poz. 50%, brak płomienia</li>
+<li>kurek D w poz. 100%, brak płomienia</li>
+</ol></li>
+<li>wniosek: prawdopodobnie kurek C steruje płomieniem palnika nr 2.</li>
+</ul></li>
+</ol></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org87ab644" class="outline-3">
+<h3 id="org87ab644"><span class="section-number-3">8.4.</span> Wnioskowania prawnicze</h3>
+<div class="outline-text-3" id="text-8-4">
+<ul class="org-ul">
+<li>sylogizm prawniczy
+<ul class="org-ul">
+<li>(1) Kto zabija człowieka podlega karze. (2) Jan zabił człowieka. | Jan podlega karze.</li>
+</ul></li>
+<li>uzupełnianie luk w prawie; postulat zupełności kwalifikacyjnej</li>
+<li>argumenty prawnicze:
+<ul class="org-ul">
+<li>argumentum a simile (argument z podobieństwa)
+<ul class="org-ul">
+<li>analogia legis (analogia z ustawy)</li>
+<li>analogia iuris (analogia z prawa)</li>
+</ul></li>
+<li>argumentum a fortiori (jeżeli A, to tym bardziej B)
+<ul class="org-ul">
+<li>argumentum a maiori ad minus (argument z większego na mniejsze)</li>
+<li>argumentum a miniori ad maius (argument z mniejszego na większe)</li>
+</ul></li>
+<li>argumentum a contrario (argument z przeciwieństwa)</li>
+<li>dyrektywa instrumentalnego nakazu i zakazu (argument z celu na środki)</li>
+</ul></li>
+</ul>
+</div>
+
+<div id="outline-container-orgb87d3d7" class="outline-4">
+<h4 id="orgb87d3d7"><span class="section-number-4">8.4.1.</span> Przykłady</h4>
+<div class="outline-text-4" id="text-8-4-1">
+<ul class="org-ul">
+<li>a contrario
+<ul class="org-ul">
+<li>Już pełnomocnik oskarżycielki posiłkowej, sporządzający apelację, dostrzegł, że doszło do przedawnienia karalności czynu z art. 284 § 2 k.k., którego upatrywał w zachowaniu oskarżonego. Takie przedawnienie tym bardziej (wcześniej) nastąpiło w stosunku do czynu z art. 284 § 1 k.k., jakiego zdaniem obecnego pełnomocnika miał się dopuścić oskarżony (zob. art. 101 § 1 pkt 4 k.k. i 102 k.k.). Przedawnienie karalności, jako okoliczność wyłączająca ściganie, wyklucza możliwość wniesienia kasacji na niekorzyść oskarżonego. Wynika to z odczytywanego a contrario przepisu art. 529 k.p.k. Kasacja już w chwili jej wniesienia okazała się więc niedopuszczalna i nie powinna być przyjęta (art. 429 § 1 k.p.k. zw. z art. 530 § 2 k.p.k. w zw. z art. 529 k.p.k. a contrario). - Postanowienie SN z 28.10.2013 r., III KK 144/13, OSNKW 2014, nr 3, poz. 22.</li>
+</ul></li>
+<li>a maiori ad minus
+<ul class="org-ul">
+<li>Skarżący w niniejszej sprawie ma rację, iż powód nie zgłaszał żądania obniżenia tej kary. Pozostaje zatem problem, czy Sąd może dokonać takiego miarkowania bez wyraźnego wniosku zobowiązanego. Zarówno w dawnym orzecznictwie (por. wyrok SN z 14 lipca 1976 r. I CR 271/76, OSN 1977, poz. 76, jak i w obecnym por. wyrok z 21 listopada 1996 r. I CKN 330/97 - nie publikowany) Sąd Najwyższy przyjmuje, że żądanie dłużnika oddalenia powództwa o zapłatę kary umownej mieści w sobie także jednocześnie ewentualne żądanie wnioskowania jej wysokości (rozumowanie a maiori ad minus). Sąd w składzie rozpoznającym niniejszą sprawę podziela słuszność tego stanowiska, co oznacza, że wbrew zarzutowi kasacji pozwanego - Sąd Apelacyjny mógł zmniejszyć należną mu od powoda karę umowną za odstąpienie od umowy w sytuacji, kiedy powód kwestionował w ogóle możliwości jej naliczania. - Wyrok SN z 25.03.1998 r., II CKN 660/97, LEX nr 519952.</li>
+</ul></li>
+<li>a minori ad maius
+<ul class="org-ul">
+<li>Skoro wady uzasadnienia wyroku sądu odwoławczego polegające na naruszeniu art. 457 § 3 k.p.k. stanowić mogą podstawę uchylenia tego wyroku, to a minori ad maius podstawę taką stanowić może całkowity brak uzasadnienia. - Wyrok SN z 8.09.2005 r., II KK 373/04, OSNwSK 2005, nr 1, poz. 1615.</li>
+</ul></li>
+<li>a simile
+<ul class="org-ul">
+<li>Nie bez znaczenia jest fakt, że strony w tym czasie miały do siebie zaufanie, razem zamieszkiwały i mogły posiadać w domu własne i wspólne (w ramach konkubinatu - por. art. 860 k.c. a simile i następne) środki finansowe a także fakt, że powódka w tym okresie była uprawniona do dokonywania operacji finansowych na kontach pozwanego (bezsporne). - Wyrok SR w Olsztynie z 12.12.2017 r., I C 1882/17, LEX nr 2432212.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdba5df7" class="outline-2">
+<h2 id="orgdba5df7"><span class="section-number-2">9.</span> Wykład 9</h2>
+<div class="outline-text-2" id="text-9">
+</div>
+<div id="outline-container-orgfaa7758" class="outline-3">
+<h3 id="orgfaa7758"><span class="section-number-3">9.1.</span> Dedukcja</h3>
+<div class="outline-text-3" id="text-9-1">
+<ul class="org-ul">
+<li>wnioskowanie jako proces myślowy, przesłanki, przesłanki entymematyczne
+<ul class="org-ul">
+<li>przykłady wnioskowań:
+<ul class="org-ul">
+<li>Kto zabija zwierzęta ten ma predyspozycje do mordowania ludzi.</li>
+<li>Jest piątek, a więc czas na pizzę.</li>
+<li>Kto sprzedaje narkotyki jest dealerem.</li>
+<li>Kto zażywa narkotyki ten jest dealerem.</li>
+<li>Jan prowadzi samochód kompletnie pijany, a więc Jan podlega karze.</li>
+<li>Jest sobota, a więc czas na kuchnię hinduską.</li>
+<li>Jestem ubogi, a więc idę do pracy.</li>
+<li>Jeśli zauważam wzrastające temperatury co roku, to znaczy, że następuje ocieplenie klimatu.</li>
+<li>Wschodzi krwawe słońce a więc przelano krew tej nocy.</li>
+</ul></li>
+</ul></li>
+<li>wnioskowania zawodne i wnioskowania niezawodne (<i>Każdy człowiek jest śmiertelny. Sokrates jest człowiekiem. A więc, Sokrates jest śmiertelny.</i>)</li>
+<li>prawa logiki
+<ul class="org-ul">
+<li>prawo transpozycji: (p &sup; q) &sup; (&sim; q &sup; &sim; p): Jeżeli (Jeżeli pada deszcz, to ulica jest mokra) to (Jeżeli nieprawda, że ulica jest mokra to nieprawda, że pada deszcz)</li>
+<li>prawo kontrapozycji: &prod; S,P: SaP &equiv; nie-S a nie-P</li>
+</ul></li>
+<li>sylogizm: <i>Ponieważ (1) jeżeli p, to q i (2) jeżeli q, to r (3) to jeżeli p to r.</i>
+<ul class="org-ul">
+<li>[ (p &sup; q) &sdot; (q &sup; r)] &sup; (p &sup; r)</li>
+<li>[(p &sup; q) &sdot; p] &sup; q (modus ponendo ponens): Jeżeli [(Jeżeli woda wrze to jest gorąca) i woda wrze] to woda jest gorąca</li>
+<li>[(p &sup; q) &sdot; &sim; q] &sup; &sim; p (modus tollendo tollens): <i>Jeżeli [(Jeżeli woda wrze to jest gorąca) i nieprawda, że woda jest gorąca] to nieprawda, że woda wrze.</i></li>
+<li>[(p &or; q) &sdot; &sim; p] &sup; q (modus tollendo ponens): <i>Jeżeli [(Wicked jest psem lub Wicked jest kotem) i nieprawda, że Wicked jest kotem] to Wicked jest psem.</i></li>
+</ul></li>
+
+<li>sylogistyka Arystotelesa
+<ul class="org-ul">
+<li>zdania w postaci:</li>
+<li>zd. ogólno-twierdzące:     SaP - <i>każde S jest P</i></li>
+<li>zd. ogólno-przeczące:      SeP - <i>żadne S nie jest P</i></li>
+<li>zd. szczególno-twierdzące: SiP - <i>istnieją S, które są P</i></li>
+<li>zd. szczególno-przeczące:  SoP - <i>istnieją S, które są nie-P</i></li>
+<li>SaP &equiv; &sim; (SoP)</li>
+<li>SeP &equiv; &sim; (SiP)</li>
+<li>SiP &equiv; &sim; (SeP)</li>
+<li>SoP &equiv; &sim; (SaP)</li>
+</ul></li>
+</ul>
+
+<p class="verse">
+<br />
+MaP<br />
+SiM<br />
+-&#x2013;&#x2014;<br />
+SiP<br />
+<br />
+Każdy adwokat jest prawnikiem.<br />
+Niektórzy ludzie są adwokatami.<br />
+-&#x2013;&#x2014;<br />
+Niektórzy ludzie są prawnikami.<br />
+<br />
+Każdy polityk jest gadem.<br />
+Niektórzy profesorowie są politykami.<br />
+-&#x2013;&#x2014;<br />
+Niektórzy profesorowie są gadami.<br />
+<br />
+</p>
+
+<p>
+FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage out
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org38dc729" class="outline-2">
+<h2 id="org38dc729"><span class="section-number-2">10.</span> Wykład 10</h2>
+<div class="outline-text-2" id="text-10">
+</div>
+<div id="outline-container-orgf3a361c" class="outline-3">
+<h3 id="orgf3a361c"><span class="section-number-3">10.1.</span> Implikatura</h3>
+<div class="outline-text-3" id="text-10-1">
+<p>
+<b>Piotr</b>: Czy wszystko w porzadku? <b>Katarzyna</b>: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
+</p>
+
+<p>
+Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. Wojciech: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr:
+</p>
+</div>
+
+<ol class="org-ol">
+<li><a id="org61ae52d"></a>Zasady współpracy<br />
+<div class="outline-text-5" id="text-10-1-0-1">
+<ol class="org-ol">
+<li>Nie wygłaszaj poglądów fałszych ani nawet niedostatecznie uzasadnionych (maksyma jakości).</li>
+<li>Nie udzielaj zbyt wiele, ani zbyt mało informacji (maksyma ilości).</li>
+<li>Nie wypowiadaj słów irrelewantnych (maksyma istotności).</li>
+<li>Mów w sposób zrozumiały (maksyma sposobu).</li>
+</ol>
+
+<p>
+Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org00b0908" class="outline-3">
+<h3 id="org00b0908"><span class="section-number-3">10.2.</span> Myślenie kierowane z góry postawionymi zadaniami</h3>
+<div class="outline-text-3" id="text-10-2">
+<ul class="org-ul">
+<li>myślenie spontaniczne, a myślenie kierowane z góry postanowionymi zadaniami</li>
+<li>zadania:
+<ul class="org-ul">
+<li>zadania rozstrzygnięcia: „czy prawdą jest, że p”?</li>
+<li>zadania wyjaśnienia: „dlaczego prawdą jest, że p”?</li>
+</ul></li>
+<li>dowodzenie
+<ul class="org-ul">
+<li>dowodzenie a wiadomości o świecie</li>
+<li>dowodzenie wprost: wiadomo, że jeśli p to q; wiadomo, że p, a więc udowodnione jest, że q</li>
+<li>dowodzenie nie wprost: przypuszczam, że &sim;q; wiem, że jeżeli &sim;q to r; wiem, że r; a więc wiem, że &sim;&sim;q czyli q</li>
+<li>błędy w dowodzeniu:
+<ul class="org-ul">
+<li>błąd materialny, bład formalny, błąd petitio principi</li>
+<li>błąd błędnego koła</li>
+<li>nieznajomość tezy dowodzonej - ignoratio elenchi</li>
+</ul></li>
+</ul></li>
+<li>sprawdzanie
+<ul class="org-ul">
+<li>czy p?
+<ul class="org-ul">
+<li>wiem, że p &sup; q</li>
+<li>wiem, że q: a więc?</li>
+<li>wiem, że &sim;q: a więc?</li>
+</ul></li>
+</ul></li>
+<li>wyjaśnianie
+<ul class="org-ul">
+<li>dlaczego jest tak a tak?</li>
+<li>hipoteza wyjaśniająca (np. hipoteza samorództwa)</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga8f2676" class="outline-3">
+<h3 id="orga8f2676"><span class="section-number-3">10.3.</span> Prawdopodobieństwo</h3>
+<div class="outline-text-3" id="text-10-3">
+<ul class="org-ul">
+<li><b>Prawdopodobieństwo</b> ma różne znaczenia:
+<ul class="org-ul">
+<li>psychologiczne — siła przekonania o pewności danego zdania</li>
+<li>logiczne (metodologiczne) — istnieją podstawy statystyczne (lub wynikające z innych metod) do uznania zdania za prawdziwe</li>
+</ul></li>
+<li><b>prawodpodobieństwo aprioryczne</b></li>
+<li><b>prawodpodobieństwo aposterioryczne</b></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1a80c85" class="outline-3">
+<h3 id="org1a80c85"><span class="section-number-3">10.4.</span> Umiejętność przekonywania</h3>
+<div class="outline-text-3" id="text-10-4">
+<ul class="org-ul">
+<li>agrumentowanie to czynność polegającu na wywołaniu adresata wypowiedzi określonego przeświadczenia</li>
+<li>nie zawsze argument musi być rozsądny &rarr; wszystko zależy od adresata</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org56b0eaa" class="outline-2">
+<h2 id="org56b0eaa"><span class="section-number-2">11.</span> ŚCIĄGA: Symbole logiczne</h2>
+<div class="outline-text-2" id="text-11">
+<p>
+W nawiasach oznaczono alternatywne symbole.
+</p>
+
+<ul class="org-ul">
+<li>Kwantyfikator ogólny: &prod; x (&forall;)</li>
+<li>Kwantyfikator szczegółowy: &sum; x (&exist;)</li>
+<li>Negacja: &sim;p (&not;p)</li>
+<li>Koniunkcja: p &sdot; q (p &and; q; Kpq; p &amp; q; &amp;&amp;)</li>
+<li>Implikacja: p &sup; q (p &rarr;  q)</li>
+<li>Alternatywa nierozłączna: p &or; q (p + q; Apq; ||)</li>
+<li>Alternatywa rozłączna: p &perp; q</li>
+<li>Dysjunkcja: p / q</li>
+<li>Binegacja: p &darr; q</li>
+<li>Równoważność: p &equiv; q (p &harr;  q)</li>
+<li>Konieczność: \(\Box{}p\)</li>
+<li>Możliwość: \(\diamond{}p\)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Autor: J. Szczerbowski</p>
+<p class="date">Created: 2023-10-21 Sat 07:36</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
