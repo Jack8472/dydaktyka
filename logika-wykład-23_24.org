@@ -2,7 +2,6 @@
 #+AUTHOR: J. Szczerbowski
 #+OPTIONS: tex:t
 #+LANGUAGE: pl
-#+STARTUP: latexpreview
 
 * Wykład 1
 SCHEDULED: <2023-10-14 Sat>
@@ -282,9 +281,12 @@ Nazwa generalna może być używana w różnych rolach znaczeniowych nazywanych
 Nazwy ostre:
 - pies
 - \pi
-
+  
+* Wykład 3
+SCHEDULED: <2023-10-28 Sat>
 ** Stosunki pomiędzy zakresami nazw
 UWAGA: wersja rozszerzona względem podręcznika!
+
 *** Zamienność
 #+begin_src plantuml :file img/zamiennosc.png
 @startditaa -E -S
@@ -323,6 +325,7 @@ UWAGA: wersja rozszerzona względem podręcznika!
 +---------------------------+
 @endditaa
 #+end_src
+
 *** Przeciwieństwo
 #+begin_src plantuml :file img/przeciwienstwo.png
 @startditaa -E -S
@@ -400,8 +403,6 @@ UWAGA: wersja rozszerzona względem podręcznika!
    się, a suma tych denotacji pokrywa się z uniwersum przedmiotów. Nazwy
    "nie-krowa" i "zwierzę" są podprzeciwne.
 
-* Wykład 3
-SCHEDULED: <2023-10-28 Sat>
 ** Definicje
 
 Definicja realna: wypowiedź w języku pierwszego stopnia, która charakteryzuje
