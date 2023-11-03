@@ -405,12 +405,9 @@ UWAGA: wersja rozszerzona względem podręcznika!
 
 ** Definicje
 
-Definicja realna: wypowiedź w języku pierwszego stopnia, która charakteryzuje
-przedmiot i tylko ten przedmiot.
+Definicja realna: wypowiedź w języku pierwszego stopnia, która charakteryzuje przedmiot i tylko ten przedmiot.
 
-Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje
-o znaczeniu definiowanego słowa: /Wyraz kwadrat oznacza prostokąt, który ma
-wszystkie boki równe./
+Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje o znaczeniu definiowanego słowa: /Wyraz kwadrat oznacza prostokąt, który ma wszystkie boki równe./
 
 *** Przykłady definicji (podawane przez studentów)
 1. Odcinek to jest fragment prostej, który ma początek i koniec.
@@ -421,31 +418,21 @@ wszystkie boki równe./
    osiągnięcia korzyści majątkowej.
 
 *** Zadania definicji
-- Definicja sprawozdawcza: składa sprawozdanie z tego, jak pewna grupa ludzi
-  posługuje się wyrazem lub wyrażeniem: /W języku polskim drugiej połowy
-  XX-wieku wyraz księgarnia oznacza sklep, w którym sprzedaje się książki.
-  W języku myśliwych wyraz farba oznacza krew zwierzęcia. W języku polskim wyraz
-  czapka oznacza część garderoby noszoną na stopie./
-- Definicja projektująca: ustala znaczenie jakiegoś wyrazu na przyszłość. Np.:
-  /Dokumentem jest nośnik informacji umożliwiający zapoznanie się z jej
-  treścią./ (art. 77^3 k.c.).
-  - Definicja projektująca może być konstrukcyjna (/Ilekroć w ustawie jest mowa
-    o przeciętnym konsumencie - rozumie się przez to konsumenta, który jest
-    dostatecznie dobrze poinformowany, uważny i ostrożny/) albo
-  - regulująca (/Stan nietrzeźwości w rozumieniu tego kodeksu zachodzi, gdy: 1)
-    zawartość alkoholu we krwi przekracza 0,5 promila albo prowadzi do stężenia
-    przekraczającego tę wartość lub 2) zawartość alkoholu w 1 dm^3 wydychanego
-    powietrza przekracza 0,25 mg albo prowadzi do stężenia przekraczającego tę
-    wartość./).
+SCHEDULED: <2023-11-04 Sat>
+
+#+begin_verse
+UWAGA: Dzisiaj o 12:30 będzie ogłoszenie; stąd merytoryczna część wykładu kończy się własnie o tej godzinie.
+#+end_verse
+
+- Definicja sprawozdawcza: składa sprawozdanie z tego, jak pewna grupa ludzi posługuje się wyrazem lub wyrażeniem: /W języku polskim drugiej połowy XX-wieku wyraz księgarnia oznacza sklep, w którym sprzedaje się książki.  W języku myśliwych wyraz farba oznacza krew zwierzęcia. W języku polskim wyraz czapka oznacza część garderoby noszoną na stopie./
+- Definicja projektująca: ustala znaczenie jakiegoś wyrazu na przyszłość. Np.: /Dokumentem jest nośnik informacji umożliwiający zapoznanie się z jej treścią./ (art. 77^3 k.c.).
+  - Definicja projektująca może być konstrukcyjna (/Ilekroć w ustawie jest mowa o *przeciętnym konsumencie* - rozumie się przez to konsumenta, który jest dostatecznie dobrze poinformowany, uważny i ostrożny/) albo
+  - regulująca (/Stan nietrzeźwości w rozumieniu tego kodeksu zachodzi, gdy: 1) zawartość alkoholu we krwi przekracza 0,5 promila albo prowadzi do stężenia przekraczającego tę wartość lub 2) zawartość alkoholu w 1 dm^3 wydychanego powietrza przekracza 0,25 mg albo prowadzi do stężenia przekraczającego tę wartość./).
 
 *** Budowa definicji
-
-- Definicja równościowa: /definiendum + zwrot łączący + definiens/: Bursztyn to
-  kopalna żywica drzew iglastych.
-  + Definitio per genus et differentiam specificam (definicja klasyczna): A to
-    takie B, które ma cechę C.
-- Definicje nierównościowe. Np. występujące w geometrii (definicja przez
-  postulaty).
+- Definicja równościowa: /definiendum + zwrot łączący + definiens/: Bursztyn to kopalna żywica drzew iglastych.
+  + Definitio per genus et differentiam specificam (definicja klasyczna): A to takie B, które ma cechę C.
+- Definicje nierównościowe. Np. występujące w geometrii (definicja przez postulaty).
 
 #+BEGIN_SRC plantuml :file img/definicje.png
 
@@ -465,39 +452,30 @@ wszystkie boki równe./
 Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 
 - Art.  10. §  1. Pełnoletnim jest, kto ukończył lat osiemnaście.
-- Art. 627. Przez umowę o dzieło przyjmujący zamówienie zobowiązuje się do
-  wykonania oznaczonego dzieła, a zamawiający do zapłaty wynagrodzenia.
+- Art. 627. Przez umowę o dzieło przyjmujący zamówienie zobowiązuje się do wykonania oznaczonego dzieła, a zamawiający do zapłaty wynagrodzenia.
 
 *** Poprawność definicji
-
-- nieprzystosowanie definicji do słownika osoby będącej adresatem definicji
-  (ignotum per ignotum): /Krącitka/ to jest taka /frutka/, która ma /piląga/.
-- definiens zawiera definiendum (idem per idem). /Polak, to jest taki
-  człowiek, który jest narodowości polskiej./ Błędne koło pośrednie:
-  /Logika to nauka o logicznym myśleniu. Logiczny to taki, który jest
-  zgodny z nauką logiki./
+- nieprzystosowanie definicji do słownika osoby będącej adresatem definicji (ignotum per ignotum): /Krącitka/ to jest taka /frutka/, która ma /piląga/.
+- definiens zawiera definiendum (idem per idem). /Polak, to jest taki człowiek, który jest narodowości polskiej./ Błędne koło pośrednie: /Logika to nauka o logicznym myśleniu. Logiczny to taki, który jest zgodny z nauką logiki./
 - definicja zbyt szeroka: Człowiek to ssak dwunożny.
 - definicja zbyt wąska: Człowiek to ssak posługujący się mową i pismem.
 
+* Wykład 4
+SCHEDULED: <2023-11-04 Sat>
 ** Podział logiczny
 Podział logiczny zakresu jakiejś nazwy /N/ na zakresy /A, B, C, D, E…/
 
 Całość dzielona (/totium divisionis/) i człony podziału (/membra divisionis/).
 
 Polskie miasta:
-
-- duże, małe i średnie; (komentarz: powinniśmy mieć kryteria zaliczenia miasta
-  jako dużego, średniego lub małego; kryteria muszą być dobrze dobrane)
+- duże, małe i średnie; (komentarz: powinniśmy mieć kryteria zaliczenia miasta jako dużego, średniego lub małego; kryteria muszą być dobrze dobrane)
 - stare i nowe; (podobnie jak powyżej)
 - dwuwyrazowe i jednowyrazowe; (a co z Nowym Dworem Mazowieckim?)
 - w górach, nad morzem, na równinach i na wyżynach; (a co z innymi terenami?)
-- zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki
-  podział jest poprawny; inna sprawa, że niezbyt przydatny)
+- zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki podział jest poprawny; inna sprawa, że niezbyt przydatny)
 
 *** Poprawność podziału
-Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być
-zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być
-zaliczony jakiegoś z członów podziału.
+Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być zaliczony jakiegoś z członów podziału.
 
 Podział dychotomiczny - podział według cech kontradyktorycznych:
 
@@ -507,9 +485,7 @@ Podział dychotomiczny - podział według cech kontradyktorycznych:
 Niepoprawne podziały:
 
 - oparte na niejednoznacznych kryteriach
-- według przedziałów liczbowych, których granice się powtarzają: polskie
-  rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7
-  osób, rodziny 7 osobowe i większe.
+- według przedziałów liczbowych, których granice się powtarzają: polskie rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7 osób, rodziny 7 osobowe i większe.
 
 *** Klasyfikacja
 
@@ -532,8 +508,7 @@ Niepoprawne podziały:
 
 *** Wyróżnianie typów
 Wyodrębnianie przedmiotów o interesujących nas cechach. Przykładowo z nazwy =pies= wyróżniamy typy takie jak =wyżeł= i =spaniel=.
-* Wykład 4
-SCHEDULED: <2023-11-04 Sat>
+
 ** Zdanie
 - Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności
   wypowiedzi.
@@ -647,6 +622,9 @@ Ani nie pada deszcz ani nie pochodzę z Marsa.
 *** Definicja implikacji przy pomocy alternatywy i negacji
 p \sup q \equiv (\sim p) \vee q
 
+*** Turing Complete
+Wspólnie gramy w grę.
+
 *** Definicja implikacji przy pomocy koniunkcji i negacji
 p \sup q \equiv \sim ( p \cdot \sim q )
 
@@ -681,8 +659,6 @@ określonego w § 1
   podlega karze pozbawienia wolności do lat 3.
 
 *** Tautologia, kontrtautologia
-
-*** Turing Complete
 
 * Wykład 5
 SCHEDULED: <2023-11-04 Sat>
@@ -749,6 +725,7 @@ Przykładowy zapis:
 [2022-12-03 Sat]
 
 * Wykład 6
+SCHEDULED: <2023-11-18 Sat>
 ** Wypowiedzi oceniające i normy
 
 - Wypowiedź oceniająca.
@@ -821,6 +798,7 @@ Milczenie norm a zachowanie człowieka.
 Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane.
 
 * Wykład 7
+SCHEDULED: <2023-12-02 Sat>
 ** Pytania i odpowiedzi
 - Pytanie: nie jest zdaniem w sensie logicznym; pytania na serio, pytania retoryczne
 - założenia pytania i pytania niewłaściwie postawione
@@ -841,6 +819,7 @@ Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi wi�
     - Kto pana pobił? Pobił mnie mężczyzna w płaszczu i czapce z dwoma daszkami (odpowiedź częściowa).
 
 * Wykład 8
+SCHEDULED: <2023-12-09 Sat>
 ** Nieporozumienia
 - wieloznaczność słów:
   + Każdy lubiący jeść pączki, lubi chodzić do cukierni. Łoś lubi jeść pączki. A więc, łoś lubi chodzić do cukierni.
@@ -916,6 +895,7 @@ Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nas
 - a simile
   + Nie bez znaczenia jest fakt, że strony w tym czasie miały do siebie zaufanie, razem zamieszkiwały i mogły posiadać w domu własne i wspólne (w ramach konkubinatu - por. art. 860 k.c. a simile i następne) środki finansowe a także fakt, że powódka w tym okresie była uprawniona do dokonywania operacji finansowych na kontach pozwanego (bezsporne). - Wyrok SR w Olsztynie z 12.12.2017 r., I C 1882/17, LEX nr 2432212.
 * Wykład 9
+SCHEDULED: <2024-01-13 Sat>
 ** Dedukcja
 - wnioskowanie jako proces myślowy, przesłanki, przesłanki entymematyczne
   + przykłady wnioskowań:
@@ -971,10 +951,10 @@ Niektórzy profesorowie są gadami.
 FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage out
 
 * Wykład 10
+SCHEDULED: <2024-01-20 Sat>
 ** Implikatura
-*Piotr*: Czy wszystko w porzadku? *Katarzyna*: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
-
-Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. Wojciech: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr:
+- *Piotr*: Czy wszystko w porzadku? *Katarzyna*: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
+- Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. Wojciech: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr:
 
 **** Zasady współpracy
 1. Nie wygłaszaj poglądów fałszych ani nawet niedostatecznie uzasadnionych (maksyma jakości).
@@ -1013,7 +993,7 @@ Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
 ** Umiejętność przekonywania
  - agrumentowanie to czynność polegającu na wywołaniu adresata wypowiedzi określonego przeświadczenia
  - nie zawsze argument musi być rozsądny \rarr wszystko zależy od adresata
-
+   
 * ŚCIĄGA: Symbole logiczne
 W nawiasach oznaczono alternatywne symbole.
 
