@@ -1,0 +1,7 @@
+#+TITLE: Logika
+#+SUBTITLE: Skrypt dla studentów prawa napisany w prostym języku
+#+AUTHOR: J. Szczerbowski
+#+OPTIONS: tex:nil
+#+LANGUAGE: pl 
+#+LATEX_CLASS: report
+

@@ -415,6 +415,7 @@ SCHEDULED: <2023-11-15 Wed>
 Z podręcznika Z. Ziembińskiego przeczytaj *rozdział VI*.
 
 * Zajęcia 6
+SCHEDULED: <2023-11-16 Thu>
 Na zaplanowanym odrabianiu zajęć.
 ** Funktory prawdziwościowe
 *** Wartości logiczne funktorów prawdziwościowych

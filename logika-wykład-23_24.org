@@ -420,18 +420,20 @@ Definicja nominalna: wypowiedź w języku drugiego stopnia, które informuje o�
 *** Zadania definicji
 SCHEDULED: <2023-11-04 Sat>
 
-#+begin_verse
-UWAGA: Dzisiaj o 12:30 będzie ogłoszenie; stąd merytoryczna część wykładu kończy się własnie o tej godzinie.
-#+end_verse
-
 - Definicja sprawozdawcza: składa sprawozdanie z tego, jak pewna grupa ludzi posługuje się wyrazem lub wyrażeniem: /W języku polskim drugiej połowy XX-wieku wyraz księgarnia oznacza sklep, w którym sprzedaje się książki.  W języku myśliwych wyraz farba oznacza krew zwierzęcia. W języku polskim wyraz czapka oznacza część garderoby noszoną na stopie./
 - Definicja projektująca: ustala znaczenie jakiegoś wyrazu na przyszłość. Np.: /Dokumentem jest nośnik informacji umożliwiający zapoznanie się z jej treścią./ (art. 77^3 k.c.).
   - Definicja projektująca może być konstrukcyjna (/Ilekroć w ustawie jest mowa o *przeciętnym konsumencie* - rozumie się przez to konsumenta, który jest dostatecznie dobrze poinformowany, uważny i ostrożny/) albo
   - regulująca (/Stan nietrzeźwości w rozumieniu tego kodeksu zachodzi, gdy: 1) zawartość alkoholu we krwi przekracza 0,5 promila albo prowadzi do stężenia przekraczającego tę wartość lub 2) zawartość alkoholu w 1 dm^3 wydychanego powietrza przekracza 0,25 mg albo prowadzi do stężenia przekraczającego tę wartość./).
 
 *** Budowa definicji
+
+Definiendum + zwrot łączący + definiens
+Bursztyn + to + kopalna żywica drzew iglastych.
+
 - Definicja równościowa: /definiendum + zwrot łączący + definiens/: Bursztyn to kopalna żywica drzew iglastych.
-  + Definitio per genus et differentiam specificam (definicja klasyczna): A to takie B, które ma cechę C.
+  + Definitio per genus et differentiam specificam (definicja klasyczna):
+    + A to takie B, które ma cechę C.
+    + Kwadrat to jest taki prostokąt, który ma wszystkie boki równe.
 - Definicje nierównościowe. Np. występujące w geometrii (definicja przez postulaty).
 
 #+BEGIN_SRC plantuml :file img/definicje.png
@@ -447,7 +449,7 @@ UWAGA: Dzisiaj o 12:30 będzie ogłoszenie; stąd merytoryczna część wykład
 #+END_SRC
 
 #+RESULTS:
-[[file:definicje.png]]
+[[file:img/definicje.png]]
 
 Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 
@@ -480,7 +482,7 @@ Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie moż
 Podział dychotomiczny - podział według cech kontradyktorycznych:
 
 - podmiot: podmiot będący podatnikiem VAT - podmiot niebędący podatnikiem VAT
-- pies: pies mający cztery łapy - pies nie mający czterech łap
+- pies: pies mający cztery łapy - pies niemający czterech łap
 
 Niepoprawne podziały:
 
@@ -504,17 +506,15 @@ Niepoprawne podziały:
 #+end_src
 
 #+RESULTS:
-[[file:klasyfikacja.png]]
+[[file:img/klasyfikacja.png]]
 
 *** Wyróżnianie typów
-Wyodrębnianie przedmiotów o interesujących nas cechach. Przykładowo z nazwy =pies= wyróżniamy typy takie jak =wyżeł= i =spaniel=.
+Wyodrębnianie przedmiotów o interesujących nas cechach. Przykładowo z nazwy =pies= wyróżniamy typy takie jak =hart= i =spaniel=.
 
 ** Zdanie
 - Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności
   wypowiedzi.
-- Przykłady wyrażeń niebędących zdaniami w sensie logicznym, ale będących
-  zdaniami w sensie gramatycznym: /Zapal światło. W razie niebezpieczeństwa zbij
-  szybę./
+- Przykłady wyrażeń niebędących zdaniami w sensie logicznym, ale będących zdaniami w sensie gramatycznym: /Zapal światło. W razie niebezpieczeństwa zbij szybę./
 - Zdarzenia i stany rzeczy.
   + Zdarzenie: rzecz lub osoba wykazywała w danym momencie własność X a w innym
     momencie jej nie wykazywała.
@@ -619,14 +619,16 @@ Ani nie pada deszcz ani nie pochodzę z Marsa.
 - /T2: p \vee \sim(p)/ : zasada wyłączonego środka
 - /T3: p \equiv \sim ( \sim p )/ : zasada podwójnego zaprzeczenia
 
+Co to jest tautologia, kontrtautologia?
+
 *** Definicja implikacji przy pomocy alternatywy i negacji
 p \sup q \equiv (\sim p) \vee q
 
-*** Turing Complete
-Wspólnie gramy w grę.
-
 *** Definicja implikacji przy pomocy koniunkcji i negacji
 p \sup q \equiv \sim ( p \cdot \sim q )
+
+*** Turing Complete
+Wspólnie gramy w grę.
 
 *** Zadanie
 
@@ -657,8 +659,6 @@ określonego w § 1
 - *albo* uszkadza miejsce zamknięcia,
 
   podlega karze pozbawienia wolności do lat 3.
-
-*** Tautologia, kontrtautologia
 
 * Wykład 5
 SCHEDULED: <2023-11-04 Sat>
@@ -694,7 +694,6 @@ Jan kocha Zofię. x jest bratem y, x patrzy na y, x mówi do y.
 - zawiera - jest tranzytywny
 - jest częścią - relacja tranzytywna
 - jest matką - relacja atranzytywna: x jest matką y, y jest matką z \sup x nie jest matką z
-- samodzielnie wychowywać - relacja atranzytywna
 - jest krewnym - relacja nontranzytywna
 - jest szefem - relacja nontranzytywna
 - jest pracownikiem tej samej firmy - relacja nontranzytywna
@@ -721,8 +720,6 @@ Przykładowy zapis:
     + { Wojtek blondyn, Kasia blondynka, Alicja blondynka, Cezary blondyn }, R: /ma taki sam kolor włosów jak/
     + { Skoda Octavia 1.9TDI, Audi A3 2.0TDI, BMW 330d }, R: /jest na takie samo paliwo jak/
     + { Adam, Franciszek, Bartek }^1 R: /być bratem/ (1 - panowie są braćmi)
-
-[2022-12-03 Sat]
 
 * Wykład 6
 SCHEDULED: <2023-11-18 Sat>
