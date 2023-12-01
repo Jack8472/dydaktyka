@@ -234,4 +234,5 @@ Odpowiedzi można podzielić na:
    a ponadto sklasyfikuj to pytanie w ramach podziałów jakie poznałeś.
 
 ** Zagadka
+Spotykasz osobę, o której wiesz, że jest prawdziwkiem albo fałszywkiem. Czy ta osoba może powiedzieć zdanie: „Jestem fałszywkiem lub Ziemia jest 10 planetą licząc od słońca”?
 
