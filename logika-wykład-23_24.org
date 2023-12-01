@@ -1,6 +1,6 @@
 #+title: Logika - konspekt wykładu (’23/24)
 #+AUTHOR: J. Szczerbowski
-#+OPTIONS: tex:t
+#+OPTIONS: tex:nil
 #+LANGUAGE: pl
 
 * Wykład 1
@@ -571,7 +571,9 @@ Pada deszcz i ulica jest mokra.
 
 ***** Alternatywa rozłączna
 
-Pójdziemy na lody albo pójdziemy do kina.
+1. Pójdziemy na lody albo pójdziemy do kina.
+2. Przestępstwo jest zbrodnią *albo* występkiem. (art. 7 § 1 k.k.)
+3. Czyn zabroniony popełniony jest nieumyślnie, jeżeli sprawca nie mając zamiaru jego popełnienia, popełnia go jednak na skutek niezachowania ostrożności wymaganej w danych okolicznościach, mimo że możliwość popełnienia tego czynu *przewidywał albo mógł przewidzieć*. (art. 9 § 2 k.k.) -- zastanów się, czy w tym przykładzie słowo albo jest alternatywą rozłączną.
 
 | p | p \perp q | q |
 |---+-------+---|
@@ -726,13 +728,12 @@ SCHEDULED: <2023-11-18 Sat>
 ** Wypowiedzi oceniające i normy
 
 - Wypowiedź oceniająca.
-- Preferencje.
-- Globalne oceny stanu rzeczy.
-
-*** Rodzaje ocen
-  - ocena estetyczna
-  - ocena hedonistyczna
-  - ocena moralna
+- Oceny
+  - zasadnicze:
+    + ocena estetyczna
+    + ocena hedonistyczna
+    + ocena moralna
+  - i utylitarne.
 
 *** Normy postępowania
 - Norma postępowania.
@@ -744,12 +745,17 @@ SCHEDULED: <2023-11-18 Sat>
   - zakaz czynienia X to nakaz nieczynienia X; nakaz czynienia X to zakaz nieczynienia X.
 - Normy mogą być:
   1) a) generalne, b) indywidualne;
+     a) adresat jest wskazany generalnie
+     b) adresat jest wskazany indywidualnie
   2) a) abstrakcyjne, b) konkretne.
-- Przykłady
-  - Przykład normy generalnej i abstrakcyjnej: Kto zabija człowieka, podlega karze pozbawienia wolności na czas nie krótszy od lat 8, karze 25 lat pozbawienia wolności albo karze dożywotniego pozbawienia wolności - Każdemu i w każdych okolicznościach zakazuje się zabić człowieka.
-  - Przykład normy konkretnej i indywidualnej: Sąd Okręgowy w Warszawie … zasądza od Jana Kowalskiego kwotę 1000 zł na rzecz Adama Malinowskiego z odsetkami ustawowymi za opóźnienie…
-  - Przykład normy generalnej i konkretnej: Kto z uczestników wycieczki wróci dziś pierwszy do schroniska powinien rozpalić ogień.
-  - Przykład normy indywidualnej i abstrakcyjnej: Szeregowy Kowalski, gdy dostrzeżecie niebezpieczeństwo macie wszcząć alarm.
+     a) norma nakazuje postępować w określony sposób stale
+     b) norma nakazuje postępować w określony sposób jednorazowo
+
+**** Przykłady
+  1) Przykład normy generalnej i abstrakcyjnej: Kto zabija człowieka, podlega karze pozbawienia wolności na czas nie krótszy od lat 8, karze 25 lat pozbawienia wolności albo karze dożywotniego pozbawienia wolności - Każdemu i w każdych okolicznościach zakazuje się zabić człowieka.
+  2) Przykład normy konkretnej i indywidualnej: Sąd Okręgowy w Warszawie … zasądza od Jana Kowalskiego kwotę 1000 zł na rzecz Adama Malinowskiego z odsetkami ustawowymi za opóźnienie…
+  3) Przykład normy generalnej i konkretnej: Kto z uczestników wycieczki wróci dziś pierwszy do schroniska powinien rozpalić ogień.
+  4) Przykład normy indywidualnej i abstrakcyjnej: Szeregowy Kowalski, gdy dostrzeżecie niebezpieczeństwo macie wszcząć alarm.
 - Podporządkowanie normie
 - Czy ma sens pytanie: Czy to prawda, że /x/ powinien /A/?
 - Obowiązywanie normy.
@@ -759,7 +765,7 @@ SCHEDULED: <2023-11-18 Sat>
 
 - wzajemna definiowalność: /musi robić to znaczy, że nie może nie robić ; może robić to znaczy, że nie musi nie robić/
 - interpretacje słów „musi” i „może”
-  + interpretacja logiczna - słowo „musi” oznacza pewien związek pomiędzy zdaniami; /obwód okręgu o promieniu 1 cm musi mieć 2 pi cm/; /kwadrat musi mieć cztery boki/
+  + interpretacja logiczna - słowo „musi” oznacza pewien związek pomiędzy zdaniami; /obwód okręgu o promieniu 1 cm musi mieć 2 \pi cm/; /kwadrat musi mieć cztery boki/
   + interpretacja dynamiczna - fakt jest nieuchronny; /ciało niepodparte musi spadać/, /Żołnierze bez pożywienia muszą w końcu przegrać./
   + interpretacja aksjologiczna - aprobujemy stan A i nie godzimy się na to, aby stan przeciwny nie zachodził - /Musisz płacić podatki. Jeśli jesteś bogatszy od innych to musisz płacić wyższe podatki. Musisz przestać palić papierosy, bo osierocisz swoje dzieci./
   + interpretacja tetyczna - zrealizowanie stanu A jest nakazane normą: /W końcu będziesz musiał wydać wyrok./ /Musisz zawiadomić prokuratora o tym, że próbowano Cię przekupić. Musisz płacić podatki./
@@ -777,11 +783,14 @@ SCHEDULED: <2023-11-18 Sat>
   + zdanie apodyktyczne: Musi być tak a tak. /Musisz nauczyć się logiki./
   + zdanie problematyczne: Może być tak a tak. /Logiki możesz uczyć się nawet w okresie świątecznym. Jutro możliwe są opady deszczu./
 - Możliwość jednostronna i możliwość dwustronna
-  + Kwadrat musi mieć cztery boki. Czy kwadrat może mieć cztery boki?
-  + Kwadrat może mieć cztery boki. Adam może wyjść z domu. Rzecznikiem Praw Obywatelskich może być obywatel polski wyróżniający się wiedzą prawniczą, doświadczeniem zawodowym oraz wysokim autorytetem ze względu na swe walory moralne i wrażliwość społeczną.
+  + Kwadrat musi mieć cztery boki. Czy kwadrat może mieć cztery boki? Kwadrat może mieć cztery boki.
+  + Adam może wyjść z domu.
+  + Rzecznikiem Praw Obywatelskich może być obywatel polski wyróżniający się wiedzą prawniczą, doświadczeniem zawodowym oraz wysokim autorytetem ze względu na swe walory moralne i wrażliwość społeczną.
   + Jest możliwe zjeść kawałek pizzy. Jan może zjeść kawałek pizzy.
   + Jest możliwe, że Lech Wałęsa był prezydentem Polski.
   + Ziemia może być trzecią planetą od Słońca (możliwość jednostronna). Każdy dorosły Polak może głosować w wyborach prezydenckich (możliwość dwustronna - może przecież także nie głosować).
+
+   <2023-12-02 Sat> 
 - Modalności normatywne
   + nakaz /osoba x musi postąpić w określony sposób/
   + zakaz /osoba x nie może postąpić w określony sposób/
@@ -1004,5 +1013,5 @@ W nawiasach oznaczono alternatywne symbole.
 - Dysjunkcja: p / q
 - Binegacja: p \downarrow q
 - Równoważność: p \equiv q (p \harr  q)
-- Konieczność: \(\Box{}p\)
+- Konieczność: \(\Box{}p\) 
 - Możliwość: \(\diamond{}p\)

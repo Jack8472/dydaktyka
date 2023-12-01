@@ -498,6 +498,10 @@ Ani nie pada deszcz ani nie pochodzę z Marsa.
 
 *** Definicja implikacji przy pomocy alternatywy i negacji
 p \sup q \equiv (\sim p) \vee q
+1   1    1      0       1
+1   0    0      0       0
+0   1    1      1       1
+0   1    0      1       1
 
 *** Definicja implikacji przy pomocy koniunkcji i negacji
 p \sup q \equiv \sim ( p \cdot \sim q )
@@ -516,20 +520,8 @@ p \sup q \equiv \sim ( p \cdot \sim q )
    względności: 1
  - Ani Ateny są stolicą Polski ani UŁ ma siedzibę w Berlinie: 1
 
-*** Bezprawne samouwolnienie
-Art. 242. § 1. Kto uwalnia się sam, będąc pozbawionym wolności na podstawie
-orzeczenia sądu lub prawnego nakazu wydanego przez inny organ państwowy, podlega
-grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2. […]
-§ 4. Jeżeli sprawca czynu określonego w § 1
-
-- działa w porozumieniu z innymi osobami,
-- używa przemocy lub
-- grozi jej użyciem
-- *albo* uszkadza miejsce zamknięcia,
-
-  podlega karze pozbawienia wolności do lat 3.
-
 * Zajęcia 7
+SCHEDULED: <2023-11-29 Wed>
 ** Relacje (stosunki) pomiędzy przedmiotami
 *** Wstęp
 
