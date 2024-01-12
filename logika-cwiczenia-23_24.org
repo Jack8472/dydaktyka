@@ -612,6 +612,7 @@ Przykładowy zapis:
   + uzasadnienie aksjologiczne.
 
 * Zajęcia 9
+SCHEDULED: <2023-12-13 Wed>
 ** Wypowiedzi modalne
 - wzajemna definiowalność: /musi robić to znaczy, że nie może nie robić ; może robić to znaczy, że nie musi nie robić/
 - interpretacje słów „musi” i „może”
@@ -651,9 +652,9 @@ Milczenie norm a zachowanie człowieka.
 Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane. 
 
 ** Do przeczytania
-Rozdział 10.
-Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział __*.
+Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział 10*.
 * Zajęcia 10
+SCHEDULED: <2023-12-20 Wed>
 ** Pytania i odpowiedzi
 
 - Pytanie: nie jest zdaniem w sensie logicznym; pytania na serio, pytania retoryczne
@@ -678,12 +679,13 @@ Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział __*.
 Rozdział 11
 Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział __*.
 * Zajęcia 11 
+SCHEDULED: <2024-01-10 Wed>
 ** Nieporozumienia
 - wieloznaczność słów:
   + Każdy lubiący jeść pączki, lubi chodzić do cukierni. Łoś lubi jeść pączki. A więc, łoś lubi chodzić do cukierni.
   + znaczenie aktualne i znaczenie potencjalne: Czy Tadek gra w brydża?
 - błąd ekwiwokacji: użycie tego samego słowa w różnych znaczeniach; szczególne znaczenie w przypadku mowy prawniczej
-- wieloznaczność wypowiedzi złożonej: Nigdy nie można zrobić zbyt wiele dla ludzi starych i chorych.
+- wieloznaczność wypowiedzi złożonej: Nigdy nie można zrobić zbyt wiele dla ludzi starych i chorych. 
 - skróty myślowe: Mniej znaczy więcej.
 ** Uzasadnianie bezpośrednie twierdzeń
 - w jaki sposób można uznać zdanie za prawdziwe? /Postulat racji dostatecznej/ - za prawdziwe należy uznać jedynie takie zdanie, dla którego da się uzyskać należyte uzasadnienie
@@ -694,15 +696,15 @@ Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział __*.
 - spostrzeżenia:
   + przypadkowe,
   + obserwacja,
-  + pomiar i 
+  + pomiar,
   + eksperyment
 ** Dedukcja a indukcja
    - dedukcja jako wnioskowanie niezawodne
    - indukcja jako wnioskowanie zawodne 
 ** Do przeczytania
-       Rozdział 12, 13
-Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział __*.
+Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział 12 i 13*.
 * Zajęcia 12 
+SCHEDULED: <2024-01-17 Wed>
 ** Indukcja
 
 Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nastąpiło aż 1000 obserwacji potwierdzający tę hipotezę. Dnia 1001 człowiek upiekł indyka.
@@ -714,7 +716,7 @@ Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nas
   - S_4 jest P,
   - S_n jest P,
   - Każde S jest P.
-  - S_n - dzień, P dzień mający cechę X (np. dzień w którym człowiek służy indykowi)<2022-01-08 sob> 
+  - S_n - dzień, P dzień mający cechę X (np. dzień w którym człowiek służy indykowi)
 - Indukcja zupełna i niezupełna.
 - Indukcja eliminacyjna:
   a. kanon jednej zgodności: O_1: A, B, C, Z; O_2: C, D, E, Z; O_3: C, F, G, Z.
@@ -736,130 +738,15 @@ Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nas
        7) kurek D w poz. 50%, brak płomienia
        8) kurek D w poz. 100%, brak płomienia
      - wniosek: prawdopodobnie kurek C steruje płomieniem palnika nr 2.
+
+** Prawdopodobieństwo
 ** Do przeczytania
        Rozdział 15
 Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział __*.
 * Zajęcia 13
-** Dedukcja
-- wnioskowanie jako proces myślowy, przesłanki, przesłanki entymematyczne
-  + przykłady wnioskowań (piątek):
-    - Kto zabija zwierzęta ten ma predyspozycje do mordowania ludzi.
-    - Jest piątek, a więc czas na pizzę.
-    - Kto sprzedaje narkotyki jest dealerem.
-    - Kto zażywa narkotyki ten jest dealerem.
-    - Jan prowadzi samochód kompletnie pijany, a więc Jan podlega karze.
-  + przykłady wnioskowań (sobota):
-    - Jest sobota, a więc czas na kuchnię hinduską.
-    - Jestem ubogi, a więc idę do pracy.
-    - Jeśli zauważam wzrastające temperatury co roku, to znaczy, że następuje ocieplenie klimatu.
-    - Wschodzi krwawe słońce a więc przelano krew tej nocy.
-- wnioskowania zawodne i wnioskowania niezawodne (/Każdy człowiek jest śmiertelny. Sokrates jest człowiekiem. A więc, Sokrates jest śmiertelny./)
-- prawa logiki
-  + prawo transpozycji: (p \sup q) \sup (\sim q \sup \sim p): Jeżeli (Jeżeli pada deszcz, to ulica jest mokra) to (Jeżeli nieprawda, że ulica jest mokra to nieprawda, że pada deszcz)
-  + prawo kontrapozycji: \prod S,P: SaP \equiv nie-S a nie-P
-- sylogizm: /Ponieważ (1) jeżeli p, to q i (2) jeżeli q, to r (3) to jeżeli p to r./
-  + [ (p \sup q) \cdot (q \sup r)] \sup (p \sup r)
-  + [(p \sup q) \cdot p] \sup q (modus ponendo ponens): Jeżeli [(Jeżeli woda wrze to jest gorąca) i woda wrze] to woda jest gorąca
-  + [(p \sup q) \cdot \sim q] \sup \sim p (modus tollendo tollens): /Jeżeli [(Jeżeli woda wrze to jest gorąca) i nieprawda, że woda jest gorąca] to nieprawda, że woda wrze./
-  + [(p \vee q) \cdot \sim p] \sup q (modus tollendo ponens): /Jeżeli [(Wicked jest psem lub Wicked jest kotem) i nieprawda, że Wicked jest kotem] to Wicked jest psem./
-    
-- sylogistyka Arystotelesa
-  + zdania w postaci:
-  + zd. ogólno-twierdzące:     SaP - /każde S jest P/
-  + zd. ogólno-przeczące:      SeP - /żadne S nie jest P/
-  + zd. szczególno-twierdzące: SiP - /istnieją S, które są P/
-  + zd. szczególno-przeczące:  SoP - /istnieją S, które są nie-P/
-  + SaP \equiv \sim (SoP)
-  + SeP \equiv \sim (SiP)
-  + SiP \equiv \sim (SeP)
-  + SoP \equiv \sim (SaP)
+SCHEDULED: <2024-01-24 Wed>
+Powtórzenie.
 
-#+begin_verse
-
-MaP
-SiM
-------
-SiP
-
-Każdy adwokat jest prawnikiem.
-Niektórzy ludzie są adwokatami.
-------
-Niektórzy ludzie są prawnikami.
-
-Każdy polityk jest gadem.
-Niektórzy profesorowie są politykami.
-------
-Niektórzy profesorowie są gadami.
-
-#+end_verse
-
-FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage out
-
-** Do przeczytania
-Rozdział 14.
-Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział __*.
-   
-# # * Wnioskowania prawnicze
-
-# # - sylogizm prawniczy
-# #   + (1) Kto zabija człowieka podlega karze. (2) Jan zabił człowieka. | Jan podlega karze.
-# # - uzupełnianie luk w prawie; postulat zupełności kwalifikacyjnej
-# # - argumenty prawnicze:
-# #   + argumentum a simile (argument z podobieństwa)
-# #     - analogia legis (analogia z ustawy)
-# #     - analogia iuris (analogia z prawa)
-# #   + argumentum a fortiori (jeżeli A, to tym bardziej B)
-# #     - argumentum a maiori ad minus (argument z większego na mniejsze)
-# #     - argumentum a miniori ad maius (argument z mniejszego na większe)
-# #   + argumentum a contrario (argument z przeciwieństwa)
-# #   + dyrektywa instrumentalnego nakazu i zakazu (argument z celu na środki)
-
-# # ** Przykłady
-
-# # - a contrario
-# #   + Już pełnomocnik oskarżycielki posiłkowej, sporządzający apelację, dostrzegł, że doszło do przedawnienia karalności czynu z art. 284 § 2 k.k., którego upatrywał w zachowaniu oskarżonego. Takie przedawnienie tym bardziej (wcześniej) nastąpiło w stosunku do czynu z art. 284 § 1 k.k., jakiego zdaniem obecnego pełnomocnika miał się dopuścić oskarżony (zob. art. 101 § 1 pkt 4 k.k. i 102 k.k.). Przedawnienie karalności, jako okoliczność wyłączająca ściganie, wyklucza możliwość wniesienia kasacji na niekorzyść oskarżonego. Wynika to z odczytywanego a contrario przepisu art. 529 k.p.k. Kasacja już w chwili jej wniesienia okazała się więc niedopuszczalna i nie powinna być przyjęta (art. 429 § 1 k.p.k. zw. z art. 530 § 2 k.p.k. w zw. z art. 529 k.p.k. a contrario). - Postanowienie SN z 28.10.2013 r., III KK 144/13, OSNKW 2014, nr 3, poz. 22.
-# # - a maiori ad minus
-# #   + Skarżący w niniejszej sprawie ma rację, iż powód nie zgłaszał żądania obniżenia tej kary. Pozostaje zatem problem, czy Sąd może dokonać takiego miarkowania bez wyraźnego wniosku zobowiązanego. Zarówno w dawnym orzecznictwie (por. wyrok SN z 14 lipca 1976 r. I CR 271/76, OSN 1977, poz. 76, jak i w obecnym por. wyrok z 21 listopada 1996 r. I CKN 330/97 - nie publikowany) Sąd Najwyższy przyjmuje, że żądanie dłużnika oddalenia powództwa o zapłatę kary umownej mieści w sobie także jednocześnie ewentualne żądanie wnioskowania jej wysokości (rozumowanie a maiori ad minus). Sąd w składzie rozpoznającym niniejszą sprawę podziela słuszność tego stanowiska, co oznacza, że wbrew zarzutowi kasacji pozwanego - Sąd Apelacyjny mógł zmniejszyć należną mu od powoda karę umowną za odstąpienie od umowy w sytuacji, kiedy powód kwestionował w ogóle możliwości jej naliczania. - Wyrok SN z 25.03.1998 r., II CKN 660/97, LEX nr 519952.
-# # - a minori ad maius
-# #   + Skoro wady uzasadnienia wyroku sądu odwoławczego polegające na naruszeniu art. 457 § 3 k.p.k. stanowić mogą podstawę uchylenia tego wyroku, to a minori ad maius podstawę taką stanowić może całkowity brak uzasadnienia. - Wyrok SN z 8.09.2005 r., II KK 373/04, OSNwSK 2005, nr 1, poz. 1615.
-# # - a simile
-# #   + Nie bez znaczenia jest fakt, że strony w tym czasie miały do siebie zaufanie, razem zamieszkiwały i mogły posiadać w domu własne i wspólne (w ramach konkubinatu - por. art. 860 k.c. a simile i następne) środki finansowe a także fakt, że powódka w tym okresie była uprawniona do dokonywania operacji finansowych na kontach pozwanego (bezsporne). - Wyrok SR w Olsztynie z 12.12.2017 r., I C 1882/17, LEX nr 2432212.
-
-# # * Myślenie kierowane z góry postawionymi zadaniami
-
-# # - myślenie spontaniczne, a myślenie kierowane z góry postanowionymi zadaniami
-# # - zadania:
-# #   + zadania rozstrzygnięcia: „czy prawdą jest, że p”?
-# #   + zadania wyjaśnienia: „dlaczego prawdą jest, że p”?<2022-01-15 sob> 
-# # - dowodzenie
-# #   + dowodzenie a wiadomości o świecie
-# #   + dowodzenie wprost: wiadomo, że jeśli p to q; wiadomo, że p, a więc udowodnione jest, że q
-# #   + dowodzenie nie wprost: przypuszczam, że \sim{}q; wiem, że jeżeli \sim{}q to r; wiem, że r; a więc wiem, że \sim{}\sim{}q czyli q
-# #   + błędy w dowodzeniu:
-# #     - błąd materialny, bład formalny, błąd petitio principi
-# #     - błąd błędnego koła
-# #     - nieznajomość tezy dowodzonej - ignoratio elenchi
-# # - sprawdzanie
-# #   + czy p?
-# #     - wiem, że p \sup q
-# #     - wiem, że q: a więc?
-# #     - wiem, że \sim{}q: a więc?
-# # - wyjaśnianie
-# #   + dlaczego jest tak a tak?
-# #   + hipoteza wyjaśniająca (np. hipoteza samorództwa)
-
-# ** Implikatura
-
-# *Piotr*: Czy wszystko w porzadku? *Katarzyna*: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
-
-# Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. Wojciech: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr?
-
-# *** Zasady współpracy
-
-# 1. Nie wygłaszaj poglądów fałszych ani nawet niedostatecznie uzasadnionych (maksyma jakości).
-# 2. Nie udzielaj zbyt wiele, ani zbyt mało informacji (maksyma ilości).
-# 3. Nie wypowiadaj słów irrelewantnych (maksyma istotności).
-# 4. Mów w sposób zrozumiały (maksyma sposobu).
-
-#    Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
-
+* Zajęcia 14
+SCHEDULED: <2024-01-26 Fri>
+Zaliczenie.
