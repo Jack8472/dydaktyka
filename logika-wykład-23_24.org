@@ -901,7 +901,9 @@ SCHEDULED: <2024-01-13 Sat>
   + znaczenie aktualne i znaczenie potencjalne: Czy Tadek gra w brydża?
 - błąd ekwiwokacji: użycie tego samego słowa w różnych znaczeniach; szczególne znaczenie w przypadku mowy prawniczej
 - wieloznaczność wypowiedzi złożonej: Nigdy nie można zrobić zbyt wiele dla ludzi starych i chorych.
-- skróty myślowe: Mniej znaczy więcej.
+- znaczenie dosłowne i niedosłowne: /Człowiek człowiekowi wilkiem./
+- skróty myślowe: /Mniej znaczy więcej./
+- Ambifologia - wypowiedź wieloznaczna ze względu na składnię: /Paweł powiedział swojej koleżance, że ona jest niemądra./
 
 ** Dedukcja
 - wnioskowanie jako proces myślowy, przesłanki, przesłanki entymematyczne
