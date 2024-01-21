@@ -897,13 +897,13 @@ Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nas
 SCHEDULED: <2024-01-13 Sat>
 ** Nieporozumienia
 - wieloznaczność słów:
-  + Każdy lubiący jeść pączki, lubi chodzić do cukierni. Łoś lubi jeść pączki. A więc, łoś lubi chodzić do cukierni.
+  + Każdy ssak lubiący jeść pączki, lubi chodzić do cukierni. Łoś lubi jeść pączki. A więc, łoś lubi chodzić do cukierni.
   + znaczenie aktualne i znaczenie potencjalne: Czy Tadek gra w brydża?
 - błąd ekwiwokacji: użycie tego samego słowa w różnych znaczeniach; szczególne znaczenie w przypadku mowy prawniczej
 - wieloznaczność wypowiedzi złożonej: Nigdy nie można zrobić zbyt wiele dla ludzi starych i chorych.
 - znaczenie dosłowne i niedosłowne: /Człowiek człowiekowi wilkiem./
 - skróty myślowe: /Mniej znaczy więcej./
-- Ambifologia - wypowiedź wieloznaczna ze względu na składnię: /Paweł powiedział swojej koleżance, że ona jest niemądra./
+-  Amfibologia- wypowiedź wieloznaczna ze względu na składnię: /Paweł powiedział swojej koleżance, że ona jest niemądra./
 
 ** Dedukcja
 - wnioskowanie jako proces myślowy, przesłanki, przesłanki entymematyczne
@@ -961,17 +961,6 @@ FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage o
 
 * Wykład 10
 SCHEDULED: <2024-01-20 Sat>
-** Implikatura
-- *Piotr*: Czy wszystko w porzadku? *Katarzyna*: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
-- Piotr: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. Wojciech: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr:
-
-**** Zasady współpracy
-1. Nie wygłaszaj poglądów fałszych ani nawet niedostatecznie uzasadnionych (maksyma jakości).
-2. Nie udzielaj zbyt wiele, ani zbyt mało informacji (maksyma ilości).
-3. Nie wypowiadaj słów irrelewantnych (maksyma istotności).
-4. Mów w sposób zrozumiały (maksyma sposobu).
-
-Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
 ** Myślenie kierowane z góry postawionymi zadaniami
 - myślenie spontaniczne, a myślenie kierowane z góry postanowionymi zadaniami
 - zadania:
@@ -980,28 +969,55 @@ Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
 - dowodzenie
   + dowodzenie a wiadomości o świecie
   + dowodzenie wprost: wiadomo, że jeśli p to q; wiadomo, że p, a więc udowodnione jest, że q
-  + dowodzenie nie wprost: przypuszczam, że \sim{}q; wiem, że jeżeli \sim{}q to r; wiem, że r; a więc wiem, że \sim{}\sim{}q czyli q
+    + jeżeli w pomieszczeniu są czyjeś odciski palców, to ta osoba była w tym pomieszczeniu
+  + dowodzenie nie wprost: przypuszczam, że \sim{}q; wiem, że jeżeli \sim{}q to r; wiem, że ~r; a więc wiem, że \sim{}\sim{}q czyli q
   + błędy w dowodzeniu:
     - błąd materialny, bład formalny, błąd petitio principi
-    - błąd błędnego koła
-    - nieznajomość tezy dowodzonej - ignoratio elenchi
+    - błąd błędnego koła  - 
+    - nieznajomość tezy dowodzonej - ignoratio elenchi 
 - sprawdzanie
   + czy p?
     - wiem, że p \sup q
-    - wiem, że q: a więc?
-    - wiem, że \sim{}q: a więc?
+    - (a) wiem, że q: a więc?
+    - (b) wiem, że \sim{}q: a więc?
 - wyjaśnianie
   + dlaczego jest tak a tak?
-  + hipoteza wyjaśniająca (np. hipoteza samorództwa)
+  + hipoteza wyjaśniająca (np. hipoteza samorództwa, hipoteza flogistonu)
 ** Prawdopodobieństwo
+- zagadka Monty Hall
+- prawdopodobieństwo a ryzyko
 - *Prawdopodobieństwo* ma różne znaczenia:
   - psychologiczne — siła przekonania o pewności danego zdania
   - logiczne (metodologiczne) — istnieją podstawy statystyczne (lub wynikające z innych metod) do uznania zdania za prawdziwe
+
+Przed i po:    
 - *prawodpodobieństwo aprioryczne*
 - *prawodpodobieństwo aposterioryczne*
+** Implikatura
+- *Piotr*: Czy wszystko w porzadku? *Katarzyna*: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
+- *Piotr*: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. *Wojciech*: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr?
+
+**** Zasady współpracy
+Twoja wypowiedź powinna wnosić oczekiwany wkład do wymiany zdań.
+
+1. Nie wygłaszaj poglądów fałszych ani nawet niedostatecznie uzasadnionych (maksyma jakości).
+2. Nie udzielaj zbyt wiele, ani zbyt mało informacji (maksyma ilości).
+3. Nie wypowiadaj słów irrelewantnych (maksyma istotności).
+4. Mów w sposób zrozumiały (maksyma sposobu).
+
+Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
 ** Umiejętność przekonywania
  - agrumentowanie to czynność polegającu na wywołaniu adresata wypowiedzi określonego przeświadczenia
  - nie zawsze argument musi być rozsądny \rarr wszystko zależy od adresata
+ - zarzuty w dyskusji:
+   - merytoryczne, materialne
+   - formalne
+ - fortele erystyczne
+   - argumentum ad personam
+   - argumentum ad populum
+   - argumentum ad vanitatem
+   - argumentum ad misericordiam
+ - problem argumentu z autorytetu
    
 * ŚCIĄGA: Symbole logiczne
 W nawiasach oznaczono alternatywne symbole.
