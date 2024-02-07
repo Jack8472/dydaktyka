@@ -15,9 +15,11 @@
 
 ** Co to jest prosty język?
 Prosty język to styl pisania zaprojektowany tak, aby czytelnik mógł zrozumieć tekst tak
+
 - szybko
 - łatwo
 - kompletenie
+
 jak tylko to możliwe. 
 * TODO Ogólne wiadomości o logice i języku
 ** Znak i kategorie syntaktyczne
