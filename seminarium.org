@@ -1,4 +1,4 @@
-#+title: Informacje dla moim seminarzystów
+#+title: Informacje dla seminarzystów
 
 * Kalendarz seminarzysty
 1. Październik - ustalenie tematu pracy.
