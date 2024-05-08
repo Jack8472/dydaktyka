@@ -235,6 +235,7 @@ Odpowiedzi całkowite nie wprost mogą stanowić informację o woli ukrycia pra
 - świadek: Faktycznie w tym dniu wyjątkowo rozpoczęlismy pracę nieco później. -- /odpowiedź całkowita wprost, jednak sprzeczna z odpowiedzią udzieloną powyżej/
 
 ** TODO FAQ
+*** TODO Czy pytanie z długą odpowiedzią może być pytaniem zamkniętym?
 ** Zadania
 1. Wskaż założenia pytania „Czy Adam jest mężem Doroty czy Anny?”.
 2. Dla pytania „Jakie jest największe pod względem powierzchni państwo w Europie?” wskaż:
