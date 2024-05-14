@@ -26,11 +26,9 @@ zacząć szlifować jak najwcześniej.
 9. Obrona.
 
 * Zasady współpracy
-Seminarium odbywa się w taki sposób, że na początku semestru odbywa
-się spotkanie w grupie (o ile zostanie ono ujęte w planie zajęć),
-a następnie praca odbywa się w formie indywidualnych konsultacji
-poprzez *spotkania na dyżurze*, email oraz rozmowy na teams. Proszę
-o kontakt ze mną niezwłocznie w przypadkach:
+Poza dyżurami i spotkaniami seminaryjnymi preferuję kontakt na Teams
+(poprzez zespół seminaryjny albo czat). Proszę o kontakt ze mną
+niezwłocznie w przypadkach:
 
 - gdy nie umieją Państwo czegoś zrobić,
 - gdy nie wiedzą Państwo, co robić dalej,
@@ -40,7 +38,8 @@ Wszelkie poprawki nanoszone przeze mnie na pracę dyplomową należy
 uwzględnić w ten sposób, że przegląda się całą pracę pod kątem
 występowania podobnych błędów. Nieuwzględnienie poprawki traktuję jako
 pozostanie przez Autora przy swojej wersji tekstu i ponownie, w toku
-seminarium, nie zwracam na błąd uwagi.
+seminarium, nie zwracam na błąd uwagi. Proszę o pozostawienie moich
+kometarzy w tekście aż do zaakceptowania finalnej wersji.
 
 Jeśli planujesz komunikować się w okresie wakacyjnym upewnij się co do
 terminów urlopu promotora.
