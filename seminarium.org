@@ -71,6 +71,12 @@ stwierdzić jaki jest stopień swobody autora posługiwaniu się komentowaną
 materią. Poniżej omówiono poszczególne główne elementy struktury pracy
 oraz przykładowe spisy treści.
 
+** Proporcje
+- spis treści: 2%
+- wstęp: 4-5%
+- wykaz skrótów: 1-2%
+- wnioski końcowe: 5%
+
 ** Wstęp
 Elementem strukturalnym rozpoczynającym pracę jest wstęp, powinien on
 zawierać:
@@ -192,7 +198,6 @@ pracy różnorodnych aneksów, do których odwołujemy się w tekście. W
 pracach empirycznych konieczne jest zamieszczenie w aneksie wzorów
 narzędzi badawczych (wzoru ankiety, dyspozycji do wywiadu, schematu
 analizy, itp.).
-
 * Przypisy i bibliografia
 Obowiązek opatrzenia pracy przypisami wynika z przepisów prawa
 cywilnego i prawa autorskiego. Z punktu widzenia studenta jednakże,
