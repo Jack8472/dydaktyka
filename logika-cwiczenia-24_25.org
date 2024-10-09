@@ -751,3 +751,6 @@ Powtórzenie.
 * Zajęcia 14
 SCHEDULED: <2025-01-29 Wed>
 Zaliczenie.
+
+* Bonus track
+Spotykamy się online i gramy w grę uczącą nas funktorów prawdziwościowych.
