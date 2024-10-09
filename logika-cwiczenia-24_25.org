@@ -6,8 +6,8 @@
 
 * Zajęcia 1
 SCHEDULED: <2024-10-09 Wed>
-** TODO Sprawy formalne i organizacyjne
-1. Kod MS Teams: ==
+** Sprawy formalne i organizacyjne
+1. MS Teams.
 2. Gdzie znajdę ten materiał: https://github.com/j4kub5/dydaktyka
 3. Warunki zaliczenia.
 4. Dyżur - informacja jest na https://www.uni.lodz.pl/pracownicy/jakub-szczerbowski
