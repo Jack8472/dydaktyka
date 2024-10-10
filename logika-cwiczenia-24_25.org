@@ -1,13 +1,13 @@
 #+title: Logika - notatka pomocnicza do ćwiczeń (2024/2025)
 #+AUTHOR: J. Szczerbowski
-#+OPTIONS: tex:t
+#+OPTIONS: tex:t p:t
 #+LANGUAGE: pl
 #+STARTUP: latexpreview
 
 * Zajęcia 1
 SCHEDULED: <2024-10-09 Wed>
 ** Sprawy formalne i organizacyjne
-1. MS Teams.
+1. MS Teams - trzeba dołączyć do grupy zgodnie z kodem.
 2. Gdzie znajdę ten materiał: https://github.com/j4kub5/dydaktyka
 3. Warunki zaliczenia.
 4. Dyżur - informacja jest na https://www.uni.lodz.pl/pracownicy/jakub-szczerbowski
