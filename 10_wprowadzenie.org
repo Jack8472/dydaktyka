@@ -1,0 +1,75 @@
+** Wprowadzenie
+*Rozdział w podręczniku:* 1
+
+*** Żart dla początkujących logików
+Dlaczego to jest śmieszne: /Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?” Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak./
+
+*** Czym jest logika?
+*Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach poprawnego rozumowania i uzasadniania twierdzeń.
+
+*** Kategorie syntaktyczne
+- Zdania, nazwy i funktory.
+- Zdanie jest całkowicie samodzielną kategorią języka opisowego. Zdanie głosi więc, że jest tak a tak: /Granit jest skałą magmową. Sędzia opuścił salę rozpraw./
+- Nazwa — coś co nadaje się na podmiot lub na orzecznik orzeczenia imiennego w zdaniu: /prawnik, planeta, sędzia/.
+- Funktor to wyraz lub wyrażenie (leks), które nie jest ani nazwą, ani zdaniem, ale w połączeniu z nimi tworzy bardziej złożoną całość.
+- Funktory dzielimy na zdaniotwórcze, nazwotwórcze i funktorotwórcze. Wyrazy lub wyrażenia, które funktor wiąże w większą całość, nazywamy argumentami funktora.
+
+Zdania oznacza się symbolicznie /z/. Nazwy oznacza się symbolicznie /n/.
+
+Przykłady funktorów:
+
+- funktor nazwotwórczy od (jednego) argumentu nazwowego: /zielona/ gęś: \(\frac{n}{n}\)
+- funktor nazwotwórczy od dwóch argumentów nazwowych: most /nad/ rzeką: \(\frac{n}{nn}\)
+- funktor zdaniotwórczy od argumentu nazwowego: sędzia /śpi/: \(\frac{z}{n}\)
+- funktor zdaniotwórczy od dwóch argumentów zdaniowych: /chociaż/ w Warszawie pada deszcz /to/ w Łodzi świeci słońce: \(\frac{z}{zz}\)
+- funktor funktorotwórczy od argumentu funktorowego: sędzia (/n/) /głęboko/ śpi \(\frac{z}{n}\) : Czym zatem, jest słowo /głęboko/? Tym: \(\frac{\frac{z}{n}}{\frac{z}{n}}\)
+
+Zastępowalność wyrażeń w tej samej kategorii syntaktycznej. Przykłady:
+- Sędzia głęboko śpi. Sędzia głęboko słucha.
+- Piękna melodia. Zielona melodia.
+- Rdza niszczy metal. Rdza podziwia metal.
+
+Ale już nie:
+- /zielona/ gęś \rarr  /nad/ gęś
+
+**** Zadanie — określ kategorie syntaktyczne w zdaniu
+***** Przykład 1
+a) Sędzia \(\type{n}\)
+b) przesłuchuje \(\frac{z}{nn}\)
+c) świadka. \(\type{n}\)
+
+***** Przykład 2
+a) Nieprawda, że \(\frac{z}{z}\)
+b) świeci \(\frac{z}{n}\)
+c) słońce. \(\type{n}\)
+
+*** Role semiotyczne wypowiedzi
+**** Rola opisowa
+Wypowiedź opisuje rzeczywistość.
+
+a. Świeci słońce.
+b. W lipcu w Polsce jest zima.
+
+**** Rola ekspresywna
+Komunikuje przeżycia, przemyślenia, stan wewnętrzny.
+
+a. Moja poranna kawa była ekstatycznie smaczna!
+b. Ach, świeci słońce!
+c. Ten obraz jest przepiękny.
+
+**** Rola sugestywna
+Ma wywołać w odbiorcy komunikatu jakieś zachowanie.
+
+a. Janku, o godz. 9 masz być w łóżku!
+b. Nie jestem pewien, że podoba mi się ta twoja nowa koszulka.
+c. Ta dziewczyna puściła do Ciebie oczko.
+d. Kto przekracza dozwoloną prędkość podlega karze…
+e. Palenie zabija!
+
+**** Rola performatywna
+Wypowiedź wywołuje skutki konwencjonalne.
+
+Jan wypowiedział słowa przysięgi małżeńskiej wobec Małgosi, ale nie doszło do zawarcia małżeństwa; Małgosia również wypowiedziała odpowiednie słowa, nadal nie doszło do zawarcia małżeństwa. Dlaczego? Pomysł 1: nie byli uprawnieni do zawarcia małżeństwa; pomysł 2: wypowiedzi były nie na serio (np. aktorzy); pomysł 3: brak urzędnika albo świadków.
+
+a. Złożenie przysięgi lub ślubowania.
+b. Nakładam na Pana mandat karny w wysokości 500 zł.
