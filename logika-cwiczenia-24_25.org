@@ -29,10 +29,15 @@ SCHEDULED: <2024-10-09 Wed>
 Dopuszczalne dwie nieobecności. Nieobecność ponad dwie nieobecności należy zaliczyć na dyżurze w ciągu dwóch tygodni od wystąpienia nieobecności. Niezaliczona nieobecność obniża ocenę końcową o pół stopnia.
 
 ** Wprowadzenie
-- Dlaczego to jest śmieszne: /Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?” Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak./
-- *Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach poprawnego rozumowania i uzasadniania twierdzeń.
+*Rozdział w podręczniku:* 1
 
-** Kategorie syntaktyczne
+*** Żart dla początkujących logików
+Dlaczego to jest śmieszne: /Trzech logików wchodzi do baru. Barman pyta: „Czy wszyscy chcecie piwo?” Odpowiadają po kolei: 1: Nie wiem, 2: Nie wiem, 3. Tak./
+
+*** Czym jest logika?
+*Logika* – nauka o sposobach jasnego i ścisłego formułowania myśli, o regułach poprawnego rozumowania i uzasadniania twierdzeń.
+
+*** Kategorie syntaktyczne
 - Zdania, nazwy i funktory.
 - Zdanie jest całkowicie samodzielną kategorią języka opisowego. Zdanie głosi więc, że jest tak a tak: /Granit jest skałą magmową. Sędzia opuścił salę rozpraw./
 - Nazwa — coś co nadaje się na podmiot lub na orzecznik orzeczenia imiennego w zdaniu: /prawnik, planeta, sędzia/.
@@ -57,32 +62,32 @@ Zastępowalność wyrażeń w tej samej kategorii syntaktycznej. Przykłady:
 Ale już nie:
 - /zielona/ gęś \rarr  /nad/ gęś
 
-*** Zadanie — określ kategorie syntaktyczne w zdaniu
-**** Przykład 1
+**** Zadanie — określ kategorie syntaktyczne w zdaniu
+***** Przykład 1
 a) Sędzia \(\type{n}\)
 b) przesłuchuje \(\frac{z}{nn}\)
 c) świadka. \(\type{n}\)
 
-**** Przykład 2
+***** Przykład 2
 a) Nieprawda, że \(\frac{z}{z}\)
 b) świeci \(\frac{z}{n}\)
 c) słońce. \(\type{n}\)
 
-** Role semiotyczne wypowiedzi
-*** Rola opisowa
+*** Role semiotyczne wypowiedzi
+**** Rola opisowa
 Wypowiedź opisuje rzeczywistość.
 
 a. Świeci słońce.
 b. W lipcu w Polsce jest zima.
 
-*** Rola ekspresywna
+**** Rola ekspresywna
 Komunikuje przeżycia, przemyślenia, stan wewnętrzny.
 
 a. Moja poranna kawa była ekstatycznie smaczna!
 b. Ach, świeci słońce!
 c. Ten obraz jest przepiękny.
 
-*** Rola sugestywna
+**** Rola sugestywna
 Ma wywołać w odbiorcy komunikatu jakieś zachowanie.
 
 a. Janku, o godz. 9 masz być w łóżku!
@@ -91,7 +96,7 @@ c. Ta dziewczyna puściła do Ciebie oczko.
 d. Kto przekracza dozwoloną prędkość podlega karze…
 e. Palenie zabija!
 
-*** Rola performatywna
+**** Rola performatywna
 Wypowiedź wywołuje skutki konwencjonalne.
 
 Jan wypowiedział słowa przysięgi małżeńskiej wobec Małgosi, ale nie doszło do zawarcia małżeństwa; Małgosia również wypowiedziała odpowiednie słowa, nadal nie doszło do zawarcia małżeństwa. Dlaczego? Pomysł 1: nie byli uprawnieni do zawarcia małżeństwa; pomysł 2: wypowiedzi były nie na serio (np. aktorzy); pomysł 3: brak urzędnika albo świadków.
@@ -99,12 +104,11 @@ Jan wypowiedział słowa przysięgi małżeńskiej wobec Małgosi, ale nie dosz�
 a. Złożenie przysięgi lub ślubowania.
 b. Nakładam na Pana mandat karny w wysokości 500 zł.
 
-** Do przeczytania
-Z podręcznika Z. Ziembińskiego przeczytaj *rozdział I*.
 
 * Zajęcia 2
 SCHEDULED: <2024-10-16 Wed>
 ** Nazwy
+*Rozdział w podręczniku:* 2
 *** Nazwy konkretne i nazwy abstrakcyjne
 - konkretne: sędzia, człowiek, łobuz, biały stół; feniks
 - abstrakcyjne: białość, kradzież, braterstwo
@@ -155,7 +159,7 @@ Nazwy ostre:
 - \pi 
 
 ** Stosunki pomiędzy zakresami nazw
-UWAGA: wersja rozszerzona względem podręcznika!
+*Rozdział w podręczniku:* 3 (UWAGA: wersja rozszerzona względem podręcznika)
 
 *** Zamienność
 #+begin_src plantuml :file img/zamiennosc.png
@@ -272,8 +276,6 @@ UWAGA: wersja rozszerzona względem podręcznika!
    się, a suma tych denotacji pokrywa się z uniwersum przedmiotów. Nazwy
    "nie-krowa" i "zwierzę" są podprzeciwne.
 
-** Do przeczytania
-Z podręcznika Z. Ziembińskiego przeczytaj *rozdziały II i III*.
 
 * Zajęcia 3
 SCHEDULED: <2024-10-23 Wed>
@@ -393,8 +395,6 @@ Wyodrębnianie przedmiotów o interesujących nas cechach.
 ** Do przeczytania
 Z podręcznika Z. Ziembińskiego przeczytaj *rozdział V*.
 
-* Zajęcia 5
-SCHEDULED: <2024-11-06 Wed>
 ** Zdanie
 
 + Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności wypowiedzi.
@@ -414,8 +414,8 @@ SCHEDULED: <2024-11-06 Wed>
 ** Do przeczytania
 Z podręcznika Z. Ziembińskiego przeczytaj *rozdział VI*.
 
-* Zajęcia 6
-SCHEDULED: <2024-11-20 Wed>
+* Zajęcia 5
+SCHEDULED: <2024-11-06 Wed>
 ** Funktory prawdziwościowe
 *** Wartości logiczne funktorów prawdziwościowych
 
@@ -519,8 +519,8 @@ p \sup q \equiv \sim ( p \cdot \sim q )
    względności: 1
  - Ani Ateny są stolicą Polski ani UŁ ma siedzibę w Berlinie: 1
 
-* Zajęcia 7
-SCHEDULED: <2024-11-27 Wed>
+* Zajęcia 6
+SCHEDULED: <2024-11-20 Wed>
 ** Relacje (stosunki) pomiędzy przedmiotami
 *** Wstęp
 
@@ -581,8 +581,8 @@ Przykładowy zapis:
     + { Skoda Octavia 1.9TDI, Audi A3 2.0TDI, BMW 330d }, R: /jest na takie samo paliwo jak/
     + { Adam, Franciszek, Bartek }^1 R: /być bratem/ (1 - panowie są braćmi)
       
-* Zajęcia 8
-SCHEDULED: <2024-12-04 Wed>
+* Zajęcia 7
+SCHEDULED: <2024-11-27 Wed>
 ** Wypowiedzi oceniające i normy
 - Wypowiedź oceniająca.
   - Rodzaje ocen
@@ -611,8 +611,8 @@ SCHEDULED: <2024-12-04 Wed>
   + Uzasadnienie tetyczne;
   + uzasadnienie aksjologiczne.
 
-* Zajęcia 9
-SCHEDULED: <2024-12-11 Wed>
+* Zajęcia 8
+SCHEDULED: <2024-12-04 Wed>
 ** Wypowiedzi modalne
 - wzajemna definiowalność: /musi robić to znaczy, że nie może nie robić ; może robić to znaczy, że nie musi nie robić/
 - interpretacje słów „musi” i „może”
@@ -653,8 +653,8 @@ Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi wi�
 
 ** Do przeczytania
 Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział 10*.
-* Zajęcia 10
-SCHEDULED: <2024-12-18 Wed>
+* Zajęcia 9
+SCHEDULED: <2024-12-11 Wed>
 ** Pytania i odpowiedzi
 
 - Pytanie: nie jest zdaniem w sensie logicznym; pytania na serio, pytania retoryczne
@@ -678,8 +678,8 @@ SCHEDULED: <2024-12-18 Wed>
 ** Do przeczytania
 Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział 11*.
 
-* Zajęcia 11 
-SCHEDULED: <2025-01-08 Wed>
+* Zajęcia 10
+SCHEDULED: <2024-12-18 Wed>
 ** Nieporozumienia
 - wieloznaczność słów:
   + Każdy lubiący jeść pączki, lubi chodzić do cukierni. Łoś lubi jeść pączki. A więc, łoś lubi chodzić do cukierni.
@@ -703,6 +703,9 @@ SCHEDULED: <2025-01-08 Wed>
    - indukcja jako wnioskowanie zawodne 
 ** Do przeczytania
 Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział 12 i 13*.
+* Zajęcia 11 
+SCHEDULED: <2025-01-08 Wed>
+** Dedukcja
 * Zajęcia 12 
 SCHEDULED: <2024-12-11 Wed>
 ** Indukcja
@@ -741,8 +744,7 @@ Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nas
 
 ** Prawdopodobieństwo
 ** Do przeczytania
-       Rozdział 15
-Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział __*.
+Z podręcznika Z. Ziembińskiego przeczytaj *Rozdział 15*.
 
 * Zajęcia 13
 SCHEDULED: <2025-01-22 Wed>
