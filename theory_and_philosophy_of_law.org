@@ -1,0 +1,26 @@
+#+title: Theory and philosopy of law - lecture notes (2024/2025)
+#+AUTHOR: J. Szczerbowski
+#+OPTIONS: tex:t p:t
+#+LANGUAGE: en
+#+STARTUP: latexpreview
+
+* Lecture 1
+SCHEDULED: <2024-10-16 Wed>
+** Organizational matters
+
+* Lecture 2
+SCHEDULED: <2024-10-23 Wed>
+* Lecture 3
+SCHEDULED: <2024-10-30 Wed>
+* Lecture 4
+SCHEDULED: <2024-11-06 Wed>
+* Lecture 5
+SCHEDULED: <2024-11-20 Wed>
+* Lecture 6
+SCHEDULED: <2024-11-27 Wed>
+* Lecture 7
+SCHEDULED: <2024-12-04 Wed>
+* Lecture 8
+SCHEDULED: <2024-12-11 Wed>
+* Lecture 9
+SCHEDULED: <2024-12-18 Wed>
