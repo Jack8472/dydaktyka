@@ -21,7 +21,7 @@
 *** File Sharing and Naming Convention
 - Share presentations on the Teams general channel
 - Follow the naming convention: 
-  YYYY-MM-DD_StudentName1_StudentName2_ShortTitle
+ =YYYY-MM-DD_StudentName1_StudentName2_ShortTitle.[extension]=
 
 *** Slide Design Guidelines
 - Use a consistent theme and color scheme
