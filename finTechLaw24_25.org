@@ -4,30 +4,30 @@
 #+LANGUAGE: en
 #+STARTUP: latexpreview
 
-* Presentation Guidelines
+** Presentation Guidelines
 
-** Presentation Structure and Duration
+*** Presentation Structure and Duration
 - Presentations must be 20 minutes long
 - Use PowerPoint or an equivalent software for slides
 
-** Citation and Sources
+*** Citation and Sources
 - Properly cite all sources used in the presentation
 - Include a bibliography or reference slide at the end
 
-** AI Integration
+*** AI Integration
 - Utilize AI tools in the presentation process
 - Document how AI was used (e.g., for research, slide design, content generation)
 
-** File Sharing and Naming Convention
+*** File Sharing and Naming Convention
 - Share presentations on the Teams general channel
 - Follow the naming convention: 
   YYYY-MM-DD_StudentName1_StudentName2_ShortTitle
 
-** Slide Design Guidelines
+*** Slide Design Guidelines
 - Use a consistent theme and color scheme
 - Limit text on slides (6-7 lines maximum per slide)
 - Include relevant visuals to support key points
 
-** Delivery
+*** Delivery
 - Practice the presentation to ensure proper timing
 - Prepare to answer questions from the audience
