@@ -1,6 +1,6 @@
 ** Sprawy formalne i organizacyjne
 *** Ogólne
-1. Kod teams: =6stf1ze=
+1. Kod teams: =6stf1ze=. Link do teams: https://teams.microsoft.com
 2. Gdzie znajdę ten materiał: https://github.com/j4kub5/dydaktyka
 3. Jak korzystać z tego dokumentu:
    - jest to jedynie uzupełnienie wykładu i podręcznika
@@ -17,7 +17,6 @@
       - J. Stelmach, B. Brożek, /Metody Prawnicze/, rozdziały I, II, III pkt.
       1-2.
       - J. Wajszczyk, /Jestem więc myślę/, Warszawa 2003.
-      - A. Malinowski, S. Lewandowski, H. Machińska J. Petzel, /Logika dla Prawników/, Warszawa 2009.
 
 *** Przerwy
 sobota: 2x10 min. (11:10-11:20, 12:00-12:10)
