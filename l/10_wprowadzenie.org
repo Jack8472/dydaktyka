@@ -11,7 +11,7 @@ Dlaczego to jest śmieszne: /Trzech logików wchodzi do baru. Barman pyta: „Cz
 ** Znak i kategorie syntaktyczne
 Semiotyka (ogólna nauka o znakach): (1) semantyka — nauka o stosunku pomiędzy
 znakiem a tym do czego znak się odnosi; (2) syntaktyka — nauka o rodzajach
-znaków i regułach wiązania ich w znaki złożone; (3) nauka zajmująca się
+znaków i regułach wiązania ich w znaki złożone; (3) pragmatyka — nauka zajmująca się
 zagadnieniami stosunków pomiędzy znakami a wypowiadającym je lub odbierającym
 człowiekiem.
 

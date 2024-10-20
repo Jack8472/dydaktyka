@@ -6,17 +6,18 @@
 
 * Wykład 1
 SCHEDULED: <2024-10-19 Sat>
-#+INCLUDE: ./00_org_w.org
-#+INCLUDE: ./10_wprowadzenie.org
+#+INCLUDE: l/00_org_w.org
+#+INCLUDE: l/10_wprowadzenie.org
 
 * Wykład 2
 SCHEDULED: <2024-10-26 Sat>
-#+INCLUDE: 20_nazwy.org
+#+INCLUDE: l/20_nazwy.org
   
 * Wykład 3
 SCHEDULED: <2024-11-23 Sat>
-#+INCLUDE: 25_stosunki.org
-#+INCLUDE: 30_definicje.org
+#+INCLUDE: l/25_stosunki.org
+#+INCLUDE: l/30_definicje.org
+
 * Wykład 4
 ** Podział logiczny
 Podział logiczny zakresu jakiejś nazwy /N/ na zakresy /A, B, C, D, E…/
