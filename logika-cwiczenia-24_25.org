@@ -17,68 +17,17 @@ SCHEDULED: <2024-10-16 Wed>
 * Zajęcia 3
 SCHEDULED: <2024-10-23 Wed>
 #+INCLUDE: l/30_definicje.org
+#+INCLUDE: l/35_podzial.org
 
 ** Worki ze złotymi monetami :zagadka:
 Jest 100 worków z monetami. W 99 z nich są monety ze złota, ważące 20 g. W jednym z nich są monety fałszywe, ważące 19 gramów. W każdym z worków, jest nieco inna liczba monet. Monety złote i monety fałszywe nie różnią się niczym oprócz wagi. Dysponujesz wagą elektroniczną (nieskończenie dokładną), której możesz użyć tylko raz. Znajdź worek z fałszywkami.
 
 * Zajęcia 4
 SCHEDULED: <2024-10-30 Wed>
-** Podział logiczny
-
-Podział logiczny zakresu jakiejś nazwy /N/ na zakresy /A, B, C, D, E/.
-
-Całość dzielona (/totium divisionis/) i człony podziału (/membra divisionis/).
-
-Polskie miasta:
-
-- duże, małe i średnie; (komentarz: powinniśmy mieć kryteria zaliczenia miasta jako dużego, średniego lub małego; kryteria muszą być dobrze dobrane)
-- stare i nowe; (podobnie jak powyżej)
-- dwuwyrazowe i jednowyrazowe; (a co z Nowym Dworem Mazowieckim?)
-- w górach, nad morzem, na równinach i na wyżynach; (a co z innymi terenami?)
-- zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki podział jest poprawny; inna sprawa, że niezbyt przydatny) 
-
-*** Poprawność podziału
-
-Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być zaliczony jakiegoś z członów podziału.
-
-Podział dychotomiczny - podział według cech kontradyktorycznych:
-
-- podmiot: podmiot będący podatnikiem VAT - podmiot niebędący podatnikiem VAT
-- pies: pies mający cztery łapy - pies nie mający dokładnie czterech łap
-
-Niepoprawne podziały:
-
-- oparte na niejednoznacznych kryteriach
-- według przedziałów liczbowych, których granice się powtarzają: polskie rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7 osób, rodziny 7 osobowe i większe.
-  
-*** Klasyfikacja
-
-#+begin_src plantuml :file img/klasyfikacja.png
-
-@startwbs
-+ Zdarzenia prawne
-++ Zachowania
-+++ Czynności
---- Czyny
-++++ Czyny dozwolone
----- Czyny niedozwolone
-++ Zdarzenia niebędące zachowaniami
-@endwbs
-
-#+end_src
-
-#+RESULTS:
-[[file:img/klasyfikacja.png]]
-
-*** Wyróżnianie typów
-
-Wyodrębnianie przedmiotów o interesujących nas cechach.
-
 ** Do przeczytania
 Z podręcznika Z. Ziembińskiego przeczytaj *rozdział V*.
 
 ** Zdanie
-
 + Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności wypowiedzi.
 + Przykłady wyrażeń niebędących zdaniami w sensie logicznym, ale będących zdaniami w sensie gramatycznym: /Zapal światło. W razie niebezpieczeństwa zbij szybę./
 + Zdarzenia i stany rzeczy.
