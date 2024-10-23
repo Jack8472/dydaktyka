@@ -12,7 +12,6 @@ SCHEDULED: <2024-10-23 Wed>
 3. Office hours: https://www.uni.lodz.pl/pracownicy/jakub-szczerbowski
 
 *** Presentation Guidelines
-
 **** Presentation Structure and Duration
 - Presentations must be 25-30 minutes long
 - Use PowerPoint or an equivalent software for slides
@@ -22,7 +21,7 @@ SCHEDULED: <2024-10-23 Wed>
 - Include a bibliography or reference slide at the end
 
 **** AI Integration
-- Utilize AI tools in the presentation process
+- Utilize AI tools in the presentation process (chatGPT, Perplexity, claudeAI)
 - Document how AI was used (e.g., for research, slide design, content generation)
 
 **** File Sharing and Naming Convention
@@ -38,6 +37,7 @@ SCHEDULED: <2024-10-23 Wed>
 **** Delivery
 - Practice the presentation to ensure proper timing
 - Prepare to answer questions from the audience
+
 ** The position of theory of law among scientific disciplines
 (N. Qamar, Theory Position in the Structure of Legal Science, SIGn Jurnal Hukum 2021/3/1, DOI: 10.37276/sjh.v3i1.126)
 
@@ -46,16 +46,27 @@ SCHEDULED: <2024-10-23 Wed>
 * Lecture 2
 SCHEDULED: <2024-10-30 Wed>
 **  Approaches to understanding law
+Presenter: Yuliana
+
 **  Law versus other normative systems
+Presenter: Stefania
 
 * Lecture 3
 SCHEDULED: <2024-11-06 Wed>
 **  The concept of justice
+Presenter: Naiara
+
 ** Situations regulated by law
+Presenter: Rocio
+
 * Lecture 4
 SCHEDULED: <2024-11-20 Wed>
 **  Law-making
+Presentation: Garbine 
+
 **  Legal interpretation
+Presenter: Rachele
+
 * Lecture 5
 SCHEDULED: <2024-11-27 Wed>
 **  Legal system versus legal order
@@ -63,7 +74,11 @@ SCHEDULED: <2024-11-27 Wed>
 * Lecture 6
 SCHEDULED: <2024-12-04 Wed>
 **  Functions of law
+Presenter: Yuliana
+
 * Lecture 7
 SCHEDULED: <2024-12-18 Wed>
-**  Rule of law
+REMEMBER: this lecture is on MS Teams
 
+**  Rule of law
+Presenter: Fulya
