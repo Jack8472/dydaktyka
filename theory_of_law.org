@@ -7,7 +7,7 @@
 * Lecture 1
 SCHEDULED: <2024-10-23 Wed>
 ** Organizational matters
-1. Teams code: =8oghqnc=. MS Teams is available at: https://teams.microsoft.com
+1. Teams code: =8oghqnc=. MS Teams is available at: https://teams.microsoft.com (instructions: https://support.microsoft.com/en-us/office/use-a-link-or-code-to-join-a-team-in-microsoft-teams-c957af50-df15-46e3-b5c4-067547b64548) 
 2. Couse credit conditions: test or presentation (presence is mandatory; one absence is allowed).
 3. Office hours: https://www.uni.lodz.pl/pracownicy/jakub-szczerbowski
 
