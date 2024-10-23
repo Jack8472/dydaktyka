@@ -8,9 +8,36 @@
 SCHEDULED: <2024-10-23 Wed>
 ** Organizational matters
 1. Teams code: =8oghqnc=. MS Teams is available at: https://teams.microsoft.com (instructions: https://support.microsoft.com/en-us/office/use-a-link-or-code-to-join-a-team-in-microsoft-teams-c957af50-df15-46e3-b5c4-067547b64548) 
-2. Couse credit conditions: test or presentation (presence is mandatory; one absence is allowed).
+2. Course credit conditions: test or presentation (presence is mandatory; one absence is allowed).
 3. Office hours: https://www.uni.lodz.pl/pracownicy/jakub-szczerbowski
 
+*** Presentation Guidelines
+
+**** Presentation Structure and Duration
+- Presentations must be 25-30 minutes long
+- Use PowerPoint or an equivalent software for slides
+
+**** Citation and Sources
+- Properly cite all sources used in the presentation
+- Include a bibliography or reference slide at the end
+
+**** AI Integration
+- Utilize AI tools in the presentation process
+- Document how AI was used (e.g., for research, slide design, content generation)
+
+**** File Sharing and Naming Convention
+- Share presentations on the Teams general channel
+- Follow the naming convention: 
+ =YYYY-MM-DD_StudentName_ShortTitle.[extension]=
+
+**** Slide Design Guidelines
+- Use a consistent theme and color scheme
+- Limit text on slides (6-7 lines maximum per slide)
+- Include relevant visuals to support key points
+
+**** Delivery
+- Practice the presentation to ensure proper timing
+- Prepare to answer questions from the audience
 ** The position of theory of law among scientific disciplines
 (N. Qamar, Theory Position in the Structure of Legal Science, SIGn Jurnal Hukum 2021/3/1, DOI: 10.37276/sjh.v3i1.126)
 
