@@ -1,6 +1,6 @@
 #+title: Theory of law - lecture notes (2024/2025)
 #+AUTHOR: J. Szczerbowski
-#+OPTIONS: tex:t p:t
+#+OPTIONS: tex:t p:t toc:nil
 #+LANGUAGE: en
 #+STARTUP: latexpreview
 
@@ -41,15 +41,29 @@ SCHEDULED: <2024-10-23 Wed>
 ** The position of theory of law among scientific disciplines
 (N. Qamar, Theory Position in the Structure of Legal Science, SIGn Jurnal Hukum 2021/3/1, DOI: 10.37276/sjh.v3i1.126)
 
-**  Norms of conduct
 
 * Lecture 2
 SCHEDULED: <2024-10-30 Wed>
 **  Approaches to understanding law
 Presenter: Yuliana
 
+Example literature:
+- (basic) https://en.wikipedia.org/wiki/Legal_positivism
+- (basic) https://en.wikipedia.org/wiki/Natural_law
+- https://www.semanticscholar.org/paper/Legal-positivism-and-the-real-definition-of-law-Plunkett-Wodak/73edd19d2535723be95201c5c48cd8bddd121a5d
+- https://www.semanticscholar.org/paper/Legal-Positivism-and-the-Moral-Origins-of-Legal-Atiq/a72413d4a73e45aa2f4b2eea0b43eb17307e74a7
+- https://www.semanticscholar.org/paper/The-Contemporary-Relevance-of-Legal-Positivism-Tamanaha/1a7bb44783a3b1820dce59e62d7ab4c863630837
+- https://www.semanticscholar.org/paper/The-Decline-of-Natural-Law-and-the-Rise-of-Watson/f19db4db1a26de7ea5ccb85eb9b42ccfafd306ee
+
 **  Law versus other normative systems
 Presenter: Stefania
+
+Example literature:
+- (basic) https://en.wikipedia.org/wiki/Normativity
+- (basic) https://en.wikipedia.org/wiki/Morality 
+- https://www.semanticscholar.org/paper/Exploring-the-nexus-between-law-and-morality%3A-in-Pavlichenko-Maslak/4869c004d8810f5d910bdf7efe41b9d733fb9670
+- https://www.semanticscholar.org/paper/Fuller-and-the-Folk%3A-The-Inner-Morality-of-Law-Donelson-Hannikainen/6b226df6267de39f8e2ea0544ec3ea64e5a4cb75
+- https://www.semanticscholar.org/paper/Human-principles-of-law-as-a-universal-normative-Matviichuk-Shcherbak/9a4559f3f83a034676280997700ae0853fcfb01e
 
 * Lecture 3
 SCHEDULED: <2024-11-06 Wed>
@@ -77,6 +91,10 @@ SCHEDULED: <2024-12-04 Wed>
 Presenter: Yuliana
 
 * Lecture 7
+SCHEDULED: <2024-12-11 Wed>
+**  Norms of conduct (deontic logic)
+
+* Lecture 8
 SCHEDULED: <2024-12-18 Wed>
 REMEMBER: this lecture is on MS Teams
 
