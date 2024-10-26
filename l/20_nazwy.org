@@ -75,3 +75,6 @@ Nazwy ostre:
 - pies
 - \pi
 
+** Zadania
+*** Czy „zamek” (jako budynek) i „zamek” jako urządzenie montowane w drzwiach, to ta sama nazwa?
+#** Zagadka
