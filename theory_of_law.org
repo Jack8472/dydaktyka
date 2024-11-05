@@ -70,8 +70,20 @@ SCHEDULED: <2024-11-06 Wed>
 **  The concept of justice
 Presenter: Naiara
 
+Example materials:
+- https://www.semanticscholar.org/paper/The-Concept-of-Justice-in-the-Perspective-of-Greece-Wahyudi-Nasution/468354f0f4968fb02f2958b2335d840f68bbaeae
+- https://www.semanticscholar.org/paper/John-Rawls%E2%80%99s-Concept-of-Justice-as-Fairness-Edor/96a527cac43c87ce860a477e632e8f7df78186e7
+- https://www.youtube.com/watch?v=kBdfcR-8hEY&list=PL30C13C91CFFEFEA6
+- https://www.youtube.com/watch?v=T7A9rbCwVmI
+
 ** Situations regulated by law
 Presenter: Rocio
+
+Example materials:
+- https://en.wikipedia.org/wiki/Deontic_logic
+- https://www.youtube.com/playlist?list=PLz0n_SjOttTeQ8tcWgyV1o8oIyUvtgxX6
+- https://icr.uni.lu/leonvandertorre/papers/icail03a.pdf
+- (advanced) https://www.youtube.com/watch?v=BcfJsjwnVgk
 
 * Lecture 4
 SCHEDULED: <2024-11-20 Wed>
