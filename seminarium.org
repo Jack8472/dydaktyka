@@ -25,6 +25,12 @@ zacząć szlifować jak najwcześniej.
 8. Zatwierdzenie finalnej wersji pracy.
 9. Obrona.
 
+* Efekty jakie należy osiągnąć w kolejnych etapach dwuletniego seminarium
+- semestr 1: Ustalenie tytułu pracy i bibliografii.
+- semestr 2: Napisanie wstępu roboczego.
+- semestr 3: Napisanie przynajmniej pierwszego rozdziału.
+- semestr 4: Napisanie całej pracy.
+
 * Zasady współpracy
 Poza dyżurami i spotkaniami seminaryjnymi preferuję kontakt na Teams
 (poprzez zespół seminaryjny albo czat). Proszę o kontakt ze mną
