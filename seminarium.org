@@ -6,9 +6,9 @@ przedmiotów takich jak /proseminarium/, /konwersatorium metodyczne/ oraz
 prowadzonego przeze mnie seminarium.
 
 Studenci w publikacjach dotyczących pisania pracy zalewani są
-dywagacjami naukowymi przez co w gąszczu informacji gubią się kluczowe
-kwestie takie jak forma przypisów, struktura pracy, które w finalnej
-ocenie potrafić na ocenie.
+dywagacjami naukowymi przez co w gąszczu informacji gubią się ważne
+kwestie takie jak forma przypisów czy struktura pracy, które finalnie
+mogą zaważyć na ocenie.
 
 Pisanie pracy dyplomowej jest sprawdzianem dyscypliny i organizacji
 pracy, które potrzebne są przez całe życie; umiejętności te warto więc
@@ -61,22 +61,21 @@ powinien wykazać się dobrą znajomością literatury naukowej.
 
 Objętości prac wahają się od 40 do 200 stron. W większości przypadków
 dobrych prac mają one jednak pomiędzy 50 a 80 stron włączając
-bibliografię i inne elementy formalne pracy. Prace bardzo długie nie są
-oczywiście błędne, ale obszerność tekstu wiąże się z ryzykiem
+bibliografię i inne elementy formalne pracy. Prace bardzo długie nie
+są oczywiście błędne, ale obszerność tekstu wiąże się z ryzykiem
 popełnienia większej ilości omyłek formalnych i błędów merytorycznych.
 *Warto więc postawić na jakość tekstu, nie zaś na jego ilość.* Taka
-filozofia sprawdza się także w pracy zawodowej prawnika. Niejednokrotnie
-krótkie, ale dobrze napisane pismo odniesie lepszy skutek niż pismo
-przegadane i nadmiernie rozbudowane. Niepożądane są obszerne cytaty ze
-źródeł, do których każdy może mieć dostęp w ciągu kilku sekund przez
-internet.
+filozofia sprawdza się także w pracy zawodowej prawnika.
+Niejednokrotnie krótkie, ale dobrze napisane pismo odniesie lepszy
+skutek niż pismo przegadane. Niepożądane są obszerne cytaty ze źródeł,
+do których każdy może mieć dostęp w ciągu kilku sekund przez internet.
 
 * Struktura pracy
-Każda praca dyplomowa musi mieć wyraźną strukturę. Zachowanie struktury
-ułatwia śledzenie myśli autora, ale także pozwala oceniającemu pracę
-stwierdzić jaki jest stopień swobody autora posługiwaniu się komentowaną
-materią. Poniżej omówiono poszczególne główne elementy struktury pracy
-oraz przykładowe spisy treści.
+Każda praca dyplomowa musi mieć wyraźną strukturę. Zachowanie
+struktury ułatwia śledzenie myśli autora, ale także pozwala
+oceniającemu pracę stwierdzić jaki jest stopień swobody autora
+posługiwaniu się komentowaną materią. Poniżej omówiono poszczególne
+główne elementy struktury pracy oraz przykładowe spisy treści.
 
 ** Proporcje
 - spis treści: 2%
@@ -116,13 +115,15 @@ kierowanego względem innych osób, z których usług autor korzysta.
 Często powtarza się, że wstęp pisze się dwa razy. Jest w tym
 stwierdzeniu sporo prawdy; na początku należy napisać *wstęp roboczy*
 przed rozpoczęciem właściwego pisania pracy - jako manifest badawczy
-autora. Po napisaniu pracy warto zaś taki wstęp zrewidować do nowej
+autora. Po napisaniu pracy warto taki wstęp zrewidować do nowej
 wiedzy zdobytej przez autora w trakcie pisania pracy.
 
 ** Rozdziały
 Rozdział to podstawowa jednostka budowy pracy. Sposób w jaki student
 dzieli materiał na rozdziały ujawnia jego biegłość w opracowywanym
-temacie. Istnieją dwa podstawowe sposoby dzielenia materiału na
+temacie.
+
+Istnieją dwa podstawowe sposoby dzielenia materiału na
 rozdziały:
 
 1. podział historyczny,
@@ -131,7 +132,7 @@ rozdziały:
 Obok nich mogą występować jeszcze inne sposoby dzielenia materiału na
 rozdziały, np. mieszane (część rozdziałów dotyczy zagadnień
 historycznych a część problemowych), podział metodologiczny
-(poszczególne rozdziały odpowiadają stadiom przeprowadzanego badania.
+(poszczególne rozdziały odpowiadają stadiom przeprowadzanego badania).
 
 Jest podstawową jednostką składową. Liczby rozdziałów nie da się
 z góry precyzyjnie określić, ponieważ zależy ona od podjętych badań
@@ -205,18 +206,18 @@ pracy różnorodnych aneksów, do których odwołujemy się w tekście. W
 pracach empirycznych konieczne jest zamieszczenie w aneksie wzorów
 narzędzi badawczych (wzoru ankiety, dyspozycji do wywiadu, schematu
 analizy, itp.).
+
 * Przypisy i bibliografia
 Obowiązek opatrzenia pracy przypisami wynika z przepisów prawa
 cywilnego i prawa autorskiego. Z punktu widzenia studenta jednakże,
 przypisy są jedną z niewielu metod aby wykazać się oczytaniem przed
 oceniającymi go promotorem i recenzentem. Przypisy robić więc warto.
 Poprawne zrobienie przypisów bibliograficznych pozwala uniknąć
-nieprzyjemnych zarzutów plagiatu, których skutki mogą być tak niewinne
-jak konieczność wyjaśnienia pozornego plagiatu z promotorem, aż do tak
-poważnych jak kara, o której mowa w przepisie art. 115 ust. 1 ustawy
-z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych .
+nieprzyjemnych zarzutów plagiatu, których skutki mogą być tak błahe
+jak konieczność wyjaśnienia pozornego plagiatu z promotorem, aż do
+poważnych konsekwencji prawnych.
 
-Sposobów robienia przypisów jest wiele (zwane są one stylami cytowań),
+Sposobów robienia przypisów jest wiele (zwane są one stylami cytowań);
 w polskim piśmiennictwie prawniczym stosuje się tzw. system
 tradycyjny, który nie został skodyfikowany (w przeciwieństwie do
 systemów zagranicznych np. [[https://www.legalbluebook.com][Bluebook]] lub [[http://www.chicagomanualofstyle.org][Chicago Manual of Style]]).
@@ -228,7 +229,7 @@ J.A. Kowalski, /Prawo o gumach balonowych/, Warszawa 1999, s. 15.
 *** Przypis do kolejnej strony z publikacji cytowanej w poprzednim przypisie
 Ibid., s. 16.
 
-*** Przypis do publikacji już wczesniej cytowanej
+*** Przypis do publikacji już wcześniej cytowanej
 J.A. Kowalski, /Prawo o gumach.../, s. 17.
 
 *** Monografia wieloautorska (każdy rozdział pisany przez innego autora)
@@ -272,41 +273,18 @@ Gardocki L., /Prawo karne/, Warszawa 2015.
 ** Jak uniknąć robienia przypisów i bibliografii?
 Umiejętność prawidłowego robienia przypisów jest niezbędna, jednakże
 nie oznacza to, że podczas pracy powinniśmy sami je robić. Robienie
-przypisów i bibliografii jest pracą żmudną i, chociaż to kwestia
-subiektywna, wydaje się nie dawać satysfakcji większości autorów. Aby
+przypisów i bibliografii nudne i nie przyczynia się do rozwoju autora. Aby
 zautomatyzować tę część pracy można skorzystać z oprogramowania do
 zarządzania cytowaniami. Do tego używa się tzw. menedżerów
 bibliografii, które na podstawie danych o publikacjach same sformatują
 przypisy oraz wygenerują bibliografię.
 
 [[https://alternativeto.net/software/zotero/][Aplikacji takich jest wiele]]. Jedną z najpopularniejszych jest darmowa
-aplikacja [[https://www.zotero.org][Zotero]], który polecam. Demo autorstwa LMU Library dostępne
-jest tutaj: http://www.youtube.com/embed/H8UTehdF92s. Zotero jest
-dostępny jest za darmo na Maca, Windowsa i Linuksa.
+aplikacja [[https://www.zotero.org][Zotero]], który polecam. Najbardziej aktualne instrukcje można
+znaleźć na stronie aplikacji.
 
-Po zainstalowaniu Zotero konieczne będzie wejście w ustawienia
-i zainstalowanie wtyczki do naszego edytora tekstu.
-
-Ponadto, potrzebne jest zainstalowanie obsługi stylu używanego w pracach dyplomowych w Polsce. Styl mojego autorstwa dostępny jest w [[https://www.zotero.org/styles?q=polish%20legal][repozytorium styli Zotero]]; są tam dostępne tysiące innych styli, które mogą być pomocne w późniejszej pracy zawodowej i naukowej. 
-Zotero korzysta z tzw. styli cytowania, które pozwalają dostosować
-wygląd przypisów do wymogów stawianych przez uczelnię. 
-
-Najpewniejszym sposobem opracowywania długiego tekstu jest
-wykorzystanie edytora tekstu. Do najpopularniejszych edytorów należy
-[[http://emacs.org][Emacs]], Vim, Visual Studio Code. Pozwalają one na edycję czystego
-tekstu i działają bardzo stabilnie - co ma ogromne znaczenie dla
-kilkumiesięcznych projektów. Pisząc pracę w plikach tekstowych należy
-skorzystać z zewnętrznego oprogramowania go wygenerowania pliku
-finalnego z pracą; programem tu polecanym jest Pandoc wraz z rozszerzeniami pandoc-citeproc (dla cytowań) i pandoc-crosref (dla
-odnośników wewnętrznych). Poniżej zamieszczam kilka źródeł, z których
-można zaczerpnąć wiedzę o używaniu edytorów tekstu w piśmiennictwie
-akademickim:
-
-1. [[https://www.youtube.com/watch?v=hpAJMSS8pvs][Nicholas  Cifuentes-Goodbody, /Academic Writing in Markdown/]]
-2. [[https://www.youtube.com/watch?v=Iagbv974GlQ&t=1943s][Derek Banas,  /Emacs Tutorial/]]
-3. [[https://www.youtube.com/watch?v=SzA2YODtgK4][Harry Schwartz, /Getting Started With Org Mode/]]
-4. [[https://retorque.re/zotero-better-bibtex/][Better BibTeX for Zotero]]
-5. [[http://arthurcgusmao.com/academia/2018/01/27/markdown-pandoc.html][Arthur Colombini Gusmão, /Markdown and Pandoc for academic writing/]]
-6. [[https://www.chriskrycho.com/2015/academic-markdown-and-citations.html][Chris Krycho, /Academic Markdown and Citations/]]
-
-Alternatywnie można skorzystać z procesorów tekstu, takich jak Libreoffice Writer lub Microsoft Word. Te programy pozwalają na graficzną obróbkę wyglądu dokumentu. 
+Aby menedżer bibliografii wiedział jakiego formatu przypisów chcemy
+użyć potrzebne jest zainstalowanie stylu cytowania używanego w pracach
+dyplomowych w Polsce. Styl mojego autorstwa dostępny jest w
+[[https://www.zotero.org/styles?q=polish%20legal][repozytorium styli Zotero]]; są tam dostępne tysiące innych styli, które
+mogą być pomocne w późniejszej pracy zawodowej i naukowej. 
