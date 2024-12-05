@@ -70,6 +70,7 @@ krótkie, ale dobrze napisane pismo odniesie lepszy skutek niż pismo
 przegadane i nadmiernie rozbudowane. Niepożądane są obszerne cytaty ze
 źródeł, do których każdy może mieć dostęp w ciągu kilku sekund przez
 internet.
+
 * Struktura pracy
 Każda praca dyplomowa musi mieć wyraźną strukturę. Zachowanie struktury
 ułatwia śledzenie myśli autora, ale także pozwala oceniającemu pracę

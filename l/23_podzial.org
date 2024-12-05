@@ -12,8 +12,12 @@ Polskie miasta:
 - w górach, nad morzem, na równinach i na wyżynach; (a co z innymi terenami?)
 - zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki podział jest poprawny; inna sprawa, że niezbyt przydatny) 
 
-*** Poprawność podziału
-Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być zaliczony jakiegoś z członów podziału.
+*** Poprawność podziału
+Podział wyczerpujący i rozłączny - jakie ma cechy?
+
+Żaden desygnat nie może być zaliczony do dwóch członów podziału jednocześnie.
+
+Każdy desygnat może być zaliczony jakiegoś z członów podziału.
 
 Podział dychotomiczny - podział według cech kontradyktorycznych:
 - podmiot: podmiot będący podatnikiem VAT - podmiot niebędący podatnikiem VAT
@@ -24,7 +28,7 @@ Niepoprawne podziały:
 - według przedziałów liczbowych, których granice się powtarzają: polskie rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7 osób, rodziny 7 osobowe i większe.
   
 *** Klasyfikacja
-#+begin_src plantuml :file img/klasyfikacja.png
+#+begin_src plantuml :file ../img/klasyfikacja.png
 
 @startwbs
 + Zdarzenia prawne
@@ -39,7 +43,7 @@ Niepoprawne podziały:
 #+end_src
 
 #+RESULTS:
-[[file:img/klasyfikacja.png]]
+[[file:../img/klasyfikacja.png]]
 
 *** Wyróżnianie typów
-Wyodrębnianie przedmiotów o interesujących nas cechach.
+Wyodrębnianie przedmiotów o interesujących nas cechach. Przykładowo z nazwy =pies= wyróżniamy typy takie jak =hart= i =spaniel=.

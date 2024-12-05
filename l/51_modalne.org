@@ -1,0 +1,40 @@
+** Wypowiedzi modalne
+- wzajemna definiowalność: /musi robić to znaczy, że nie może nie robić ; może robić to znaczy, że nie musi nie robić/
+- interpretacje słów „musi” i „może”
+  + interpretacja logiczna - słowo „musi” oznacza pewien związek pomiędzy zdaniami; /obwód okręgu o promieniu 1 cm musi mieć 2 \pi cm/; /kwadrat musi mieć cztery boki/
+  + interpretacja dynamiczna - fakt jest nieuchronny; /ciało niepodparte musi spadać/, /Żołnierze bez pożywienia muszą w końcu przegrać./
+  + interpretacja aksjologiczna - aprobujemy stan A i nie godzimy się na to, aby stan przeciwny nie zachodził - /Musisz płacić podatki. Jeśli jesteś bogatszy od innych to musisz płacić wyższe podatki. Musisz przestać palić papierosy, bo osierocisz swoje dzieci./
+  + interpretacja tetyczna - zrealizowanie stanu A jest nakazane normą: /W końcu będziesz musiał wydać wyrok./ /Musisz zawiadomić prokuratora o tym, że próbowano Cię przekupić. Musisz płacić podatki./
+  + interpretacja psychologiczna - jesteśmy silnie przeświadczeni, że A: /musi być A/.
+- ćwiczenie:
+  + Żołnierz musi nosić mundur na służbie.
+  + W terenie zabudowanym musisz jechać z prędkością poniżej 50 km/h.
+  + Sędzia może wydać wyrok a prokurator nie może wydać wyroku.
+  + Warszawa musi być stolicą Polski.
+  + Łódź musi być stolicą Polski.
+  + Adam może wyjść z domu. = Adam nie musi nie wychodzić z domu.
+  + Lecący samolot, w którym skończyło się paliwo, musi spaść.
+- Modalności
+  + zdanie asertoryczne: Jest tak a tak. /Na pasie startowym stoi samolot. Łódź jest położona w centralnej Polsce./
+  + zdanie apodyktyczne: Musi być tak a tak. /Musisz nauczyć się logiki./
+  + zdanie problematyczne: Może być tak a tak. /Logiki możesz uczyć się nawet w okresie świątecznym. Jutro możliwe są opady deszczu./
+- Możliwość jednostronna i możliwość dwustronna
+  + Kwadrat musi mieć cztery boki. Czy kwadrat może mieć cztery boki? Kwadrat może mieć cztery boki.
+  + Adam może wyjść z domu.
+  + Rzecznikiem Praw Obywatelskich może być obywatel polski wyróżniający się wiedzą prawniczą, doświadczeniem zawodowym oraz wysokim autorytetem ze względu na swe walory moralne i wrażliwość społeczną.
+  + Jest możliwe zjeść kawałek pizzy. Jan może zjeść kawałek pizzy.
+  + Jest możliwe, że Lech Wałęsa był prezydentem Polski.
+  + Ziemia może być trzecią planetą od Słońca (możliwość jednostronna). Każdy dorosły Polak może głosować w wyborach prezydenckich (możliwość dwustronna - może przecież także nie głosować).
+
+   <2023-12-02 Sat> 
+- Modalności normatywne
+  + nakaz /osoba x musi postąpić w określony sposób/
+  + zakaz /osoba x nie może postąpić w określony sposób/
+  + dozwolenie /brak zakazu/
+  + fakultatywność /brak nakazu/
+  + indyferentność - dozwolony i fakultatywny
+  + obowiązek - zakaz albo nakaz
+
+Milczenie norm a zachowanie człowieka.
+
+Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane.

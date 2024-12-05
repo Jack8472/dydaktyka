@@ -12,12 +12,12 @@ SCHEDULED: <2024-10-09 Wed>
 * Zajęcia 2
 SCHEDULED: <2024-10-16 Wed>
 #+INCLUDE: l/20_nazwy.org
-#+INCLUDE: l/25_stosunki.org
+#+INCLUDE: l/21_stosunki.org
 
 * Zajęcia 3
 SCHEDULED: <2024-10-23 Wed>
-#+INCLUDE: l/30_definicje.org
-#+INCLUDE: l/35_podzial.org
+#+INCLUDE: l/22_definicje.org
+#+INCLUDE: l/23_podzial.org
 
 ** Worki ze złotymi monetami :zagadka:
 Jest 100 worków z monetami. W 99 z nich są monety ze złota, ważące 20 g. W jednym z nich są monety fałszywe, ważące 19 gramów. W każdym z worków, jest nieco inna liczba monet. Monety złote i monety fałszywe nie różnią się niczym oprócz wagi. Dysponujesz wagą elektroniczną (nieskończenie dokładną), której możesz użyć tylko raz. Znajdź worek z fałszywkami.

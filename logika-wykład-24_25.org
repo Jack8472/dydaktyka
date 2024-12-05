@@ -15,368 +15,30 @@ SCHEDULED: <2024-10-26 Sat>
   
 * Wykład 3
 SCHEDULED: <2024-11-23 Sat>
-#+INCLUDE: l/25_stosunki.org
-#+INCLUDE: l/30_definicje.org
+#+INCLUDE: l/21_stosunki.org
+#+INCLUDE: l/22_definicje.org
 
 * Wykład 4
-** Podział logiczny
-Podział logiczny zakresu jakiejś nazwy /N/ na zakresy /A, B, C, D, E…/
-
-Całość dzielona (/totium divisionis/) i człony podziału (/membra divisionis/).
-
-Polskie miasta:
-- duże, małe i średnie; (komentarz: powinniśmy mieć kryteria zaliczenia miasta jako dużego, średniego lub małego; kryteria muszą być dobrze dobrane)
-- stare i nowe; (podobnie jak powyżej)
-- dwuwyrazowe i jednowyrazowe; (a co z Nowym Dworem Mazowieckim?)
-- w górach, nad morzem, na równinach i na wyżynach; (a co z innymi terenami?)
-- zaczynające się na literę /a/ i zaczynające się na literę inną niż /a/ (taki podział jest poprawny; inna sprawa, że niezbyt przydatny)
-
-*** Poprawność podziału
-Podział wyczerpujący i rozłączny - jakie ma cechy? Żaden desygnat nie może być zaliczony do dwóch członów podziału jednocześnie. Każdy desygnat może być zaliczony jakiegoś z członów podziału.
-
-Podział dychotomiczny - podział według cech kontradyktorycznych:
-
-- podmiot: podmiot będący podatnikiem VAT - podmiot niebędący podatnikiem VAT
-- pies: pies mający cztery łapy - pies niemający czterech łap
-
-Niepoprawne podziały:
-
-- oparte na niejednoznacznych kryteriach
-- według przedziałów liczbowych, których granice się powtarzają: polskie rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7 osób, rodziny 7 osobowe i większe.
-
-*** Klasyfikacja
-
-#+begin_src plantuml :file img/klasyfikacja.png
-
-@startwbs
-+ Zdarzenia prawne
-++ Zachowania
-+++ Czynności
---- Czyny
-++++ Czyny dozwolone
----- Czyny niedozwolone
-++ Zdarzenia niebędące zachowaniami
-@endwbs
-
-#+end_src
-
-#+RESULTS:
-[[file:img/klasyfikacja.png]]
-
-*** Wyróżnianie typów
-Wyodrębnianie przedmiotów o interesujących nas cechach. Przykładowo z nazwy =pies= wyróżniamy typy takie jak =hart= i =spaniel=.
-
-** Zdanie
-- Zdanie to wyrażenie stwierdzające, że jest tak a tak. Problem jednoznaczności
-  wypowiedzi.
-- Przykłady wyrażeń niebędących zdaniami w sensie logicznym, ale będących zdaniami w sensie gramatycznym: /Zapal światło. W razie niebezpieczeństwa zbij szybę./
-- Zdarzenia i stany rzeczy.
-  + Zdarzenie: rzecz lub osoba wykazywała w danym momencie własność X a w innym
-    momencie jej nie wykazywała.
-  + Stan rzeczy: rzecz lub osoba wykazywała od momentu A do momentu B jakąś
-    własność.
-- Zdanie prawdziwe - opisuje rzeczywistość tak, jak się ona ma. Nie można wolą,
-  teorią ani poglądem zmienić wartości prawdziwościowej zdania.
-- Prawdziwość wynikająca z sensu użytych w nich słów; zdanie analityczne.
-- Fałszywość wynikająca z sensu słów; zdanie wewnętrznie kontradyktoryczne.
-- Zdania syntetyczne - nie da się poznać ich wartości logicznej za pomocą sensu
-  zawartych w nich słów.
-
-** Funktory prawdziwościowe
-*** Wartości logiczne funktorów prawdziwościowych
-
-| p | q | \sim{}p | p \vee q | p \cdot q | p \sup q | p \perp q | p \equiv q | p \downarrow q |
-|---+---+---+-------+------+-------+-------+-------+-------|
-| 0 | 0 | 1 |     0 |    0 |     1 |     0 |     1 |     1 |
-| 0 | 1 | 1 |     1 |    0 |     1 |     1 |     0 |     0 |
-| 1 | 0 | 0 |     1 |    0 |     0 |     1 |     0 |     0 |
-| 1 | 1 | 0 |     1 |    1 |     1 |     0 |     1 |     0 |
-
-**** Przykłady
-***** Negacja
-
-Nieprawda, że na trawniku leży śnieg.
-
-| \sim{}p | p |
-|---+---|
-| 1 | 0 |
-| 0 | 1 |
-
-***** Alternatywa nierozłączna
-
-Na trawniku leży śnieg lub jest lato.
-
-| p | p \vee q | q |
-|---+-------+---|
-| 1 |     1 | 0 |
-| 0 |     1 | 1 |
-| 1 |     1 | 1 |
-| 0 |     0 | 0 |
-
-***** Koniunkcja
-
-Pada deszcz i ulica jest mokra.
-
-| p | p \cdot q | q |
-|---+-------+---|
-| 1 |     1 | 1 |
-| 0 |     0 | 0 |
-| 1 |     0 | 0 |
-| 0 |     0 | 1 |
-
-***** Alternatywa rozłączna
-
-1. Pójdziemy na lody albo pójdziemy do kina.
-2. Przestępstwo jest zbrodnią *albo* występkiem. (art. 7 § 1 k.k.)
-3. Czyn zabroniony popełniony jest nieumyślnie, jeżeli sprawca nie mając zamiaru jego popełnienia, popełnia go jednak na skutek niezachowania ostrożności wymaganej w danych okolicznościach, mimo że możliwość popełnienia tego czynu *przewidywał albo mógł przewidzieć*. (art. 9 § 2 k.k.) -- zastanów się, czy w tym przykładzie słowo albo jest alternatywą rozłączną.
-
-| p | p \perp q | q |
-|---+-------+---|
-| 0 |     0 | 0 |
-| 0 |     1 | 1 |
-| 1 |     1 | 0 |
-| 1 |     0 | 1 |
-
-***** Implikacja
-- Jeżeli pada deszcz to ulica jest mokra.
-- Jeżeli (Zakopane jest stolicą Polski) to (Arystoteles był pierwszym człowiekiem na księżycu).
-
-| p | p \sup q | q |
-|---+-------+---|
-| 1 |     1 | 1 |
-| 0 |     1 | 0 |
-| 1 |     0 | 0 |
-| 0 |     1 | 1 |
-
-***** Równoważność
-
-Wtedy i tylko wtedy gdy pada deszcz to ulica jest mokra.
-
-| p | p\equiv{}q | q |
-|---+-----+---|
-| 1 |   1 | 1 |
-| 0 |   1 | 0 |
-| 1 |   0 | 0 |
-| 0 |   0 | 1 |
-
-***** Binegacja
-
-Ani nie pada deszcz ani nie pochodzę z Marsa.
-
-| p | p\downarrow{}q | q |
-|---+-----+---|
-| 0 |   1 | 0 |
-| 1 |   0 | 0 |
-| 0 |   0 | 1 |
-| 1 |   0 | 1 |
-
-*** Podstawowe zasady myślenia
-
-- /T1: \sim (p \cdot \sim{}p)/ : zasada sprzeczności
-- /T2: p \vee \sim(p)/ : zasada wyłączonego środka
-- /T3: p \equiv \sim ( \sim p )/ : zasada podwójnego zaprzeczenia
-
-Co to jest tautologia, kontrtautologia?
-
-*** Definicja implikacji przy pomocy alternatywy i negacji
-p \sup q \equiv (\sim p) \vee q
-
-*** Definicja implikacji przy pomocy koniunkcji i negacji
-p \sup q \equiv \sim ( p \cdot \sim q )
-
-*** Turing Complete
-Wspólnie gramy w grę.
-
-*** Zadanie
-
-Czy te zdania są prawdziwe?
-
- - Jeżeli Ateny są stolicą Polski to Uniwersytet Łódzki ma siedzibę w Berlinie.
- - Jeżeli Ateny są stolicą Polski to Robert Lewandowski jest piłkarzem.
- - Jeżeli Ateny są stolicą Polski to mam w kieszeni chusteczkę.
- - Jeżeli Warszawa jest stolicą Polski to Księżyc jest zrobiony z sera.
- - Jeżeli Warszawa jest stolicą Polski to Albert Einstein opracował teorię
-   względności.
- - Nieprawda że (Warszawa jest stolicą Polski i nieprawda Einstein opracował
-   teorię względności).
- - (Nieprawda że, Warszawa jest stolicą Polski) lub Einstein opracował teorię
-   względności.
- - Ani Ateny są stolicą Polski ani UŁ ma siedzibę w Berlinie.
-
-*** Bezprawne samouwolnienie
-Art. 242. § 1. Kto uwalnia się sam, będąc pozbawionym wolności na
-podstawie orzeczenia sądu lub prawnego nakazu wydanego przez inny
-organ państwowy, podlega grzywnie, karze ograniczenia wolności albo
-pozbawienia wolności do lat 2. […]  § 4. Jeżeli sprawca czynu
-określonego w § 1
-
-- działa w porozumieniu z innymi osobami,
-- używa przemocy lub
-- grozi jej użyciem
-- *albo* uszkadza miejsce zamknięcia,
-
-  podlega karze pozbawienia wolności do lat 3.
+SCHEDULED: <2024-11-23 Sat>
+#+INCLUDE: l/23_podzial.org
+#+INCLUDE: l/30_zdanie.org
+#+INCLUDE: l/31_funktoryp.org
 
 * Wykład 5
-** Relacje (stosunki) pomiędzy przedmiotami
-*** Wstęp
-
-/xRy/
-
-x R_1 y - Adam jest wyższy od Piotra
-
-y R_2 x - Piotr jest niższy od Adama
-
-x = y, y = z
-
-kiwi kiwi kiwi
-
-x R y
-
-*** Relacje symetryczne, asymetryczne i nonsymetryczne
-
-Jan jest małżonkiem Zofii.
-
-Jan jest starszy od Zofii. x jest mniejszy od y, x jest większy od y, x jest brzydszy od y, x jest grubszy od y.
-
-Jan kocha Zofię. x jest bratem y, x patrzy na y, x mówi do y.
-
-*** Stosunek przechodni (tranzytywny), atranzytywny, nontranzytywny
-
-- Stosunek tranzytywny: jeśli xRy i yRz to xRz.
-- Stosunek atranzytywny: jeśli xRy i yRz to \sim xRz.
-- Stosunek nontranzytywny: jeśli xRy i yRz to xRz \perp (\sim xRz).
-
-- zawiera - jest tranzytywny
-- jest częścią - relacja tranzytywna
-- jest matką - relacja atranzytywna: x jest matką y, y jest matką z \sup x nie jest matką z
-- jest krewnym - relacja nontranzytywna
-- jest szefem - relacja nontranzytywna
-- jest pracownikiem tej samej firmy - relacja nontranzytywna
-- lubi - relacja nontranzytywna
-- jest przyjacielem - relacja nontranzytywna
-
-*** Stosunek spójny, porządkujący, równościowy i zwrotne
-
-Przykładowy zapis:
-
-  - { 4, 1, 2, 3 }; R: <
-
-  - *Stosunek spójny* zachodzi w jednym lub drugim kierunku w danej klasie przedmiotów między każdym i innym dowolnie wybranym przedmiotem.
-    - {1, 1, 1, 1}, R: =
-    - {1, 2, 3, 1}, R: =<
-    - {1, 2, 3, 4}, R: <
-  - *Stosunek porządkujący* pozwala ustawić przedmioty w szeregu: asymetryczny, przechodni i spójny.
-    - { 4, 1, 2, 3 }, R: <
-    - { Adam lat 10, Weronika lat 12, Bronisław lat 64, Kunegunda lat 102 }, R: jest starszy(a)
-  - *Stosunek zwrotny* zachodzi pomiędzy każdym elementem w danej klasie przedmiotów a nim samym:
-    - { 4 , 5 , 9, 23 }, R: jest równe
-  - *Stosunek równościowy*: symetryczny, przechodni i zwrotny:
-    + { 4, 4, 4 } R: /jest równe/
-    + { Wojtek blondyn, Kasia blondynka, Alicja blondynka, Cezary blondyn }, R: /ma taki sam kolor włosów jak/
-    + { Skoda Octavia 1.9TDI, Audi A3 2.0TDI, BMW 330d }, R: /jest na takie samo paliwo jak/
-    + { Adam, Franciszek, Bartek }^1 R: /być bratem/ (1 - panowie są braćmi)
+SCHEDULED: <2024-12-07 Sat>
+#+INCLUDE: l/40_relacje.org
+#+INCLUDE: l/50_oceny.org
 
 * Wykład 6
-** Wypowiedzi oceniające i normy
-
-- Wypowiedź oceniająca.
-- Oceny
-  - zasadnicze:
-    + ocena estetyczna
-    + ocena hedonistyczna
-    + ocena moralna
-  - i utylitarne.
-
-*** Normy postępowania
-- Norma postępowania.
-- Normy prawne, to normy postępowania, ale należy pamiętać, że zakres nazwy norma prawna jest podrzędny zakresowi nazwy norma postępowania.
-- Wypowiedź dyrektywalna.
-- Pojęcie postępowania
-  - zachowanie osoby zależne od jej woli
-- Zakaz, nakaz:
-  - zakaz czynienia X to nakaz nieczynienia X; nakaz czynienia X to zakaz nieczynienia X.
-- Normy mogą być:
-  1) a) generalne, b) indywidualne;
-     a) adresat jest wskazany generalnie
-     b) adresat jest wskazany indywidualnie
-  2) a) abstrakcyjne, b) konkretne.
-     a) norma nakazuje postępować w określony sposób stale
-     b) norma nakazuje postępować w określony sposób jednorazowo
-
-**** Przykłady
-  1) Przykład normy generalnej i abstrakcyjnej: Kto zabija człowieka, podlega karze pozbawienia wolności na czas nie krótszy od lat 8, karze 25 lat pozbawienia wolności albo karze dożywotniego pozbawienia wolności - Każdemu i w każdych okolicznościach zakazuje się zabić człowieka.
-  2) Przykład normy konkretnej i indywidualnej: Sąd Okręgowy w Warszawie … zasądza od Jana Kowalskiego kwotę 1000 zł na rzecz Adama Malinowskiego z odsetkami ustawowymi za opóźnienie…
-  3) Przykład normy generalnej i konkretnej: Kto z uczestników wycieczki wróci dziś pierwszy do schroniska powinien rozpalić ogień.
-  4) Przykład normy indywidualnej i abstrakcyjnej: Szeregowy Kowalski, gdy dostrzeżecie niebezpieczeństwo macie wszcząć alarm.
-- Podporządkowanie normie
-- Czy ma sens pytanie: Czy to prawda, że /x/ powinien /A/?
-- Obowiązywanie normy.
-  + Uzasadnienie tetyczne;
-  + uzasadnienie aksjologiczne.
-** Wypowiedzi modalne
-
-- wzajemna definiowalność: /musi robić to znaczy, że nie może nie robić ; może robić to znaczy, że nie musi nie robić/
-- interpretacje słów „musi” i „może”
-  + interpretacja logiczna - słowo „musi” oznacza pewien związek pomiędzy zdaniami; /obwód okręgu o promieniu 1 cm musi mieć 2 \pi cm/; /kwadrat musi mieć cztery boki/
-  + interpretacja dynamiczna - fakt jest nieuchronny; /ciało niepodparte musi spadać/, /Żołnierze bez pożywienia muszą w końcu przegrać./
-  + interpretacja aksjologiczna - aprobujemy stan A i nie godzimy się na to, aby stan przeciwny nie zachodził - /Musisz płacić podatki. Jeśli jesteś bogatszy od innych to musisz płacić wyższe podatki. Musisz przestać palić papierosy, bo osierocisz swoje dzieci./
-  + interpretacja tetyczna - zrealizowanie stanu A jest nakazane normą: /W końcu będziesz musiał wydać wyrok./ /Musisz zawiadomić prokuratora o tym, że próbowano Cię przekupić. Musisz płacić podatki./
-  + interpretacja psychologiczna - jesteśmy silnie przeświadczeni, że A: /musi być A/.
-- ćwiczenie:
-  + Żołnierz musi nosić mundur na służbie.
-  + W terenie zabudowanym musisz jechać z prędkością poniżej 50 km/h.
-  + Sędzia może wydać wyrok a prokurator nie może wydać wyroku.
-  + Warszawa musi być stolicą Polski.
-  + Łódź musi być stolicą Polski.
-  + Adam może wyjść z domu. = Adam nie musi nie wychodzić z domu.
-  + Lecący samolot, w którym skończyło się paliwo, musi spaść.
-- Modalności
-  + zdanie asertoryczne: Jest tak a tak. /Na pasie startowym stoi samolot. Łódź jest położona w centralnej Polsce./
-  + zdanie apodyktyczne: Musi być tak a tak. /Musisz nauczyć się logiki./
-  + zdanie problematyczne: Może być tak a tak. /Logiki możesz uczyć się nawet w okresie świątecznym. Jutro możliwe są opady deszczu./
-- Możliwość jednostronna i możliwość dwustronna
-  + Kwadrat musi mieć cztery boki. Czy kwadrat może mieć cztery boki? Kwadrat może mieć cztery boki.
-  + Adam może wyjść z domu.
-  + Rzecznikiem Praw Obywatelskich może być obywatel polski wyróżniający się wiedzą prawniczą, doświadczeniem zawodowym oraz wysokim autorytetem ze względu na swe walory moralne i wrażliwość społeczną.
-  + Jest możliwe zjeść kawałek pizzy. Jan może zjeść kawałek pizzy.
-  + Jest możliwe, że Lech Wałęsa był prezydentem Polski.
-  + Ziemia może być trzecią planetą od Słońca (możliwość jednostronna). Każdy dorosły Polak może głosować w wyborach prezydenckich (możliwość dwustronna - może przecież także nie głosować).
-
-   <2023-12-02 Sat> 
-- Modalności normatywne
-  + nakaz /osoba x musi postąpić w określony sposób/
-  + zakaz /osoba x nie może postąpić w określony sposób/
-  + dozwolenie /brak zakazu/
-  + fakultatywność /brak nakazu/
-  + indyferentność - dozwolony i fakultatywny
-  + obowiązek - zakaz albo nakaz
-
-Milczenie norm a zachowanie człowieka.
-
-Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane.
+SCHEDULED: <2024-12-14 Sat>
+#+INCLUDE: l/51_modalne.org
 
 * Wykład 7
-** Pytania i odpowiedzi
-- Pytanie: nie jest zdaniem w sensie logicznym; pytania na serio, pytania retoryczne
-- założenia pytania i pytania niewłaściwie postawione
-  + Czy nadal bijesz swoją siostrę? Założenia: masz siostrę, kiedyś biłeś siostrę; jeżeli adresat pytania nie miał nigdy siostry to jest to /pytanie źle postawione/
-- sposób zadawania pytań:
-  + partykuła pytajna: kto, kiedy, jak, gdzie
-  + otwarte i zamknięte
-  + pytania do rozstrzygnięcia: Czy najwyższy w klasie jest Wojtek czy Bartek?
-  + pytania do uzupełnienia: Kto zjadł moją pizzę?
-  + niewiadoma pytania i zakres niewiadomej pytania - klasa elementów, których nazwy można wstawić w miejsce niewiadomej pytania
-  + pytania sugestywne/sugerujące i podchwytliwe:
-    - Czy uciekający mężczyzna miał na sobie czerwoną kurtkę? (gdy nie wiemy czy adresat pytania widział aby ktokolwiek uciekał)
-    - Czy pozwany zgodzi się zapłacić 100 zł tytułem zwrotu pożyczki? (gdy pozew opiewa na większą kwotę a pozwany zaprzecza istnieniu pożyczki)
-- odpowiedzi:
-  + właściwa / niewłaściwa (nie jest tożsame z prawidłowością odpowiedzi): Kto był najwybitniejszym polskim poetą? Najwybitniejszym polskim poetą był William Shakspeare.
-  + całkowite / częściowe:
-    - Jakiego koloru są mundury aspirantów w Policji? Mundury aspirantów w Policji są koloru niebieskiego (odpowiedź całkowita wprost). Wszystkie mundury w Policji są niebieskie (odpowiedź całkowita nie wprost).
-    - Kto pana pobił? Pobił mnie mężczyzna w płaszczu i czapce z dwoma daszkami (odpowiedź częściowa).
+SCHEDULED: <2025-01-11 Sat>
+#+INCLUDE: l/60_pytania.org
 
 * Wykład 8
+SCHEDULED: <2025-01-18 Sat>
 ** Uzasadnianie bezpośrednie twierdzeń
 - w jaki sposób można uznać zdanie za prawdziwe? /Postulat racji dostatecznej/ - za prawdziwe należy uznać jedynie takie zdanie, dla którego da się uzyskać należyte uzasadnienie
   + dla zdań syntetycznych - uzasadnienie opiera się na spostrzeżeniach
@@ -445,6 +107,7 @@ Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nas
 - a simile
   + Nie bez znaczenia jest fakt, że strony w tym czasie miały do siebie zaufanie, razem zamieszkiwały i mogły posiadać w domu własne i wspólne (w ramach konkubinatu - por. art. 860 k.c. a simile i następne) środki finansowe a także fakt, że powódka w tym okresie była uprawniona do dokonywania operacji finansowych na kontach pozwanego (bezsporne). - Wyrok SR w Olsztynie z 12.12.2017 r., I C 1882/17, LEX nr 2432212.
 * Wykład 9
+SCHEDULED: <2025-01-25 Sat>
 ** Nieporozumienia
 - wieloznaczność słów:
   + Każdy ssak lubiący jeść pączki, lubi chodzić do cukierni. Łoś lubi jeść pączki. A więc, łoś lubi chodzić do cukierni.
@@ -510,6 +173,7 @@ Niektórzy profesorowie są gadami.
 FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage out
 
 * Wykład 10
+SCHEDULED: <2025-02-01 Sat>
 ** Myślenie kierowane z góry postawionymi zadaniami
 - myślenie spontaniczne, a myślenie kierowane z góry postanowionymi zadaniami
 - zadania:
@@ -542,6 +206,7 @@ FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage o
 Przed i po:    
 - *prawodpodobieństwo aprioryczne*
 - *prawodpodobieństwo aposterioryczne*
+
 ** Implikatura
 - *Piotr*: Czy wszystko w porzadku? *Katarzyna*: Tak, po prostu się odczep ode mnie ty nieczuły filistynie. Wniosek: Wszystko jest OK, Piotr może otworzyć piwo i oglądać mecz; status Katarzyny jest bardzo dobry.
 - *Piotr*: Znalazłem super wycieczkę, idę do szefa po urlop i jedziemy z Kasią na Maltę. *Wojciech*: Pojedziecie to wy na księżyc. Jaki wniosek powinien wyciągnąć Piotr?
@@ -555,6 +220,7 @@ Twoja wypowiedź powinna wnosić oczekiwany wkład do wymiany zdań.
 4. Mów w sposób zrozumiały (maksyma sposobu).
 
 Jan: Która jest godzina? Elżbieta: Przecież wiesz, o której jemy obiad.
+
 ** Umiejętność przekonywania
  - agrumentowanie to czynność polegającu na wywołaniu adresata wypowiedzi określonego przeświadczenia
  - nie zawsze argument musi być rozsądny \rarr wszystko zależy od adresata
