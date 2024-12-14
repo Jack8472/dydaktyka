@@ -29,7 +29,7 @@ Bursztyn + to + kopalna żywica drzew iglastych.
     + Kwadrat to jest taki prostokąt, który ma wszystkie boki równe.
 - Definicje nierównościowe. Np. występujące w geometrii (definicja przez postulaty).
 
-#+BEGIN_SRC plantuml :file ../img/definicje.png
+#+BEGIN_SRC plantuml :file img/definicje.png
 
 @startwbs
 + Definicje
@@ -40,9 +40,6 @@ Bursztyn + to + kopalna żywica drzew iglastych.
 @endwbs
 
 #+END_SRC
-
-#+RESULTS:
-[[file:../img/definicje.png]]
 
 Definicje w prawie (przykłady do omówienia): art. 10 § 1 k.c., art. 627 k.c.
 

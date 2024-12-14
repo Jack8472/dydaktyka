@@ -28,7 +28,7 @@ Niepoprawne podziały:
 - według przedziałów liczbowych, których granice się powtarzają: polskie rodziny: rodziny od 2 do 3 osób, rodziny od 3 do 5 osób, rodziny od 5 do 7 osób, rodziny 7 osobowe i większe.
   
 *** Klasyfikacja
-#+begin_src plantuml :file ../img/klasyfikacja.png
+#+begin_src plantuml :file img/klasyfikacja.png
 
 @startwbs
 + Zdarzenia prawne
@@ -41,9 +41,6 @@ Niepoprawne podziały:
 @endwbs
 
 #+end_src
-
-#+RESULTS:
-[[file:../img/klasyfikacja.png]]
 
 *** Wyróżnianie typów
 Wyodrębnianie przedmiotów o interesujących nas cechach. Przykładowo z nazwy =pies= wyróżniamy typy takie jak =hart= i =spaniel=.

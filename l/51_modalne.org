@@ -35,6 +35,8 @@
   + indyferentność - dozwolony i fakultatywny
   + obowiązek - zakaz albo nakaz
 
+ Zadanie: [[https://q.uiver.app/#q=WzAsMTQsWzMsMCwibyJdLFs0LDEsInoiXSxbMiwxLCJuIl0sWzIsMiwiZCJdLFs0LDIsImYiXSxbMywzLCJpIl0sWzAsMSwiXFxidWxsZXQiXSxbMSwxLCJcXGJ1bGxldCJdLFswLDAsIlxcYnVsbGV0Il0sWzEsMCwiXFxidWxsZXQiXSxbMCwyLCJcXGJ1bGxldCJdLFsxLDIsIlxcYnVsbGV0Il0sWzAsMywiXFxidWxsZXQiXSxbMSwzLCJcXGJ1bGxldCJdLFs4LDksImltcGxpa2FjamEiXSxbNiw3LCJzcHJ6ZWN6bm/Fm8SHIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoic3F1aWdnbHkifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsxMCwxMSwicHJ6ZWNpd2llxYRzdHdvIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsxMiwxMywicG9kcHJ6ZWNpd2llxYRzdHdvIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn0sImhlYWQiOnsibmFtZSI6Im5vbmUifX19XV0=][link]]
+
 Milczenie norm a zachowanie człowieka.
 
 Milczenie na temat X oznacza zakaz; a zatem zakazane jest też ~X: prowadzi więc to do sprzeczności, tj. X oraz ~X są jednocześnie zakazane.
