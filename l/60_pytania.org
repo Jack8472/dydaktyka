@@ -11,12 +11,14 @@ Sposób postawienia pytania może wyznaczać schemat odpowiedzi na nie. Pytanie 
 ** Budowa pytań
 Pytania zawierają *partykułę pytajną* (przykładowo: „kto”, „w jaki sposób”, „czy”) chociaż niekiedy należy się jej domyślić stosując reguły danego języka (np. z intonacji w języku polskim). Ze względu na użytą partykułę pytajną pytania można podzielić na:
 - pytania do rozstrzygnięcia — wymagające wyboru jednej z wykluczających się odpowiedzi („Czy trójkąt mają trzy czy cztery boki?”, „Czy to prawda, że boli Cię ręka?”) oraz
-- pytania do uzupełnienia — nienarzucające wyboru odpowiedzi, lecz wymagające od adresata pytania jej sformułowania („Jakie narzędzie jest najwłaściwsze dla tego zadania?”).
+- pytania do uzupełnienia — nienarzucające wyboru odpowiedzi, lecz wymagające od adresata pytania jej sformułowania (Pytanie: „Jakie narzędzie jest najwłaściwsze dla tego zadania?” Odpowiedź: „Młotek.”).
 
 Niekiedy pytanie może być wadliwe ze względu na *niejednoznaczność słów* w nich użytych. Odpowiedź na pytanie „Czy nigdy nie można zrobić zbyt wiele dla ludzi starych i chorych?” będzie wymagała uprzedniego rozstrzygnięcia:
+
 - czy chodzi o kategorię ludzi jednocześnie starych i chorych, czy też o dwie kategorie ludzi, zarówno ludzi starych jak i ludzi chorych;
 - czy zwrot „nigdy nie można” oznacza negatywną ocenę nadmiernych wysiłków, czy też pozytywną ocenę podejmowania jak największych wysiłków;
 - jaki poziom nakładów przekroczy próg wskazywany przez pojęcie „zbyt wiele”.
+
 Odpowiedź „tak” albo „nie” na powyższe pytanie nie przyniesie zatem pytającemu pewnej wiedzy na temat poglądów adresata pytania.
 
 ** Odpowiedź
@@ -25,8 +27,9 @@ Rozważmy zagadnienie odpowiedzi na przykładzie pytania „Jaka miejscowość j
 Może się także zdarzyć, że wyrażenie prawdziwe będzie *odpowiedzą niewłaściwą* -- np. odpowiedź „Trójkąt ma trzy boki” na wskazane pytanie, chociaż jest zdaniem prawdziwym nie należy do zakresu niewiadomej pytania. Oczywiście, odpowiedzią niewłaściwą będzie także nieprawdziwe zdanie „Trójkąt ma pięć boków”. 
 
 Odpowiedzi można podzielić na:
-- odpowiedzi *całkowite wprost* – to odpowiedzi właściwe podążające za schematem odpowiedzi wyznaczonym przez pytanie (np. „Siedzibą Uniwersytetu Łódzkiego jest Gdańsk”),
-- odpowiedzi *całkowite nie wprost* - nie podążające za schematem odpowiedzi, lecz zawierające informacje wystarczające do ustalenia odpowiedzi właściwej (np. „Siedzibą Uniwersytetu Łódzkiego jest stolica województwa łódzkiego”, „Siedzibą Uniwersytetu Łódzkiego jest miejscowość, w której urodził się Fryderyk Chopin”), 
+- odpowiedzi *całkowite*:
+  + odpowiedzi *całkowite wprost* – to odpowiedzi właściwe podążające za schematem odpowiedzi wyznaczonym przez pytanie (np. „Siedzibą Uniwersytetu Łódzkiego jest Gdańsk”),
+  + odpowiedzi *całkowite nie wprost* - nie podążające za schematem odpowiedzi, lecz zawierające informacje wystarczające do ustalenia odpowiedzi właściwej (np. „Siedzibą Uniwersytetu Łódzkiego jest stolica województwa łódzkiego”, „Siedzibą Uniwersytetu Łódzkiego jest miejscowość, w której urodził się Fryderyk Chopin”), 
 - odpowiedzi *częściowe* - nie będąc odpowiedziami właściwymi posiadają wartość informacyjną pozwalającą wykluczyć niektóre odpowiedzi właściwe (np. „Siedzibą Uniwersytetu Łódzkiego jest pewne miasto w województwie łódzkim”).
 
 Odpowiedzi całkowite nie wprost mogą stanowić informację o woli ukrycia prawdy. Przyjrzyj się temu dialogowi:
