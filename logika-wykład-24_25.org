@@ -172,15 +172,17 @@ Niektórzy profesorowie są gadami.
 
 FIFO - first in first out, FILO - first in last out, GIGO - garbage in garbage out
 
-* Wykład 10
-SCHEDULED: <2025-02-01 Sat>
-** Zerówka
+
+* Zerówka
+SCHEDULED: <2025-01-31 Fri>
 - 10 pytań
 - forma: test na Teams
 - pytania: zamknięte, jednokrotnego i wielokrotnego wyboru
 - 10 minut na uzupełnienie
 - po rozpoczęciu obowiązuje absolutna cisza
 
+* Wykład 10
+SCHEDULED: <2025-02-01 Sat>
 ** Myślenie kierowane z góry postawionymi zadaniami
 - myślenie spontaniczne, a myślenie kierowane z góry postanowionymi zadaniami
 - zadania:
