@@ -5,6 +5,8 @@ Forma:
 - przesłanka entymematyczna: /q \rarr p/
 - wniosek: /q/
 
+Z tego, że wiem, że ulica jest morka (p) oraz wiem, że jeżeli pada desz to ulica jest mokra (q \rarr p) wnioskuję, że padał deszcz (q).
+
 *** Indukcja
 Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nastąpiło aż 1000 obserwacji potwierdzających tę hipotezę. Dnia 1001 człowiek upiekł indyka.
 
@@ -18,7 +20,10 @@ Indyk filozof miał hipotezę "Człowiek jest po to, aby służyć indykom." Nas
   - S_n - dzień, P dzień mający cechę X (np. dzień w którym człowiek służy indykowi)
 - Indukcja zupełna i niezupełna.
 - Indukcja eliminacyjna:
-  a. kanon jednej zgodności: O_1: A, B, C, Z; O_2: C, D, E, Z; O_3: C, F, G, Z.
+  a. kanon jednej zgodności:
+     - O_1: A, B, C, Z;
+     - O_2: C, D, E, Z;
+     - O_3: C, F, G, Z.
   b. kanon jednej różnicy:
      - O_1: A, B, C, Z;
      - O_2: B, C, Z;

@@ -41,7 +41,6 @@ SCHEDULED: <2025-01-11 Sat>
 SCHEDULED: <2025-01-18 Sat>
 #+include: l/70_uzasadnianie_twierdzen.org
 #+include: l/71_niededukcyjne.org
-#+include: l/75_prawnicze.org
 
 * Wykład 9
 SCHEDULED: <2025-01-25 Sat>
@@ -120,6 +119,7 @@ SCHEDULED: <2025-01-31 Fri>
 
 * Wykład 10
 SCHEDULED: <2025-02-01 Sat>
+#+include: l/75_prawnicze.org
 ** Myślenie kierowane z góry postawionymi zadaniami
 - myślenie spontaniczne, a myślenie kierowane z góry postanowionymi zadaniami
 - zadania:
